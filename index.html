@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NeuralMind Labs | Brand Guide Digital</title>
+    <link rel="stylesheet" href="styles.css?v=20260528-type-audit">
+  </head>
+  <body class="theme-light">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <button class="sidebar-toggle" type="button" aria-label="Colapsar menu lateral" aria-expanded="true">
+        <span aria-hidden="true"></span>
+      </button>
+      <a class="brand-lockup" href="#top" aria-label="NeuralMind Labs Brand Guide">
+        <img src="assets/icon/nm-purple.png" alt="NM" width="40" height="40">
+        <span>Brand Guide</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#foundations">Foundations</a>
+        <a href="#assets">Brand Assets</a>
+        <a href="#verbal">Identidade Verbal</a>
+        <a href="#icons">Icon Library</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-pressed="false">
+        <span class="toggle-dot"></span>
+        <span class="toggle-label">Dark mode</span>
+      </button>
+    </aside>
+
+    <main id="top">
+      <section class="hero-section hero-light" aria-labelledby="hero-title">
+        <div class="hero-logo-large">
+          <img src="assets/logo/logo-purple.png" alt="NeuralMind Labs">
+        </div>
+        <p id="hero-title" class="hero-slogan">IA responsável para setores críticos</p>
+      </section>
+
+      <section id="foundations" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Seção 1</p>
+          <h2 class="heading-h1">Foundations & Design Tokens</h2>
+          <p class="body-m">Sistema semântico em CSS Variables, com cores, tipografia e espaçamentos aplicados em temas claro e escuro.</p>
+        </div>
+
+        <div class="token-grid">
+          <article class="token-card swatch-card" style="--swatch:#290241">
+            <span></span>
+            <h3>Roxo Profundo</h3>
+            <code>--roxo-profundo: #290241</code>
+            <p>Base, autoridade e fundos escuros.</p>
+          </article>
+          <article class="token-card swatch-card" style="--swatch:#9381FF">
+            <span></span>
+            <h3>Violeta Claro</h3>
+            <code>--violeta-claro: #9381FF</code>
+            <p>Destaques, links e elementos interativos.</p>
+          </article>
+          <article class="token-card swatch-card" style="--swatch:#0F1108">
+            <span></span>
+            <h3>Preto Orgânico</h3>
+            <code>--preto-organico: #0F1108</code>
+            <p>Texto principal em fundo claro.</p>
+          </article>
+          <article class="token-card swatch-card" style="--swatch:#FFFFFC">
+            <span></span>
+            <h3>Branco Quente</h3>
+            <code>--branco-quente: #FFFFFC</code>
+            <p>Fundo principal e respiro editorial.</p>
+          </article>
+          <article class="token-card swatch-card" style="--swatch:#EF476F">
+            <span></span>
+            <h3>Rosa Coral</h3>
+            <code>--rosa-coral: #EF476F</code>
+            <p>Uso pontual e ênfase controlada.</p>
+          </article>
+        </div>
+
+        <div class="spec-grid two">
+          <article class="spec-panel">
+            <h3>Typography Scale</h3>
+            <div class="type-row display-xl">Display XL 104px</div>
+            <div class="type-row heading-h1">Heading H1 64px</div>
+            <div class="type-row heading-h2">Heading H2 44px</div>
+            <div class="type-row body-m">Body M 22px</div>
+            <div class="type-row body-s">Body S 16px</div>
+          </article>
+          <article class="spec-panel">
+            <h3>Spacing Scale</h3>
+            <div class="space-scale">
+              <span style="--w:8px">100 · 8px</span>
+              <span style="--w:16px">200 · 16px</span>
+              <span style="--w:24px">300 · 24px</span>
+              <span style="--w:32px">400 · 32px</span>
+              <span style="--w:48px">600 · 48px</span>
+              <span style="--w:64px">800 · 64px</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="assets" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Seção 2</p>
+          <h2 class="heading-h1">Brand Assets & Logo Rules</h2>
+          <p class="body-m">Aplicações usando exatamente os arquivos de logo e ícone recebidos. Nesta entrega, os arquivos fornecidos são PNGs transparentes.</p>
+        </div>
+
+        <div class="logo-showcase">
+          <article class="logo-stage light-surface">
+            <span class="surface-label">Fundo claro</span>
+            <img src="assets/logo/logo-purple.png" alt="NeuralMind Labs em roxo">
+          </article>
+          <article class="logo-stage dark-surface">
+            <span class="surface-label">Fundo escuro</span>
+            <img src="assets/logo/logo-white.png" alt="NeuralMind Labs em branco">
+          </article>
+          <article class="logo-stage light-surface">
+            <span class="surface-label">Ícone NM</span>
+            <img class="icon-asset" src="assets/icon/nm-purple.png" alt="Ícone NM em roxo">
+          </article>
+        </div>
+
+        <div class="protection-demo">
+          <div class="protection-box">
+            <div class="protection-inner">
+              <img src="assets/logo/logo-purple.png" alt="Área de proteção do logo NeuralMind Labs">
+            </div>
+          </div>
+          <div>
+            <p class="eyebrow">Área de proteção mínima</p>
+            <h3>1X ao redor do lockup</h3>
+            <p>A margem visual representa a zona mínima de respiro. X é a altura da letra N do logo e deve ser mantido livre de texto, imagens e bordas.</p>
+          </div>
+        </div>
+
+        <div class="misuse-grid" aria-label="Usos incorretos do logo">
+          <article class="misuse-card">
+            <span>Proibido</span>
+            <img class="misuse-stretch" src="assets/logo/logo-purple.png" alt="Logo esticado incorretamente">
+            <p>Não esticar ou comprimir.</p>
+          </article>
+          <article class="misuse-card">
+            <span>Proibido</span>
+            <img class="misuse-pink" src="assets/logo/logo-purple.png" alt="Logo colorido em rosa incorretamente">
+            <p>Não recolorir em rosa coral.</p>
+          </article>
+          <article class="misuse-card">
+            <span>Proibido</span>
+            <img class="misuse-rotate" src="assets/logo/logo-purple.png" alt="Logo rotacionado incorretamente">
+            <p>Não rotacionar o lockup.</p>
+          </article>
+          <article class="misuse-card">
+            <span>Proibido</span>
+            <img class="misuse-fade" src="assets/logo/logo-purple.png" alt="Logo com opacidade baixa incorretamente">
+            <p>Não aplicar opacidade baixa.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="book" class="content-section" hidden aria-hidden="true">
+        <div class="section-header">
+          <p class="eyebrow">Seção 3</p>
+          <h2 class="heading-h1">Brand Book Digital</h2>
+          <p class="body-m">Telas em proporção 16:9 com scroll snap, prontas para referência visual e apresentação institucional.</p>
+        </div>
+
+        <div class="deck-controls" aria-label="Controles do brand book">
+          <button class="icon-button" type="button" data-slide-prev aria-label="Slide anterior">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="icon-button" type="button" data-slide-next aria-label="Próximo slide">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+
+        <div class="slide-deck" tabindex="0" aria-label="Slides do brand book">
+          <article class="brand-slide slide-cover theme-dark">
+            <img src="assets/logo/logo-white.png" alt="NeuralMind Labs">
+            <h3>IA responsável para setores críticos</h3>
+            <div class="slide-accent"></div>
+          </article>
+
+          <article class="brand-slide">
+            <p class="slide-kicker">Missão</p>
+            <h3>Expandir as fronteiras da inteligência artificial para apoiar pessoas e organizações em decisões mais seguras, claras e responsáveis.</h3>
+          </article>
+
+          <article class="brand-slide">
+            <p class="slide-kicker">Valores</p>
+            <div class="values-grid">
+              <div>
+                <span>1</span>
+                <h4>Tecnologia a serviço das pessoas</h4>
+                <p>Essência: Acreditamos que a tecnologia existe para servir as pessoas, tornando processos mais eficientes, decisões mais informadas e o dia a dia mais simples.</p>
+                <strong>Criamos tempo para o que realmente importa</strong>
+              </div>
+              <div>
+                <span>2</span>
+                <h4>IA feita por especialistas, para especialistas</h4>
+                <p>Essência: Desenvolvemos inteligência artificial com profundidade técnica e rigor científico, destinada a profissionais de excelência que dependem de precisão, segurança e confiabilidade..</p>
+                <strong>Criamos sistemas robustos e com profunidade</strong>
+              </div>
+              <div>
+                <span>3</span>
+                <h4>IA como potencializadora, não substituta</h4>
+                <p>Essência: Acreditamos que a inteligência artificial deve potencializar o trabalho humano</p>
+                <strong>Criamos equipes mais engajadas e satisfeitas</strong>
+              </div>
+              <div>
+                <span>4</span>
+                <h4>Ciência como base da inovação</h4>
+                <p>Essência: Nosso compromisso é construir tecnologia de ponta fundamentada em pesquisa, método científico e evidências.</p>
+                <strong>Criamos tecnologia de ponta com base em ciência</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="brand-slide">
+            <p class="slide-kicker">Tom de Voz</p>
+            <h3>O tom de voz da NeuralMind reflete a união entre rigor técnico, visão de futuro e humanidade.</h3>
+            <div class="voice-grid">
+              <span>Técnico, mas claro</span>
+              <span>Inspirador, com propósito</span>
+              <span>Humano e colaborativo</span>
+              <span>Seguro e responsável</span>
+            </div>
+          </article>
+
+          <article class="brand-slide">
+            <p class="slide-kicker">Como Falamos vs. Como Não Falamos</p>
+            <table class="brand-table">
+              <thead>
+                <tr>
+                  <th>Como falamos</th>
+                  <th>Como não falamos</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Frases diretas e estruturadas</td>
+                  <td>Sensacionalismo tecnológico</td>
+                </tr>
+                <tr>
+                  <td>Vocabulário técnico preciso</td>
+                  <td>Excesso de jargão que afaste o público</td>
+                </tr>
+                <tr>
+                  <td>Confiança sem arrogância</td>
+                  <td>Promessas irreais</td>
+                </tr>
+                <tr>
+                  <td>Otimismo fundamentado em ciência</td>
+                  <td>Frases motivacionais vazias</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article class="brand-slide manifesto-slide theme-dark">
+            <p class="slide-kicker">Manifesto</p>
+            <div class="manifesto-columns">
+              <p>A NeuralMind Labs nasce da convergência entre ciência, tecnologia e responsabilidade. Somos um laboratório de inovação e desenvolvimento em Inteligência Artificial criado para enfrentar problemas complexos em setores onde erro, opacidade e improviso não são aceitáveis.</p>
+              <p>Acreditamos que inteligência artificial não deve substituir o julgamento humano. Deve fortalecê-lo. Por isso, nossas soluções são construídas com rigor científico, rastreabilidade, transparência e respeito ao usuário.</p>
+              <p>Porque, em setores críticos, não basta ter inteligência artificial. É preciso ter inteligência artificial responsável e auditável.</p>
+            </div>
+          </article>
+
+          <article class="brand-slide">
+            <p class="slide-kicker">Arquitetura de Produtos</p>
+            <div class="product-columns">
+              <article>
+                <div class="mini-icon" data-icon="data"></div>
+                <h4>Dados</h4>
+                <p>NDocs: extração de dados de documentos altamente complexos e não estruturados para gerar insights estruturados.</p>
+                <p>NeuralSearchX: busca em bases de documentos internos da empresa: de forma conversacional e com restreabilidade.</p>
+                <p>Tuss-Finder: busca de códigos da TUSS.</p>
+              </article>
+              <article>
+                <div class="mini-icon" data-icon="legal"></div>
+                <h4>Jurídico</h4>
+                <p>Jurema: família de LLMs treinados para o jurídico brasileiro (venda via API);</p>
+                <p>ARACI: aplicação para auxiliar o advogado em todas as fases do trabalho, do consultivo ao contencioso.</p>
+              </article>
+              <article>
+                <div class="mini-icon" data-icon="health"></div>
+                <h4>Saúde</h4>
+                <p>PrioScan: priorização de raio-x de tórax</p>
+              </article>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="verbal" class="content-section verbal-section">
+        <div class="section-header">
+          <p class="eyebrow">Identidade Verbal</p>
+          <h2 class="heading-h1">Guia Verbal NeuralMind Labs</h2>
+          <p class="body-m">Conteúdo textual da marca transcrito do Guia Identidade Verbal.</p>
+        </div>
+
+        <div class="verbal-layout">
+          <article class="verbal-block verbal-feature">
+            <p class="eyebrow">Missão</p>
+            <p class="verbal-lead">Expandir as fronteiras da inteligência artificial para apoiar pessoas e organizações em decisões mais seguras, claras e responsáveis.</p>
+          </article>
+
+          <article class="verbal-block">
+            <p class="eyebrow">Valores</p>
+            <div class="verbal-grid two">
+              <section>
+                <span class="verbal-index">1</span>
+                <h3>Tecnologia a serviço das pessoas</h3>
+                <p>Essência: Acreditamos que a tecnologia existe para servir as pessoas, tornando processos mais eficientes, decisões mais informadas e o dia a dia mais simples.</p>
+                <p>Explicação: Ao automatizar o que consome tempo e energia, nossas soluções permitem que profissionais foquem no estratégico, no criativo e no humano</p>
+                <p>Frase síntese: Criamos tempo para o que realmente importa</p>
+              </section>
+              <section>
+                <span class="verbal-index">2</span>
+                <h3>IA feita por especialistas, para especialistas</h3>
+                <p>Essência: Desenvolvemos inteligência artificial com profundidade técnica e rigor científico, destinada a profissionais de excelência que dependem de precisão, segurança e confiabilidade..</p>
+                <p>Explicação: Nossa experiência em pesquisa, engenharia e ciência de dados garante modelos robustos, alinhados às necessidades de especialistas de setores complexos como jurídico, saúde, energia e finanças.</p>
+                <p>Frase síntese: Criamos sistemas robustos e com profunidade</p>
+              </section>
+              <section>
+                <span class="verbal-index">3</span>
+                <h3>IA como potencializadora, não substituta</h3>
+                <p>Essência: Acreditamos que a inteligência artificial deve potencializar o trabalho humano</p>
+                <p>Explicação: A IA acelera o que é repetitivo, libera tempo para o que é estratégico e expande a capacidade criativa e analítica das equipes.</p>
+                <p>Frase síntese: Criamos equipes mais engajadas e satisfeitas</p>
+              </section>
+              <section>
+                <span class="verbal-index">4</span>
+                <h3>Ciência como base da inovação</h3>
+                <p>Essência: Nosso compromisso é construir tecnologia de ponta fundamentada em pesquisa, método científico e evidências.</p>
+                <p>Explicação: Trabalhamos em parceria com universidades, centros de pesquisa e especialistas para garantir que nossas soluções sejam avançadas, transparentes e confiáveis.</p>
+                <p>Frase síntese: Criamos tecnologia de ponta com base em ciência</p>
+              </section>
+            </div>
+          </article>
+
+          <article class="verbal-block">
+            <p class="eyebrow">Tom de Voz</p>
+            <p>O tom de voz da NeuralMind reflete a união entre rigor técnico, visão de futuro e humanidade. Somos especialistas que falam com especialistas — mas fazemos isso de maneira clara, inspiradora e acessível, sem perder profundidade ou precisão.</p>
+            <p>Nossa linguagem traduz a convicção de que a IA é uma tecnologia transformadora, capaz de impulsionar o trabalho humano, fortalecer instituições e construir organizações mais eficientes, inteligentes e preparadas para o futuro.</p>
+            <div class="verbal-grid four">
+              <section>
+                <h3>a) Técnico, mas claro</h3>
+                <p>A NeuralMind domina a complexidade. Mas comunica com clareza.</p>
+                <p>Evita jargões desnecessários e explica conceitos avançados de forma objetiva e elegante, sem superficialidade.</p>
+                <p>Sensações transmitidas: confiança, credibilidade, domínio.</p>
+              </section>
+              <section>
+                <h3>b) Inspirador, com propósito</h3>
+                <p>Falamos como quem está construindo o futuro — e convidamos nossos clientes, parceiros e o setor público a construir esse futuro conosco.</p>
+                <p>A inspiração nunca é abstrata: ela se conecta a resultados reais, transformação concreta e impacto mensurável.</p>
+                <p>Sensações transmitidas: visão, esperança, movimento, avanço.</p>
+              </section>
+              <section>
+                <h3>c) Humano e colaborativo</h3>
+                <p>A IA é poderosa, mas sempre a serviço das pessoas.</p>
+                <p>Nosso tom demonstra empatia, parceria e respeito.</p>
+                <p>Falamos com as pessoas, não para elas.</p>
+                <p>Sensações transmitidas: proximidade, parceria, cuidado.</p>
+              </section>
+              <section>
+                <h3>d) Seguro e responsável</h3>
+                <p>A NeuralMind é uma autoridade técnica e ética.</p>
+                <p>Comunica com firmeza, sem exageros e sem promessas impossíveis.</p>
+                <p>Mostra responsabilidade, maturidade e compromisso com a ciência e com o impacto positivo da IA no país.</p>
+                <p>Sensações transmitidas: seriedade, confiança, transparência.</p>
+              </section>
+            </div>
+          </article>
+
+          <article class="verbal-block">
+            <p class="eyebrow">Características Linguísticas</p>
+            <div class="verbal-grid two compact">
+              <section>
+                <h3>✔ Frases diretas e estruturadas</h3>
+                <p>Preferimos clareza a ornamentos.</p>
+                <p>Evite rodeios. Construa argumentações lógicas e sequenciais.</p>
+              </section>
+              <section>
+                <h3>✔ Vocabulário técnico preciso</h3>
+                <p>Quando usamos termos técnicos, usamos de forma correta e contextualizada, traduzindo quando necessário.</p>
+              </section>
+              <section>
+                <h3>✔ Ritmo equilibrado</h3>
+                <p>Nem rápido demais (marketing vazio), nem lento demais (burocrático).</p>
+                <p>O tom é fluido, profissional e objetivo.</p>
+              </section>
+              <section>
+                <h3>✔ Confiança sem arrogância</h3>
+                <p>Mostramos autoridade através de conhecimento real, não de exageros ou bravatas.</p>
+              </section>
+              <section>
+                <h3>✔ Otimismo fundamentado em ciência</h3>
+                <p>Falamos do futuro com entusiasmo, mas sempre com base em tecnologia comprovada, pesquisa e dados.</p>
+              </section>
+            </div>
+          </article>
+
+          <article class="verbal-block">
+            <div class="verbal-grid two">
+              <section>
+                <p class="eyebrow">Quando alguém lê a NeuralMind, deve sentir…</p>
+                <ul class="verbal-list">
+                  <li>“Eles são especialistas de verdade.”</li>
+                  <li>“Eu consigo confiar no que estou lendo.”</li>
+                  <li>“Eles estão construindo algo grande — e querem que eu participe disso.”</li>
+                  <li>“A IA aqui é tratada como ferramenta estratégica, não como moda.”</li>
+                  <li>“Essa marca entende de tecnologia, mas valoriza pessoas.”</li>
+                </ul>
+              </section>
+              <section>
+                <p class="eyebrow">O que evitamos no tom de voz</p>
+                <ul class="verbal-list">
+                  <li>Sensacionalismo tecnológico (“a IA vai substituir tudo”, “revolucionar instantaneamente”).</li>
+                  <li>Excesso de jargão que afaste o público.</li>
+                  <li>Frases motivacionais vazias.</li>
+                  <li>Promessas irreais.</li>
+                  <li>Personificação exagerada da tecnologia.</li>
+                </ul>
+              </section>
+            </div>
+            <blockquote>“Profundamente técnico. Claramente humano. Inspirador e responsável. Um convite para construir o futuro com IA.”</blockquote>
+          </article>
+
+          <article class="verbal-block">
+            <p class="eyebrow">Bordões para a NeuralMind</p>
+            <ul class="verbal-list phrase-list">
+              <li>Tecnologia que fortalece pessoas, processos e decisões.</li>
+              <li>Construindo organizações mais ágeis, inteligentes e humanas.</li>
+              <li>O futuro das organizações começa agora.</li>
+              <li>Construímos o futuro das operações junto com você.</li>
+              <li>IA feita no Brasil, para o Brasil</li>
+            </ul>
+          </article>
+
+          <article class="verbal-block verbal-feature">
+            <p class="eyebrow">Slogan</p>
+            <p class="verbal-lead">IA responsável para setores críticos</p>
+          </article>
+
+          <article class="verbal-block">
+            <p class="eyebrow">Manifesto</p>
+            <div class="verbal-prose">
+              <p>A NeuralMind Labs nasce da convergência entre ciência, tecnologia e responsabilidade.</p>
+              <p>Somos um laboratório de inovação e desenvolvimento em Inteligência Artificial criado para enfrentar problemas complexos em setores onde erro, opacidade e improviso não são aceitáveis.</p>
+              <p>Desde 2017, nossa trajetória é guiada por uma convicção simples: IA só tem valor quando amplia a capacidade humana, melhora decisões e gera impacto real.</p>
+              <p>Fundada por Roberto Lotufo, referência internacional em Inteligência Artificial, e Patricia Magalhães, executiva com ampla experiência em inovação, gestão e negócios, a NeuralMind Labs carrega em sua origem a conexão entre pesquisa, indústria e governo. Antes da jornada empreendedora, Patricia e Roberto atuaram por mais de uma década na Agência de Inovação da UNICAMP, aproximando conhecimento científico de desafios concretos do mercado e da sociedade.</p>
+              <p>Foi nesse encontro entre ciência aplicada e necessidade real que nasceu nosso propósito: desenvolver IA responsável para organizações que lidam com alta complexidade, grande volume de informação e decisões críticas.</p>
+              <p>Atuamos principalmente em setores regulados, como jurídico, saúde, finanças e governo, onde a tecnologia precisa ser precisa, auditável e confiável. Criamos modelos de linguagem especializados, agentes inteligentes, sistemas de busca, transformamos documentos não estruturados em insights de negócio.</p>
+              <p>Acreditamos que inteligência artificial não deve substituir o julgamento humano. Deve fortalecê-lo.</p>
+              <p>Por isso, nossas soluções são construídas com rigor científico, rastreabilidade, transparência e respeito ao usuário. A IA gera, organiza, sugere e acelera. O humano valida, decide e assume o controle.</p>
+              <p>Na NeuralMind Labs, inovação não é experimentação vazia. É pesquisa aplicada com responsabilidade. É transformar conhecimento em produto. É criar tecnologia que funcione no mundo real, com segurança, governança e impacto mensurável.</p>
+              <p>Existimos para reduzir a sobrecarga de quem trabalha com informação crítica.</p>
+              <p>Para tornar decisões mais claras.</p>
+              <p>Para devolver tempo a equipes que lidam todos os dias com processos complexos.</p>
+              <p>Para transformar IA em infraestrutura confiável para organizações públicas e privadas.</p>
+              <p>Porque, em setores críticos, não basta ter inteligência artificial.</p>
+              <p>É preciso ter inteligência artificial responsável e auditável.</p>
+            </div>
+          </article>
+
+          <article class="verbal-block">
+            <p class="eyebrow">Posicionamentos Implacáveis</p>
+            <p>Todo mercado vem acompanhado de uma série de noções, discussões e críticas pré-concebidas. É importante que a marca decida como se posicionar, o que dabter, o que deixar pra lá e que partido tomar em cada situação. Trago aqui as principais críticas e discussões relacionadas a IA no momento e recomendações de posicionamento para a NeuralMind.</p>
+            <div class="verbal-grid one">
+              <section>
+                <span class="verbal-index">1</span>
+                <h3>Crítica do Público: “IA não dá resultado”</h3>
+                <p>Posicionamento da NeuralMind: IA desenvolvida sem levar em conta a realidade e os objetivos do negócio, realmente não dá resultado. Mas sistemas bem projetados e criados para trabalhar em conjunto com o ser humano potencializam os resultados da organização que adotam a tecnologia.</p>
+              </section>
+              <section>
+                <span class="verbal-index">2</span>
+                <h3>Crítica do Público: “A IA está nos deixando mais burros”</h3>
+                <p>Posicionamento da NeuralMind: Nossos sistemas são desenvolvidos por especialistas para apoiar profissionais altamente qualificados, de forma que esses profissionais deiexem o trabalho repetitivo para a máquina e tenham mais tempo para o pesamento e análise crítica.</p>
+              </section>
+              <section>
+                <span class="verbal-index">3</span>
+                <h3>Crítica do Público: “IA só serve para criar coisas mal feitas (work slop) que eu vou ter que corrigir depois”</h3>
+                <p>Posicionamento da NeuralMind: IA de uso geral realmente vai ter dificuldade de gerar resultados de alta qualidade para o seu uso específico. Mas modelos e aplicações construídos para o seu domínio e/ou que conseguem consumir o seu conhecimento organizacional apresentam resultados de alta qualidade que exigem apenas pequena correção e supervisão humana.</p>
+              </section>
+              <section>
+                <span class="verbal-index">4</span>
+                <h3>Crítica do Público: “IA não é confiável”</h3>
+                <p>Posicionamento da NeuralMind: Sistemas sem ratreabilidade, que não são explicáveis e não citam fontes de forma adequada realmente não são confiáveis. Mas nossos sistemas garantem ratreabilidade e transparência na hora de apresentar os resultados. Cada informação tem uma fonte específica que fica aparente para os usuários.</p>
+              </section>
+              <section>
+                <span class="verbal-index">5</span>
+                <h3>Crítica do Público: “Meus dados não estão seguros em aplicações de IA”</h3>
+                <p>Posicionamento da NeuralMind: Somos uma empresa brasileira que atua de acordo com a LGPD. Não compartilhamos os seus dados com terceiro e não utilizamos os seus dados para treinamento de nossos modelos.</p>
+              </section>
+            </div>
+          </article>
+
+          <article class="verbal-block">
+            <p class="eyebrow">Nossos Produtos</p>
+            <p>Temos produtos em três verticais:</p>
+            <div class="verbal-grid three">
+              <section>
+                <h3>Dados:</h3>
+                <p>NDocs: extração de dados de documentos altamente complexos e não estruturados para gerar insights estruturados, ex. de case: análise de matrículas de imóveis de todo o brasil para gestão de ativos estressados (enforce do grupo BTG pactual)</p>
+                <p>NeuralSearchX: busca em bases de documentos internos da empresa: de forma conversacional e com restreabilidade</p>
+                <p>Tuss-Finder: busca de códigos da TUSS (Terminologia Unificada da Saúde Suplementar), padrão oficial utilizado no Brasil para unificar a nomenclatura de procedimentos médicos, exames, terapias e materiais de saúde.</p>
+              </section>
+              <section>
+                <h3>Jurídico:</h3>
+                <p>Jurema: família de LLMs treinados para o jurídico brasileiro (venda via API);</p>
+                <p>ARACI: aplicação para auxiliar o advogado em todas as fases do trabalho, do consultivo ao contencioso. Cases: AssertIA, para o Tribunal de Contas da União (TCU) e SofIA, para a Agência Nacional de Saúde Suplementar (ANS)</p>
+              </section>
+              <section>
+                <h3>Saúde:</h3>
+                <p>PrioScan: priorização de raio-x de tórax</p>
+              </section>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="templates" class="content-section" hidden aria-hidden="true">
+        <div class="section-header">
+          <p class="eyebrow">Seção 4</p>
+          <h2 class="heading-h1">Slide & Component Templates</h2>
+          <p class="body-m">Layouts puros em HTML/CSS para copiar, adaptar e reutilizar em apresentações digitais.</p>
+        </div>
+
+        <div class="component-grid">
+          <article class="component-card">
+            <div class="component-toolbar">
+              <h3>Slide/Cover</h3>
+              <button type="button" class="copy-button" data-copy-target="cover-code">Copy Code</button>
+            </div>
+            <div class="template-slide cover-template theme-dark">
+              <img src="assets/logo/logo-white.png" alt="NeuralMind Labs">
+              <h4>Inteligência artificial responsável</h4>
+              <p>para organizações que lidam com decisões críticas</p>
+            </div>
+            <pre id="cover-code"><code>&lt;section class="template-slide cover-template theme-dark"&gt;
+  &lt;img src="assets/logo/logo-white.png" alt="NeuralMind Labs"&gt;
+  &lt;h4&gt;Inteligência artificial responsável&lt;/h4&gt;
+  &lt;p&gt;para organizações que lidam com decisões críticas&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+          </article>
+
+          <article class="component-card">
+            <div class="component-toolbar">
+              <h3>Slide/Two-Columns</h3>
+              <button type="button" class="copy-button" data-copy-target="columns-code">Copy Code</button>
+            </div>
+            <div class="template-slide two-col-template">
+              <div>
+                <p class="slide-kicker">Contexto</p>
+                <h4>Modelos robustos, alinhados às necessidades de especialistas.</h4>
+              </div>
+              <div class="insight-card">
+                <span>Rigor</span>
+                <strong>Pesquisa + engenharia + ciência de dados</strong>
+              </div>
+            </div>
+            <pre id="columns-code"><code>&lt;section class="template-slide two-col-template"&gt;
+  &lt;div&gt;...texto...&lt;/div&gt;
+  &lt;div class="insight-card"&gt;...card...&lt;/div&gt;
+&lt;/section&gt;</code></pre>
+          </article>
+
+          <article class="component-card">
+            <div class="component-toolbar">
+              <h3>Slide/Big-Numbers</h3>
+              <button type="button" class="copy-button" data-copy-target="numbers-code">Copy Code</button>
+            </div>
+            <div class="template-slide metrics-template">
+              <div><strong>3</strong><span>verticais</span></div>
+              <div><strong>2017</strong><span>trajetória</span></div>
+              <div><strong>4</strong><span>valores</span></div>
+              <div><strong>1</strong><span>propósito</span></div>
+            </div>
+            <pre id="numbers-code"><code>&lt;section class="template-slide metrics-template"&gt;
+  &lt;div&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;span&gt;verticais&lt;/span&gt;&lt;/div&gt;
+&lt;/section&gt;</code></pre>
+          </article>
+
+          <article class="component-card">
+            <div class="component-toolbar">
+              <h3>Slide/Data-Charts</h3>
+              <button type="button" class="copy-button" data-copy-target="charts-code">Copy Code</button>
+            </div>
+            <div class="template-slide chart-template">
+              <div class="bar-chart">
+                <span style="--h:52%"></span>
+                <span style="--h:76%"></span>
+                <span style="--h:43%"></span>
+                <span style="--h:88%"></span>
+              </div>
+              <div class="line-chart" aria-hidden="true"></div>
+            </div>
+            <pre id="charts-code"><code>&lt;div class="bar-chart"&gt;
+  &lt;span style="--h:52%"&gt;&lt;/span&gt;
+  &lt;span style="--h:76%"&gt;&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+          </article>
+
+          <article class="component-card">
+            <div class="component-toolbar">
+              <h3>Slide/Table</h3>
+              <button type="button" class="copy-button" data-copy-target="table-code">Copy Code</button>
+            </div>
+            <div class="template-slide table-template">
+              <table class="brand-table">
+                <thead><tr><th>Etapa</th><th>Critério</th><th>Status</th></tr></thead>
+                <tbody>
+                  <tr><td>Pesquisa</td><td>Evidência</td><td>Validado</td></tr>
+                  <tr><td>Modelo</td><td>Rastreabilidade</td><td>Em curso</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <pre id="table-code"><code>&lt;table class="brand-table"&gt;...&lt;/table&gt;</code></pre>
+          </article>
+
+          <article class="component-card">
+            <div class="component-toolbar">
+              <h3>Slide/Timeline & Process</h3>
+              <button type="button" class="copy-button" data-copy-target="timeline-code">Copy Code</button>
+            </div>
+            <div class="template-slide timeline-template">
+              <ol class="process-line">
+                <li><span>01</span><strong>Organiza</strong></li>
+                <li><span>02</span><strong>Sugere</strong></li>
+                <li><span>03</span><strong>Acelera</strong></li>
+                <li><span>04</span><strong>Valida</strong></li>
+              </ol>
+            </div>
+            <pre id="timeline-code"><code>&lt;ol class="process-line"&gt;
+  &lt;li&gt;&lt;span&gt;01&lt;/span&gt;&lt;strong&gt;Organiza&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+          </article>
+        </div>
+      </section>
+
+      <section id="icons" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Biblioteca criada</p>
+          <h2 class="heading-h1">NeuralMind Slide Icons</h2>
+          <p class="body-m">SVGs inline com stroke constante, cantos arredondados e geometria limpa para apresentações e materiais digitais.</p>
+        </div>
+        <div class="icon-library">
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Fluxo">
+                <path d="M8 16h10l6 8h16"/>
+                <path d="M8 32h10l6-8"/>
+                <path d="M34 18l6 6-6 6"/>
+              </svg>
+            </div>
+            <h3>Fluxo</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Validação">
+                <path d="M14 9h20a3 3 0 013 3v30a2 2 0 01-2 2H13a2 2 0 01-2-2V12a3 3 0 013-3z"/>
+                <path d="M19 9v-3a2 2 0 012-2h6a2 2 0 012 2v3"/>
+                <path d="M17 26l5 5 10-11"/>
+              </svg>
+            </div>
+            <h3>Validação</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Objetivo">
+                <circle cx="24" cy="24" r="16"/>
+                <circle cx="24" cy="24" r="9"/>
+                <circle cx="24" cy="24" r="2.25" class="nm-fill"/>
+              </svg>
+            </div>
+            <h3>Objetivo</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Extração">
+                <path d="M12 6h14l8 8v26a2 2 0 01-2 2H14a2 2 0 01-2-2V8a2 2 0 012-2z"/>
+                <path d="M26 6v8h8"/>
+                <path d="M18 28h10"/>
+                <path d="M24 24l4 4-4 4"/>
+              </svg>
+            </div>
+            <h3>Extração</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Busca">
+                <circle cx="21" cy="21" r="12"/>
+                <path d="M30 30l11 11"/>
+              </svg>
+            </div>
+            <h3>Busca</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Processamento">
+                <rect x="12" y="12" width="24" height="24" rx="3"/>
+                <rect x="19" y="19" width="10" height="10" rx="1"/>
+                <path d="M17 12V8M24 12V8M31 12V8"/>
+                <path d="M17 40v-4M24 40v-4M31 40v-4"/>
+                <path d="M12 17H8M12 24H8M12 31H8"/>
+                <path d="M40 17h-4M40 24h-4M40 31h-4"/>
+              </svg>
+            </div>
+            <h3>Processamento</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Dados">
+                <path d="M8 40h32"/>
+                <rect x="12" y="26" width="6" height="14" rx="1"/>
+                <rect x="21" y="18" width="6" height="22" rx="1"/>
+                <rect x="30" y="10" width="6" height="30" rx="1"/>
+              </svg>
+            </div>
+            <h3>Dados</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Jurídico">
+                <path d="M24 10v30"/>
+                <path d="M22 10h4"/>
+                <path d="M9 14h30"/>
+                <path d="M14 14l-6 8M14 14l6 8"/>
+                <path d="M8 22h12a6 6 0 01-12 0z"/>
+                <path d="M34 14l-6 8M34 14l6 8"/>
+                <path d="M28 22h12a6 6 0 01-12 0z"/>
+                <path d="M16 40h16"/>
+              </svg>
+            </div>
+            <h3>Jurídico</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Saúde">
+                <rect x="7" y="11" width="34" height="26" rx="3"/>
+                <path d="M11 24h6l3-8 5 16 3-8 2 4h7"/>
+              </svg>
+            </div>
+            <h3>Saúde</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
