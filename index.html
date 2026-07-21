@@ -2,17 +2,18 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NeuralMind Labs | Brand Guide Digital</title>
-    <link rel="stylesheet" href="styles.css?v=20260528-type-audit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>NeuralMind.AI | Brand Guide Digital</title>
+    <link rel="stylesheet" href="styles.css?v=20260721-palette-note">
   </head>
   <body class="theme-light">
     <aside class="sidebar" aria-label="Navegação principal">
       <button class="sidebar-toggle" type="button" aria-label="Colapsar menu lateral" aria-expanded="true">
         <span aria-hidden="true"></span>
       </button>
-      <a class="brand-lockup" href="#top" aria-label="NeuralMind Labs Brand Guide">
-        <img src="assets/icon/nm-purple.png" alt="NM" width="40" height="40">
+      <a class="brand-lockup" href="#top" aria-label="Brand Guide NeuralMind.AI">
+        <img class="brand-mark-light" src="assets/brand/neuralmind-ai-icon-purple.png" alt="" aria-hidden="true">
+        <img class="brand-mark-dark" src="assets/brand/neuralmind-ai-icon-white.png" alt="" aria-hidden="true">
         <span>Brand Guide</span>
       </a>
       <nav class="nav-links">
@@ -20,6 +21,12 @@
         <a href="#assets">Brand Assets</a>
         <a href="#verbal">Identidade Verbal</a>
         <a href="#icons">Icon Library</a>
+        <a href="#mockups">Mockups</a>
+        <a href="#documents">Documentos A4</a>
+        <a href="#media-assets">Media Assets</a>
+        <a href="#social">Social</a>
+        <a href="#slides">Slides</a>
+        <a href="#meet">Meet</a>
       </nav>
       <button class="theme-toggle" type="button" aria-pressed="false">
         <span class="toggle-dot"></span>
@@ -30,14 +37,15 @@
     <main id="top">
       <section class="hero-section hero-light" aria-labelledby="hero-title">
         <div class="hero-logo-large">
-          <img src="assets/logo/logo-purple.png" alt="NeuralMind Labs">
+          <img class="hero-logo-img hero-logo-img--light" src="assets/brand/neuralmind-ai-purple.png" alt="NeuralMind.AI">
+          <img class="hero-logo-img hero-logo-img--dark" src="assets/brand/neuralmind-ai-white.png" alt="" aria-hidden="true">
         </div>
         <p id="hero-title" class="hero-slogan">IA responsável para setores críticos</p>
       </section>
 
       <section id="foundations" class="content-section">
         <div class="section-header">
-          <p class="eyebrow">Seção 1</p>
+          <p class="eyebrow">Sistema visual</p>
           <h2 class="heading-h1">Foundations & Design Tokens</h2>
           <p class="body-m">Sistema semântico em CSS Variables, com cores, tipografia e espaçamentos aplicados em temas claro e escuro.</p>
         </div>
@@ -75,13 +83,18 @@
           </article>
         </div>
 
+        <div class="palette-note">
+          <p class="eyebrow">Sobre a paleta</p>
+          <p>Nossa paleta foi construída para refletir a combinação entre profundidade técnica, clareza e inovação. O Roxo Profundo é a cor principal da marca: transmite conhecimento, sofisticação e diferencia a NeuralMind.AI em um mercado onde o azul domina grande parte das empresas de tecnologia. O Violeta Claro amplia a identidade visual com contraste e modernidade, enquanto o Preto Orgânico e o Branco Quente formam uma base atemporal, garantindo legibilidade e elegância. O Rosa Coral aparece de forma pontual em destaques e interações, adicionando energia e um toque de ousadia sem comprometer a sobriedade da marca.</p>
+        </div>
+
         <div class="spec-grid two">
           <article class="spec-panel">
             <h3>Typography Scale</h3>
-            <div class="type-row display-xl">Display XL 104px</div>
-            <div class="type-row heading-h1">Heading H1 64px</div>
-            <div class="type-row heading-h2">Heading H2 44px</div>
-            <div class="type-row body-m">Body M 22px</div>
+            <div class="type-row display-xl">Display XL 58–96px</div>
+            <div class="type-row heading-h1">Heading H1 40–58px</div>
+            <div class="type-row heading-h2">Heading H2 32–40px</div>
+            <div class="type-row body-m">Body M 16–20px</div>
             <div class="type-row body-s">Body S 16px</div>
           </article>
           <article class="spec-panel">
@@ -96,34 +109,63 @@
             </div>
           </article>
         </div>
+
+        <section class="type-family-section" aria-labelledby="type-family-title">
+          <div class="type-family-copy">
+            <p class="eyebrow">Tipografia proprietária</p>
+            <h3 id="type-family-title">NeuralMind Sans Square</h3>
+            <p>A família é uma customização da Inter, escolhida por sua excelente legibilidade em interfaces, documentos e apresentações. Os ajustes de desenho conferem uma presença mais técnica e proprietária, preservando clareza mesmo em conteúdos densos.</p>
+          </div>
+          <div class="type-weight-range" aria-label="Pesos disponíveis da NeuralMind Sans Square">
+            <span style="--sample-weight: 200"><strong>200</strong> ExtraLight</span>
+            <span style="--sample-weight: 300"><strong>300</strong> Light</span>
+            <span style="--sample-weight: 400"><strong>400</strong> Regular</span>
+            <span style="--sample-weight: 500"><strong>500</strong> Medium</span>
+            <span style="--sample-weight: 600"><strong>600</strong> SemiBold</span>
+            <span style="--sample-weight: 700"><strong>700</strong> Bold</span>
+            <span style="--sample-weight: 900"><strong>900</strong> Black</span>
+          </div>
+        </section>
       </section>
 
       <section id="assets" class="content-section">
         <div class="section-header">
-          <p class="eyebrow">Seção 2</p>
+          <p class="eyebrow">Identidade visual</p>
           <h2 class="heading-h1">Brand Assets & Logo Rules</h2>
-          <p class="body-m">Aplicações usando exatamente os arquivos de logo e ícone recebidos. Nesta entrega, os arquivos fornecidos são PNGs transparentes.</p>
+          <p class="body-m">Aplicações usando as versões oficiais do logo e do ícone NeuralMind.AI. Os arquivos fornecidos são PNGs transparentes, preparados para fundos claros e escuros.</p>
         </div>
 
         <div class="logo-showcase">
           <article class="logo-stage light-surface">
             <span class="surface-label">Fundo claro</span>
-            <img src="assets/logo/logo-purple.png" alt="NeuralMind Labs em roxo">
+            <img src="assets/brand/neuralmind-ai-purple.png" alt="NeuralMind.AI em roxo profundo e violeta">
           </article>
           <article class="logo-stage dark-surface">
             <span class="surface-label">Fundo escuro</span>
-            <img src="assets/logo/logo-white.png" alt="NeuralMind Labs em branco">
+            <img src="assets/brand/neuralmind-ai-white.png" alt="NeuralMind.AI em branco e violeta">
+          </article>
+          <article class="logo-stage black-surface">
+            <span class="surface-label">Fundo preto</span>
+            <img src="assets/brand/neuralmind-ai-white.png" alt="NeuralMind.AI em branco e violeta sobre fundo preto">
           </article>
           <article class="logo-stage light-surface">
-            <span class="surface-label">Ícone NM</span>
-            <img class="icon-asset" src="assets/icon/nm-purple.png" alt="Ícone NM em roxo">
+            <span class="surface-label">Ícone · fundo claro</span>
+            <img class="icon-asset" src="assets/brand/neuralmind-ai-icon-purple.png" alt="Ícone NM em roxo profundo">
+          </article>
+          <article class="logo-stage dark-surface">
+            <span class="surface-label">Ícone · fundo escuro</span>
+            <img class="icon-asset" src="assets/brand/neuralmind-ai-icon-white.png" alt="Ícone NM em branco">
+          </article>
+          <article class="logo-stage black-surface">
+            <span class="surface-label">Ícone · fundo preto</span>
+            <img class="icon-asset" src="assets/brand/neuralmind-ai-icon-white.png" alt="Ícone NM em branco sobre fundo preto">
           </article>
         </div>
 
         <div class="protection-demo">
           <div class="protection-box">
             <div class="protection-inner">
-              <img src="assets/logo/logo-purple.png" alt="Área de proteção do logo NeuralMind Labs">
+              <img src="assets/brand/neuralmind-ai-purple.png" alt="Área de proteção do logo NeuralMind.AI">
             </div>
           </div>
           <div>
@@ -136,22 +178,22 @@
         <div class="misuse-grid" aria-label="Usos incorretos do logo">
           <article class="misuse-card">
             <span>Proibido</span>
-            <img class="misuse-stretch" src="assets/logo/logo-purple.png" alt="Logo esticado incorretamente">
+            <img class="misuse-stretch" src="assets/brand/neuralmind-ai-purple.png" alt="Logo esticado incorretamente">
             <p>Não esticar ou comprimir.</p>
           </article>
           <article class="misuse-card">
             <span>Proibido</span>
-            <img class="misuse-pink" src="assets/logo/logo-purple.png" alt="Logo colorido em rosa incorretamente">
+            <img class="misuse-pink" src="assets/brand/neuralmind-ai-purple.png" alt="Logo colorido em rosa incorretamente">
             <p>Não recolorir em rosa coral.</p>
           </article>
           <article class="misuse-card">
             <span>Proibido</span>
-            <img class="misuse-rotate" src="assets/logo/logo-purple.png" alt="Logo rotacionado incorretamente">
+            <img class="misuse-rotate" src="assets/brand/neuralmind-ai-purple.png" alt="Logo rotacionado incorretamente">
             <p>Não rotacionar o lockup.</p>
           </article>
           <article class="misuse-card">
             <span>Proibido</span>
-            <img class="misuse-fade" src="assets/logo/logo-purple.png" alt="Logo com opacidade baixa incorretamente">
+            <img class="misuse-fade" src="assets/brand/neuralmind-ai-purple.png" alt="Logo com opacidade baixa incorretamente">
             <p>Não aplicar opacidade baixa.</p>
           </article>
         </div>
@@ -175,7 +217,7 @@
 
         <div class="slide-deck" tabindex="0" aria-label="Slides do brand book">
           <article class="brand-slide slide-cover theme-dark">
-            <img src="assets/logo/logo-white.png" alt="NeuralMind Labs">
+            <img src="assets/brand/neuralmind-ai-white.png" alt="NeuralMind.AI">
             <h3>IA responsável para setores críticos</h3>
             <div class="slide-accent"></div>
           </article>
@@ -197,13 +239,13 @@
               <div>
                 <span>2</span>
                 <h4>IA feita por especialistas, para especialistas</h4>
-                <p>Essência: Desenvolvemos inteligência artificial com profundidade técnica e rigor científico, destinada a profissionais de excelência que dependem de precisão, segurança e confiabilidade..</p>
-                <strong>Criamos sistemas robustos e com profunidade</strong>
+                <p>Essência: Desenvolvemos inteligência artificial com profundidade técnica e rigor científico, destinada a profissionais de excelência que dependem de precisão, segurança e confiabilidade.</p>
+                <strong>Criamos sistemas robustos e com profundidade</strong>
               </div>
               <div>
                 <span>3</span>
                 <h4>IA como potencializadora, não substituta</h4>
-                <p>Essência: Acreditamos que a inteligência artificial deve potencializar o trabalho humano</p>
+                <p>Essência: Acreditamos que a inteligência artificial deve potencializar o trabalho humano.</p>
                 <strong>Criamos equipes mais engajadas e satisfeitas</strong>
               </div>
               <div>
@@ -259,7 +301,7 @@
           <article class="brand-slide manifesto-slide theme-dark">
             <p class="slide-kicker">Manifesto</p>
             <div class="manifesto-columns">
-              <p>A NeuralMind Labs nasce da convergência entre ciência, tecnologia e responsabilidade. Somos um laboratório de inovação e desenvolvimento em Inteligência Artificial criado para enfrentar problemas complexos em setores onde erro, opacidade e improviso não são aceitáveis.</p>
+              <p>A NeuralMind.AI nasce da convergência entre ciência, tecnologia e responsabilidade. Somos uma empresa de inovação e desenvolvimento em Inteligência Artificial criada para enfrentar problemas complexos em setores onde erro, opacidade e improviso não são aceitáveis.</p>
               <p>Acreditamos que inteligência artificial não deve substituir o julgamento humano. Deve fortalecê-lo. Por isso, nossas soluções são construídas com rigor científico, rastreabilidade, transparência e respeito ao usuário.</p>
               <p>Porque, em setores críticos, não basta ter inteligência artificial. É preciso ter inteligência artificial responsável e auditável.</p>
             </div>
@@ -294,7 +336,7 @@
       <section id="verbal" class="content-section verbal-section">
         <div class="section-header">
           <p class="eyebrow">Identidade Verbal</p>
-          <h2 class="heading-h1">Guia Verbal NeuralMind Labs</h2>
+          <h2 class="heading-h1">Guia Verbal NeuralMind.AI</h2>
           <p class="body-m">Conteúdo textual da marca transcrito do Guia Identidade Verbal.</p>
         </div>
 
@@ -311,29 +353,29 @@
                 <span class="verbal-index">1</span>
                 <h3>Tecnologia a serviço das pessoas</h3>
                 <p>Essência: Acreditamos que a tecnologia existe para servir as pessoas, tornando processos mais eficientes, decisões mais informadas e o dia a dia mais simples.</p>
-                <p>Explicação: Ao automatizar o que consome tempo e energia, nossas soluções permitem que profissionais foquem no estratégico, no criativo e no humano</p>
-                <p>Frase síntese: Criamos tempo para o que realmente importa</p>
+                <p>Explicação: Ao automatizar o que consome tempo e energia, nossas soluções permitem que profissionais foquem no estratégico, no criativo e no humano.</p>
+                <p>Frase síntese: Criamos tempo para o que realmente importa.</p>
               </section>
               <section>
                 <span class="verbal-index">2</span>
                 <h3>IA feita por especialistas, para especialistas</h3>
-                <p>Essência: Desenvolvemos inteligência artificial com profundidade técnica e rigor científico, destinada a profissionais de excelência que dependem de precisão, segurança e confiabilidade..</p>
+                <p>Essência: Desenvolvemos inteligência artificial com profundidade técnica e rigor científico, destinada a profissionais de excelência que dependem de precisão, segurança e confiabilidade.</p>
                 <p>Explicação: Nossa experiência em pesquisa, engenharia e ciência de dados garante modelos robustos, alinhados às necessidades de especialistas de setores complexos como jurídico, saúde, energia e finanças.</p>
-                <p>Frase síntese: Criamos sistemas robustos e com profunidade</p>
+                <p>Frase síntese: Criamos sistemas robustos e com profundidade.</p>
               </section>
               <section>
                 <span class="verbal-index">3</span>
                 <h3>IA como potencializadora, não substituta</h3>
-                <p>Essência: Acreditamos que a inteligência artificial deve potencializar o trabalho humano</p>
+                <p>Essência: Acreditamos que a inteligência artificial deve potencializar o trabalho humano.</p>
                 <p>Explicação: A IA acelera o que é repetitivo, libera tempo para o que é estratégico e expande a capacidade criativa e analítica das equipes.</p>
-                <p>Frase síntese: Criamos equipes mais engajadas e satisfeitas</p>
+                <p>Frase síntese: Criamos equipes mais engajadas e satisfeitas.</p>
               </section>
               <section>
                 <span class="verbal-index">4</span>
                 <h3>Ciência como base da inovação</h3>
                 <p>Essência: Nosso compromisso é construir tecnologia de ponta fundamentada em pesquisa, método científico e evidências.</p>
                 <p>Explicação: Trabalhamos em parceria com universidades, centros de pesquisa e especialistas para garantir que nossas soluções sejam avançadas, transparentes e confiáveis.</p>
-                <p>Frase síntese: Criamos tecnologia de ponta com base em ciência</p>
+                <p>Frase síntese: Criamos tecnologia de ponta com base em ciência.</p>
               </section>
             </div>
           </article>
@@ -376,25 +418,25 @@
             <p class="eyebrow">Características Linguísticas</p>
             <div class="verbal-grid two compact">
               <section>
-                <h3>✔ Frases diretas e estruturadas</h3>
+                <h3>✓ Frases diretas e estruturadas</h3>
                 <p>Preferimos clareza a ornamentos.</p>
                 <p>Evite rodeios. Construa argumentações lógicas e sequenciais.</p>
               </section>
               <section>
-                <h3>✔ Vocabulário técnico preciso</h3>
+                <h3>✓ Vocabulário técnico preciso</h3>
                 <p>Quando usamos termos técnicos, usamos de forma correta e contextualizada, traduzindo quando necessário.</p>
               </section>
               <section>
-                <h3>✔ Ritmo equilibrado</h3>
+                <h3>✓ Ritmo equilibrado</h3>
                 <p>Nem rápido demais (marketing vazio), nem lento demais (burocrático).</p>
                 <p>O tom é fluido, profissional e objetivo.</p>
               </section>
               <section>
-                <h3>✔ Confiança sem arrogância</h3>
+                <h3>✓ Confiança sem arrogância</h3>
                 <p>Mostramos autoridade através de conhecimento real, não de exageros ou bravatas.</p>
               </section>
               <section>
-                <h3>✔ Otimismo fundamentado em ciência</h3>
+                <h3>✓ Otimismo fundamentado em ciência</h3>
                 <p>Falamos do futuro com entusiasmo, mas sempre com base em tecnologia comprovada, pesquisa e dados.</p>
               </section>
             </div>
@@ -442,18 +484,18 @@
             <p class="verbal-lead">IA responsável para setores críticos</p>
           </article>
 
-          <article class="verbal-block">
+          <article class="verbal-block verbal-block--single-column">
             <p class="eyebrow">Manifesto</p>
             <div class="verbal-prose">
-              <p>A NeuralMind Labs nasce da convergência entre ciência, tecnologia e responsabilidade.</p>
+              <p>A NeuralMind.AI nasce da convergência entre ciência, tecnologia e responsabilidade.</p>
               <p>Somos um laboratório de inovação e desenvolvimento em Inteligência Artificial criado para enfrentar problemas complexos em setores onde erro, opacidade e improviso não são aceitáveis.</p>
               <p>Desde 2017, nossa trajetória é guiada por uma convicção simples: IA só tem valor quando amplia a capacidade humana, melhora decisões e gera impacto real.</p>
-              <p>Fundada por Roberto Lotufo, referência internacional em Inteligência Artificial, e Patricia Magalhães, executiva com ampla experiência em inovação, gestão e negócios, a NeuralMind Labs carrega em sua origem a conexão entre pesquisa, indústria e governo. Antes da jornada empreendedora, Patricia e Roberto atuaram por mais de uma década na Agência de Inovação da UNICAMP, aproximando conhecimento científico de desafios concretos do mercado e da sociedade.</p>
+              <p>Fundada por Roberto Lotufo, referência internacional em Inteligência Artificial, e Patricia Magalhães, executiva com ampla experiência em inovação, gestão e negócios, a NeuralMind.AI carrega em sua origem a conexão entre pesquisa, indústria e governo. Antes da jornada empreendedora, Patricia e Roberto atuaram por mais de uma década na Agência de Inovação da UNICAMP, aproximando conhecimento científico de desafios concretos do mercado e da sociedade.</p>
               <p>Foi nesse encontro entre ciência aplicada e necessidade real que nasceu nosso propósito: desenvolver IA responsável para organizações que lidam com alta complexidade, grande volume de informação e decisões críticas.</p>
               <p>Atuamos principalmente em setores regulados, como jurídico, saúde, finanças e governo, onde a tecnologia precisa ser precisa, auditável e confiável. Criamos modelos de linguagem especializados, agentes inteligentes, sistemas de busca, transformamos documentos não estruturados em insights de negócio.</p>
               <p>Acreditamos que inteligência artificial não deve substituir o julgamento humano. Deve fortalecê-lo.</p>
               <p>Por isso, nossas soluções são construídas com rigor científico, rastreabilidade, transparência e respeito ao usuário. A IA gera, organiza, sugere e acelera. O humano valida, decide e assume o controle.</p>
-              <p>Na NeuralMind Labs, inovação não é experimentação vazia. É pesquisa aplicada com responsabilidade. É transformar conhecimento em produto. É criar tecnologia que funcione no mundo real, com segurança, governança e impacto mensurável.</p>
+              <p>Na NeuralMind.AI, inovação não é experimentação vazia. É pesquisa aplicada com responsabilidade. É transformar conhecimento em produto. É criar tecnologia que funcione no mundo real, com segurança, governança e impacto mensurável.</p>
               <p>Existimos para reduzir a sobrecarga de quem trabalha com informação crítica.</p>
               <p>Para tornar decisões mais claras.</p>
               <p>Para devolver tempo a equipes que lidam todos os dias com processos complexos.</p>
@@ -496,23 +538,61 @@
           </article>
 
           <article class="verbal-block">
-            <p class="eyebrow">Nossos Produtos</p>
-            <p>Temos produtos em três verticais:</p>
-            <div class="verbal-grid three">
+            <p class="eyebrow">Arquitetura de Produtos</p>
+            <p class="verbal-lead">Três verticais, um único compromisso: inteligência artificial responsável para setores onde precisão, rastreabilidade e auditabilidade não são opcionais.</p>
+            <p>Cada produto resolve um tipo distinto de problema crítico — da extração de conhecimento em documentos complexos à priorização clínica — sempre com fonte verificável e supervisão humana no centro da decisão.</p>
+
+            <div class="verbal-grid three product-grid">
               <section>
-                <h3>Dados:</h3>
-                <p>NDocs: extração de dados de documentos altamente complexos e não estruturados para gerar insights estruturados, ex. de case: análise de matrículas de imóveis de todo o brasil para gestão de ativos estressados (enforce do grupo BTG pactual)</p>
-                <p>NeuralSearchX: busca em bases de documentos internos da empresa: de forma conversacional e com restreabilidade</p>
-                <p>Tuss-Finder: busca de códigos da TUSS (Terminologia Unificada da Saúde Suplementar), padrão oficial utilizado no Brasil para unificar a nomenclatura de procedimentos médicos, exames, terapias e materiais de saúde.</p>
+                <h3>Dados &amp; Conhecimento</h3>
+                <div class="product">
+                  <h4>NeuralSearchX</h4>
+                  <p class="product-tagline">IA que responde o que você precisa — com a fonte sempre à vista.</p>
+                  <p>Busca conversacional sobre bases internas de documentos. Cada resposta carrega o trecho original que a fundamenta, permitindo verificação imediata e decisões com lastro.</p>
+                </div>
+                <div class="product">
+                  <h4>NDocs</h4>
+                  <p class="product-tagline">De documentos complexos a insights estruturados.</p>
+                  <p>Extração de dados em escala a partir de fontes não estruturadas — contratos, matrículas, laudos. Em uso, por exemplo, na análise nacional de matrículas de imóveis para gestão de ativos estressados do Enforce (Grupo BTG Pactual).</p>
+                </div>
+                <div class="product">
+                  <h4>Tuss-Finder</h4>
+                  <p class="product-tagline">Busca semântica para a Terminologia Unificada da Saúde Suplementar.</p>
+                  <p>Localiza códigos TUSS de procedimentos, exames, terapias e materiais a partir de linguagem natural — eliminando rotinas manuais e reduzindo erros de codificação.</p>
+                </div>
               </section>
+
               <section>
-                <h3>Jurídico:</h3>
-                <p>Jurema: família de LLMs treinados para o jurídico brasileiro (venda via API);</p>
-                <p>ARACI: aplicação para auxiliar o advogado em todas as fases do trabalho, do consultivo ao contencioso. Cases: AssertIA, para o Tribunal de Contas da União (TCU) e SofIA, para a Agência Nacional de Saúde Suplementar (ANS)</p>
+                <h3>Jurídico</h3>
+                <div class="product">
+                  <h4>Jurema</h4>
+                  <p class="product-tagline">Família de LLMs treinados para o jurídico brasileiro.</p>
+                  <p>Modelos especializados em doutrina, jurisprudência e vocabulário nacionais, disponíveis via API como base para aplicações próprias ou de parceiros.</p>
+                </div>
+                <div class="product">
+                  <h4>ARACI</h4>
+                  <p class="product-tagline">Copiloto do advogado, do consultivo ao contencioso.</p>
+                  <p>Aplicação que assume o trabalho repetitivo de análise de peças, busca de fundamentos e geração de minutas — devolvendo tempo de qualidade ao profissional para o que exige julgamento.</p>
+                </div>
+                <div class="product">
+                  <h4>AssertIA <span class="case-tag">Case TCU</span></h4>
+                  <p class="product-tagline">IA a serviço da auditoria pública.</p>
+                  <p>Desenvolvido com o Tribunal de Contas da União: sumariza peças, integra busca em leis e jurisprudência e sugere instruções processuais a partir das evidências do processo. O auditor ganha tempo para formar a sua convicção.</p>
+                </div>
+                <div class="product">
+                  <h4>SofIA <span class="case-tag">Case ANS</span></h4>
+                  <p class="product-tagline">Acelera a análise de reclamações regulatórias.</p>
+                  <p>Implantado na Agência Nacional de Saúde Suplementar: ingere reclamações em qualquer formato — PDFs, imagens escaneadas e e-mails — realiza análise semântica, classifica conforme os critérios da ANS e compila parecer preliminar para o analista.</p>
+                </div>
               </section>
+
               <section>
-                <h3>Saúde:</h3>
-                <p>PrioScan: priorização de raio-x de tórax</p>
+                <h3>Saúde</h3>
+                <div class="product">
+                  <h4>PrioScan</h4>
+                  <p class="product-tagline">Priorização inteligente de raio-x de tórax.</p>
+                  <p>Sistema de triagem por imagem que ordena exames pela criticidade clínica, permitindo que radiologistas direcionem atenção aos casos mais urgentes.</p>
+                </div>
               </section>
             </div>
           </article>
@@ -533,12 +613,12 @@
               <button type="button" class="copy-button" data-copy-target="cover-code">Copy Code</button>
             </div>
             <div class="template-slide cover-template theme-dark">
-              <img src="assets/logo/logo-white.png" alt="NeuralMind Labs">
+              <img src="assets/brand/neuralmind-ai-white.png" alt="NeuralMind.AI">
               <h4>Inteligência artificial responsável</h4>
               <p>para organizações que lidam com decisões críticas</p>
             </div>
             <pre id="cover-code"><code>&lt;section class="template-slide cover-template theme-dark"&gt;
-  &lt;img src="assets/logo/logo-white.png" alt="NeuralMind Labs"&gt;
+  &lt;img src="assets/brand/neuralmind-ai-white.png" alt="NeuralMind.AI"&gt;
   &lt;h4&gt;Inteligência artificial responsável&lt;/h4&gt;
   &lt;p&gt;para organizações que lidam com decisões críticas&lt;/p&gt;
 &lt;/section&gt;</code></pre>
@@ -647,80 +727,135 @@
         <div class="icon-library">
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Fluxo">
-                <path d="M8 16h10l6 8h16"/>
-                <path d="M8 32h10l6-8"/>
-                <path d="M34 18l6 6-6 6"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Inteligência Artificial" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
+                <path d="M11.683 12.317l5.759 -5.759" />
+                <path d="M4 5.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                <path d="M17 5.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                <path d="M17 18.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                <path d="M4 15.5a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
               </svg>
             </div>
-            <h3>Fluxo</h3>
+            <h3>Inteligência Artificial</h3>
             <button type="button" class="copy-svg">Copy SVG</button>
           </article>
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Validação">
-                <path d="M14 9h20a3 3 0 013 3v30a2 2 0 01-2 2H13a2 2 0 01-2-2V12a3 3 0 013-3z"/>
-                <path d="M19 9v-3a2 2 0 012-2h6a2 2 0 012 2v3"/>
-                <path d="M17 26l5 5 10-11"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Segurança e Governança" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+                <path d="M9 15l2 2l4 -4" />
               </svg>
             </div>
-            <h3>Validação</h3>
+            <h3>Segurança e Governança</h3>
             <button type="button" class="copy-svg">Copy SVG</button>
           </article>
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Objetivo">
-                <circle cx="24" cy="24" r="16"/>
-                <circle cx="24" cy="24" r="9"/>
-                <circle cx="24" cy="24" r="2.25" class="nm-fill"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Rastreabilidade" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+                <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
               </svg>
             </div>
-            <h3>Objetivo</h3>
+            <h3>Rastreabilidade</h3>
             <button type="button" class="copy-svg">Copy SVG</button>
           </article>
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Extração">
-                <path d="M12 6h14l8 8v26a2 2 0 01-2 2H14a2 2 0 01-2-2V8a2 2 0 012-2z"/>
-                <path d="M26 6v8h8"/>
-                <path d="M18 28h10"/>
-                <path d="M24 24l4 4-4 4"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Documentos" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 3v4a1 1 0 0 0 1 1h4" />
+                <path d="M18 17h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h4l5 5v7a2 2 0 0 1 -2 2" />
+                <path d="M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
               </svg>
             </div>
-            <h3>Extração</h3>
+            <h3>Documentos</h3>
             <button type="button" class="copy-svg">Copy SVG</button>
           </article>
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Busca">
-                <circle cx="21" cy="21" r="12"/>
-                <path d="M30 30l11 11"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Busca Inteligente" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                <path d="M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v4.5" />
+                <path d="M14 17.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+                <path d="M18.5 19.5l2.5 2.5" />
               </svg>
             </div>
-            <h3>Busca</h3>
+            <h3>Busca Inteligente</h3>
             <button type="button" class="copy-svg">Copy SVG</button>
           </article>
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Processamento">
-                <rect x="12" y="12" width="24" height="24" rx="3"/>
-                <rect x="19" y="19" width="10" height="10" rx="1"/>
-                <path d="M17 12V8M24 12V8M31 12V8"/>
-                <path d="M17 40v-4M24 40v-4M31 40v-4"/>
-                <path d="M12 17H8M12 24H8M12 31H8"/>
-                <path d="M40 17h-4M40 24h-4M40 31h-4"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Automação de Fluxos" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 17a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2l0 -2" />
+                <path d="M15 17a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2l0 -2" />
+                <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2l0 -2" />
+                <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
+                <path d="M12 9l0 3" />
               </svg>
             </div>
-            <h3>Processamento</h3>
+            <h3>Automação de Fluxos</h3>
             <button type="button" class="copy-svg">Copy SVG</button>
           </article>
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Dados">
-                <path d="M8 40h32"/>
-                <rect x="12" y="26" width="6" height="14" rx="1"/>
-                <rect x="21" y="18" width="6" height="22" rx="1"/>
-                <rect x="30" y="10" width="6" height="30" rx="1"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Decisão Assistida" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M7 8l0 8" />
+                <path d="M9 18h6a2 2 0 0 0 2 -2v-5" />
+                <path d="M14 14l3 -3l3 3" />
+              </svg>
+            </div>
+            <h3>Decisão Assistida</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Setores Críticos" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" />
+                <path d="M13 7l0 .01" />
+                <path d="M17 7l0 .01" />
+                <path d="M17 11l0 .01" />
+                <path d="M17 15l0 .01" />
+              </svg>
+            </div>
+            <h3>Setores Críticos</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Modelos de Linguagem" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
+                <path d="M4 16v2a2 2 0 0 0 2 2h2" />
+                <path d="M16 4h2a2 2 0 0 1 2 2v2" />
+                <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
+                <path d="M12 16v-7" />
+                <path d="M9 9h6" />
+              </svg>
+            </div>
+            <h3>Modelos de Linguagem</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Integração via API" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 13h5" />
+                <path d="M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3" />
+                <path d="M20 8v8" />
+                <path d="M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5" />
+              </svg>
+            </div>
+            <h3>Integração via API</h3>
+            <button type="button" class="copy-svg">Copy SVG</button>
+          </article>
+          <article class="icon-card">
+            <div class="svg-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Dados" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+                <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+                <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
               </svg>
             </div>
             <h3>Dados</h3>
@@ -728,30 +863,784 @@
           </article>
           <article class="icon-card">
             <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Jurídico">
-                <path d="M24 10v30"/>
-                <path d="M22 10h4"/>
-                <path d="M9 14h30"/>
-                <path d="M14 14l-6 8M14 14l6 8"/>
-                <path d="M8 22h12a6 6 0 01-12 0z"/>
-                <path d="M34 14l-6 8M34 14l6 8"/>
-                <path d="M28 22h12a6 6 0 01-12 0z"/>
-                <path d="M16 40h16"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Time" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" />
+                <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                <path d="M17 10h2a2 2 0 0 1 2 2v1" />
+                <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                <path d="M3 13v-1a2 2 0 0 1 2 -2h2" />
               </svg>
             </div>
-            <h3>Jurídico</h3>
+            <h3>Time</h3>
             <button type="button" class="copy-svg">Copy SVG</button>
           </article>
-          <article class="icon-card">
-            <div class="svg-wrap">
-              <svg viewBox="0 0 48 48" role="img" aria-label="Saúde">
-                <rect x="7" y="11" width="34" height="26" rx="3"/>
-                <path d="M11 24h6l3-8 5 16 3-8 2 4h7"/>
-              </svg>
+        </div>
+        <div class="icon-contrast-test">
+          <div class="icon-test-copy">
+            <p class="eyebrow">Teste de contraste</p>
+            <h3>Uso reverso sobre #290241</h3>
+          </div>
+          <div class="icon-test-grid" aria-label="Ícones em branco sobre fundo roxo profundo">
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" /><path d="M11.683 12.317l5.759 -5.759" /><path d="M4 5.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" /><path d="M17 5.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" /><path d="M17 18.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" /><path d="M4 15.5a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 15l2 2l4 -4" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" /><path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3v4a1 1 0 0 0 1 1h4" /><path d="M18 17h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h4l5 5v7a2 2 0 0 1 -2 2" /><path d="M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v4.5" /><path d="M14 17.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" /><path d="M18.5 19.5l2.5 2.5" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2l0 -2" /><path d="M15 17a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2l0 -2" /><path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2l0 -2" /><path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" /><path d="M12 9l0 3" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 8l0 8" /><path d="M9 18h6a2 2 0 0 0 2 -2v-5" /><path d="M14 14l3 -3l3 3" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" /><path d="M13 7l0 .01" /><path d="M17 7l0 .01" /><path d="M17 11l0 .01" /><path d="M17 15l0 .01" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8v-2a2 2 0 0 1 2 -2h2" /><path d="M4 16v2a2 2 0 0 0 2 2h2" /><path d="M16 4h2a2 2 0 0 1 2 2v2" /><path d="M16 20h2a2 2 0 0 0 2 -2v-2" /><path d="M12 16v-7" /><path d="M9 9h6" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13h5" /><path d="M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3" /><path d="M20 8v8" /><path d="M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#290241" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" /><path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M17 10h2a2 2 0 0 1 2 2v1" /><path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M3 13v-1a2 2 0 0 1 2 -2h2" /></svg></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="mockups" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Aplicação</p>
+          <h2 class="heading-h1">Mockups de Marca</h2>
+          <p class="body-m">A identidade aplicada em peças do dia a dia — papelaria, merchandising e materiais corporativos. Pré-visualizações para validar contraste, escala e respiro de cada superfície.</p>
+        </div>
+
+        <div class="mockup-grid">
+          <article class="mockup-card">
+            <div class="mockup-stage">
+              <img src="assets/mockups/caneca-neuralmind-ai.png" alt="Caneca roxa com o logo NeuralMind.AI" class="mockup-image">
             </div>
-            <h3>Saúde</h3>
-            <button type="button" class="copy-svg">Copy SVG</button>
+            <div class="mockup-meta">
+              <h3>Caneca</h3>
+              <p>Cerâmica em roxo profundo com lockup centralizado · uso em escritório e brindes corporativos.</p>
+            </div>
           </article>
+
+          <article class="mockup-card">
+            <div class="mockup-stage">
+              <img src="assets/mockups/copo-termico-neuralmind-ai.png" alt="Copo térmico roxo com o logo NeuralMind.AI" class="mockup-image">
+            </div>
+            <div class="mockup-meta">
+              <h3>Copo Térmico</h3>
+              <p>Inox com revestimento fosco em roxo profundo · tampa transparente · acabamento premium para eventos e equipe.</p>
+            </div>
+          </article>
+
+          <article class="mockup-card">
+            <div class="mockup-stage">
+              <img src="assets/mockups/caderno-neuralmind-ai.png" alt="Caderno roxo com o logo NeuralMind.AI" class="mockup-image">
+            </div>
+            <div class="mockup-meta">
+              <h3>Bloquinho de Notas</h3>
+              <p>Capa cartonada em roxo profundo com lockup branco · elástico e marcador da mesma cor · merchandise institucional.</p>
+            </div>
+          </article>
+
+          <article class="mockup-card">
+            <div class="mockup-stage">
+              <img src="assets/mockups/camiseta-neuralmind-ai.png" alt="Camiseta roxa com o logo NeuralMind.AI" class="mockup-image">
+            </div>
+            <div class="mockup-meta">
+              <h3>Camiseta</h3>
+              <p>Algodão em roxo profundo com lockup centralizado · merchandising interno, eventos e equipe.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="documents" class="content-section document-template-section">
+        <div class="section-header">
+          <p class="eyebrow">Documentos institucionais</p>
+          <h2 class="heading-h1">Template A4 NeuralMind.AI</h2>
+          <p class="body-m">Um sistema editorial pronto para relatórios, propostas, memorandos e materiais institucionais, com capa, hierarquia tipográfica e componentes alinhados à marca.</p>
+        </div>
+
+        <div class="document-template-showcase">
+          <div class="document-template-info">
+            <p class="document-template-lead">Estrutura profissional para transformar conteúdo técnico em documentos claros, consistentes e reconhecíveis.</p>
+
+            <dl class="document-template-specs">
+              <div>
+                <dt>Formato</dt>
+                <dd>A4 · 210 × 297 mm</dd>
+              </div>
+              <div>
+                <dt>Arquivo</dt>
+                <dd>Microsoft Word · DOCX</dd>
+              </div>
+              <div>
+                <dt>Inclui</dt>
+                <dd>Capa, hierarquia, listas, notas e tabela</dd>
+              </div>
+              <div>
+                <dt>Aplicação</dt>
+                <dd>Relatórios, propostas e documentos internos</dd>
+              </div>
+            </dl>
+
+            <a class="document-template-download" href="Template_A4_NeuralMind_AI.docx" download>
+              <span>Baixar template</span>
+              <small>DOCX · editável</small>
+            </a>
+            <p class="document-template-note">Substitua os textos entre colchetes e mantenha os estilos aplicados para preservar a consistência visual.</p>
+          </div>
+
+          <div class="document-preview-gallery" aria-label="Prévia das páginas do template A4">
+            <figure class="document-page document-page--cover">
+              <img src="assets/documents/template-a4-cover.png?v=20260721-purple" alt="Capa roxa do template A4 NeuralMind.AI" loading="lazy">
+              <figcaption>Capa</figcaption>
+            </figure>
+            <figure class="document-page">
+              <img src="assets/documents/template-a4-content.png?v=20260721-human" alt="Página de conteúdo do template A4 com hierarquia, texto e listas" loading="lazy">
+              <figcaption>Conteúdo</figcaption>
+            </figure>
+            <figure class="document-page">
+              <img src="assets/documents/template-a4-data.png?v=20260721-human" alt="Página do template A4 com tabela editorial e próximos passos" loading="lazy">
+              <figcaption>Dados &amp; ações</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="media-assets" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Downloads</p>
+          <h2 class="heading-h1">Media Assets</h2>
+          <p class="body-m">Fundos institucionais prontos para publicação, com a marca, a assinatura e as áreas de segurança ajustadas para cada plataforma.</p>
+        </div>
+
+        <div class="media-assets-stack">
+          <article class="media-asset">
+            <div class="media-preview media-preview--linkedin">
+              <img src="assets/media/linkedin-company-cover-4200x700.jpg?v=20260721-right-safe" alt="Capa institucional NeuralMind.AI para página no LinkedIn com marca alinhada à direita" loading="lazy">
+            </div>
+            <div class="media-asset-info">
+              <div>
+                <p class="eyebrow">LinkedIn</p>
+                <h3>Capa de página</h3>
+                <p>Composição panorâmica minimalista, com lockup à esquerda, contraste controlado e amplo espaço negativo.</p>
+              </div>
+              <div class="media-asset-actions">
+                <span>4200 × 700 px · JPG</span>
+                <a class="media-download" href="assets/media/linkedin-company-cover-4200x700.jpg" download>Baixar capa</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-asset">
+            <div class="media-preview media-preview--youtube">
+              <img src="assets/media/youtube-channel-banner-2560x1440.jpg?v=20260720-premium-coral" alt="Capa institucional NeuralMind.AI para canal no YouTube" loading="lazy">
+            </div>
+            <div class="media-asset-info">
+              <div>
+                <p class="eyebrow">YouTube</p>
+                <h3>Capa de canal</h3>
+                <p>O logo e o slogan permanecem na área segura central para leitura em celular, desktop e TV.</p>
+              </div>
+              <div class="media-asset-actions">
+                <span>2560 × 1440 px · JPG</span>
+                <a class="media-download" href="assets/media/youtube-channel-banner-2560x1440.jpg" download>Baixar capa</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="social" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Social</p>
+          <h2 class="heading-h1">Templates para Redes</h2>
+          <p class="body-m">Sistema modular para LinkedIn e Instagram. Cada template ocupa uma função específica — manifesto, dado, case, produto, anúncio, recrutamento, palestra e eventos — e carrega a assinatura da marca em zonas fixas (lockup, régua coral, captions institucionais).</p>
+        </div>
+
+        <div class="social-system">
+          <article class="social-rule">
+            <p class="eyebrow">Tipografia</p>
+            <p><strong>NeuralMind Sans Square 500</strong> em manchetes · <strong>NeuralMind Sans Square 600/400</strong> em corpo e captions. Escala mínima 14&nbsp;px no formato exportado.</p>
+          </article>
+          <article class="social-rule">
+            <p class="eyebrow">Áreas seguras</p>
+            <p>Margem interna mínima de <strong>5%</strong> em torno do conteúdo. Lockup a 4% da borda. Reservar <strong>8% inferiores</strong> no Instagram (zona do CTA).</p>
+          </article>
+          <article class="social-rule">
+            <p class="eyebrow">Cor &amp; assinatura</p>
+            <p>Fundo: <strong>roxo profundo</strong> ou <strong>branco quente</strong>. Coral entra como régua, índice ou label — nunca como bloco principal.</p>
+          </article>
+        </div>
+
+        <div class="social-grid">
+          <article class="post-card">
+            <div class="post post--dark post--quote">
+              <p class="post-eyebrow post-eyebrow--coral">Manifesto</p>
+              <h3 class="post-display">IA só tem valor quando amplia a capacidade humana.</h3>
+              <div class="post-foot">
+                <span class="post-attr">NeuralMind.AI</span>
+                <span class="post-handle">@neuralmind.ai</span>
+              </div>
+              <span class="post-rule"></span>
+            </div>
+            <div class="post-meta">
+              <h4>Quote · Manifesto</h4>
+              <p>Statement institucional · feed 1:1 · fundo escuro.</p>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post post--light post--number">
+              <p class="post-eyebrow">Insight 02</p>
+              <div class="post-big-number">72<span>%</span></div>
+              <p class="post-body">dos pareceres regulatórios podem ser pré-instruídos por IA — com supervisão humana validando cada conclusão.</p>
+              <div class="post-foot">
+                <span class="post-attr post-attr--dark">NeuralMind.AI</span>
+              </div>
+              <span class="post-rule post-rule--coral"></span>
+            </div>
+            <div class="post-meta">
+              <h4>Big Number</h4>
+              <p>Dado de impacto + insight contextual · feed 1:1 · fundo claro.</p>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post post--dark post--case">
+              <img src="assets/brand/neuralmind-ai-icon-white.png" alt="NeuralMind.AI" class="post-mark">
+              <p class="post-eyebrow post-eyebrow--coral">Case · Jurídico</p>
+              <p class="post-client">Tribunal de Contas da União</p>
+              <h3 class="post-result">IA sumariza peças e propõe instruções processuais a partir das evidências.</h3>
+              <div class="post-foot post-foot--between">
+                <span class="post-chip">AssertIA</span>
+                <span class="post-handle">neuralmind.ai</span>
+              </div>
+            </div>
+            <div class="post-meta">
+              <h4>Case Study</h4>
+              <p>Cliente + resultado + chip do produto · feed 1:1.</p>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post post--split">
+              <div class="post-split-left">
+                <svg viewBox="0 0 48 48" aria-hidden="true" class="post-icon">
+                  <rect x="12" y="12" width="24" height="24" rx="3"/>
+                  <rect x="19" y="19" width="10" height="10" rx="1"/>
+                  <path d="M17 12V8M24 12V8M31 12V8"/>
+                  <path d="M17 40v-4M24 40v-4M31 40v-4"/>
+                  <path d="M12 17H8M12 24H8M12 31H8"/>
+                  <path d="M40 17h-4M40 24h-4M40 31h-4"/>
+                </svg>
+              </div>
+              <div class="post-split-right">
+                <p class="post-eyebrow">Produto</p>
+                <h3 class="post-feature-name">NeuralSearchX</h3>
+                <p class="post-feature-tagline">Busca conversacional com a fonte sempre à vista.</p>
+                <div class="post-foot">
+                  <span class="post-attr post-attr--dark">NeuralMind.AI</span>
+                </div>
+              </div>
+            </div>
+            <div class="post-meta">
+              <h4>Product Feature</h4>
+              <p>Split icon/copy · lançamento de produto ou feature · feed 1:1.</p>
+            </div>
+          </article>
+
+          <article class="post-card post-card--story">
+            <div class="post post--story post--dark">
+              <img src="assets/brand/neuralmind-ai-white.png" class="post-logo-top" alt="NeuralMind.AI">
+              <div class="post-story-body">
+                <p class="post-eyebrow post-eyebrow--coral">Carreira</p>
+                <h3 class="post-display">Estamos contratando.</h3>
+                <p class="post-body post-body--light">Pesquisadores e engenheiros em IA para construir tecnologia auditável em setores críticos.</p>
+              </div>
+              <div class="post-story-cta">
+                <span class="post-cta-text">neuralmind.ai/carreiras</span>
+                <span class="post-rule post-rule--bottom"></span>
+              </div>
+            </div>
+            <div class="post-meta">
+              <h4>Story / Recrutamento</h4>
+              <p>Vertical 4:5 · logo no topo · CTA + régua coral na base.</p>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post post--light post--announcement">
+              <p class="post-eyebrow">Lançamento</p>
+              <h3 class="post-headline">Apresentamos<br><em>NeuralSearchX 2.0</em></h3>
+              <p class="post-body">Nova arquitetura de recuperação semântica com latência 4× menor e citação de trecho exato em qualquer base de conhecimento.</p>
+              <div class="post-foot post-foot--between">
+                <span class="post-attr post-attr--dark">NeuralMind.AI</span>
+                <span class="post-date">28 · mai · 2026</span>
+              </div>
+              <span class="post-rule post-rule--coral"></span>
+            </div>
+            <div class="post-meta">
+              <h4>Anúncio</h4>
+              <p>Manchete forte + suporte + data · feed 1:1 · fundo claro.</p>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post post--speaker">
+              <img src="assets/photos/patricia-portrait.jpg" alt="Patricia Magalhães" class="speaker-photo">
+              <div class="speaker-overlay"></div>
+              <div class="speaker-content">
+                <p class="post-eyebrow post-eyebrow--coral">Palestra</p>
+                <h3 class="speaker-title">IA responsável para setores críticos</h3>
+                <div class="speaker-meta">
+                  <span class="speaker-name">Patricia Magalhães</span>
+                  <span class="speaker-role">CEO · NeuralMind.AI</span>
+                </div>
+              </div>
+              <div class="speaker-event">
+                <span>18 · junho · 2026</span>
+                <strong>Auditório principal · 14h</strong>
+              </div>
+              <span class="post-rule post-rule--coral"></span>
+            </div>
+            <div class="post-meta">
+              <h4>Palestra · CEO</h4>
+              <p>Foto da liderança + tema + agenda · feed 1:1 · ideal para divulgar talks, painéis e keynotes.</p>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post post--dark post--booth">
+              <img src="assets/brand/neuralmind-ai-white.png" class="post-logo-top" alt="NeuralMind.AI">
+              <div class="booth-copy">
+                <p class="post-eyebrow post-eyebrow--coral">Evento</p>
+                <h3 class="booth-title">Encontre a NeuralMind.AI no estande B12.</h3>
+                <p class="booth-body">Vamos conversar sobre IA responsável, rastreabilidade e soluções para operações críticas.</p>
+              </div>
+              <div class="booth-details">
+                <span>São Paulo Expo</span>
+                <span>10—12 junho</span>
+                <strong>Estande B12</strong>
+              </div>
+              <span class="booth-corner" aria-hidden="true"></span>
+            </div>
+            <div class="post-meta">
+              <h4>Evento · Visite o Estande</h4>
+              <p>Chamada presencial + localização do estande · feed 1:1 · para feiras, congressos e ativações comerciais.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="slides" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Decks</p>
+          <h2 class="heading-h1">Templates de Slides</h2>
+          <p class="body-m">Sistema modular em 16:9 para apresentações institucionais e comerciais — abertura, divisão de capítulo, verticais, produto, manifesto, conteúdo, dado de impacto, fluxo de processo, processo em colunas, arquitetura de stack e encerramento. Cada template aplica as mesmas regras de hierarquia tipográfica e zona segura.</p>
+        </div>
+
+        <div class="slides-stack">
+          <article class="slide-card">
+            <div class="deck-slide slide--cover slide--dark">
+              <div class="cover-inner">
+                <p class="cover-kicker">Brand Guide Digital</p>
+                <img src="assets/brand/neuralmind-ai-white.png" class="cover-logo" alt="NeuralMind.AI">
+                <span class="cover-rule"></span>
+                <p class="cover-slogan">IA responsável para setores críticos.</p>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">01</span>
+              <h4>Cover</h4>
+              <p>Abertura institucional · lockup à esquerda · acento coral integrado · centro livre para respiro premium.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--section slide--dark">
+              <p class="slide-eyebrow">Capítulo 02</p>
+              <h3 class="slide-display">Arquitetura de Produtos</h3>
+              <p class="slide-sub">Três verticais, um único compromisso: IA responsável para decisões em ambientes regulados.</p>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">02</span>
+              <h4>Section Divider</h4>
+              <p>Separador de capítulo · eyebrow numerado · título grande em NeuralMind Sans Square 500 · linha de apoio editorial.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--verticals slide--dark">
+              <div class="verticals-head">
+                <p class="slide-eyebrow eyebrow--coral">Verticais de atuação</p>
+                <h3 class="slide-title">IA responsável para setores onde precisão não é opcional.</h3>
+                <p class="slide-sub">Cada vertical resolve um tipo distinto de problema crítico, sempre com fonte verificável, rastreabilidade e supervisão humana no centro da decisão.</p>
+              </div>
+              <div class="verticals-grid">
+                <article class="vertical-card">
+                  <span class="vertical-index">01</span>
+                  <h4>Dados &amp; Conhecimento</h4>
+                  <p>Transforma documentos, bases internas e informação não estruturada em respostas, evidências e insights verificáveis.</p>
+                  <div class="vertical-products">
+                    <span>NeuralSearchX</span>
+                    <span>NDocs</span>
+                    <span>Tuss-Finder</span>
+                  </div>
+                </article>
+                <article class="vertical-card">
+                  <span class="vertical-index">02</span>
+                  <h4>Jurídico</h4>
+                  <p>Modelos e aplicações especializados no contexto brasileiro para apoiar análise, fundamentação e produção jurídica.</p>
+                  <div class="vertical-products">
+                    <span>Jurema</span>
+                    <span>ARACI</span>
+                    <span>AssertIA</span>
+                    <span>SofIA</span>
+                  </div>
+                </article>
+                <article class="vertical-card">
+                  <span class="vertical-index">03</span>
+                  <h4>Saúde</h4>
+                  <p>Soluções para priorização, classificação e apoio operacional em ambientes clínicos, regulatórios e assistenciais.</p>
+                  <div class="vertical-products">
+                    <span>PrioScan</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">03</span>
+              <h4>Verticals Overview</h4>
+              <p>Visão executiva das três frentes de atuação · cards técnicos · conexão direta com o guia verbal.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--product-showcase slide--light">
+              <div class="product-showcase-copy">
+                <p class="slide-eyebrow">Produto exemplo</p>
+                <h3 class="slide-title">NeuralSearchX</h3>
+                <p class="product-kicker">IA que responde o que você precisa — com a fonte sempre à vista.</p>
+                <p class="product-showcase-body">Busca conversacional sobre bases internas de documentos. Cada resposta carrega o trecho original que a fundamenta, permitindo verificação imediata e decisões com lastro.</p>
+                <ul class="product-proof">
+                  <li><span>01</span>Busca semântica multifonte</li>
+                  <li><span>02</span>Citação do trecho original</li>
+                  <li><span>03</span>Validação humana no fluxo</li>
+                </ul>
+              </div>
+              <div class="product-mockup" aria-label="Espaço para mockup do produto">
+                <div class="mockup-window">
+                  <div class="mockup-topbar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="mockup-query">
+                    <span>Consulta</span>
+                    <strong>Quais contratos exigem revisão regulatória?</strong>
+                  </div>
+                  <div class="mockup-answer">
+                    <span class="mockup-label">Resposta com fonte</span>
+                    <p>Foram identificados três documentos com cláusulas de atualização regulatória e prazo de revisão em aberto.</p>
+                  </div>
+                  <div class="mockup-sources">
+                    <div><span>Fonte 01</span><strong>Contrato matriz · pág. 14</strong></div>
+                    <div><span>Fonte 02</span><strong>Anexo jurídico · pág. 08</strong></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">04</span>
+              <h4>Product · Mockup</h4>
+              <p>Slide comercial de produto · texto à esquerda · área à direita preparada para screenshot, UI ou mockup.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--statement slide--light">
+              <h3 class="slide-statement">A IA gera, organiza, sugere e acelera.<br>O humano valida, decide e assume o controle.</h3>
+              <p class="slide-attr">Manifesto NeuralMind.AI</p>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">05</span>
+              <h4>Statement</h4>
+              <p>Frase-manifesto centrada · atribuição em micro-caps · fundo claro para máximo contraste.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--two-col slide--light">
+              <div class="col-left">
+                <p class="slide-eyebrow">Posicionamento</p>
+                <h3 class="slide-title">Inteligência artificial com rastreabilidade.</h3>
+              </div>
+              <div class="col-right">
+                <ul class="slide-list">
+                  <li><span>01</span><div>Cada resposta carrega o trecho exato que a fundamenta.</div></li>
+                  <li><span>02</span><div>Modelos especializados em domínio — não generalistas.</div></li>
+                  <li><span>03</span><div>Operação auditável e em conformidade com a LGPD.</div></li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">06</span>
+              <h4>Title + List</h4>
+              <p>Título à esquerda · lista numerada à direita · divisores hairline · pilares ou diferenciais.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--metric slide--dark">
+              <div class="metric-block">
+                <span class="metric-eyebrow">Resultado · NeuralSearchX 2.0</span>
+                <div class="metric-value">4<span>×</span></div>
+                <p class="metric-context">Redução de latência da busca semântica multifonte na nova arquitetura, sem perda de citação ou rastreabilidade.</p>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">07</span>
+              <h4>Big Metric</h4>
+              <p>Dado de impacto em hero · contexto editorial à direita · unidade em coral · fundo escuro.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--process slide--light">
+              <div class="process-head">
+                <p class="slide-eyebrow">Fluxo de Trabalho</p>
+                <h3 class="slide-title">Da pergunta à decisão auditável.</h3>
+              </div>
+              <ol class="slide-process">
+                <li><span>01</span><strong>Pergunta natural</strong><p>O usuário descreve a necessidade em linguagem comum.</p></li>
+                <li><span>02</span><strong>Busca semântica</strong><p>Recuperação em múltiplas fontes com citação do trecho exato.</p></li>
+                <li><span>03</span><strong>Síntese contextual</strong><p>Resposta consolidada, vinculada a cada referência.</p></li>
+                <li><span>04</span><strong>Validação humana</strong><p>O especialista revisa, decide e assume o controle.</p></li>
+              </ol>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">08</span>
+              <h4>Process</h4>
+              <p>Fluxo horizontal de etapas · trilha conectora · descrição curta por passo · ideal para metodologia ou pipeline.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--closing slide--dark">
+              <div class="closing-left">
+                <p class="slide-eyebrow eyebrow--coral">Próximo passo</p>
+                <h3 class="slide-display">Vamos construir juntos.</h3>
+                <img src="assets/brand/neuralmind-ai-white.png" class="closing-logo" alt="NeuralMind.AI">
+              </div>
+              <div class="closing-right">
+                <div class="contact-block">
+                  <span class="contact-label">Comercial</span>
+                  <p class="contact-line">contato@neuralmind.ai</p>
+                </div>
+                <div class="contact-block">
+                  <span class="contact-label">Web</span>
+                  <p class="contact-line">neuralmind.ai</p>
+                </div>
+                <div class="contact-block">
+                  <span class="contact-label">LinkedIn</span>
+                  <p class="contact-line">@neuralmind.ai</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">09</span>
+              <h4>Closing</h4>
+              <p>Encerramento institucional · convite à ação à esquerda · informações de contato em coluna à direita.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--photo-split slide--dark">
+              <div class="photo-pane">
+                <img src="assets/photos/collaboration.jpg" alt="">
+                <span class="photo-tint"></span>
+              </div>
+              <div class="text-pane">
+                <p class="slide-eyebrow eyebrow--coral">Pessoas</p>
+                <h3 class="slide-display">A IA é poderosa.<br>As pessoas, indispensáveis.</h3>
+                <p class="slide-sub">Construímos modelos para apoiar especialistas — não para substituí-los. A última palavra é, e segue sendo, humana.</p>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">10</span>
+              <h4>Hero · Foto + Statement</h4>
+              <p>Composição split com foto editorial · ideal para manifesto, cultura ou abertura de capítulo humano.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--founders slide--light">
+              <div class="founders-copy">
+                <p class="slide-eyebrow">Quem somos</p>
+                <h3 class="slide-title">Ciência aplicada.<br>Responsabilidade real.</h3>
+                <p class="founders-body">Fundada por Patricia Magalhães e Roberto Lotufo, a NeuralMind transforma pesquisa em IA responsável, auditável e confiável para organizações que lidam com alta complexidade e decisões críticas.</p>
+                <div class="founders-signals" aria-label="Pilares da liderança">
+                  <span>Rigor científico</span>
+                  <span>Julgamento humano</span>
+                  <span>Setores regulados</span>
+                </div>
+              </div>
+              <div class="founders-grid" aria-label="Fundadores NeuralMind">
+                <article class="founder-card">
+                  <img src="assets/photos/patricia-founder.jpg" alt="Patricia Magalhães">
+                  <div class="founder-caption">
+                    <span class="portrait-name">Patricia Magalhães</span>
+                    <span class="portrait-role">Co-fundadora &amp; CEO</span>
+                  </div>
+                </article>
+                <article class="founder-card">
+                  <img src="assets/photos/roberto-lotufo-founder.jpg" alt="Roberto Lotufo">
+                  <div class="founder-caption">
+                    <span class="portrait-name">Roberto Lotufo</span>
+                    <span class="portrait-role">Co-fundador &amp; CTO</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">11</span>
+              <h4>Founders · Manifesto</h4>
+              <p>Composição institucional com dupla fundadora · ideal para origem, responsabilidade e confiança executiva.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--closing-photo">
+              <img src="assets/photos/team-neuralmind-slide.jpg" class="closing-bg" alt="">
+              <div class="closing-overlay"></div>
+              <div class="closing-photo-content">
+                <div class="closing-photo-head">
+                  <p class="slide-eyebrow eyebrow--coral">Próximo passo</p>
+                  <h3 class="slide-display">Vamos construir juntos.</h3>
+                </div>
+                <div class="closing-photo-foot">
+                  <img src="assets/brand/neuralmind-ai-white.png" class="closing-logo-photo" alt="NeuralMind.AI">
+                  <div class="closing-photo-contacts">
+                    <div>
+                      <span class="contact-label">Comercial</span>
+                      <span class="contact-line">contato@neuralmind.ai</span>
+                    </div>
+                    <div>
+                      <span class="contact-label">Web</span>
+                      <span class="contact-line">neuralmind.ai</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">12</span>
+              <h4>Closing · Team Backdrop</h4>
+              <p>Encerramento com foto de equipe em full-bleed · overlay roxo preserva legibilidade · variação humana do template 07.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--three-step slide--light">
+              <div class="three-step-head">
+                <p class="slide-eyebrow">Processo em 3 etapas</p>
+                <h3 class="slide-title">Da complexidade à decisão assistida.</h3>
+                <p class="slide-sub">Modelo para explicar jornadas curtas, pipelines comerciais, onboarding ou etapas de implantação.</p>
+              </div>
+              <div class="three-step-grid" aria-label="Processo em três etapas">
+                <article class="three-step-card">
+                  <span class="step-number">01</span>
+                  <h4>Mapear</h4>
+                  <p>Identificamos fontes, regras de negócio, usuários e pontos de decisão que exigem rastreabilidade.</p>
+                </article>
+                <article class="three-step-card">
+                  <span class="step-number">02</span>
+                  <h4>Construir</h4>
+                  <p>Combinamos modelos especializados, busca semântica e agentes para criar uma solução sob medida.</p>
+                </article>
+                <article class="three-step-card">
+                  <span class="step-number">03</span>
+                  <h4>Validar</h4>
+                  <p>Especialistas revisam saídas, monitoram qualidade e transformam IA em operação confiável.</p>
+                </article>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">13</span>
+              <h4>Process · Three Columns</h4>
+              <p>Processo de 3 etapas em colunas · cards claros com numeração coral · ideal para implantação, método ou jornada executiva.</p>
+            </div>
+          </article>
+
+          <article class="slide-card">
+            <div class="deck-slide slide--product-stack slide--dark">
+              <div class="product-stack-head">
+                <p class="slide-eyebrow eyebrow--coral">Arquitetura de Produto</p>
+                <h3 class="slide-title">ARACI</h3>
+                <p class="product-stack-kicker">Copiloto jurídico powered by NeuralSearchX + Jurema.</p>
+              </div>
+              <div class="product-hero-node" aria-label="Produto principal">
+                <span>Produto principal</span>
+                <strong>ARACI</strong>
+                <p>Análise, fundamentos e minutas com rastreabilidade para o trabalho jurídico.</p>
+              </div>
+              <div class="stack-blocks" aria-label="Stack tecnológica">
+                <article>
+                  <span>Busca proprietária</span>
+                  <h4>NeuralSearchX</h4>
+                  <p>Recupera evidências, documentos e fontes verificáveis para cada resposta.</p>
+                </article>
+                <article>
+                  <span>Modelo especializado</span>
+                  <h4>Jurema</h4>
+                  <p>LLM jurídico brasileiro para linguagem, doutrina e contexto normativo local.</p>
+                </article>
+                <article>
+                  <span>Camada operacional</span>
+                  <h4>Agentes &amp; Workflow</h4>
+                  <p>Orquestra tarefas, validações e próximos passos sob supervisão humana.</p>
+                </article>
+              </div>
+            </div>
+            <div class="slide-meta">
+              <span class="slide-num">14</span>
+              <h4>Product · Stack Breakdown</h4>
+              <p>Produto principal centralizado · stack tecnológica decomposta em blocos abaixo · ideal para explicar soluções compostas.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="meet" class="content-section">
+        <div class="section-header">
+          <p class="eyebrow">Comunicação Remota</p>
+          <h2 class="heading-h1">Fundo para Reuniões</h2>
+          <p class="body-m">Background institucional para Google Meet, Zoom e Teams. Composição silenciosa, com marca no canto superior esquerdo, acento coral mínimo e centro livre para o participante.</p>
+        </div>
+
+        <div class="meet-stack">
+          <div class="meet-bg">
+            <div class="meet-lockup">
+              <img src="assets/brand/neuralmind-ai-white.png" class="meet-logo" alt="NeuralMind.AI">
+              <span class="meet-rule"></span>
+            </div>
+            <p class="meet-slogan">IA responsável para setores críticos.</p>
+          </div>
+
+          <div class="meet-meta">
+            <div>
+              <span class="meet-spec-label">Formato</span>
+              <span class="meet-spec-value">1920 × 1080 · 16:9</span>
+            </div>
+            <div>
+              <span class="meet-spec-label">Plataformas</span>
+              <span class="meet-spec-value">Meet · Zoom · Teams</span>
+            </div>
+            <div>
+              <span class="meet-spec-label">Cor de fundo</span>
+              <span class="meet-spec-value">Roxo Profundo · #290241</span>
+            </div>
+            <div>
+              <span class="meet-spec-label">Composição</span>
+              <span class="meet-spec-value">Marca discreta · centro limpo</span>
+            </div>
+          </div>
         </div>
       </section>
     </main>
