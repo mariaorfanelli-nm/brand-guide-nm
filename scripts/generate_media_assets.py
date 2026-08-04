@@ -78,17 +78,17 @@ def linkedin_cover():
 
     draw = ImageDraw.Draw(canvas)
     tagline_font = ImageFont.truetype(
-        FONTS / "NeuralMindSansSquare-Medium.ttf", 68
+        FONTS / "NeuralMindSansSquare-Medium.ttf", 60
     )
     right_aligned_text(
         draw,
-        "IA responsável para setores críticos",
+        "A inteligência por trás das decisões mais complexas.",
         content_right,
         426,
         font=tagline_font,
         fill=(255, 255, 252, 224),
     )
-    draw.rounded_rectangle((content_right - 1180, 546, content_right, 554), radius=4, fill=CORAL)
+    draw.rounded_rectangle((content_right - 1520, 546, content_right, 554), radius=4, fill=CORAL)
     save_jpeg(canvas, OUTPUT / "linkedin-company-cover-4200x700.jpg")
 
 
@@ -106,7 +106,7 @@ def youtube_banner():
     )
     centered_text(
         draw,
-        "IA responsável para setores críticos",
+        "A inteligência por trás das decisões mais complexas.",
         1280,
         792,
         tagline_font,
