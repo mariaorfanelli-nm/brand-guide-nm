@@ -249,7 +249,7 @@ def founders(prs):
     eyebrow(s,"Quem somos",.72,.58)
     text(s,"Ciência aplicada.\nResponsabilidade real.",.72,1.02,4.65,1.18,29,PURPLE,True)
     text(s,"Fundada por Patricia Magalhães e Roberto Lotufo, a NeuralMind transforma pesquisa em IA responsável, auditável e confiável para organizações que lidam com alta complexidade e decisões críticas.",.72,2.5,4.5,1.28,11.5,MUTED)
-    for i,val in enumerate(["Rigor científico","Julgamento humano","Setores regulados"]):
+    for i,val in enumerate(["Rigor científico","Decisão humana","Setores regulados"]):
         rect(s,.72,4.22+i*.5,3.85,.34,"E7E0EA",radius=True); text(s,val,.88,4.28+i*.5,3.4,.16,8.5,PURPLE,True)
     pics=[("photos/patricia-founder.jpg","Patricia Magalhães","Co-fundadora & CEO"),("photos/roberto-lotufo-founder.jpg","Roberto Lotufo","Co-fundador & CTO")]
     for i,(rel,name,role) in enumerate(pics):
