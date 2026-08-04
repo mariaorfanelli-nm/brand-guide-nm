@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Pessoas",
+    "x": 912,
+    "y": 153.21875,
+    "w": 619.265625,
+    "h": 31.59375,
+    "fontSize": 20,
+    "fontWeight": "600",
+    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgb(239, 71, 111)",
+    "opacity": 1,
+    "lineHeight": "31.6px",
+    "letterSpacing": "2.7px",
+    "textAlign": "start",
+    "textTransform": "uppercase"
+  },
+  {
+    "text": "A IA é poderosa.\nAs pessoas, indispensáveis.",
+    "x": 912,
+    "y": 223.203125,
+    "w": 619.265625,
+    "h": 352,
+    "fontSize": 88,
+    "fontWeight": "500",
+    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgb(255, 255, 252)",
+    "opacity": 1,
+    "lineHeight": "88px",
+    "letterSpacing": "-2.112px",
+    "textAlign": "start",
+    "textTransform": "none"
+  },
+  {
+    "text": "Construímos modelos para apoiar especialistas — não para substituí-los. A última palavra é, e segue sendo, humana.",
+    "x": 912,
+    "y": 613.59375,
+    "w": 597.421875,
+    "h": 133.171875,
+    "fontSize": 29.6,
+    "fontWeight": "400",
+    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgba(255, 255, 252, 0.78)",
+    "opacity": 1,
+    "lineHeight": "44.4px",
+    "letterSpacing": "normal",
+    "textAlign": "start",
+    "textTransform": "none"
+  }
+]

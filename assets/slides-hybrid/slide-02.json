@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Capítulo 02",
+    "x": 112,
+    "y": 311.453125,
+    "w": 1376,
+    "h": 27.171875,
+    "fontSize": 17.2,
+    "fontWeight": "600",
+    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgb(147, 129, 255)",
+    "opacity": 0.85,
+    "lineHeight": "27.176px",
+    "letterSpacing": "2.322px",
+    "textAlign": "start",
+    "textTransform": "uppercase"
+  },
+  {
+    "text": "Arquitetura de Produtos",
+    "x": 112,
+    "y": 373.8125,
+    "w": 1198.9375,
+    "h": 103.203125,
+    "fontSize": 103.2,
+    "fontWeight": "500",
+    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgb(255, 255, 252)",
+    "opacity": 1,
+    "lineHeight": "103.2px",
+    "letterSpacing": "-2.4768px",
+    "textAlign": "start",
+    "textTransform": "none"
+  },
+  {
+    "text": "Três verticais, um único compromisso: IA responsável para decisões em ambientes regulados.",
+    "x": 112,
+    "y": 512.203125,
+    "w": 673.984375,
+    "h": 76.34375,
+    "fontSize": 25.456,
+    "fontWeight": "400",
+    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgba(255, 255, 252, 0.78)",
+    "opacity": 1,
+    "lineHeight": "38.184px",
+    "letterSpacing": "normal",
+    "textAlign": "start",
+    "textTransform": "none"
+  }
+]

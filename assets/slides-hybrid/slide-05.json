@@ -1,0 +1,34 @@
+[
+  {
+    "text": "A IA gera, organiza, sugere e acelera.\nO humano valida, decide e assume o controle.",
+    "x": 112,
+    "y": 316.1875,
+    "w": 1193.53125,
+    "h": 199.359375,
+    "fontSize": 57.792,
+    "fontWeight": "500",
+    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgb(15, 17, 8)",
+    "opacity": 1,
+    "lineHeight": "66.4608px",
+    "letterSpacing": "-1.04026px",
+    "textAlign": "start",
+    "textTransform": "none"
+  },
+  {
+    "text": "Manifesto NeuralMind.AI",
+    "x": 112,
+    "y": 555.546875,
+    "w": 1376,
+    "h": 28.265625,
+    "fontSize": 17.888,
+    "fontWeight": "600",
+    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgb(41, 2, 65)",
+    "opacity": 0.65,
+    "lineHeight": "28.263px",
+    "letterSpacing": "3.21984px",
+    "textAlign": "start",
+    "textTransform": "uppercase"
+  }
+]
