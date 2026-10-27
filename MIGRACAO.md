@@ -2,7 +2,7 @@
 
 Snapshot de 27/10/2026 da pasta `NM-Brand-Guide`.
 
-1. Instale Git, Git LFS, GitHub CLI e Python 3.
+1. Instale Git, Git LFS, GitHub CLI e Python 3.11 ou superior.
 2. Entre na conta `mariaorfanelli-nm` no GitHub (por exemplo, `gh auth login`).
 3. Clone este repositório e execute `git lfs pull`.
 4. Para restaurar todos os projetos com a estrutura original, execute:
