@@ -65,7 +65,7 @@ prs = Presentation()
 prs.slide_width = Inches(13.333333)
 prs.slide_height = Inches(7.5)
 
-for number in range(1, 15):
+for number in range(1, 17):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     background = ASSETS / f"slide-{number:02d}-background.png"
     metadata = json.loads((ASSETS / f"slide-{number:02d}.json").read_text(encoding="utf-8"))

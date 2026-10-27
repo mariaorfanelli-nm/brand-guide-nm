@@ -319,20 +319,18 @@ def configure_header_footer(section):
     header.is_linked_to_previous = False
     paragraph = header.paragraphs[0]
     paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    paragraph.paragraph_format.space_after = Pt(3)
+    paragraph.paragraph_format.space_after = Pt(8)
     wordmark = paragraph.add_run("NeuralMind")
     set_run_font(wordmark, size=15.5, color=PURPLE, bold=True)
     suffix = paragraph.add_run(".AI")
     set_run_font(suffix, size=15.5, color=VIOLET, bold=True)
-    set_paragraph_border(paragraph, "bottom", HAIRLINE, size=6, space=5)
 
     footer = section.footer
     footer.is_linked_to_previous = False
     fp = footer.paragraphs[0]
     fp.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    fp.paragraph_format.space_before = Pt(4)
+    fp.paragraph_format.space_before = Pt(8)
     fp.paragraph_format.tab_stops.add_tab_stop(Cm(16.8), WD_TAB_ALIGNMENT.RIGHT)
-    set_paragraph_border(fp, "top", CORAL, size=10, space=5)
     left = fp.add_run("NeuralMind.AI  |  Documento institucional")
     set_run_font(left, size=8.5, color=MUTED)
     fp.add_run("\t")
@@ -345,16 +343,16 @@ def build_cover(doc):
     table = doc.add_table(rows=1, cols=1)
     table.autofit = False
     table.alignment = WD_TABLE_ALIGNMENT.LEFT
-    table.columns[0].width = Cm(20.1)
+    table.columns[0].width = Cm(21.0)
     row = table.rows[0]
-    row.height = Cm(28.45)
+    row.height = Cm(29.68)
     row.height_rule = WD_ROW_HEIGHT_RULE.EXACTLY
     set_repeat_table_header(row)
     cell = row.cells[0]
-    cell.width = Cm(20.1)
+    cell.width = Cm(21.0)
     cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.TOP
     set_cell_shading(cell, PURPLE)
-    set_cell_margins(cell, top=820, start=1190, bottom=620, end=1190)
+    set_cell_margins(cell, top=900, start=1815, bottom=800, end=1815)
 
     tbl_pr = table._tbl.tblPr
     borders = OxmlElement("w:tblBorders")
@@ -365,6 +363,7 @@ def build_cover(doc):
     tbl_pr.append(borders)
 
     logo_p = cell.paragraphs[0]
+    logo_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     logo_p.paragraph_format.space_after = Pt(118)
     shape = logo_p.add_run().add_picture(str(LOGO_WHITE), width=Inches(2.35))
     set_image_alt(shape, "Logotipo NeuralMind.AI")
@@ -381,10 +380,8 @@ def build_cover(doc):
     subtitle_run = subtitle.add_run("[Uma frase curta que explica o propósito desta publicação]")
     set_run_font(subtitle_run, size=12.5, color=WHITE)
 
-    set_paragraph_border(subtitle, "bottom", CORAL, size=10, space=12)
-
     spacer = cell.add_paragraph()
-    spacer.paragraph_format.space_after = Pt(112)
+    spacer.paragraph_format.space_after = Pt(126)
     spacer.add_run("")
 
     prepared = cell.add_paragraph(style="NM Eyebrow")
@@ -397,15 +394,8 @@ def build_cover(doc):
     date_label.paragraph_format.space_after = Pt(1)
     set_run_font(date_label.add_run("Data  /  versão"), color=VIOLET, bold=True)
     date_value = cell.add_paragraph()
-    date_value.paragraph_format.space_after = Pt(18)
+    date_value.paragraph_format.space_after = Pt(0)
     set_run_font(date_value.add_run("[dd.mm.aaaa]  /  [v1.0]"), size=10.5, color=WHITE)
-
-    signature = cell.add_paragraph()
-    signature.paragraph_format.space_before = Pt(4)
-    signature.paragraph_format.space_after = Pt(0)
-    set_paragraph_border(signature, "top", VIOLET, size=6, space=8)
-    run = signature.add_run("IA responsável para setores críticos")
-    set_run_font(run, size=9.5, color=WHITE, bold=True)
 
 
 def add_body_template(doc, usable_width_dxa):
@@ -420,7 +410,8 @@ def add_body_template(doc, usable_width_dxa):
     lead.add_run("[Apresente o objetivo do documento, a conclusão principal e o impacto esperado em um parágrafo curto e direto.]")
 
     key = doc.add_paragraph(style="NM Callout")
-    set_paragraph_border(key, "top", VIOLET, size=8, space=8)
+    key.paragraph_format.space_before = Pt(8)
+    key.paragraph_format.space_after = Pt(18)
     label = key.add_run("Em uma frase\n")
     set_run_font(label, size=8, color=VIOLET, bold=True)
     key_text = key.add_run("[Registre a ideia que precisa permanecer na memória do leitor.]")
@@ -445,15 +436,6 @@ def add_body_template(doc, usable_width_dxa):
         p = doc.add_paragraph(style="List Bullet")
         p.add_run(text)
 
-    doc.add_heading("Princípio orientador", level=2)
-    quote = doc.add_paragraph(style="NM Quote")
-    set_paragraph_border(quote, "top", CORAL, size=8, space=8)
-    quote_run = quote.add_run("“[Uma frase humana, específica e memorável que sustenta o raciocínio.]”")
-    set_run_font(quote_run, size=13.5, color=PURPLE, italic=True)
-    caption = doc.add_paragraph(style="NM Caption")
-    caption.add_run("[Autoria, fonte ou contexto]")
-
-    doc.add_page_break()
     doc.add_heading("Plano de ação", level=1)
     add_styled_paragraph(
         doc,
@@ -468,6 +450,9 @@ def add_body_template(doc, usable_width_dxa):
         p = doc.add_paragraph(style="List Number")
         p.add_run(text)
 
+    data_section = doc.add_section(WD_SECTION.NEW_PAGE)
+    configure_page(data_section)
+    configure_header_footer(data_section)
     doc.add_heading("Indicadores e acompanhamento", level=2)
     caption = doc.add_paragraph(style="NM Caption")
     caption.add_run("Exemplo de estrutura para acompanhamento")
@@ -511,7 +496,8 @@ def add_body_template(doc, usable_width_dxa):
 
     doc.add_heading("Ponto de atenção", level=3)
     attention = doc.add_paragraph()
-    set_paragraph_border(attention, "top", CORAL, size=8, space=7)
+    attention.paragraph_format.space_before = Pt(4)
+    attention.paragraph_format.space_after = Pt(16)
     attention.add_run("[Registre riscos, restrições, decisões pendentes ou requisitos de governança com linguagem direta.]")
 
     doc.add_heading("Conclusão", level=1)
@@ -528,12 +514,6 @@ def add_body_template(doc, usable_width_dxa):
         p = doc.add_paragraph(style="List Bullet")
         p.add_run(text)
 
-    closing = doc.add_paragraph(style="NM Lead")
-    set_paragraph_border(closing, "top", VIOLET, size=8, space=9)
-    r = closing.add_run("Tecnologia que fortalece pessoas, processos e decisões.")
-    set_run_font(r, size=12, color=PURPLE, bold=True)
-
-
 def set_document_properties(doc):
     props = doc.core_properties
     props.title = "Template A4 NeuralMind.AI"
@@ -549,10 +529,10 @@ def build():
     cover_section = doc.sections[0]
     cover_section.page_width = Cm(21.0)
     cover_section.page_height = Cm(29.7)
-    cover_section.top_margin = Cm(0.45)
-    cover_section.bottom_margin = Cm(0.45)
-    cover_section.left_margin = Cm(0.45)
-    cover_section.right_margin = Cm(0.45)
+    cover_section.top_margin = Cm(0)
+    cover_section.bottom_margin = Cm(0)
+    cover_section.left_margin = Cm(0)
+    cover_section.right_margin = Cm(0)
     cover_section.header_distance = Cm(0)
     cover_section.footer_distance = Cm(0)
     set_document_properties(doc)

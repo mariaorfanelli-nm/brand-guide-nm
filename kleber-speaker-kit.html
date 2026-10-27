@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kit de liderança e eventos — Kleber Vicente</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { margin: 0; min-width: 0; background: #ece8f0; }
+    .kit-page { width: min(100% - 48px, 1680px); margin: 0 auto; padding: 48px 0 96px; }
+    .kit-intro { max-width: 760px; margin-bottom: 48px; }
+    .kit-intro h1 { margin: 0 0 12px; font-size: 42px; line-height: 1.05; }
+    .kit-intro p { margin: 0; color: rgba(15,17,8,.68); line-height: 1.6; }
+    .kit-item { margin: 0 0 64px; }
+    .kit-label { margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #290241; }
+    .kit-stage { overflow: auto; padding: 16px; border-radius: 12px; background: rgba(255,255,252,.8); box-shadow: 0 12px 36px rgba(41,2,65,.1); }
+    .kit-stage > * { transform-origin: top left; }
+    #slide-purple-artboard, #slide-white-artboard { width: 1600px; height: 900px; border-radius: 0; box-shadow: none; }
+    #social-artboard { width: 1080px; height: 1350px; aspect-ratio: auto; border-radius: 0; box-shadow: none; }
+    #whatsapp-artboard { width: 1080px; height: 1080px; overflow: hidden; background: #290241; }
+    #whatsapp-artboard img { width: 100%; height: 100%; object-fit: cover; }
+    [contenteditable="true"] { outline: none; }
+    [contenteditable="true"]:focus { box-shadow: 0 0 0 3px rgba(239,71,111,.55); border-radius: 3px; }
+    .render-mode .kit-page { width: auto; margin: 0; padding: 0; }
+    .render-mode .kit-intro, .render-mode .kit-label, .render-mode .kit-stage:not(.active) { display: none; }
+    .render-mode .kit-item { margin: 0; }
+    .render-mode .kit-stage.active { overflow: hidden; padding: 0; border-radius: 0; background: transparent; box-shadow: none; }
+    .hide-editable [contenteditable="true"] { color: transparent !important; text-shadow: none !important; }
+    @media (max-width: 900px) { .kit-stage > * { transform: scale(.5); } .kit-stage { height: 490px; } }
+  </style>
+</head>
+<body>
+  <main class="kit-page">
+    <header class="kit-intro">
+      <h1>Kit de liderança e eventos — Kleber Vicente</h1>
+      <p>Clique nos textos para editar. Os modelos não acrescentam logo nem monograma. Os arquivos PNG exportados preservam exatamente estas composições.</p>
+    </header>
+
+    <section class="kit-item">
+      <p class="kit-label">Slide final roxo · 1600 × 900</p>
+      <div class="kit-stage" data-asset="slide-purple">
+        <div id="slide-purple-artboard" class="deck-slide slide--kleber-closing slide--dark no-brand-mark">
+          <div class="kleber-closing-copy">
+            <p class="slide-eyebrow eyebrow--coral" contenteditable="true">Encerramento</p>
+            <h2 class="kleber-closing-thanks" contenteditable="true">Obrigado.</h2>
+            <div class="kleber-closing-identity">
+              <strong contenteditable="true">Kleber Edurado Vicente dos Santos</strong>
+              <span contenteditable="true">Head de Inovação, Produtos e Desenvolvimento de Negócios</span>
+            </div>
+            <div class="kleber-closing-contacts">
+              <div><span contenteditable="true">E-mail</span><strong contenteditable="true">nome@empresa.com</strong></div>
+              <div><span contenteditable="true">Telefone</span><strong contenteditable="true">+55 00 00000-0000</strong></div>
+            </div>
+            <span class="kleber-closing-rule"></span>
+          </div>
+          <div class="kleber-closing-portrait">
+            <img src="assets/photos/kleber-vicente.jpg" alt="Kleber Edurado Vicente dos Santos">
+            <span class="kleber-closing-shade"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="kit-item">
+      <p class="kit-label">Slide final branco · 1600 × 900</p>
+      <div class="kit-stage" data-asset="slide-white">
+        <div id="slide-white-artboard" class="deck-slide slide--kleber-closing-light slide--light no-brand-mark">
+          <div class="kleber-light-copy">
+            <p class="slide-eyebrow" contenteditable="true">Encerramento</p>
+            <h2 class="kleber-light-thanks" contenteditable="true">Obrigado.</h2>
+            <p class="kleber-light-note" contenteditable="true">Fico à disposição para continuarmos esta conversa.</p>
+            <div class="kleber-light-contacts">
+              <div><span contenteditable="true">E-mail</span><strong contenteditable="true">nome@empresa.com</strong></div>
+              <div><span contenteditable="true">Telefone</span><strong contenteditable="true">+55 00 00000-0000</strong></div>
+            </div>
+          </div>
+          <div class="kleber-light-card">
+            <img src="assets/photos/kleber-vicente.jpg" alt="Kleber Edurado Vicente dos Santos">
+            <div class="kleber-light-caption">
+              <strong contenteditable="true">Kleber Edurado<br>Vicente dos Santos</strong>
+              <span contenteditable="true">Head de Inovação, Produtos e Desenvolvimento de Negócios</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="kit-item">
+      <p class="kit-label">Card para redes sociais · 1080 × 1350</p>
+      <div class="kit-stage" data-asset="social">
+        <div id="social-artboard" class="post post--kleber-event no-brand-mark">
+          <img src="assets/photos/kleber-vicente.jpg" alt="Kleber Edurado Vicente dos Santos" class="kleber-event-photo">
+          <div class="kleber-event-overlay"></div>
+          <div class="kleber-event-date">
+            <span contenteditable="true">Evento</span>
+            <strong contenteditable="true">Data · horário</strong>
+          </div>
+          <div class="kleber-event-content">
+            <p class="post-eyebrow post-eyebrow--coral" contenteditable="true">Participação confirmada</p>
+            <h2 class="kleber-event-title" contenteditable="true">Tema da participação no evento.</h2>
+            <div class="kleber-event-speaker">
+              <span class="speaker-name" contenteditable="true">Kleber Edurado<br>Vicente dos Santos</span>
+              <span class="speaker-role" contenteditable="true">Head de Inovação, Produtos e Desenvolvimento de Negócios</span>
+            </div>
+            <p class="kleber-event-place" contenteditable="true">Nome do evento · Local</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="kit-item">
+      <p class="kit-label">Foto de perfil para WhatsApp · quadrada com área segura circular</p>
+      <div class="kit-stage" data-asset="whatsapp">
+        <div id="whatsapp-artboard">
+          <img src="assets/kleber/kleber-whatsapp-profile.png" alt="Foto de perfil de Kleber Vicente para WhatsApp">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const asset = params.get("asset");
+    if (asset) {
+      document.body.classList.add("render-mode");
+      document.querySelector(`[data-asset="${asset.replace("-background", "")}"]`)?.classList.add("active");
+      if (asset.endsWith("-background")) document.body.classList.add("hide-editable");
+    }
+  </script>
+</body>
+</html>

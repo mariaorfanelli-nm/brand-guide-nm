@@ -1,0 +1,934 @@
+{
+  "date": "2026-10-27",
+  "folder": "NM-Brand-Guide",
+  "repository": "mariaorfanelli-nm/brand-guide-nm",
+  "original_inner_folder": "brand-guide-nm",
+  "files": [
+    {
+      "source_path": "PRODUCT.md",
+      "repo_path": ".migration/workspace-parent/PRODUCT.md",
+      "bytes": 2171
+    },
+    {
+      "source_path": "brand-guide-nm/Card_Evento_Kleber_Editavel.pptx",
+      "repo_path": "Card_Evento_Kleber_Editavel.pptx",
+      "bytes": 1174292
+    },
+    {
+      "source_path": "brand-guide-nm/ia-84-social.html",
+      "repo_path": "ia-84-social.html",
+      "bytes": 6575
+    },
+    {
+      "source_path": "brand-guide-nm/logo-options.html",
+      "repo_path": "logo-options.html",
+      "bytes": 6105
+    },
+    {
+      "source_path": "brand-guide-nm/Template_Slides_NeuralMind_AI.pptx",
+      "repo_path": "Template_Slides_NeuralMind_AI.pptx",
+      "bytes": 1599224
+    },
+    {
+      "source_path": "brand-guide-nm/README.md",
+      "repo_path": "README.md",
+      "bytes": 395
+    },
+    {
+      "source_path": "brand-guide-nm/kleber-speaker-kit.html",
+      "repo_path": "kleber-speaker-kit.html",
+      "bytes": 7314
+    },
+    {
+      "source_path": "brand-guide-nm/Template_Slides_NeuralMind_AI_Fiel.pptx",
+      "repo_path": "Template_Slides_NeuralMind_AI_Fiel.pptx",
+      "bytes": 10459868
+    },
+    {
+      "source_path": "brand-guide-nm/preambulo-tech-2026-social.html",
+      "repo_path": "preambulo-tech-2026-social.html",
+      "bytes": 13902
+    },
+    {
+      "source_path": "brand-guide-nm/social-semana-07-09.html",
+      "repo_path": "social-semana-07-09.html",
+      "bytes": 11336
+    },
+    {
+      "source_path": "brand-guide-nm/app.js",
+      "repo_path": "app.js",
+      "bytes": 3915
+    },
+    {
+      "source_path": "brand-guide-nm/Slide_Kleber_Vicente_Editavel.pptx",
+      "repo_path": "Slide_Kleber_Vicente_Editavel.pptx",
+      "bytes": 2006580
+    },
+    {
+      "source_path": "brand-guide-nm/especializacao-social.html",
+      "repo_path": "especializacao-social.html",
+      "bytes": 4188
+    },
+    {
+      "source_path": "brand-guide-nm/styles.css",
+      "repo_path": "styles.css",
+      "bytes": 129527
+    },
+    {
+      "source_path": "brand-guide-nm/contexto-social.html",
+      "repo_path": "contexto-social.html",
+      "bytes": 5298
+    },
+    {
+      "source_path": "brand-guide-nm/index.html",
+      "repo_path": "index.html",
+      "bytes": 100161
+    },
+    {
+      "source_path": "brand-guide-nm/.nojekyll",
+      "repo_path": ".nojekyll",
+      "bytes": 1
+    },
+    {
+      "source_path": "brand-guide-nm/logo-options-selected.html",
+      "repo_path": "logo-options-selected.html",
+      "bytes": 5007
+    },
+    {
+      "source_path": "brand-guide-nm/Template_A4_NeuralMind_AI.docx",
+      "repo_path": "Template_A4_NeuralMind_AI.docx",
+      "bytes": 63525
+    },
+    {
+      "source_path": "brand-guide-nm/.gitignore",
+      "repo_path": ".gitignore",
+      "bytes": 43
+    },
+    {
+      "source_path": "brand-guide-nm/Template_Slides_NeuralMind_AI_Editavel.pptx",
+      "repo_path": "Template_Slides_NeuralMind_AI_Editavel.pptx",
+      "bytes": 8770563
+    },
+    {
+      "source_path": "brand-guide-nm/dist/neuralmind-word-documents.zip",
+      "repo_path": "dist/neuralmind-word-documents.zip",
+      "bytes": 226790
+    },
+    {
+      "source_path": "brand-guide-nm/dist/neuralmind-word-documents/SKILL.md",
+      "repo_path": "dist/neuralmind-word-documents/SKILL.md",
+      "bytes": 2699
+    },
+    {
+      "source_path": "brand-guide-nm/dist/neuralmind-word-documents/references/brand-and-layout.md",
+      "repo_path": "dist/neuralmind-word-documents/references/brand-and-layout.md",
+      "bytes": 1920
+    },
+    {
+      "source_path": "brand-guide-nm/dist/neuralmind-word-documents/assets/template.docx",
+      "repo_path": "dist/neuralmind-word-documents/assets/template.docx",
+      "bytes": 106679
+    },
+    {
+      "source_path": "brand-guide-nm/dist/neuralmind-word-documents/assets/preview.png",
+      "repo_path": "dist/neuralmind-word-documents/assets/preview.png",
+      "bytes": 69981
+    },
+    {
+      "source_path": "brand-guide-nm/dist/neuralmind-word-documents/assets/logo-legacy-white.png",
+      "repo_path": "dist/neuralmind-word-documents/assets/logo-legacy-white.png",
+      "bytes": 25634
+    },
+    {
+      "source_path": "brand-guide-nm/dist/neuralmind-word-documents/assets/logo-legacy-color.png",
+      "repo_path": "dist/neuralmind-word-documents/assets/logo-legacy-color.png",
+      "bytes": 41853
+    },
+    {
+      "source_path": "brand-guide-nm/assets/photos/patricia-founder.jpg",
+      "repo_path": "assets/photos/patricia-founder.jpg",
+      "bytes": 146224
+    },
+    {
+      "source_path": "brand-guide-nm/assets/photos/roberto-lotufo-founder.jpg",
+      "repo_path": "assets/photos/roberto-lotufo-founder.jpg",
+      "bytes": 128509
+    },
+    {
+      "source_path": "brand-guide-nm/assets/photos/collaboration.jpg",
+      "repo_path": "assets/photos/collaboration.jpg",
+      "bytes": 72224
+    },
+    {
+      "source_path": "brand-guide-nm/assets/photos/team-neuralmind-slide.jpg",
+      "repo_path": "assets/photos/team-neuralmind-slide.jpg",
+      "bytes": 1109663
+    },
+    {
+      "source_path": "brand-guide-nm/assets/photos/kleber-vicente.jpg",
+      "repo_path": "assets/photos/kleber-vicente.jpg",
+      "bytes": 83012
+    },
+    {
+      "source_path": "brand-guide-nm/assets/photos/patricia-portrait.jpg",
+      "repo_path": "assets/photos/patricia-portrait.jpg",
+      "bytes": 9963008
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-10-background.png",
+      "repo_path": "assets/slides-hybrid/slide-10-background.png",
+      "bytes": 962886
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-04-background.png",
+      "repo_path": "assets/slides-hybrid/slide-04-background.png",
+      "bytes": 404481
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-13.json",
+      "repo_path": "assets/slides-hybrid/slide-13.json",
+      "bytes": 5322
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-01-background.png",
+      "repo_path": "assets/slides-hybrid/slide-01-background.png",
+      "bytes": 639489
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-03-background.png",
+      "repo_path": "assets/slides-hybrid/slide-03-background.png",
+      "bytes": 552195
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-04.json",
+      "repo_path": "assets/slides-hybrid/slide-04.json",
+      "bytes": 7825
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-05.json",
+      "repo_path": "assets/slides-hybrid/slide-05.json",
+      "bytes": 903
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-11.json",
+      "repo_path": "assets/slides-hybrid/slide-11.json",
+      "bytes": 4372
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-03.json",
+      "repo_path": "assets/slides-hybrid/slide-03.json",
+      "bytes": 8904
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-14-background.png",
+      "repo_path": "assets/slides-hybrid/slide-14-background.png",
+      "bytes": 584674
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-09.json",
+      "repo_path": "assets/slides-hybrid/slide-09.json",
+      "bytes": 3345
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-08.json",
+      "repo_path": "assets/slides-hybrid/slide-08.json",
+      "bytes": 5923
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-06.json",
+      "repo_path": "assets/slides-hybrid/slide-06.json",
+      "bytes": 3442
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-09-background.png",
+      "repo_path": "assets/slides-hybrid/slide-09-background.png",
+      "bytes": 528258
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-08-background.png",
+      "repo_path": "assets/slides-hybrid/slide-08-background.png",
+      "bytes": 412995
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-06-background.png",
+      "repo_path": "assets/slides-hybrid/slide-06-background.png",
+      "bytes": 410700
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-07.json",
+      "repo_path": "assets/slides-hybrid/slide-07.json",
+      "bytes": 1758
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-05-background.png",
+      "repo_path": "assets/slides-hybrid/slide-05-background.png",
+      "bytes": 411177
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-11-background.png",
+      "repo_path": "assets/slides-hybrid/slide-11-background.png",
+      "bytes": 1078002
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-01.json",
+      "repo_path": "assets/slides-hybrid/slide-01.json",
+      "bytes": 863
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-14.json",
+      "repo_path": "assets/slides-hybrid/slide-14.json",
+      "bytes": 6642
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-07-background.png",
+      "repo_path": "assets/slides-hybrid/slide-07-background.png",
+      "bytes": 518817
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-10.json",
+      "repo_path": "assets/slides-hybrid/slide-10.json",
+      "bytes": 1359
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-02-background.png",
+      "repo_path": "assets/slides-hybrid/slide-02-background.png",
+      "bytes": 518817
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-12-background.png",
+      "repo_path": "assets/slides-hybrid/slide-12-background.png",
+      "bytes": 1886074
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-12.json",
+      "repo_path": "assets/slides-hybrid/slide-12.json",
+      "bytes": 2464
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-02.json",
+      "repo_path": "assets/slides-hybrid/slide-02.json",
+      "bytes": 1333
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-hybrid/slide-13-background.png",
+      "repo_path": "assets/slides-hybrid/slide-13-background.png",
+      "bytes": 368632
+    },
+    {
+      "source_path": "brand-guide-nm/assets/brand/neuralmind-ai-white.png",
+      "repo_path": "assets/brand/neuralmind-ai-white.png",
+      "bytes": 23476
+    },
+    {
+      "source_path": "brand-guide-nm/assets/brand/neuralmind-ai-icon-white.png",
+      "repo_path": "assets/brand/neuralmind-ai-icon-white.png",
+      "bytes": 23028
+    },
+    {
+      "source_path": "brand-guide-nm/assets/brand/neuralmind-ai-purple.png",
+      "repo_path": "assets/brand/neuralmind-ai-purple.png",
+      "bytes": 29782
+    },
+    {
+      "source_path": "brand-guide-nm/assets/brand/neuralmind-ai-icon-purple.png",
+      "repo_path": "assets/brand/neuralmind-ai-icon-purple.png",
+      "bytes": 32442
+    },
+    {
+      "source_path": "brand-guide-nm/assets/brand/legacy/neuralmind-legacy-color.png",
+      "repo_path": "assets/brand/legacy/neuralmind-legacy-color.png",
+      "bytes": 41853
+    },
+    {
+      "source_path": "brand-guide-nm/assets/brand/legacy/neuralmind-legacy-white.png",
+      "repo_path": "assets/brand/legacy/neuralmind-legacy-white.png",
+      "bytes": 25634
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/desktop/NeuralMindSansSquare-Regular.ttf",
+      "repo_path": "assets/fonts/desktop/NeuralMindSansSquare-Regular.ttf",
+      "bytes": 341652
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/desktop/NeuralMindSansSquare-Bold.ttf",
+      "repo_path": "assets/fonts/desktop/NeuralMindSansSquare-Bold.ttf",
+      "bytes": 343400
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/desktop/NeuralMindSansSquare-Black.ttf",
+      "repo_path": "assets/fonts/desktop/NeuralMindSansSquare-Black.ttf",
+      "bytes": 344160
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/desktop/NeuralMindSansSquare-Medium.ttf",
+      "repo_path": "assets/fonts/desktop/NeuralMindSansSquare-Medium.ttf",
+      "bytes": 342240
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/desktop/NeuralMindSansSquare-Light.ttf",
+      "repo_path": "assets/fonts/desktop/NeuralMindSansSquare-Light.ttf",
+      "bytes": 342356
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/desktop/NeuralMindSansSquare-ExtraLight.ttf",
+      "repo_path": "assets/fonts/desktop/NeuralMindSansSquare-ExtraLight.ttf",
+      "bytes": 342264
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/desktop/NeuralMindSansSquare-SemiBold.ttf",
+      "repo_path": "assets/fonts/desktop/NeuralMindSansSquare-SemiBold.ttf",
+      "bytes": 342968
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare-Regular.woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare-Regular.woff2",
+      "bytes": 114356
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/OFL-Geist.txt",
+      "repo_path": "assets/fonts/web/OFL-Geist.txt",
+      "bytes": 4383
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/OFL-Cormorant-Garamond.txt",
+      "repo_path": "assets/fonts/web/OFL-Cormorant-Garamond.txt",
+      "bytes": 4387
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare-ExtraLight.woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare-ExtraLight.woff2",
+      "bytes": 115908
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/CormorantGaramond-Variable.woff2",
+      "repo_path": "assets/fonts/web/CormorantGaramond-Variable.woff2",
+      "bytes": 209888
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare-Medium.woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare-Medium.woff2",
+      "bytes": 117944
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare-Light.woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare-Light.woff2",
+      "bytes": 116492
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare-SemiBold.woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare-SemiBold.woff2",
+      "bytes": 118120
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/Geist-Variable.woff2",
+      "repo_path": "assets/fonts/web/Geist-Variable.woff2",
+      "bytes": 69760
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare[wght].woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare[wght].woff2",
+      "bytes": 235124
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare-Black.woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare-Black.woff2",
+      "bytes": 115208
+    },
+    {
+      "source_path": "brand-guide-nm/assets/fonts/web/NeuralMindSansSquare-Bold.woff2",
+      "repo_path": "assets/fonts/web/NeuralMindSansSquare-Bold.woff2",
+      "bytes": 118256
+    },
+    {
+      "source_path": "brand-guide-nm/assets/media/linkedin-company-cover-4200x700.jpg",
+      "repo_path": "assets/media/linkedin-company-cover-4200x700.jpg",
+      "bytes": 166456
+    },
+    {
+      "source_path": "brand-guide-nm/assets/media/youtube-channel-banner-2560x1440.jpg",
+      "repo_path": "assets/media/youtube-channel-banner-2560x1440.jpg",
+      "bytes": 167134
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/contexto/post.css",
+      "repo_path": "assets/social/contexto/post.css",
+      "bytes": 7201
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/contexto/sao-paulo-corporate-aerial-generated.png",
+      "repo_path": "assets/social/contexto/sao-paulo-corporate-aerial-generated.png",
+      "bytes": 2328803
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/contexto/preview.js",
+      "repo_path": "assets/social/contexto/preview.js",
+      "bytes": 1902
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/ia-84/post.css",
+      "repo_path": "assets/social/ia-84/post.css",
+      "bytes": 7092
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/ia-84/legenda-instagram.txt",
+      "repo_path": "assets/social/ia-84/legenda-instagram.txt",
+      "bytes": 945
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/ia-84/logo-h-branco.png",
+      "repo_path": "assets/social/ia-84/logo-h-branco.png",
+      "bytes": 22557
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/ia-84/README.md",
+      "repo_path": "assets/social/ia-84/README.md",
+      "bytes": 2555
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/ia-84/preview.js",
+      "repo_path": "assets/social/ia-84/preview.js",
+      "bytes": 2040
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/ia-84/logo-h.png",
+      "repo_path": "assets/social/ia-84/logo-h.png",
+      "bytes": 41853
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/ia-84/neuralmind-ia-84-instagram-1080x1350.png",
+      "repo_path": "assets/social/ia-84/neuralmind-ia-84-instagram-1080x1350.png",
+      "bytes": 471512
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/preambulo-tech-2026/instagram-1-1080x1350.png",
+      "repo_path": "assets/social/preambulo-tech-2026/instagram-1-1080x1350.png",
+      "bytes": 81284
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/preambulo-tech-2026/instagram-2-1080x1350.png",
+      "repo_path": "assets/social/preambulo-tech-2026/instagram-2-1080x1350.png",
+      "bytes": 63054
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/preambulo-tech-2026/linkedin-1200x1200.png",
+      "repo_path": "assets/social/preambulo-tech-2026/linkedin-1200x1200.png",
+      "bytes": 76040
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/preambulo-tech-2026/instagram-3-1080x1350.png",
+      "repo_path": "assets/social/preambulo-tech-2026/instagram-3-1080x1350.png",
+      "bytes": 90199
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/preambulo-tech-2026/copy.md",
+      "repo_path": "assets/social/preambulo-tech-2026/copy.md",
+      "bytes": 2559
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/rooftop-city-billboard-generated.png",
+      "repo_path": "assets/social/semana-07-09/rooftop-city-billboard-generated.png",
+      "bytes": 2000921
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/post.css",
+      "repo_path": "assets/social/semana-07-09/post.css",
+      "bytes": 14413
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/software-screen-unsplash.jpg",
+      "repo_path": "assets/social/semana-07-09/software-screen-unsplash.jpg",
+      "bytes": 204143
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/city-billboard-unsplash.jpg",
+      "repo_path": "assets/social/semana-07-09/city-billboard-unsplash.jpg",
+      "bytes": 434722
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/robotic-action-unsplash.jpg",
+      "repo_path": "assets/social/semana-07-09/robotic-action-unsplash.jpg",
+      "bytes": 229882
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/blank-billboard-unsplash.jpg",
+      "repo_path": "assets/social/semana-07-09/blank-billboard-unsplash.jpg",
+      "bytes": 262553
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/software-action-unsplash.jpg",
+      "repo_path": "assets/social/semana-07-09/software-action-unsplash.jpg",
+      "bytes": 740590
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/preview.js",
+      "repo_path": "assets/social/semana-07-09/preview.js",
+      "bytes": 3845
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/semana-07-09/front-billboard-pexels.jpg",
+      "repo_path": "assets/social/semana-07-09/front-billboard-pexels.jpg",
+      "bytes": 415668
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/especializacao/post.css",
+      "repo_path": "assets/social/especializacao/post.css",
+      "bytes": 7170
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/especializacao/preview.js",
+      "repo_path": "assets/social/especializacao/preview.js",
+      "bytes": 1902
+    },
+    {
+      "source_path": "brand-guide-nm/assets/social/especializacao/documentos-tecnicos-juridicos-generated.png",
+      "repo_path": "assets/social/especializacao/documentos-tecnicos-juridicos-generated.png",
+      "bytes": 1929849
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-13.png",
+      "repo_path": "assets/slides-rendered/slide-13.png",
+      "bytes": 472366
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-05.png",
+      "repo_path": "assets/slides-rendered/slide-05.png",
+      "bytes": 469555
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-08.png",
+      "repo_path": "assets/slides-rendered/slide-08.png",
+      "bytes": 507594
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-06.png",
+      "repo_path": "assets/slides-rendered/slide-06.png",
+      "bytes": 506585
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-03.png",
+      "repo_path": "assets/slides-rendered/slide-03.png",
+      "bytes": 718418
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-14.png",
+      "repo_path": "assets/slides-rendered/slide-14.png",
+      "bytes": 689622
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-09.png",
+      "repo_path": "assets/slides-rendered/slide-09.png",
+      "bytes": 597548
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-04.png",
+      "repo_path": "assets/slides-rendered/slide-04.png",
+      "bytes": 516287
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-07.png",
+      "repo_path": "assets/slides-rendered/slide-07.png",
+      "bytes": 581796
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-01.png",
+      "repo_path": "assets/slides-rendered/slide-01.png",
+      "bytes": 667707
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-10.png",
+      "repo_path": "assets/slides-rendered/slide-10.png",
+      "bytes": 1036733
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-02.png",
+      "repo_path": "assets/slides-rendered/slide-02.png",
+      "bytes": 572943
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-11.png",
+      "repo_path": "assets/slides-rendered/slide-11.png",
+      "bytes": 1199716
+    },
+    {
+      "source_path": "brand-guide-nm/assets/slides-rendered/slide-12.png",
+      "repo_path": "assets/slides-rendered/slide-12.png",
+      "bytes": 1906493
+    },
+    {
+      "source_path": "brand-guide-nm/assets/mockups/camiseta-neuralmind-ai.png",
+      "repo_path": "assets/mockups/camiseta-neuralmind-ai.png",
+      "bytes": 5901867
+    },
+    {
+      "source_path": "brand-guide-nm/assets/mockups/copo-termico-neuralmind-ai.png",
+      "repo_path": "assets/mockups/copo-termico-neuralmind-ai.png",
+      "bytes": 6514398
+    },
+    {
+      "source_path": "brand-guide-nm/assets/mockups/caneca-neuralmind-ai.png",
+      "repo_path": "assets/mockups/caneca-neuralmind-ai.png",
+      "bytes": 5690937
+    },
+    {
+      "source_path": "brand-guide-nm/assets/mockups/caderno-neuralmind-ai.png",
+      "repo_path": "assets/mockups/caderno-neuralmind-ai.png",
+      "bytes": 6987296
+    },
+    {
+      "source_path": "brand-guide-nm/assets/documents/template-a4-content.png",
+      "repo_path": "assets/documents/template-a4-content.png",
+      "bytes": 150260
+    },
+    {
+      "source_path": "brand-guide-nm/assets/documents/template-a4-cover.png",
+      "repo_path": "assets/documents/template-a4-cover.png",
+      "bytes": 54587
+    },
+    {
+      "source_path": "brand-guide-nm/assets/documents/template-a4-data.png",
+      "repo_path": "assets/documents/template-a4-data.png",
+      "bytes": 170396
+    },
+    {
+      "source_path": "brand-guide-nm/assets/kleber/kleber-event-social-1080x1350.png",
+      "repo_path": "assets/kleber/kleber-event-social-1080x1350.png",
+      "bytes": 1215417
+    },
+    {
+      "source_path": "brand-guide-nm/assets/kleber/kleber-slide-purple-1600x900.png",
+      "repo_path": "assets/kleber/kleber-slide-purple-1600x900.png",
+      "bytes": 1203871
+    },
+    {
+      "source_path": "brand-guide-nm/assets/kleber/kleber-slide-white-background-1600x900.png",
+      "repo_path": "assets/kleber/kleber-slide-white-background-1600x900.png",
+      "bytes": 817669
+    },
+    {
+      "source_path": "brand-guide-nm/assets/kleber/kleber-slide-purple-background-1600x900.png",
+      "repo_path": "assets/kleber/kleber-slide-purple-background-1600x900.png",
+      "bytes": 1151875
+    },
+    {
+      "source_path": "brand-guide-nm/assets/kleber/kleber-slide-white-1600x900.png",
+      "repo_path": "assets/kleber/kleber-slide-white-1600x900.png",
+      "bytes": 871594
+    },
+    {
+      "source_path": "brand-guide-nm/assets/kleber/kleber-event-social-background-1080x1350.png",
+      "repo_path": "assets/kleber/kleber-event-social-background-1080x1350.png",
+      "bytes": 1139912
+    },
+    {
+      "source_path": "brand-guide-nm/assets/kleber/kleber-whatsapp-profile.png",
+      "repo_path": "assets/kleber/kleber-whatsapp-profile.png",
+      "bytes": 1948497
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/export_preambulo_tech_social.py",
+      "repo_path": "scripts/export_preambulo_tech_social.py",
+      "bytes": 1019
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/generate_a4_cover_preview.py",
+      "repo_path": "scripts/generate_a4_cover_preview.py",
+      "bytes": 2351
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/build_hybrid_pptx.py",
+      "repo_path": "scripts/build_hybrid_pptx.py",
+      "bytes": 3184
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/build_a4_document_template.py",
+      "repo_path": "scripts/build_a4_document_template.py",
+      "bytes": 21087
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/build_a4_document_template_legacy_review.py",
+      "repo_path": "scripts/build_a4_document_template_legacy_review.py",
+      "bytes": 1668
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/build_faithful_pptx.py",
+      "repo_path": "scripts/build_faithful_pptx.py",
+      "bytes": 1699
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/generate_media_assets.py",
+      "repo_path": "scripts/generate_media_assets.py",
+      "bytes": 3908
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/export_kleber_kit.py",
+      "repo_path": "scripts/export_kleber_kit.py",
+      "bytes": 9866
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/export_hybrid_slide_assets.py",
+      "repo_path": "scripts/export_hybrid_slide_assets.py",
+      "bytes": 4477
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/export_html_slides.py",
+      "repo_path": "scripts/export_html_slides.py",
+      "bytes": 1982
+    },
+    {
+      "source_path": "brand-guide-nm/scripts/build_slide_template.py",
+      "repo_path": "scripts/build_slide_template.py",
+      "bytes": 15725
+    },
+    {
+      "source_path": "brand-guide-nm/exports/contexto/linkedin/post-contexto-1200x1200.png",
+      "repo_path": "exports/contexto/linkedin/post-contexto-1200x1200.png",
+      "bytes": 1435471
+    },
+    {
+      "source_path": "brand-guide-nm/exports/contexto/instagram/post-contexto-1080x1350.png",
+      "repo_path": "exports/contexto/instagram/post-contexto-1080x1350.png",
+      "bytes": 1510380
+    },
+    {
+      "source_path": "brand-guide-nm/exports/logo-options/neuralmind-logo-new-options.png",
+      "repo_path": "exports/logo-options/neuralmind-logo-new-options.png",
+      "bytes": 48362
+    },
+    {
+      "source_path": "brand-guide-nm/exports/logo-options/neuralmind-9-opcoes.png",
+      "repo_path": "exports/logo-options/neuralmind-9-opcoes.png",
+      "bytes": 248954
+    },
+    {
+      "source_path": "brand-guide-nm/exports/logo-options/neuralmind-opcoes-01-08-abc.png",
+      "repo_path": "exports/logo-options/neuralmind-opcoes-01-08-abc.png",
+      "bytes": 165569
+    },
+    {
+      "source_path": "brand-guide-nm/exports/logo-options/neuralmind-opcoes-01-08-abcd.png",
+      "repo_path": "exports/logo-options/neuralmind-opcoes-01-08-abcd.png",
+      "bytes": 201981
+    },
+    {
+      "source_path": "brand-guide-nm/exports/logo-options/neuralmind-opcoes-01-08-ab.png",
+      "repo_path": "exports/logo-options/neuralmind-opcoes-01-08-ab.png",
+      "bytes": 126897
+    },
+    {
+      "source_path": "brand-guide-nm/exports/logo-options/neuralmind-opcoes-01-08.png",
+      "repo_path": "exports/logo-options/neuralmind-opcoes-01-08.png",
+      "bytes": 59986
+    },
+    {
+      "source_path": "brand-guide-nm/exports/logo-options/neuralmind-logo-board.png",
+      "repo_path": "exports/logo-options/neuralmind-logo-board.png",
+      "bytes": 237108
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/linkedin/carousel-04.png",
+      "repo_path": "exports/semana-07-09/linkedin/carousel-04.png",
+      "bytes": 323496
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/linkedin/carousel-05.png",
+      "repo_path": "exports/semana-07-09/linkedin/carousel-05.png",
+      "bytes": 402556
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/linkedin/carousel-01.png",
+      "repo_path": "exports/semana-07-09/linkedin/carousel-01.png",
+      "bytes": 625547
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/linkedin/imagem-unica.png",
+      "repo_path": "exports/semana-07-09/linkedin/imagem-unica.png",
+      "bytes": 1210456
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/linkedin/carousel-02.png",
+      "repo_path": "exports/semana-07-09/linkedin/carousel-02.png",
+      "bytes": 319185
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/linkedin/carousel-03.png",
+      "repo_path": "exports/semana-07-09/linkedin/carousel-03.png",
+      "bytes": 453733
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/instagram/carousel-04.png",
+      "repo_path": "exports/semana-07-09/instagram/carousel-04.png",
+      "bytes": 322201
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/instagram/carousel-05.png",
+      "repo_path": "exports/semana-07-09/instagram/carousel-05.png",
+      "bytes": 438510
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/instagram/carousel-01.png",
+      "repo_path": "exports/semana-07-09/instagram/carousel-01.png",
+      "bytes": 624067
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/instagram/imagem-unica.png",
+      "repo_path": "exports/semana-07-09/instagram/imagem-unica.png",
+      "bytes": 1192995
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/instagram/carousel-02.png",
+      "repo_path": "exports/semana-07-09/instagram/carousel-02.png",
+      "bytes": 348915
+    },
+    {
+      "source_path": "brand-guide-nm/exports/semana-07-09/instagram/carousel-03.png",
+      "repo_path": "exports/semana-07-09/instagram/carousel-03.png",
+      "bytes": 495869
+    },
+    {
+      "source_path": "brand-guide-nm/exports/especializacao/linkedin/post-especializacao-1200x1200.png",
+      "repo_path": "exports/especializacao/linkedin/post-especializacao-1200x1200.png",
+      "bytes": 1239893
+    },
+    {
+      "source_path": "brand-guide-nm/exports/especializacao/instagram/post-especializacao-1080x1350.png",
+      "repo_path": "exports/especializacao/instagram/post-especializacao-1080x1350.png",
+      "bytes": 1241261
+    },
+    {
+      "source_path": "brand-guide-nm/review/Template_A4_NeuralMind_logo_antigo.docx",
+      "repo_path": "review/Template_A4_NeuralMind_logo_antigo.docx",
+      "bytes": 106679
+    },
+    {
+      "source_path": "brand-guide-nm/review/preview-logo-antigo/Template_A4_NeuralMind_logo_antigo.pdf",
+      "repo_path": "review/preview-logo-antigo/Template_A4_NeuralMind_logo_antigo.pdf",
+      "bytes": 172349
+    },
+    {
+      "source_path": "brand-guide-nm/review/preview-logo-antigo/page-3.png",
+      "repo_path": "review/preview-logo-antigo/page-3.png",
+      "bytes": 155997
+    },
+    {
+      "source_path": "brand-guide-nm/review/preview-logo-antigo/page-2.png",
+      "repo_path": "review/preview-logo-antigo/page-2.png",
+      "bytes": 212711
+    },
+    {
+      "source_path": "brand-guide-nm/review/preview-logo-antigo/page-1.png",
+      "repo_path": "review/preview-logo-antigo/page-1.png",
+      "bytes": 69981
+    }
+  ],
+  "excluded": [
+    {
+      "path": "brand-guide-nm/.git",
+      "reason": "local-generated-or-machine-config"
+    },
+    {
+      "path": "brand-guide-nm/scripts/__pycache__",
+      "reason": "local-generated-or-machine-config"
+    }
+  ],
+  "url_signatures_removed": false
+}

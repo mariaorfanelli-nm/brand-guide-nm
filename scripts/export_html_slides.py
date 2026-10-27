@@ -14,8 +14,8 @@ if not match:
     raise SystemExit("slides-stack not found")
 
 cards = re.findall(r'<article class="slide-card">\s*(<div class="deck-slide.*?</div>)\s*<div class="slide-meta">', match.group(1), re.S)
-if len(cards) != 14:
-    raise SystemExit(f"expected 14 slides, found {len(cards)}")
+if len(cards) != 16:
+    raise SystemExit(f"expected 16 slides, found {len(cards)}")
 
 out_dir = ROOT / "assets" / "slides-rendered"
 out_dir.mkdir(parents=True, exist_ok=True)

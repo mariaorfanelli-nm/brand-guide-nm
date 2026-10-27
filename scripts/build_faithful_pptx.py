@@ -17,6 +17,8 @@ TITLES = [
     "Manifesto", "Título e lista", "Métrica", "Processo",
     "Encerramento", "Foto e statement", "Fundadores",
     "Encerramento com equipe", "Processo em três etapas", "Arquitetura de produto",
+    "Encerramento com perfil executivo — roxo",
+    "Encerramento com perfil executivo — branco",
 ]
 
 prs = Presentation()
@@ -35,7 +37,7 @@ for number, title in enumerate(TITLES, 1):
     )
 
 prs.core_properties.title = "Template de Slides — NeuralMind.AI — versão fiel"
-prs.core_properties.subject = "Renderização fiel dos 14 templates HTML/CSS em formato 16:9"
+prs.core_properties.subject = "Renderização fiel dos 16 templates HTML/CSS em formato 16:9"
 prs.core_properties.author = "NeuralMind.AI"
 prs.core_properties.comments = "Slides renderizados diretamente do brand guide digital."
 prs.save(OUT)

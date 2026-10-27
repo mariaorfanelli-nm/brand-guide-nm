@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuralMind — Opções 01 e 08</title>
+  <style>
+    @font-face { font-family: NeuralMind; src: url('assets/fonts/web/NeuralMindSansSquare[wght].woff2') format('woff2'); font-weight: 200 900; font-display: block; }
+    @font-face { font-family: 'Cormorant Garamond'; src: url('assets/fonts/web/CormorantGaramond-Variable.woff2') format('woff2'); font-weight: 300 700; font-display: block; }
+    :root { --purple: #290241; --violet: #9381ff; --paper: #fffffc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #eeebf1; color: var(--purple); font-family: NeuralMind, sans-serif; }
+    .board { max-width: 1600px; margin: auto; padding: 40px; }
+    section { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 16px; margin-bottom: 16px; align-items: center; }
+    section:last-child { margin-bottom: 0; }
+    h2 { margin: 0; font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+    .panel { display: flex; align-items: center; justify-content: center; height: 260px; padding: 30px; background: var(--paper); }
+    .panel.dark { color: var(--paper); background: var(--purple); }
+    .wordmark { font-size: clamp(28px, 4.25vw, 68px); font-weight: 900; line-height: 1; letter-spacing: .035em; white-space: nowrap; font-synthesis: none; }
+    .wordmark.more-spaced { letter-spacing: .075em; }
+    .suffix { color: var(--violet); }
+    .wordmark.editorial { font-family: 'Cormorant Garamond', serif; font-size: clamp(25px, 3.875vw, 62px); font-weight: 700; letter-spacing: .15em; padding-left: .15em; }
+    .wordmark.editorial.heavier { -webkit-text-stroke: .008em currentColor; paint-order: stroke fill; }
+    .wordmark.editorial.heaviest { -webkit-text-stroke: .016em currentColor; paint-order: stroke fill; }
+    .wordmark.editorial.maximum { -webkit-text-stroke: .032em currentColor; paint-order: stroke fill; }
+    @media (max-width: 760px) {
+      .board { padding: 24px 16px; }
+      section { grid-template-columns: 32px minmax(0, 1fr); gap: 8px; }
+      h2 { font-size: 16px; }
+      .pair { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+      .panel { height: 180px; padding: 20px; }
+      .wordmark { font-size: clamp(23px, 6.3vw, 46px); }
+      .wordmark.editorial { font-size: clamp(20px, 5.6vw, 40px); }
+    }
+    @media print { * { print-color-adjust: exact; -webkit-print-color-adjust: exact; } section { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main class="board">
+    <section aria-labelledby="spaced-title">
+      <h2 id="spaced-title" aria-label="Opção 01 A">01A</h2>
+      <div class="pair">
+        <div class="panel"><div class="wordmark">NeuralMind<span class="suffix">.AI</span></div></div>
+        <div class="panel dark"><div class="wordmark">NeuralMind<span class="suffix">.AI</span></div></div>
+      </div>
+    </section>
+    <section aria-labelledby="more-spaced-title">
+      <h2 id="more-spaced-title" aria-label="Opção 01 B, com mais espaçamento">01B</h2>
+      <div class="pair">
+        <div class="panel"><div class="wordmark more-spaced">NeuralMind<span class="suffix">.AI</span></div></div>
+        <div class="panel dark"><div class="wordmark more-spaced">NeuralMind<span class="suffix">.AI</span></div></div>
+      </div>
+    </section>
+    <section aria-labelledby="bold-title">
+      <h2 id="bold-title" aria-label="Opção 08 A">08A</h2>
+      <div class="pair">
+        <div class="panel"><div class="wordmark editorial">NEURALMIND</div></div>
+        <div class="panel dark"><div class="wordmark editorial">NEURALMIND</div></div>
+      </div>
+    </section>
+    <section aria-labelledby="heavier-title">
+      <h2 id="heavier-title" aria-label="Opção 08 B, com mais negrito">08B</h2>
+      <div class="pair">
+        <div class="panel"><div class="wordmark editorial heavier">NEURALMIND</div></div>
+        <div class="panel dark"><div class="wordmark editorial heavier">NEURALMIND</div></div>
+      </div>
+    </section>
+    <section aria-labelledby="heaviest-title">
+      <h2 id="heaviest-title" aria-label="Opção 08 C, com o dobro do reforço de negrito">08C</h2>
+      <div class="pair">
+        <div class="panel"><div class="wordmark editorial heaviest">NEURALMIND</div></div>
+        <div class="panel dark"><div class="wordmark editorial heaviest">NEURALMIND</div></div>
+      </div>
+    </section>
+    <section aria-labelledby="maximum-title">
+      <h2 id="maximum-title" aria-label="Opção 08 D, máximo reforço preservando as serifas e os espaços internos">08D</h2>
+      <div class="pair">
+        <div class="panel"><div class="wordmark editorial maximum">NEURALMIND</div></div>
+        <div class="panel dark"><div class="wordmark editorial maximum">NEURALMIND</div></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

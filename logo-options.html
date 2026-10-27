@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuralMind — Estudo de assinaturas</title>
+  <style>
+    @font-face { font-family: NeuralMind; src: url('assets/fonts/web/NeuralMindSansSquare[wght].woff2') format('woff2'); font-weight: 200 900; font-display: block; }
+    @font-face { font-family: Geist; src: url('assets/fonts/web/Geist-Variable.woff2') format('woff2'); font-weight: 100 900; font-display: block; }
+    @font-face { font-family: 'Cormorant Garamond'; src: url('assets/fonts/web/CormorantGaramond-Variable.woff2') format('woff2'); font-weight: 300 700; font-display: block; }
+    :root { --purple: #290241; --violet: #9381ff; --paper: #fffffc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #eeebf1; color: var(--purple); font-family: NeuralMind, sans-serif; }
+    .board { max-width: 1600px; margin: auto; padding: 40px; }
+    section { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 16px; margin-bottom: 16px; align-items: center; }
+    section:last-child { margin-bottom: 0; }
+    h2 { margin: 0; font-size: 22px; font-weight: 700; color: var(--purple); font-variant-numeric: tabular-nums; }
+    .pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+    .panel { display: flex; align-items: center; justify-content: center; height: 184px; padding: 30px; background: var(--paper); }
+    .panel.dark { color: var(--paper); background: var(--purple); }
+    .current { display: block; width: 100%; max-width: 606px; height: auto; }
+    .wordmark { font-size: clamp(30px, 5vw, 80px); font-weight: 900; line-height: 1; letter-spacing: -.02em; white-space: nowrap; }
+    .wordmark.uppercase { font-size: clamp(28px, 4.5vw, 72px); letter-spacing: -.015em; }
+    .wordmark.geist { font-family: Geist, sans-serif; font-weight: 450; letter-spacing: -.035em; font-synthesis: none; }
+    .wordmark.editorial { font-family: 'Cormorant Garamond', serif; font-size: clamp(25px, 3.875vw, 62px); font-weight: 600; letter-spacing: .15em; padding-left: .15em; font-synthesis: none; }
+    .ai { display: inline-block; position: relative; top: -1.6em; margin-left: .16em; font-size: .34em; letter-spacing: -.04em; color: var(--violet); }
+    .suffix { color: var(--violet); }
+    @media (max-width: 760px) {
+      .board { padding: 24px 16px; }
+      section { grid-template-columns: 24px minmax(0, 1fr); gap: 8px; }
+      h2 { font-size: 16px; }
+      .pair { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+      .panel { height: 150px; padding: 20px; }
+      .wordmark { font-size: clamp(25px, 7.2vw, 53px); }
+      .wordmark.uppercase { font-size: clamp(22px, 6.5vw, 47px); }
+      .wordmark.editorial { font-size: clamp(20px, 5.6vw, 40px); }
+    }
+    @media print { * { print-color-adjust: exact; -webkit-print-color-adjust: exact; } section { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+<main class="board">
+  <section aria-labelledby="original-title">
+    <h2 id="original-title" aria-label="Opção 01">01</h2>
+    <div class="pair">
+      <div class="panel"><img class="current" src="assets/brand/neuralmind-ai-purple.png" alt="Logo atual NeuralMind.AI em fundo claro"></div>
+      <div class="panel dark"><img class="current" src="assets/brand/neuralmind-ai-white.png" alt="Logo atual NeuralMind.AI em fundo escuro"></div>
+    </div>
+  </section>
+  <section aria-labelledby="camel-title">
+    <h2 id="camel-title" aria-label="Opção 02">02</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark">NeuralMind</div></div>
+      <div class="panel dark"><div class="wordmark">NeuralMind</div></div>
+    </div>
+  </section>
+  <section aria-labelledby="sentence-title">
+    <h2 id="sentence-title" aria-label="Opção 03">03</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark">Neuralmind</div></div>
+      <div class="panel dark"><div class="wordmark">Neuralmind</div></div>
+    </div>
+  </section>
+  <section aria-labelledby="sup-title">
+    <h2 id="sup-title" aria-label="Opção 04">04</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark" aria-label="NeuralMind.AI, com .AI em sobrescrito">NeuralMind<span class="ai">.AI</span></div></div>
+      <div class="panel dark"><div class="wordmark" aria-label="NeuralMind.AI, com .AI em sobrescrito">NeuralMind<span class="ai">.AI</span></div></div>
+    </div>
+  </section>
+  <section aria-labelledby="uppercase-title">
+    <h2 id="uppercase-title" aria-label="Opção 05">05</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark uppercase">NEURALMIND</div></div>
+      <div class="panel dark"><div class="wordmark uppercase">NEURALMIND</div></div>
+    </div>
+  </section>
+  <section aria-labelledby="geist-title">
+    <h2 id="geist-title" aria-label="Opção 06">06</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark geist">NeuralMind</div></div>
+      <div class="panel dark"><div class="wordmark geist">NeuralMind</div></div>
+    </div>
+  </section>
+  <section aria-labelledby="lowercase-title">
+    <h2 id="lowercase-title" aria-label="Opção 07">07</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark">neuralmind</div></div>
+      <div class="panel dark"><div class="wordmark">neuralmind</div></div>
+    </div>
+  </section>
+  <section aria-labelledby="editorial-title">
+    <h2 id="editorial-title" aria-label="Opção 08">08</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark editorial">NEURALMIND</div></div>
+      <div class="panel dark"><div class="wordmark editorial">NEURALMIND</div></div>
+    </div>
+  </section>
+  <section aria-labelledby="lowercase-ai-title">
+    <h2 id="lowercase-ai-title" aria-label="Opção 09">09</h2>
+    <div class="pair">
+      <div class="panel"><div class="wordmark">neuralmind<span class="suffix">.ai</span></div></div>
+      <div class="panel dark"><div class="wordmark">neuralmind<span class="suffix">.ai</span></div></div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

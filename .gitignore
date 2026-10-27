@@ -4,3 +4,15 @@
 Thumbs.db
 .DS_Store
 
+
+# Machine configuration, credentials and reinstallable dependencies
+.env
+.env.local
+.env.*.local
+node_modules/
+.venv*/
+__pycache__/
+.local/github/
+.aws/
+.ssh/
+fon_lab_jap/

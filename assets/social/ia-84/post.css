@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "NeuralMind";
+  src: url("../../fonts/web/NeuralMindSansSquare[wght].woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: block;
+}
+
+:root {
+  --roxo-profundo: #290241;
+  --violeta-claro: #9381ff;
+  --branco-quente: #fffffc;
+  --rosa-coral: #ef476f;
+  --ink: #290241;
+  --preview-paper: #f0ecf3;
+  font-family: "NeuralMind", sans-serif;
+  color: var(--ink);
+  background: var(--preview-paper);
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+::selection { color: var(--branco-quente); background: var(--roxo-profundo); }
+:focus-visible { outline: 2px solid var(--roxo-profundo); outline-offset: 5px; }
+html { scrollbar-color: #b5a6c1 var(--preview-paper); }
+
+/* Unmodified, user-approved PNGs. Only their transparent margins are hidden. */
+.approved-logo { position: relative; display: block; overflow: hidden; aspect-ratio: 1221 / 262; flex: none; }
+.approved-logo img { position: absolute; width: 122.8501%; height: auto; max-width: none; left: -12.6945%; top: -29.771%; }
+.approved-logo--review { width: 164px; }
+.approved-logo--post { width: 290px; }
+
+/* Approval UI: not part of the exported artwork. */
+.review-header { min-height: 88px; padding: 20px 36px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #2902411c; }
+.review-identity { display: flex; align-items: center; gap: 28px; }
+.review-title { font-size: 15px; border-left: 1px solid #29024128; padding-left: 28px; }
+.format-controls { display: flex; gap: 4px; }
+.format-controls button { min-height: 42px; padding: 10px 16px; border: 1px solid transparent; border-radius: 4px; color: var(--ink); background: transparent; cursor: pointer; font-size: 14px; }
+.format-controls button span { margin-left: 8px; opacity: .7; font-variant-numeric: tabular-nums; }
+.format-controls button:hover { background: #e4dde9; }
+.format-controls button[aria-pressed="true"] { color: var(--branco-quente); background: var(--roxo-profundo); }
+.review-layout { max-width: 1160px; margin: 0 auto; padding: 32px; display: grid; grid-template-columns: minmax(0, 1fr) 260px; align-items: center; gap: 64px; }
+.canvas { min-width: 0; }
+.artboard-frame { position: relative; width: 100%; aspect-ratio: 4 / 5; margin: 0 auto; box-shadow: 0 16px 44px #29024117; }
+.artboard-frame .post { transform-origin: top left; transform: scale(var(--preview-scale, .4)); }
+.canvas-meta { display: flex; justify-content: space-between; gap: 16px; max-width: var(--preview-width, 100%); margin: 14px auto 0; color: #685575; font-size: 12px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.review-notes h2 { font-size: 34px; font-weight: 500; line-height: 1.12; letter-spacing: -.025em; margin: 0 0 20px; }
+.review-notes > p { font-size: 15px; line-height: 1.55; color: #685575; }
+.specs { margin: 30px 0 24px; }
+.specs > div { padding: 16px 0; border-top: 1px solid #29024120; }
+.specs dt { font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.specs dd { margin: 0; font-size: 13px; line-height: 1.55; color: #685575; }
+.source-link { color: var(--ink); font-size: 13px; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.source-link:hover { text-decoration-thickness: 2px; }
+.source-link span { margin-left: 6px; }
+.review-notes .approval-note { margin-top: 30px; font-size: 12px; }
+
+/* Fixed native artboard. The preview scales it, never reflows its typography. */
+.post { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: var(--roxo-profundo); color: var(--branco-quente); }
+.post-header { position: absolute; top: 64px; left: 72px; right: 72px; display: flex; align-items: center; justify-content: center; }
+.statistic { position: absolute; top: 185px; left: 72px; right: 72px; text-align: center; }
+/* One centered typographic line: identical size and baseline for 84 and %. */
+.statistic-number { margin: 0; text-align: center; white-space: nowrap; font-size: 400px; line-height: 1; letter-spacing: 0; font-weight: 500; font-variant-numeric: lining-nums; }
+.percent { font-size: 1em; color: var(--violeta-claro); }
+.statistic-caption { margin: 7px 0 0; font-size: 37px; font-weight: 400; line-height: 1.24; letter-spacing: -.015em; }
+.statistic-caption strong { font-weight: 600; }
+.message { position: absolute; top: 722px; left: 60px; right: 60px; margin: 0; text-align: center; font-size: 66px; line-height: 1.12; font-weight: 500; letter-spacing: -.025em; }
+.message span { color: var(--violeta-claro); }
+.integration { position: absolute; top: 929px; left: 108px; width: 864px; margin: 0; }
+.integration-graphic { width: 100%; height: 176px; display: block; }
+.integration-labels { display: flex; justify-content: space-between; margin-top: 25px; font-size: 23px; font-weight: 400; line-height: 1.3; color: #cec2dc; }
+.integration-labels span { width: 324px; text-align: center; }
+.integration-labels span:last-child { width: 324px; padding-right: 8px; color: var(--branco-quente); }
+.post-footer { position: absolute; bottom: 76px; left: 72px; right: 72px; text-align: center; color: #b7a7c3; font-size: 17px; font-weight: 400; line-height: 1.5; }
+.post-footer p { margin: 0; }
+
+/* LinkedIn has its own composition at 1200 × 1200, not a crop. */
+.post--square { width: 1200px; height: 1200px; }
+.post--square .post-header { top: 64px; left: 80px; right: 80px; }
+.post--square .statistic { top: 127px; }
+.post--square .statistic-number { font-size: 365px; }
+.post--square .statistic-caption { margin-top: 2px; font-size: 34px; }
+.post--square .message { top: 622px; font-size: 64px; }
+.post--square .integration { top: 810px; left: 168px; }
+.post--square .integration-labels { margin-top: 22px; }
+.post--square .post-footer { bottom: 60px; }
+
+/* Exact-size art-only route for export AFTER user approval. */
+body.art-only { background: var(--roxo-profundo); }
+.art-only .review-header, .art-only .review-notes, .art-only .canvas-meta { display: none; }
+.art-only .review-layout { display: block; width: max-content; max-width: none; margin: 0; padding: 0; }
+.art-only .artboard-frame { width: max-content !important; height: auto !important; margin: 0; box-shadow: none; aspect-ratio: auto; }
+.art-only .artboard-frame .post { transform: none; }
+
+@media (max-width: 860px) {
+  .review-header { padding: 18px 24px; }
+  .review-title { display: none; }
+  .review-layout { gap: 30px; grid-template-columns: minmax(0, 1fr) 225px; padding: 28px 24px; }
+  .review-notes h2 { font-size: 28px; }
+}
+@media (max-width: 650px) {
+  .review-header { flex-wrap: wrap; gap: 18px; justify-content: center; padding: 20px 16px 16px; }
+  .review-identity { width: 100%; justify-content: center; }
+  .approved-logo--review { width: 160px; }
+  .review-layout { display: block; padding: 24px 16px 40px; }
+  .review-notes { max-width: 440px; margin: 40px auto 0; }
+  .review-notes h2 br { display: none; }
+  .review-notes h2 { font-size: 28px; }
+  .canvas-meta { font-size: 11px; gap: 8px; }
+}

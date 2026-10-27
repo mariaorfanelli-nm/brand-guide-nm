@@ -13,8 +13,8 @@ match = re.search(r'<div class="slides-stack">(.*?)</div>\s*</section>\s*<sectio
 if not match:
     raise SystemExit("slides-stack not found")
 cards = re.findall(r'<article class="slide-card">\s*(<div class="deck-slide.*?</div>)\s*<div class="slide-meta">', match.group(1), re.S)
-if len(cards) != 14:
-    raise SystemExit(f"expected 14 slides, found {len(cards)}")
+if len(cards) != 16:
+    raise SystemExit(f"expected 16 slides, found {len(cards)}")
 
 OUT = ROOT / "assets" / "slides-hybrid"
 OUT.mkdir(parents=True, exist_ok=True)
