@@ -10,7 +10,7 @@
         "text": "Produto exemplo",
         "x": 96,
         "y": 183.53125,
-        "w": 206.578125,
+        "w": 205.25,
         "h": 23
       }
     ],
@@ -20,22 +20,22 @@
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
     "lineHeight": "26.4px",
-    "letterSpacing": "2.376px",
+    "letterSpacing": "2.288px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },
   {
-    "text": "NeuralSearchX",
+    "text": "NeuralStudio",
     "x": 96,
     "y": 230.734375,
     "w": 563.1875,
     "h": 78.375,
     "renderedLines": [
       {
-        "text": "NeuralSearchX",
+        "text": "NeuralStudio",
         "x": 96,
         "y": 217.734375,
-        "w": 529.140625,
+        "w": 452.140625,
         "h": 103
       }
     ],

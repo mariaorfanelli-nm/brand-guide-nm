@@ -10,7 +10,7 @@
         "text": "Verticais de atuação",
         "x": 99.1875,
         "y": 100.1875,
-        "w": 247.921875,
+        "w": 246.171875,
         "h": 23
       }
     ],
@@ -20,75 +20,61 @@
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
     "lineHeight": "26.2805px",
-    "letterSpacing": "2.36524px",
+    "letterSpacing": "2.27764px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },
   {
-    "text": "Decision Intelligence onde cada decisão importa.",
+    "text": "Uma marca mãe.\nTrês verticais.",
     "x": 99.1875,
     "y": 181.515625,
     "w": 656.359375,
-    "h": 193.640625,
+    "h": 134.71875,
     "renderedLines": [
       {
-        "text": "Decision Intelligence",
+        "text": "Uma marca mãe.",
         "x": 99.1875,
-        "y": 171.515625,
-        "w": 565.734375,
-        "h": 83
+        "y": 175.515625,
+        "w": 460.15625,
+        "h": 78
       },
       {
-        "text": "onde cada",
+        "text": "Três verticais.",
         "x": 99.1875,
-        "y": 236.0625,
-        "w": 292.875,
-        "h": 83
-      },
-      {
-        "text": "decisão importa.",
-        "x": 99.1875,
-        "y": 300.609375,
-        "w": 470.046875,
-        "h": 83
+        "y": 242.875,
+        "w": 361.9375,
+        "h": 78
       }
     ],
-    "fontSize": 65.8764,
+    "fontSize": 62.3723,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "64.5588px",
-    "letterSpacing": "-1.44928px",
+    "lineHeight": "67.3621px",
+    "letterSpacing": "-1.37219px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "Do jurídico à saúde, a NeuralMind organiza informação complexa para apoiar especialistas com contexto, fontes verificáveis e supervisão humana.",
+    "text": "NeuralStudio, SofIA e PrioScan: propostas próprias, com a pesquisa e a confiança da NeuralMind.",
     "x": 811.609375,
-    "y": 271.09375,
+    "y": 246.859375,
     "w": 636.703125,
-    "h": 104.0625,
+    "h": 69.375,
     "renderedLines": [
       {
-        "text": "Do jurídico à saúde, a NeuralMind organiza informação",
+        "text": "NeuralStudio, SofIA e PrioScan: propostas próprias, com a",
         "x": 811.609375,
-        "y": 273.09375,
-        "w": 561.6875,
+        "y": 248.859375,
+        "w": 592.53125,
         "h": 29
       },
       {
-        "text": "complexa para apoiar especialistas com contexto, fontes",
+        "text": "pesquisa e a confiança da NeuralMind.",
         "x": 811.609375,
-        "y": 307.78125,
-        "w": 579.15625,
-        "h": 29
-      },
-      {
-        "text": "verificáveis e supervisão humana.",
-        "x": 811.609375,
-        "y": 342.46875,
-        "w": 342.34375,
+        "y": 283.546875,
+        "w": 392.5625,
         "h": 29
       }
     ],
@@ -104,15 +90,15 @@
   },
   {
     "text": "01",
-    "x": 129.609375,
-    "y": 523.84375,
-    "w": 393.28125,
+    "x": 99.1875,
+    "y": 560.734375,
+    "w": 436.609375,
     "h": 22.078125,
     "renderedLines": [
       {
         "text": "01",
-        "x": 129.609375,
-        "y": 524.84375,
+        "x": 99.1875,
+        "y": 561.734375,
         "w": 20.40625,
         "h": 19
       }
@@ -128,155 +114,148 @@
     "textTransform": "none"
   },
   {
-    "text": "Inteligência fundamental",
-    "x": 129.609375,
-    "y": 562.734375,
-    "w": 393.28125,
-    "h": 46.234375,
+    "text": "NeuralStudio",
+    "x": 99.1875,
+    "y": 600.328125,
+    "w": 436.609375,
+    "h": 36.875,
     "renderedLines": [
       {
-        "text": "Inteligência fundamental",
-        "x": 129.609375,
-        "y": 565.734375,
-        "w": 334.3125,
-        "h": 39
+        "text": "NeuralStudio",
+        "x": 99.1875,
+        "y": 597.328125,
+        "w": 187.03125,
+        "h": 42
       }
     ],
-    "fontSize": 30.8358,
+    "fontSize": 32.9382,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "46.2536px",
-    "letterSpacing": "-0.308358px",
+    "lineHeight": "36.8908px",
+    "letterSpacing": "-0.329382px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "Transforma documentos, bases internas e informação não estruturada em conhecimento verificável para decidir.",
-    "x": 129.609375,
-    "y": 625.78125,
-    "w": 393.28125,
-    "h": 78,
+    "text": "Documentos, atendimento e conhecimento no fluxo de trabalho.",
+    "x": 99.1875,
+    "y": 654.71875,
+    "w": 436.609375,
+    "h": 58.875,
     "renderedLines": [
       {
-        "text": "Transforma documentos, bases internas e",
-        "x": 129.609375,
-        "y": 626.78125,
-        "w": 331.5625,
-        "h": 23
+        "text": "Documentos, atendimento e conhecimento no",
+        "x": 99.1875,
+        "y": 656.71875,
+        "w": 397.390625,
+        "h": 25
       },
       {
-        "text": "informação não estruturada em conhecimento",
-        "x": 129.609375,
-        "y": 652.78125,
-        "w": 369.484375,
-        "h": 23
-      },
-      {
-        "text": "verificável para decidir.",
-        "x": 129.609375,
-        "y": 678.78125,
-        "w": 185.78125,
-        "h": 23
+        "text": "fluxo de trabalho.",
+        "x": 99.1875,
+        "y": 686.15625,
+        "w": 152.671875,
+        "h": 25
       }
     ],
-    "fontSize": 17.9408,
+    "fontSize": 19.6227,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.72)",
     "opacity": 1,
-    "lineHeight": "26.0142px",
+    "lineHeight": "29.4341px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "NeuralSearchX",
-    "x": 129.609375,
-    "y": 739.8125,
-    "w": 116.75,
-    "h": 30.578125,
-    "renderedLines": [
-      {
-        "text": "NeuralSearchX",
-        "x": 140.6875,
-        "y": 746.9375,
-        "w": 94.59375,
-        "h": 15
-      }
-    ],
-    "fontSize": 12.3343,
-    "fontWeight": "600",
-    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
-    "color": "rgba(255, 255, 252, 0.82)",
-    "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
-    "textAlign": "start",
-    "textTransform": "none"
-  },
-  {
     "text": "NDocs",
-    "x": 254.0625,
-    "y": 739.8125,
-    "w": 62.59375,
-    "h": 30.578125,
+    "x": 99.1875,
+    "y": 775.59375,
+    "w": 43.109375,
+    "h": 25.21875,
     "renderedLines": [
       {
         "text": "NDocs",
-        "x": 265.140625,
-        "y": 746.9375,
-        "w": 40.4375,
-        "h": 15
+        "x": 99.1875,
+        "y": 779.09375,
+        "w": 43.109375,
+        "h": 18
       }
     ],
-    "fontSize": 12.3343,
+    "fontSize": 14.0162,
     "fontWeight": "600",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
+    "lineHeight": "18.2211px",
+    "letterSpacing": "0.280325px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "Tuss-Finder",
-    "x": 324.359375,
-    "y": 739.8125,
-    "w": 96.390625,
-    "h": 30.578125,
+    "text": "Chatbots",
+    "x": 157.703125,
+    "y": 775.59375,
+    "w": 60.953125,
+    "h": 25.21875,
     "renderedLines": [
       {
-        "text": "Tuss-Finder",
-        "x": 335.4375,
-        "y": 746.9375,
-        "w": 74.234375,
-        "h": 15
+        "text": "Chatbots",
+        "x": 157.703125,
+        "y": 779.09375,
+        "w": 60.953125,
+        "h": 18
       }
     ],
-    "fontSize": 12.3343,
+    "fontSize": 14.0162,
     "fontWeight": "600",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
+    "lineHeight": "18.2211px",
+    "letterSpacing": "0.280325px",
+    "textAlign": "start",
+    "textTransform": "none"
+  },
+  {
+    "text": "Busca em manuais",
+    "x": 234.0625,
+    "y": 775.59375,
+    "w": 120.625,
+    "h": 25.21875,
+    "renderedLines": [
+      {
+        "text": "Busca em manuais",
+        "x": 234.0625,
+        "y": 779.09375,
+        "w": 120.625,
+        "h": 18
+      }
+    ],
+    "fontSize": 14.0162,
+    "fontWeight": "600",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "color": "rgba(255, 255, 252, 0.82)",
+    "opacity": 1,
+    "lineHeight": "18.2211px",
+    "letterSpacing": "0.280325px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "02",
-    "x": 603.34375,
-    "y": 523.84375,
-    "w": 393.296875,
+    "x": 572.921875,
+    "y": 560.734375,
+    "w": 436.625,
     "h": 22.078125,
     "renderedLines": [
       {
         "text": "02",
-        "x": 603.34375,
-        "y": 524.84375,
+        "x": 572.921875,
+        "y": 561.734375,
         "w": 23.140625,
         "h": 19
       }
@@ -292,180 +271,148 @@
     "textTransform": "none"
   },
   {
-    "text": "Jurídico, regulação e controle",
-    "x": 603.34375,
-    "y": 562.734375,
-    "w": 393.296875,
-    "h": 46.234375,
+    "text": "SofIA",
+    "x": 572.921875,
+    "y": 600.328125,
+    "w": 436.625,
+    "h": 36.875,
     "renderedLines": [
       {
-        "text": "Jurídico, regulação e controle",
-        "x": 603.34375,
-        "y": 565.734375,
-        "w": 393.125,
-        "h": 39
+        "text": "SofIA",
+        "x": 572.921875,
+        "y": 597.328125,
+        "w": 79.703125,
+        "h": 42
       }
     ],
-    "fontSize": 30.8358,
+    "fontSize": 32.9382,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "46.2536px",
-    "letterSpacing": "-0.308358px",
+    "lineHeight": "36.8908px",
+    "letterSpacing": "-0.329382px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "Apoia análise, fundamentação e formação de convicção em contextos jurídicos, regulatórios e de controle.",
-    "x": 603.34375,
-    "y": 625.78125,
-    "w": 393.296875,
-    "h": 78,
+    "text": "Jurídico e regulatório, do pré-contencioso ao contencioso.",
+    "x": 572.921875,
+    "y": 654.71875,
+    "w": 436.625,
+    "h": 58.875,
     "renderedLines": [
       {
-        "text": "Apoia análise, fundamentação e formação de",
-        "x": 603.34375,
-        "y": 626.78125,
-        "w": 363.578125,
-        "h": 23
+        "text": "Jurídico e regulatório, do pré-contencioso",
+        "x": 572.921875,
+        "y": 656.71875,
+        "w": 362.765625,
+        "h": 25
       },
       {
-        "text": "convicção em contextos jurídicos, regulatórios e",
-        "x": 603.34375,
-        "y": 652.78125,
-        "w": 376.5625,
-        "h": 23
-      },
-      {
-        "text": "de controle.",
-        "x": 603.34375,
-        "y": 678.78125,
-        "w": 94.75,
-        "h": 23
+        "text": "ao contencioso.",
+        "x": 572.921875,
+        "y": 686.15625,
+        "w": 135.78125,
+        "h": 25
       }
     ],
-    "fontSize": 17.9408,
+    "fontSize": 19.6227,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.72)",
     "opacity": 1,
-    "lineHeight": "26.0142px",
+    "lineHeight": "29.4341px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "Jurema",
-    "x": 603.34375,
-    "y": 739.8125,
-    "w": 69.015625,
-    "h": 30.578125,
+    "text": "QSAMS",
+    "x": 572.921875,
+    "y": 775.59375,
+    "w": 50.125,
+    "h": 25.21875,
     "renderedLines": [
       {
-        "text": "Jurema",
-        "x": 614.421875,
-        "y": 746.9375,
-        "w": 46.859375,
-        "h": 15
+        "text": "QSAMS",
+        "x": 572.921875,
+        "y": 779.09375,
+        "w": 50.125,
+        "h": 18
       }
     ],
-    "fontSize": 12.3343,
+    "fontSize": 14.0162,
     "fontWeight": "600",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
+    "lineHeight": "18.2211px",
+    "letterSpacing": "0.280325px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "Araci",
-    "x": 680.0625,
-    "y": 739.8125,
-    "w": 56.015625,
-    "h": 30.578125,
+    "text": "AssrtIA",
+    "x": 638.453125,
+    "y": 775.59375,
+    "w": 49.671875,
+    "h": 25.21875,
     "renderedLines": [
       {
-        "text": "Araci",
-        "x": 691.140625,
-        "y": 746.9375,
-        "w": 33.859375,
-        "h": 15
+        "text": "AssrtIA",
+        "x": 638.453125,
+        "y": 779.09375,
+        "w": 49.671875,
+        "h": 18
       }
     ],
-    "fontSize": 12.3343,
+    "fontSize": 14.0162,
     "fontWeight": "600",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
+    "lineHeight": "18.2211px",
+    "letterSpacing": "0.280325px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "AssertIA",
-    "x": 743.78125,
-    "y": 739.8125,
-    "w": 76.75,
-    "h": 30.578125,
+    "text": "Jurema · LLMs",
+    "x": 703.53125,
+    "y": 775.59375,
+    "w": 93.25,
+    "h": 25.21875,
     "renderedLines": [
       {
-        "text": "AssertIA",
-        "x": 754.859375,
-        "y": 746.9375,
-        "w": 54.59375,
-        "h": 15
+        "text": "Jurema · LLMs",
+        "x": 703.53125,
+        "y": 779.09375,
+        "w": 93.25,
+        "h": 18
       }
     ],
-    "fontSize": 12.3343,
+    "fontSize": 14.0162,
     "fontWeight": "600",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
-    "textAlign": "start",
-    "textTransform": "none"
-  },
-  {
-    "text": "SofIA",
-    "x": 828.234375,
-    "y": 739.8125,
-    "w": 57.125,
-    "h": 30.578125,
-    "renderedLines": [
-      {
-        "text": "SofIA",
-        "x": 839.3125,
-        "y": 746.9375,
-        "w": 34.96875,
-        "h": 15
-      }
-    ],
-    "fontSize": 12.3343,
-    "fontWeight": "600",
-    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
-    "color": "rgba(255, 255, 252, 0.82)",
-    "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
+    "lineHeight": "18.2211px",
+    "letterSpacing": "0.280325px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "03",
-    "x": 1077.09375,
-    "y": 523.84375,
-    "w": 393.28125,
+    "x": 1046.671875,
+    "y": 560.734375,
+    "w": 436.609375,
     "h": 22.078125,
     "renderedLines": [
       {
         "text": "03",
-        "x": 1077.09375,
-        "y": 524.84375,
+        "x": 1046.671875,
+        "y": 561.734375,
         "w": 23.09375,
         "h": 19
       }
@@ -481,91 +428,84 @@
     "textTransform": "none"
   },
   {
-    "text": "Saúde",
-    "x": 1077.09375,
-    "y": 562.734375,
-    "w": 393.28125,
-    "h": 46.234375,
+    "text": "PrioScan",
+    "x": 1046.671875,
+    "y": 600.328125,
+    "w": 436.609375,
+    "h": 36.875,
     "renderedLines": [
       {
-        "text": "Saúde",
-        "x": 1077.09375,
-        "y": 565.734375,
-        "w": 83.578125,
-        "h": 39
+        "text": "PrioScan",
+        "x": 1046.671875,
+        "y": 597.328125,
+        "w": 127.9375,
+        "h": 42
       }
     ],
-    "fontSize": 30.8358,
+    "fontSize": 32.9382,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "46.2536px",
-    "letterSpacing": "-0.308358px",
+    "lineHeight": "36.8908px",
+    "letterSpacing": "-0.329382px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "Apoia a priorização clínica para que especialistas direcionem atenção aos casos que podem precisar dela primeiro.",
-    "x": 1077.09375,
-    "y": 625.78125,
-    "w": 393.28125,
-    "h": 78,
+    "text": "Saúde, prevenção e apoio à análise de exames médicos.",
+    "x": 1046.671875,
+    "y": 654.71875,
+    "w": 436.609375,
+    "h": 58.875,
     "renderedLines": [
       {
-        "text": "Apoia a priorização clínica para que especialistas",
-        "x": 1077.09375,
-        "y": 626.78125,
-        "w": 388.734375,
-        "h": 23
+        "text": "Saúde, prevenção e apoio à análise de",
+        "x": 1046.671875,
+        "y": 656.71875,
+        "w": 330.71875,
+        "h": 25
       },
       {
-        "text": "direcionem atenção aos casos que podem",
-        "x": 1077.09375,
-        "y": 652.78125,
-        "w": 330.84375,
-        "h": 23
-      },
-      {
-        "text": "precisar dela primeiro.",
-        "x": 1077.09375,
-        "y": 678.78125,
-        "w": 179.890625,
-        "h": 23
+        "text": "exames médicos.",
+        "x": 1046.671875,
+        "y": 686.15625,
+        "w": 148.609375,
+        "h": 25
       }
     ],
-    "fontSize": 17.9408,
+    "fontSize": 19.6227,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.72)",
     "opacity": 1,
-    "lineHeight": "26.0142px",
+    "lineHeight": "29.4341px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
-    "text": "PrioScan",
-    "x": 1077.09375,
-    "y": 739.8125,
-    "w": 77.953125,
-    "h": 30.578125,
+    "text": "Apoio ao especialista",
+    "x": 1046.671875,
+    "y": 775.59375,
+    "w": 140.046875,
+    "h": 25.21875,
     "renderedLines": [
       {
-        "text": "PrioScan",
-        "x": 1088.171875,
-        "y": 746.9375,
-        "w": 55.796875,
-        "h": 15
+        "text": "Apoio ao especialista",
+        "x": 1046.671875,
+        "y": 779.09375,
+        "w": 140.046875,
+        "h": 18
       }
     ],
-    "fontSize": 12.3343,
+    "fontSize": 14.0162,
     "fontWeight": "600",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
-    "lineHeight": "12.3343px",
-    "letterSpacing": "0.740058px",
+    "lineHeight": "18.2211px",
+    "letterSpacing": "0.280325px",
     "textAlign": "start",
     "textTransform": "none"
   }

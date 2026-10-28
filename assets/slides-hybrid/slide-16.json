@@ -10,7 +10,7 @@
         "text": "Encerramento",
         "x": 105.59375,
         "y": 274.65625,
-        "w": 170.953125,
+        "w": 169.90625,
         "h": 23
       }
     ],
@@ -20,7 +20,7 @@
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
     "lineHeight": "26.3402px",
-    "letterSpacing": "2.37062px",
+    "letterSpacing": "2.28282px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },

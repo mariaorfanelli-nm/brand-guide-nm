@@ -1,51 +1,51 @@
 [
   {
     "text": "Brand Guide Digital",
-    "x": 128,
-    "y": 472.78125,
-    "w": 241.328125,
-    "h": 24.1875,
+    "x": 120,
+    "y": 507.28125,
+    "w": 216.40625,
+    "h": 24.46875,
     "renderedLines": [
       {
         "text": "Brand Guide Digital",
-        "x": 128,
-        "y": 474.78125,
-        "w": 241.328125,
+        "x": 120,
+        "y": 509.28125,
+        "w": 216.40625,
         "h": 20
       }
     ],
-    "fontSize": 16.128,
+    "fontSize": 16.32,
     "fontWeight": "600",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 1,
-    "lineHeight": "24.192px",
-    "letterSpacing": "3.54816px",
+    "lineHeight": "24.48px",
+    "letterSpacing": "2.1216px",
     "textAlign": "left",
     "textTransform": "uppercase"
   },
   {
     "text": "Inteligência para decisão.",
-    "x": 128,
-    "y": 719.59375,
-    "w": 390.890625,
-    "h": 52.40625,
+    "x": 120,
+    "y": 730.03125,
+    "w": 372.703125,
+    "h": 49.96875,
     "renderedLines": [
       {
         "text": "Inteligência para decisão.",
-        "x": 128,
-        "y": 723.59375,
-        "w": 390.890625,
-        "h": 44
+        "x": 120,
+        "y": 733.03125,
+        "w": 372.703125,
+        "h": 42
       }
     ],
-    "fontSize": 34.944,
+    "fontSize": 33.32,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.78)",
     "opacity": 1,
-    "lineHeight": "52.416px",
-    "letterSpacing": "-0.17472px",
+    "lineHeight": "49.98px",
+    "letterSpacing": "-0.1666px",
     "textAlign": "left",
     "textTransform": "none"
   }

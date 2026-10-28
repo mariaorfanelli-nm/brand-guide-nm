@@ -25,3 +25,11 @@ Para regenerar os SVGs, execute `scripts/apply_logo_outfit_a2.py` com fontTools 
 A revisão completa usa Outfit em textos e títulos e Urbanist nos rótulos e indicadores. Capas de LinkedIn e YouTube, fundo de reuniões, 16 slides, 27 PNGs sociais/executivos e templates DOCX/PPTX foram atualizados. As fontes locais e o ZIP de instalação ficam em `assets/fonts/`. Estudos históricos de lettering e arquivos arquivados são mantidos como referência.
 
 Regeneração: `python3 scripts/generate_media_assets.py`; `node scripts/export_brand_assets.cjs` (Playwright/Chromium); builders DOCX/PPTX em `scripts/`. Instale o kit TTF para preservar a tipografia ao editar os arquivos do Office.
+
+## Revisão enterprise e arquitetura de marcas
+
+NeuralMind é a marca mãe. As verticais são **NeuralStudio**, **SofIA** e **PrioScan**. NDocs pertence a NeuralStudio, junto a atendimento, chatbots e busca em manuais. SofIA reúne jurídico, regulatório, pré-contencioso e contencioso; inclui QSAMS e **AssrtIA (TCU)**. **Jurema** designa a família de LLMs, não uma vertical adicional. PrioScan é a vertical de saúde, prevenção e apoio à análise de exames médicos.
+
+A revisão crítica preserva fontes e paleta e reduz molduras, sombras e selos, controla a proporção de métricas e ajusta alinhamentos e respiro nas peças. O documento A4 tem instrução mais discreta, corpo com entrelinha maior e hierarquia mais contida. As capas institucionais usam slogan mais legível e régua reduzida.
+
+A seção `#web-system` propõe header, hero, cards de verticais, bloco de evidências, contato, campos e regras responsivas para o futuro site e suas landing pages. É uma proposta visual no guia, com links de demonstração internos; não um formulário comercial conectado.

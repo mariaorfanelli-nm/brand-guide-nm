@@ -10,7 +10,7 @@
         "text": "Posicionamento",
         "x": 112,
         "y": 309.71875,
-        "w": 187.46875,
+        "w": 186.25,
         "h": 21
       }
     ],
@@ -20,7 +20,7 @@
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
     "lineHeight": "25.8px",
-    "letterSpacing": "2.322px",
+    "letterSpacing": "2.236px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },

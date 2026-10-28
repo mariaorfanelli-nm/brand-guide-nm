@@ -10,7 +10,7 @@
         "text": "Quem somos",
         "x": 105.59375,
         "y": 118.25,
-        "w": 161.8125,
+        "w": 160.8125,
         "h": 25
       }
     ],
@@ -20,7 +20,7 @@
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
     "lineHeight": "30px",
-    "letterSpacing": "2.7px",
+    "letterSpacing": "2.6px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },

@@ -78,7 +78,7 @@ def linkedin_cover():
 
     draw = ImageDraw.Draw(canvas)
     tagline_font = ImageFont.truetype(
-        FONTS / "Outfit-Medium.ttf", 60
+        FONTS / "Outfit-Medium.ttf", 72
     )
     right_aligned_text(
         draw,
@@ -88,7 +88,7 @@ def linkedin_cover():
         font=tagline_font,
         fill=(255, 255, 252, 224),
     )
-    draw.rounded_rectangle((content_right - 1520, 605, content_right, 613), radius=4, fill=CORAL)
+    draw.rectangle((content_right - 200, 615, content_right, 619), fill=CORAL)
     save_jpeg(canvas, OUTPUT / "linkedin-company-cover-4200x700.jpg")
 
 
@@ -102,7 +102,7 @@ def youtube_banner():
 
     draw = ImageDraw.Draw(canvas)
     tagline_font = ImageFont.truetype(
-        FONTS / "Outfit-Medium.ttf", 58
+        FONTS / "Outfit-Medium.ttf", 62
     )
     centered_text(
         draw,
@@ -112,7 +112,7 @@ def youtube_banner():
         tagline_font,
         (255, 255, 252, 224),
     )
-    draw.rounded_rectangle((1095, 902, 1465, 910), radius=4, fill=CORAL)
+    draw.rectangle((1220, 914, 1340, 918), fill=CORAL)
     save_jpeg(canvas, OUTPUT / "youtube-channel-banner-2560x1440.jpg")
 
 

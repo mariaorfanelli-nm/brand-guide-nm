@@ -10,7 +10,7 @@
         "text": "Arquitetura de Produto",
         "x": 99.1875,
         "y": 90.59375,
-        "w": 289.109375,
+        "w": 287.1875,
         "h": 23
       }
     ],
@@ -20,22 +20,22 @@
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
     "lineHeight": "26.2805px",
-    "letterSpacing": "2.36524px",
+    "letterSpacing": "2.27764px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },
   {
-    "text": "Araci",
+    "text": "SofIA",
     "x": 99.1875,
     "y": 169.109375,
     "w": 619.515625,
     "h": 95.875,
     "renderedLines": [
       {
-        "text": "Araci",
+        "text": "SofIA",
         "x": 99.1875,
         "y": 149.109375,
-        "w": 243.5,
+        "w": 251.484375,
         "h": 135
       }
     ],
@@ -50,24 +50,24 @@
     "textTransform": "none"
   },
   {
-    "text": "Decision Intelligence para o trabalho jurídico, com NeuralSearchX + Jurema.",
+    "text": "Jurídico e regulatório, com soluções especializadas e modelos Jurema.",
     "x": 771.953125,
     "y": 190.578125,
     "w": 620.21875,
     "h": 74.40625,
     "renderedLines": [
       {
-        "text": "Decision Intelligence para o trabalho jurídico,",
+        "text": "Jurídico e regulatório, com soluções",
         "x": 771.953125,
         "y": 188.578125,
-        "w": 616.984375,
+        "w": 487.921875,
         "h": 40
       },
       {
-        "text": "com NeuralSearchX + Jurema.",
+        "text": "especializadas e modelos Jurema.",
         "x": 771.953125,
         "y": 225.78125,
-        "w": 418.1875,
+        "w": 466.03125,
         "h": 40
       }
     ],
@@ -107,17 +107,17 @@
     "textTransform": "uppercase"
   },
   {
-    "text": "Araci",
-    "x": 728.90625,
+    "text": "SofIA",
+    "x": 726.59375,
     "y": 404.328125,
-    "w": 142.1875,
+    "w": 146.8125,
     "h": 58.578125,
     "renderedLines": [
       {
-        "text": "Araci",
-        "x": 728.90625,
+        "text": "SofIA",
+        "x": 726.59375,
         "y": 394.328125,
-        "w": 142.1875,
+        "w": 146.8125,
         "h": 78
       }
     ],
@@ -132,24 +132,24 @@
     "textTransform": "none"
   },
   {
-    "text": "Análise, fundamentos e minutas com rastreabilidade para o trabalho jurídico.",
+    "text": "QSAMS e AssrtIA: aplicações para o trabalho jurídico e regulatório.",
     "x": 558.703125,
     "y": 474.8125,
     "w": 482.578125,
     "h": 49.03125,
     "renderedLines": [
       {
-        "text": "Análise, fundamentos e minutas com rastreabilidade para o",
-        "x": 569.546875,
+        "text": "QSAMS e AssrtIA: aplicações para o trabalho jurídico",
+        "x": 595.359375,
         "y": 474.8125,
-        "w": 460.890625,
+        "w": 409.265625,
         "h": 23
       },
       {
-        "text": "trabalho jurídico.",
-        "x": 733.828125,
+        "text": "e regulatório.",
+        "x": 747.921875,
         "y": 499.328125,
-        "w": 132.328125,
+        "w": 104.125,
         "h": 23
       }
     ],
@@ -164,17 +164,17 @@
     "textTransform": "none"
   },
   {
-    "text": "Busca proprietária",
+    "text": "Soluções",
     "x": 123.3125,
     "y": 657.5,
-    "w": 174.875,
+    "w": 84.765625,
     "h": 16,
     "renderedLines": [
       {
-        "text": "Busca proprietária",
+        "text": "Soluções",
         "x": 123.3125,
         "y": 657.5,
-        "w": 174.875,
+        "w": 84.765625,
         "h": 16
       }
     ],
@@ -189,17 +189,17 @@
     "textTransform": "uppercase"
   },
   {
-    "text": "NeuralSearchX",
+    "text": "QSAMS + AssrtIA",
     "x": 123.3125,
     "y": 687.3125,
     "w": 407.28125,
     "h": 43.09375,
     "renderedLines": [
       {
-        "text": "NeuralSearchX",
+        "text": "QSAMS + AssrtIA",
         "x": 123.3125,
         "y": 690.3125,
-        "w": 191.328125,
+        "w": 216.796875,
         "h": 36
       }
     ],
@@ -214,24 +214,24 @@
     "textTransform": "none"
   },
   {
-    "text": "Recupera evidências, documentos e fontes verificáveis para cada resposta.",
+    "text": "Aplicações especializadas sob a marca SofIA. AssrtIA é a aplicação para o TCU.",
     "x": 123.3125,
     "y": 740.90625,
     "w": 407.28125,
     "h": 45.375,
     "renderedLines": [
       {
-        "text": "Recupera evidências, documentos e fontes verificáveis",
+        "text": "Aplicações especializadas sob a marca SofIA. AssrtIA é a",
         "x": 123.3125,
         "y": 741.90625,
-        "w": 382.09375,
+        "w": 399.390625,
         "h": 20
       },
       {
-        "text": "para cada resposta.",
+        "text": "aplicação para o TCU.",
         "x": 123.3125,
         "y": 764.59375,
-        "w": 142.5,
+        "w": 157.171875,
         "h": 20
       }
     ],

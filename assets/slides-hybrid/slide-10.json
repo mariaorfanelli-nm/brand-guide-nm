@@ -10,7 +10,7 @@
         "text": "Pessoas",
         "x": 912,
         "y": 156.015625,
-        "w": 105.5625,
+        "w": 104.875,
         "h": 25
       }
     ],
@@ -20,7 +20,7 @@
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
     "lineHeight": "30px",
-    "letterSpacing": "2.7px",
+    "letterSpacing": "2.6px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },

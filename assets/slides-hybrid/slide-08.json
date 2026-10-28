@@ -2,15 +2,15 @@
   {
     "text": "Fluxo de Trabalho",
     "x": 112,
-    "y": 96,
+    "y": 231.609375,
     "w": 1376,
     "h": 25.796875,
     "renderedLines": [
       {
         "text": "Fluxo de Trabalho",
         "x": 112,
-        "y": 98,
-        "w": 217.125,
+        "y": 233.609375,
+        "w": 215.671875,
         "h": 21
       }
     ],
@@ -20,21 +20,21 @@
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
     "lineHeight": "25.8px",
-    "letterSpacing": "2.322px",
+    "letterSpacing": "2.236px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },
   {
     "text": "Da pergunta à decisão auditável.",
     "x": 112,
-    "y": 141.046875,
+    "y": 276.65625,
     "w": 1009.265625,
     "h": 57.796875,
     "renderedLines": [
       {
         "text": "Da pergunta à decisão auditável.",
         "x": 112,
-        "y": 135.046875,
+        "y": 270.65625,
         "w": 764.765625,
         "h": 69
       }
@@ -52,14 +52,14 @@
   {
     "text": "01",
     "x": 112,
-    "y": 652.53125,
-    "w": 318.203125,
+    "y": 517.484375,
+    "w": 315.109375,
     "h": 25.796875,
     "renderedLines": [
       {
         "text": "01",
         "x": 112,
-        "y": 654.53125,
+        "y": 519.484375,
         "w": 23.15625,
         "h": 21
       }
@@ -77,71 +77,71 @@
   {
     "text": "Pergunta natural",
     "x": 112,
-    "y": 692.078125,
-    "w": 318.203125,
-    "h": 36.328125,
+    "y": 557.03125,
+    "w": 315.109375,
+    "h": 35.703125,
     "renderedLines": [
       {
         "text": "Pergunta natural",
         "x": 112,
-        "y": 689.078125,
-        "w": 244.03125,
-        "h": 42
+        "y": 555.03125,
+        "w": 223.703125,
+        "h": 38
       }
     ],
-    "fontSize": 33.024,
+    "fontSize": 30.272,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "36.3264px",
-    "letterSpacing": "-0.264192px",
+    "lineHeight": "35.721px",
+    "letterSpacing": "-0.242176px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "O usuário descreve a necessidade em linguagem comum.",
     "x": 112,
-    "y": 742.15625,
-    "w": 318.203125,
-    "h": 61.84375,
+    "y": 606.484375,
+    "w": 315.109375,
+    "h": 61.90625,
     "renderedLines": [
       {
         "text": "O usuário descreve a necessidade",
         "x": 112,
-        "y": 743.15625,
-        "w": 317.078125,
-        "h": 27
+        "y": 608.484375,
+        "w": 306.84375,
+        "h": 26
       },
       {
         "text": "em linguagem comum.",
         "x": 112,
-        "y": 774.078125,
-        "w": 213.34375,
-        "h": 27
+        "y": 639.4375,
+        "w": 206.46875,
+        "h": 26
       }
     ],
-    "fontSize": 21.328,
+    "fontSize": 20.64,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
-    "lineHeight": "30.9256px",
+    "lineHeight": "30.96px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "02",
-    "x": 464.59375,
-    "y": 652.53125,
-    "w": 318.203125,
+    "x": 465.625,
+    "y": 517.484375,
+    "w": 315.109375,
     "h": 25.796875,
     "renderedLines": [
       {
         "text": "02",
-        "x": 464.59375,
-        "y": 654.53125,
+        "x": 465.625,
+        "y": 519.484375,
         "w": 26.359375,
         "h": 21
       }
@@ -158,72 +158,72 @@
   },
   {
     "text": "Busca semântica",
-    "x": 464.59375,
-    "y": 692.078125,
-    "w": 318.203125,
-    "h": 36.328125,
+    "x": 465.625,
+    "y": 557.03125,
+    "w": 315.109375,
+    "h": 35.703125,
     "renderedLines": [
       {
         "text": "Busca semântica",
-        "x": 464.59375,
-        "y": 689.078125,
-        "w": 241.84375,
-        "h": 42
+        "x": 465.625,
+        "y": 555.03125,
+        "w": 221.703125,
+        "h": 38
       }
     ],
-    "fontSize": 33.024,
+    "fontSize": 30.272,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "36.3264px",
-    "letterSpacing": "-0.264192px",
+    "lineHeight": "35.721px",
+    "letterSpacing": "-0.242176px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "Recuperação em múltiplas fontes com citação do trecho exato.",
-    "x": 464.59375,
-    "y": 742.15625,
-    "w": 318.203125,
-    "h": 61.84375,
+    "x": 465.625,
+    "y": 606.484375,
+    "w": 315.109375,
+    "h": 61.90625,
     "renderedLines": [
       {
         "text": "Recuperação em múltiplas fontes",
-        "x": 464.59375,
-        "y": 743.15625,
-        "w": 312.546875,
-        "h": 27
+        "x": 465.625,
+        "y": 608.484375,
+        "w": 302.46875,
+        "h": 26
       },
       {
         "text": "com citação do trecho exato.",
-        "x": 464.59375,
-        "y": 774.078125,
-        "w": 273.453125,
-        "h": 27
+        "x": 465.625,
+        "y": 639.4375,
+        "w": 264.625,
+        "h": 26
       }
     ],
-    "fontSize": 21.328,
+    "fontSize": 20.64,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
-    "lineHeight": "30.9256px",
+    "lineHeight": "30.96px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "03",
-    "x": 817.1875,
-    "y": 652.53125,
-    "w": 318.203125,
+    "x": 819.25,
+    "y": 517.484375,
+    "w": 315.109375,
     "h": 25.796875,
     "renderedLines": [
       {
         "text": "03",
-        "x": 817.1875,
-        "y": 654.53125,
+        "x": 819.25,
+        "y": 519.484375,
         "w": 26.3125,
         "h": 21
       }
@@ -240,72 +240,72 @@
   },
   {
     "text": "Síntese contextual",
-    "x": 817.1875,
-    "y": 692.078125,
-    "w": 318.203125,
-    "h": 36.328125,
+    "x": 819.25,
+    "y": 557.03125,
+    "w": 315.109375,
+    "h": 35.703125,
     "renderedLines": [
       {
         "text": "Síntese contextual",
-        "x": 817.1875,
-        "y": 689.078125,
-        "w": 261.421875,
-        "h": 42
+        "x": 819.25,
+        "y": 555.03125,
+        "w": 239.65625,
+        "h": 38
       }
     ],
-    "fontSize": 33.024,
+    "fontSize": 30.272,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "36.3264px",
-    "letterSpacing": "-0.264192px",
+    "lineHeight": "35.721px",
+    "letterSpacing": "-0.242176px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "Resposta consolidada, vinculada a cada referência.",
-    "x": 817.1875,
-    "y": 742.15625,
-    "w": 318.203125,
-    "h": 61.84375,
+    "x": 819.25,
+    "y": 606.484375,
+    "w": 315.109375,
+    "h": 61.90625,
     "renderedLines": [
       {
-        "text": "Resposta consolidada, vinculada",
-        "x": 817.1875,
-        "y": 743.15625,
-        "w": 306.515625,
-        "h": 27
+        "text": "Resposta consolidada, vinculada a",
+        "x": 819.25,
+        "y": 608.484375,
+        "w": 312.9375,
+        "h": 26
       },
       {
-        "text": "a cada referência.",
-        "x": 817.1875,
-        "y": 774.078125,
-        "w": 172.53125,
-        "h": 27
+        "text": "cada referência.",
+        "x": 819.25,
+        "y": 639.4375,
+        "w": 150.671875,
+        "h": 26
       }
     ],
-    "fontSize": 21.328,
+    "fontSize": 20.64,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
-    "lineHeight": "30.9256px",
+    "lineHeight": "30.96px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "04",
-    "x": 1169.78125,
-    "y": 652.53125,
-    "w": 318.21875,
+    "x": 1172.875,
+    "y": 517.484375,
+    "w": 315.125,
     "h": 25.796875,
     "renderedLines": [
       {
         "text": "04",
-        "x": 1169.78125,
-        "y": 654.53125,
+        "x": 1172.875,
+        "y": 519.484375,
         "w": 27.234375,
         "h": 21
       }
@@ -322,57 +322,57 @@
   },
   {
     "text": "Validação humana",
-    "x": 1169.78125,
-    "y": 692.078125,
-    "w": 318.21875,
-    "h": 36.328125,
+    "x": 1172.875,
+    "y": 557.03125,
+    "w": 315.125,
+    "h": 35.703125,
     "renderedLines": [
       {
         "text": "Validação humana",
-        "x": 1169.78125,
-        "y": 689.078125,
-        "w": 268.6875,
-        "h": 42
+        "x": 1172.875,
+        "y": 555.03125,
+        "w": 246.3125,
+        "h": 38
       }
     ],
-    "fontSize": 33.024,
+    "fontSize": 30.272,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "36.3264px",
-    "letterSpacing": "-0.264192px",
+    "lineHeight": "35.721px",
+    "letterSpacing": "-0.242176px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "O especialista revisa, decide e assume o controle.",
-    "x": 1169.78125,
-    "y": 742.15625,
-    "w": 318.21875,
-    "h": 61.84375,
+    "x": 1172.875,
+    "y": 606.484375,
+    "w": 315.125,
+    "h": 61.90625,
     "renderedLines": [
       {
         "text": "O especialista revisa, decide e",
-        "x": 1169.78125,
-        "y": 743.15625,
-        "w": 281.921875,
-        "h": 27
+        "x": 1172.875,
+        "y": 608.484375,
+        "w": 272.84375,
+        "h": 26
       },
       {
         "text": "assume o controle.",
-        "x": 1169.78125,
-        "y": 774.078125,
-        "w": 176.5,
-        "h": 27
+        "x": 1172.875,
+        "y": 639.4375,
+        "w": 170.796875,
+        "h": 26
       }
     ],
-    "fontSize": 21.328,
+    "fontSize": 20.64,
     "fontWeight": "400",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
-    "lineHeight": "30.9256px",
+    "lineHeight": "30.96px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"

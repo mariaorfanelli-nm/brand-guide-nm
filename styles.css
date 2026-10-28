@@ -6799,3 +6799,49 @@ body { line-height: 1.5; font-synthesis: none; }
 .eyebrow,.surface-label,.caption,.slide-kicker,.post-kicker,.mockup-meta > span,.media-specs dt,.document-template-specs dt,.metric-number,.metric-value { font-family: var(--font-support); }
 .eyebrow,.surface-label,.slide-kicker,.post-kicker { font-weight: 600; }
 .typography-roles { margin-top: 1.5rem; }
+
+/* Revisão crítica de design — composição editorial enterprise.
+   Paleta e famílias tipográficas aprovadas permanecem intactas. */
+.section-header { max-width: 64rem; }
+.section-header > .body-m { max-width: 64ch; }
+.slide-meta { align-items: baseline; flex-wrap: wrap; row-gap: .4rem; }
+.slide-meta p { flex-basis: 100%; padding-left: 2.5rem; max-width: 82ch; }
+.deck-slide { border-radius: 4px; box-shadow: none; }
+.deck-slide::after { opacity: .05; }
+.slide-eyebrow,.cover-kicker,.metric-eyebrow { letter-spacing: .13em; }
+.slide--cover { padding: 7.5cqi; }
+.cover-inner { gap: 2cqi; }
+.cover-logo { width: 39cqi; }
+.cover-rule { width: 5cqi; height: .2cqi; }
+.cover-slogan { font-size: 2.45cqi; }
+.slide--section .slide-display { font-size: 6.3cqi; line-height: 1.06; max-width: 24ch; }
+.verticals-head .slide-title { font-size: 4.45cqi; line-height: 1.08; }
+.vertical-card { border: 0; border-top: 1px solid rgba(255,255,252,.22); border-radius: 0; background: transparent; padding: 1.8cqi 1.25cqi 0 0; min-height: 19cqi; gap: 1.25cqi; }
+.vertical-card h4 { font-size: 2.35cqi; line-height: 1.12; }
+.vertical-card p { font-size: 1.4cqi; line-height: 1.5; }
+.vertical-products { gap: .6cqi 1.1cqi; padding-top: 1.1cqi; }
+.vertical-products span { border: 0; border-radius: 0; padding: .25cqi 0; letter-spacing: .02em; font-size: 1cqi; line-height: 1.3; }
+.metric-value { font-size: 19cqi; line-height: .98; }
+.metric-value span { font-size: 10cqi; }
+.metric-block { gap: 1.9cqi; }
+.metric-context { max-width: 47ch; margin-top: 0; }
+.slide--process { justify-content: center; gap: 8cqi; }
+.slide-process { gap: 2.8cqi; }
+.slide-process strong { font-size: 2.2cqi; line-height: 1.18; }
+.slide-process p { font-size: 1.5cqi; line-height: 1.5; }
+.slide-process li::before { width: .7cqi; height: .7cqi; top: 1.05cqi; }
+.slide--three-step { justify-content: center; gap: 6cqi; }
+.three-step-grid::before { display: none; }
+.three-step-card { border: 0; border-top: 1px solid rgba(41,2,65,.22); border-radius: 0; background: transparent; box-shadow: none; padding: 1.7cqi 1.5cqi 0 0; min-height: 17cqi; }
+.step-number { width: 2.5cqi; height: 2.5cqi; }
+.product-stack-main,.stack-layer,.product-stack-card { box-shadow: none; border-radius: 3px; }
+.meet-bg { border-radius: 4px; box-shadow: none; }
+.meet-meta { border-radius: 0; border-left: 0; border-right: 0; background: transparent; }
+.media-preview { border-radius: 4px; box-shadow: none; }
+.media-download,.document-template-download { border-radius: 4px; }
+.logo-stage { border-radius: 4px; }
+.logo-stage .surface-label { letter-spacing: .08em; }
+@media(max-width:700px) {
+ .slide-meta { gap: .4rem .75rem; }
+ .slide-meta p { padding-left: 0; }
+}

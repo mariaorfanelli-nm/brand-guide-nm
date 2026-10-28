@@ -10,7 +10,7 @@
         "text": "Próximo passo",
         "x": 112,
         "y": 114,
-        "w": 194.84375,
+        "w": 193.546875,
         "h": 25
       }
     ],
@@ -20,7 +20,7 @@
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
     "lineHeight": "30px",
-    "letterSpacing": "2.7px",
+    "letterSpacing": "2.6px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },

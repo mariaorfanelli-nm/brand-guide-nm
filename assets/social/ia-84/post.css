@@ -114,3 +114,8 @@ body.art-only { background: var(--roxo-profundo); }
 .approved-logo img { position: static; width: 100%; height: auto; max-width: 100%; }
 
 .post-kicker,.post-eyebrow,.statistic-number,.post-footer,.tag,.note-title { font-family: var(--font-support); }
+
+/* Indicador com presença, sem competir com a mensagem editorial. */
+.statistic-number { font-size: 340px; }
+.statistic-caption { font-size: 34px; line-height: 1.35; }
+.message { font-size: 60px; line-height: 1.15; }

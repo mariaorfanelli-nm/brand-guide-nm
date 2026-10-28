@@ -236,7 +236,7 @@ def configure_styles(doc):
     normal = styles["Normal"]
     set_style_font(normal, 10.5, BLACK)
     normal.paragraph_format.space_after = Pt(6)
-    normal.paragraph_format.line_spacing = 1.28
+    normal.paragraph_format.line_spacing = 1.35
     normal.paragraph_format.widow_control = True
 
     title = styles["Title"]
@@ -254,7 +254,7 @@ def configure_styles(doc):
     subtitle.paragraph_format.line_spacing = 1.25
 
     for style_name, size, color, before, after in (
-        ("Heading 1", 17.5, PURPLE, 20, 7),
+        ("Heading 1", 16, PURPLE, 20, 7),
         ("Heading 2", 12, BLACK, 13, 5),
         ("Heading 3", 10.5, PURPLE, 10, 4),
     ):
@@ -400,7 +400,7 @@ def add_body_template(doc, usable_width_dxa):
     note.paragraph_format.space_before = Pt(0)
     note.paragraph_format.space_after = Pt(16)
     note_run = note.add_run("Orientação do modelo: substitua os textos entre colchetes e exclua esta linha antes de publicar.")
-    set_run_font(note_run, size=8.5, color=MUTED, italic=True)
+    set_run_font(note_run, size=8.5, color=MUTED, italic=False)
 
     doc.add_heading("Resumo executivo", level=1)
     lead = doc.add_paragraph(style="NM Lead")

@@ -2,15 +2,15 @@
   {
     "text": "Capítulo 02",
     "x": 112,
-    "y": 312.140625,
+    "y": 317.796875,
     "w": 1376,
     "h": 25.796875,
     "renderedLines": [
       {
         "text": "Capítulo 02",
         "x": 112,
-        "y": 314.140625,
-        "w": 133.828125,
+        "y": 319.796875,
+        "w": 132.890625,
         "h": 21
       }
     ],
@@ -20,53 +20,53 @@
     "color": "rgb(147, 129, 255)",
     "opacity": 0.85,
     "lineHeight": "25.8px",
-    "letterSpacing": "2.322px",
+    "letterSpacing": "2.236px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },
   {
     "text": "Arquitetura de Produtos",
     "x": 112,
-    "y": 373.125,
-    "w": 1216.578125,
-    "h": 103.203125,
+    "y": 378.78125,
+    "w": 1362.46875,
+    "h": 91.875,
     "renderedLines": [
       {
         "text": "Arquitetura de Produtos",
         "x": 112,
-        "y": 359.125,
-        "w": 1047.96875,
-        "h": 130
+        "y": 368.78125,
+        "w": 880.234375,
+        "h": 110
       }
     ],
-    "fontSize": 103.2,
+    "fontSize": 86.688,
     "fontWeight": "500",
     "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "103.2px",
-    "letterSpacing": "-2.4768px",
+    "lineHeight": "91.8893px",
+    "letterSpacing": "-2.08051px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "Diferentes produtos, uma mesma capacidade: transformar complexidade em inteligência para decisão.",
     "x": 112,
-    "y": 511.515625,
+    "y": 505.84375,
     "w": 700.84375,
     "h": 76.34375,
     "renderedLines": [
       {
         "text": "Diferentes produtos, uma mesma capacidade: transformar",
         "x": 112,
-        "y": 514.515625,
+        "y": 508.84375,
         "w": 665.28125,
         "h": 32
       },
       {
         "text": "complexidade em inteligência para decisão.",
         "x": 112,
-        "y": 552.6875,
+        "y": 547.015625,
         "w": 491.640625,
         "h": 32
       }
