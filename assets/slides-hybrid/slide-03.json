@@ -16,11 +16,11 @@
     "textTransform": "uppercase"
   },
   {
-    "text": "IA responsável para setores onde precisão não é opcional.",
+    "text": "Decision Intelligence onde cada decisão importa.",
     "x": 99.1875,
     "y": 182.921875,
     "w": 656.359375,
-    "h": 258.1875,
+    "h": 193.640625,
     "fontSize": 65.8764,
     "fontWeight": "500",
     "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
@@ -32,9 +32,9 @@
     "textTransform": "none"
   },
   {
-    "text": "Cada vertical resolve um tipo distinto de problema crítico, sempre com fonte verificável, rastreabilidade e supervisão humana no centro da decisão.",
+    "text": "Do jurídico à saúde, a NeuralMind organiza informação complexa para apoiar especialistas com contexto, fontes verificáveis e supervisão humana.",
     "x": 811.609375,
-    "y": 337.046875,
+    "y": 272.5,
     "w": 612.296875,
     "h": 104.0625,
     "fontSize": 23.1268,
@@ -50,7 +50,7 @@
   {
     "text": "01",
     "x": 129.609375,
-    "y": 535.53125,
+    "y": 471.5,
     "w": 393.28125,
     "h": 23.25,
     "fontSize": 14.7171,
@@ -64,9 +64,9 @@
     "textTransform": "none"
   },
   {
-    "text": "Dados & Conhecimento",
+    "text": "Inteligência fundamental",
     "x": 129.609375,
-    "y": 575.59375,
+    "y": 511.5625,
     "w": 393.28125,
     "h": 48.703125,
     "fontSize": 30.8358,
@@ -80,9 +80,9 @@
     "textTransform": "none"
   },
   {
-    "text": "Transforma documentos, bases internas e informação não estruturada em respostas, evidências e insights verificáveis.",
+    "text": "Transforma documentos, bases internas e informação não estruturada em conhecimento verificável para decidir.",
     "x": 129.609375,
-    "y": 641.109375,
+    "y": 577.078125,
     "w": 393.28125,
     "h": 78,
     "fontSize": 17.9408,
@@ -98,7 +98,7 @@
   {
     "text": "NeuralSearchX",
     "x": 129.609375,
-    "y": 755.140625,
+    "y": 739.8125,
     "w": 122.25,
     "h": 30.578125,
     "fontSize": 12.3343,
@@ -114,7 +114,7 @@
   {
     "text": "NDocs",
     "x": 259.5625,
-    "y": 755.140625,
+    "y": 739.8125,
     "w": 65.59375,
     "h": 30.578125,
     "fontSize": 12.3343,
@@ -130,7 +130,7 @@
   {
     "text": "Tuss-Finder",
     "x": 332.859375,
-    "y": 755.140625,
+    "y": 739.8125,
     "w": 102.25,
     "h": 30.578125,
     "fontSize": 12.3343,
@@ -146,7 +146,7 @@
   {
     "text": "02",
     "x": 603.34375,
-    "y": 535.53125,
+    "y": 471.5,
     "w": 393.296875,
     "h": 23.25,
     "fontSize": 14.7171,
@@ -160,11 +160,11 @@
     "textTransform": "none"
   },
   {
-    "text": "Jurídico",
+    "text": "Jurídico, regulação e controle",
     "x": 603.34375,
-    "y": 575.59375,
+    "y": 511.5625,
     "w": 393.296875,
-    "h": 48.703125,
+    "h": 97.40625,
     "fontSize": 30.8358,
     "fontWeight": "500",
     "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
@@ -176,9 +176,9 @@
     "textTransform": "none"
   },
   {
-    "text": "Modelos e aplicações especializados no contexto brasileiro para apoiar análise, fundamentação e produção jurídica.",
+    "text": "Apoia análise, fundamentação e formação de convicção em contextos jurídicos, regulatórios e de controle.",
     "x": 603.34375,
-    "y": 641.109375,
+    "y": 625.78125,
     "w": 393.296875,
     "h": 78,
     "fontSize": 17.9408,
@@ -194,7 +194,7 @@
   {
     "text": "Jurema",
     "x": 603.34375,
-    "y": 755.140625,
+    "y": 739.8125,
     "w": 71.390625,
     "h": 30.578125,
     "fontSize": 12.3343,
@@ -208,10 +208,10 @@
     "textTransform": "none"
   },
   {
-    "text": "ARACI",
+    "text": "Araci",
     "x": 682.4375,
-    "y": 755.140625,
-    "w": 66.171875,
+    "y": 739.8125,
+    "w": 57.109375,
     "h": 30.578125,
     "fontSize": 12.3343,
     "fontWeight": "600",
@@ -225,8 +225,8 @@
   },
   {
     "text": "AssertIA",
-    "x": 756.3125,
-    "y": 755.140625,
+    "x": 747.25,
+    "y": 739.8125,
     "w": 81.984375,
     "h": 30.578125,
     "fontSize": 12.3343,
@@ -241,8 +241,8 @@
   },
   {
     "text": "SofIA",
-    "x": 846,
-    "y": 755.140625,
+    "x": 836.9375,
+    "y": 739.8125,
     "w": 60.875,
     "h": 30.578125,
     "fontSize": 12.3343,
@@ -258,7 +258,7 @@
   {
     "text": "03",
     "x": 1077.09375,
-    "y": 535.53125,
+    "y": 471.5,
     "w": 393.28125,
     "h": 23.25,
     "fontSize": 14.7171,
@@ -274,7 +274,7 @@
   {
     "text": "Saúde",
     "x": 1077.09375,
-    "y": 575.59375,
+    "y": 511.5625,
     "w": 393.28125,
     "h": 48.703125,
     "fontSize": 30.8358,
@@ -288,9 +288,9 @@
     "textTransform": "none"
   },
   {
-    "text": "Soluções para priorização, classificação e apoio operacional em ambientes clínicos, regulatórios e assistenciais.",
+    "text": "Apoia a priorização clínica para que especialistas direcionem atenção aos casos que podem precisar dela primeiro.",
     "x": 1077.09375,
-    "y": 641.109375,
+    "y": 577.078125,
     "w": 393.28125,
     "h": 78,
     "fontSize": 17.9408,
@@ -306,7 +306,7 @@
   {
     "text": "PrioScan",
     "x": 1077.09375,
-    "y": 755.140625,
+    "y": 739.8125,
     "w": 81.6875,
     "h": 30.578125,
     "fontSize": 12.3343,

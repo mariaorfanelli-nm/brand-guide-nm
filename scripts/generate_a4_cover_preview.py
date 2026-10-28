@@ -62,7 +62,7 @@ def main():
     draw.rectangle((left, 1545, 1108, 1548), fill=VIOLET)
     draw.text(
         (left, 1580),
-        "IA responsável para setores críticos",
+        "Inteligência para decisão",
         font=font("NeuralMindSansSquare-SemiBold.ttf", 20),
         fill=WHITE,
     )

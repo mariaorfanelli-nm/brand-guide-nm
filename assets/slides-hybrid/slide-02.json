@@ -2,7 +2,7 @@
   {
     "text": "Capítulo 02",
     "x": 112,
-    "y": 311.453125,
+    "y": 292.359375,
     "w": 1376,
     "h": 27.171875,
     "fontSize": 17.2,
@@ -18,7 +18,7 @@
   {
     "text": "Arquitetura de Produtos",
     "x": 112,
-    "y": 373.8125,
+    "y": 354.71875,
     "w": 1198.9375,
     "h": 103.203125,
     "fontSize": 103.2,
@@ -32,11 +32,11 @@
     "textTransform": "none"
   },
   {
-    "text": "Três verticais, um único compromisso: IA responsável para decisões em ambientes regulados.",
+    "text": "Diferentes produtos, uma mesma capacidade: transformar complexidade em inteligência para decisão.",
     "x": 112,
-    "y": 512.203125,
+    "y": 493.109375,
     "w": 673.984375,
-    "h": 76.34375,
+    "h": 114.515625,
     "fontSize": 25.456,
     "fontWeight": "400",
     "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",

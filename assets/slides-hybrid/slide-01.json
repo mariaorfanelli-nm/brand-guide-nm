@@ -2,7 +2,7 @@
   {
     "text": "Brand Guide Digital",
     "x": 128,
-    "y": 454.78125,
+    "y": 536.765625,
     "w": 253.78125,
     "h": 25.46875,
     "fontSize": 16.128,
@@ -16,11 +16,11 @@
     "textTransform": "uppercase"
   },
   {
-    "text": "IA responsável para setores críticos.",
+    "text": "Inteligência para decisão.",
     "x": 128,
-    "y": 661.625,
-    "w": 528.96875,
-    "h": 110.375,
+    "y": 716.8125,
+    "w": 424.5625,
+    "h": 55.1875,
     "fontSize": 34.944,
     "fontWeight": "400",
     "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",

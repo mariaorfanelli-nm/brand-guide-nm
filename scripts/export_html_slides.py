@@ -4,6 +4,7 @@
 from pathlib import Path
 import re
 import subprocess
+import os
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,7 +21,7 @@ if len(cards) != 16:
 out_dir = ROOT / "assets" / "slides-rendered"
 out_dir.mkdir(parents=True, exist_ok=True)
 
-chrome = "/usr/bin/google-chrome"
+chrome = os.environ.get("CHROME_PATH", "/usr/bin/google-chrome")
 for number, card in enumerate(cards, 1):
     page = f'''<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8">

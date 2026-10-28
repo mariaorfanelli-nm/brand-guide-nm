@@ -49,11 +49,11 @@ def add_text(slide, item):
         p.space_before = p.space_after = Pt(0)
         line_height = item.get("lineHeight", "normal")
         if isinstance(line_height, str) and line_height.endswith("px"):
-            p.line_spacing = Pt(float(line_height[:-2]) * 0.75)
+            p.line_spacing = Pt(float(line_height[:-2]) * 0.6)
         run = p.add_run(); run.text = line
         font = run.font
         font.name = "NeuralMind Sans Square"
-        font.size = Pt(float(item["fontSize"]) * 0.75)
+        font.size = Pt(float(item["fontSize"]) * 0.6)
         try: weight = int(item["fontWeight"])
         except ValueError: weight = 700 if item["fontWeight"] == "bold" else 400
         font.bold = weight >= 600

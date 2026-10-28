@@ -6,6 +6,7 @@ import html as html_lib
 import json
 import re
 import subprocess
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -18,7 +19,7 @@ if len(cards) != 16:
 
 OUT = ROOT / "assets" / "slides-hybrid"
 OUT.mkdir(parents=True, exist_ok=True)
-CHROME = "/usr/bin/google-chrome"
+CHROME = os.environ.get("CHROME_PATH", "/usr/bin/google-chrome")
 
 JS = r'''
 <script>

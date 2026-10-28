@@ -320,10 +320,7 @@ def configure_header_footer(section):
     paragraph = header.paragraphs[0]
     paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
     paragraph.paragraph_format.space_after = Pt(8)
-    wordmark = paragraph.add_run("NeuralMind")
-    set_run_font(wordmark, size=15.5, color=PURPLE, bold=True)
-    suffix = paragraph.add_run(".AI")
-    set_run_font(suffix, size=15.5, color=VIOLET, bold=True)
+    paragraph.add_run().add_picture(str(LOGO_PURPLE), width=Inches(1.8))
 
     footer = section.footer
     footer.is_linked_to_previous = False

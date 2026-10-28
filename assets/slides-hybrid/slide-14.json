@@ -16,7 +16,7 @@
     "textTransform": "uppercase"
   },
   {
-    "text": "ARACI",
+    "text": "Araci",
     "x": 99.1875,
     "y": 170.515625,
     "w": 619.515625,
@@ -32,7 +32,7 @@
     "textTransform": "none"
   },
   {
-    "text": "Copiloto jurídico powered by NeuralSearchX + Jurema.",
+    "text": "Decision Intelligence para o trabalho jurídico, com NeuralSearchX + Jurema.",
     "x": 771.953125,
     "y": 191.984375,
     "w": 596.453125,
@@ -64,10 +64,10 @@
     "textTransform": "uppercase"
   },
   {
-    "text": "ARACI",
-    "x": 703.65625,
+    "text": "Araci",
+    "x": 726.0625,
     "y": 401.21875,
-    "w": 192.6875,
+    "w": 147.859375,
     "h": 58.578125,
     "fontSize": 61.6715,
     "fontWeight": "500",

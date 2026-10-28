@@ -82,7 +82,7 @@ def linkedin_cover():
     )
     right_aligned_text(
         draw,
-        "A inteligência por trás das decisões mais complexas.",
+        "Inteligência para decisão.",
         content_right,
         426,
         font=tagline_font,
@@ -106,7 +106,7 @@ def youtube_banner():
     )
     centered_text(
         draw,
-        "A inteligência por trás das decisões mais complexas.",
+        "Inteligência para decisão.",
         1280,
         792,
         tagline_font,

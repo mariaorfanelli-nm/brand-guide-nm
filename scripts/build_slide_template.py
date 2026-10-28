@@ -124,7 +124,7 @@ def cover(prs):
     eyebrow(s, "Brand Guide Digital", 1.05, 4.18, LAVENDER)
     picture(s, "brand/neuralmind-ai-white.png", 1.05, 4.68, 5.25)
     rect(s, 1.05, 5.69, 1.05, 0.045, CORAL)
-    text(s, "IA responsável para setores críticos.", 1.05, 5.96, 5.8, 0.48, 18, WHITE)
+    text(s, "Inteligência para decisão.", 1.05, 5.96, 5.8, 0.48, 18, WHITE)
 
 
 def section(prs):

@@ -16,11 +16,11 @@
     "textTransform": "uppercase"
   },
   {
-    "text": "Da complexidade à decisão assistida.",
+    "text": "Da complexidade à clareza para decidir.",
     "x": 99.1875,
     "y": 173.71875,
     "w": 599.265625,
-    "h": 130.46875,
+    "h": 195.703125,
     "fontSize": 66.5772,
     "fontWeight": "500",
     "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
@@ -34,7 +34,7 @@
   {
     "text": "Modelo para explicar jornadas curtas, pipelines comerciais, onboarding ou etapas de implantação.",
     "x": 751.703125,
-    "y": 239.03125,
+    "y": 304.265625,
     "w": 548.046875,
     "h": 65.15625,
     "fontSize": 21.7252,
