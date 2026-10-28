@@ -111,7 +111,7 @@ const photoStatus = document.getElementById('photo-selection-status');
 function selectPhotoDirection(value, persist = true) {
   photoChoices.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.photoChoice === value)));
   if (photoStatus) photoStatus.textContent = value ? `Preferência registrada neste navegador: ${value}. Comente no chat para confirmar a direção final.` : 'Nenhuma direção selecionada. Os botões guardam apenas sua preferência neste navegador.';
-  if (persist) { try { localStorage.setItem('neuralmindPhotoDirection', value); } catch {} }
+  if (persist) { try { localStorage.setItem('neuralmindPhotoDirectionCorporateV2', value); } catch {} }
 }
 photoChoices.forEach(button => button.addEventListener('click', () => selectPhotoDirection(button.dataset.photoChoice)));
-try { selectPhotoDirection(localStorage.getItem('neuralmindPhotoDirection') || '', false); } catch { selectPhotoDirection('', false); }
+try { selectPhotoDirection(localStorage.getItem('neuralmindPhotoDirectionCorporateV2') || '', false); } catch { selectPhotoDirection('', false); }

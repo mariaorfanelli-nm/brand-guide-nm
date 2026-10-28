@@ -36,6 +36,8 @@ A seção `#web-system` propõe header, hero, cards de verticais, bloco de evid�
 
 ## Fotografia e proposta editorial do site
 
-A seção `#photography` apresenta três direções ainda em avaliação: A, pessoas em decisão; B, precisão e materialidade; C, arquitetura e perspectiva. As imagens em `assets/photography/` são estudos conceituais gerados com ImageGen, não fotografias da equipe ou de clientes reais. Os prompts estão em `directions.json`. A recomendação inicial é A como base, com B e C como apoio; nenhuma direção está aprovada. A seleção dos botões é local ao navegador e não representa aprovação formal.
+A seção `#photography` apresenta três novas direções em avaliação: A, pesquisa e desenvolvimento em IA; B, inteligência para decisão corporativa; C, tecnologia em detalhe. Todas mostram ambientes corporativos tecnológicos com presença física do roxo profundo #290241 em roupa, xícara, parede ou mobiliário. Luz e cores permanecem naturais, sem filtro roxo integral.
 
-A proposta `#web-system` foi ampliada com hero fotográfico, mosaico de aplicações, dossiê de caso, percurso de trabalho, abertura de pesquisa e caderno editorial. As pautas e o case são exemplos para futura produção, sem métricas ou artigos inventados.
+As imagens `assets/photography/corporate-*.png` são estudos conceituais gerados com ImageGen, não fotografias da equipe ou de clientes reais. Os prompts estão em `corporate-directions.json`. A recomendação é A como base institucional, B para aplicações corporativas e C como apoio técnico; nenhuma direção foi aprovada. As referências anteriores permanecem no histórico e nos arquivos, mas não são usadas na proposta atual. A seleção dos botões é local ao navegador e usa uma chave nova para não reaproveitar preferências das direções anteriores.
+
+A proposta `#web-system` combina hero fotográfico, mosaico de aplicações, dossiê de caso, percurso de trabalho, abertura de pesquisa e caderno editorial. As pautas e o case são exemplos para futura produção, sem métricas ou artigos inventados.
