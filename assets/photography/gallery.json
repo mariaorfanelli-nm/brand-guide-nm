@@ -1,0 +1,88 @@
+{
+  "brand": "NeuralMind.ai",
+  "direction": "Corporate technology and AI R&D; deep purple physically present in every scene.",
+  "count": 10,
+  "provenance": "Generated with built-in ImageGen. Fictional conceptual people, environments and interfaces; not actual company facilities or clients.",
+  "images": [
+    {
+      "id": "01",
+      "src": "assets/photography/corporate-a-research.png",
+      "title": "Pesquisa e desenvolvimento em IA",
+      "category": "Pessoas",
+      "description": "Pesquisadores em colaboração, com código e modelos na estação de trabalho.",
+      "purple": "Camiseta, xícara e painel roxos."
+    },
+    {
+      "id": "02",
+      "src": "assets/photography/corporate-b-decisions.png",
+      "title": "Inteligência para decisão corporativa",
+      "category": "Pessoas",
+      "description": "Especialistas discutindo uma análise digital em uma sala de reunião.",
+      "purple": "Blusa, xícaras e painel roxos."
+    },
+    {
+      "id": "03",
+      "src": "assets/photography/corporate-c-tech-detail.png",
+      "title": "Tecnologia em detalhe",
+      "category": "Pessoas",
+      "description": "Mãos, código e avaliação de modelos em uma estação de desenvolvimento.",
+      "purple": "Camiseta e xícara roxas."
+    },
+    {
+      "id": "04",
+      "src": "assets/photography/04-gpu-detail.png",
+      "title": "GPUs em detalhe",
+      "category": "Infraestrutura",
+      "description": "Aceleradores e componentes de computação em um recorte técnico próximo.",
+      "purple": "Superfície de trabalho roxa."
+    },
+    {
+      "id": "05",
+      "src": "assets/photography/05-compute-node.png",
+      "title": "Computação para IA",
+      "category": "Infraestrutura",
+      "description": "Nó de computação de alto desempenho em um laboratório corporativo.",
+      "purple": "Painel e bancada roxos."
+    },
+    {
+      "id": "06",
+      "src": "assets/photography/06-data-center.png",
+      "title": "Data center",
+      "category": "Infraestrutura",
+      "description": "Racks e infraestrutura de processamento em perspectiva.",
+      "purple": "Parede e faixa de piso roxas."
+    },
+    {
+      "id": "07",
+      "src": "assets/photography/07-individual-work.png",
+      "title": "Desenvolvimento individual",
+      "category": "Pessoas",
+      "description": "Concentração e autonomia no desenvolvimento de software e IA.",
+      "purple": "Camiseta e xícara roxas."
+    },
+    {
+      "id": "08",
+      "src": "assets/photography/08-study.png",
+      "title": "Estudo e aprofundamento",
+      "category": "Pessoas",
+      "description": "Leitura técnica e anotações em uma área de foco do escritório.",
+      "purple": "Divisória e xícara roxas."
+    },
+    {
+      "id": "09",
+      "src": "assets/photography/09-team.png",
+      "title": "Pesquisa em equipe",
+      "category": "Pessoas",
+      "description": "Discussão técnica entre profissionais de diferentes especialidades.",
+      "purple": "Camiseta, painel e xícara roxos."
+    },
+    {
+      "id": "10",
+      "src": "assets/photography/10-infrastructure-team.png",
+      "title": "Engenharia de infraestrutura",
+      "category": "Pessoas",
+      "description": "Engenheiros acompanhando sistemas de computação em laboratório.",
+      "purple": "Polo e painel roxos."
+    }
+  ]
+}

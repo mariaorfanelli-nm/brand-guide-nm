@@ -36,8 +36,10 @@ A seção `#web-system` propõe header, hero, cards de verticais, bloco de evid�
 
 ## Fotografia e proposta editorial do site
 
-A seção `#photography` apresenta três novas direções em avaliação: A, pesquisa e desenvolvimento em IA; B, inteligência para decisão corporativa; C, tecnologia em detalhe. Todas mostram ambientes corporativos tecnológicos com presença física do roxo profundo #290241 em roupa, xícara, parede ou mobiliário. Luz e cores permanecem naturais, sem filtro roxo integral.
+A direção corporativa e tecnológica foi aprovada. A galeria `#photography` tem dez imagens: três referências iniciais e sete novas, com GPUs, nó de computação, data center, desenvolvimento individual, estudo, pesquisa em equipe e engenharia de infraestrutura. A navegação oferece filtros, ampliação por teclado e download individual.
 
-As imagens `assets/photography/corporate-*.png` são estudos conceituais gerados com ImageGen, não fotografias da equipe ou de clientes reais. Os prompts estão em `corporate-directions.json`. A recomendação é A como base institucional, B para aplicações corporativas e C como apoio técnico; nenhuma direção foi aprovada. As referências anteriores permanecem no histórico e nos arquivos, mas não são usadas na proposta atual. A seleção dos botões é local ao navegador e usa uma chave nova para não reaproveitar preferências das direções anteriores.
+O inventário ativo está em `assets/photography/gallery.json`. As imagens são estudos conceituais gerados com ImageGen, não registros da equipe, clientes ou infraestrutura própria. Os prompts estão em `corporate-directions.json` e `gallery-generation-prompts.json`. Estudos de direções anteriores estão preservados, mas não fazem parte da galeria ativa de dez imagens.
+
+O manual [DIRECAO_FOTOGRAFICA_VISUAL.md](DIRECAO_FOTOGRAFICA_VISUAL.md) reúne posicionamento, presença física do roxo profundo, luz, composição, figurino, cenários, formatos e prompts-base para fotos e vídeos. O download está disponível na galeria do guia.
 
 A proposta `#web-system` combina hero fotográfico, mosaico de aplicações, dossiê de caso, percurso de trabalho, abertura de pesquisa e caderno editorial. As pautas e o case são exemplos para futura produção, sem métricas ou artigos inventados.

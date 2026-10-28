@@ -105,13 +105,39 @@ document.querySelector("[data-slide-next]")?.addEventListener("click", () => {
   slides[Math.min(slides.length - 1, currentSlideIndex() + 1)]?.scrollIntoView({ behavior: "smooth", block: "nearest" });
 });
 
-// Escolha local de direção fotográfica; não envia aprovação a um servidor.
-const photoChoices = [...document.querySelectorAll('[data-photo-choice]')];
-const photoStatus = document.getElementById('photo-selection-status');
-function selectPhotoDirection(value, persist = true) {
-  photoChoices.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.photoChoice === value)));
-  if (photoStatus) photoStatus.textContent = value ? `Preferência registrada neste navegador: ${value}. Comente no chat para confirmar a direção final.` : 'Nenhuma direção selecionada. Os botões guardam apenas sua preferência neste navegador.';
-  if (persist) { try { localStorage.setItem('neuralmindPhotoDirectionCorporateV2', value); } catch {} }
+// Galeria fotográfica: filtros e ampliação acessíveis, sem dependências externas.
+const photoCards = [...document.querySelectorAll('.photo-gallery-card')];
+const photoFilters = [...document.querySelectorAll('[data-photo-filter]')];
+const photoDialog = document.querySelector('.photo-gallery-dialog');
+let activePhotoCard = null;
+function visiblePhotoCards() { return photoCards.filter(card => !card.hidden); }
+function showPhoto(card) {
+  if (!photoDialog || !card) return;
+  activePhotoCard = card;
+  const source = card.querySelector('img');
+  document.getElementById('photo-dialog-title').textContent = card.querySelector('h3').textContent;
+  const image = document.getElementById('photo-dialog-image');
+  image.src = source.getAttribute('src'); image.alt = source.alt;
+  document.getElementById('photo-dialog-description').textContent = card.querySelector('figcaption p').textContent + ' Estudo conceitual gerado por IA.';
+  document.getElementById('photo-dialog-download').href = source.getAttribute('src');
+  if (!photoDialog.open) photoDialog.showModal();
 }
-photoChoices.forEach(button => button.addEventListener('click', () => selectPhotoDirection(button.dataset.photoChoice)));
-try { selectPhotoDirection(localStorage.getItem('neuralmindPhotoDirectionCorporateV2') || '', false); } catch { selectPhotoDirection('', false); }
+function advancePhoto(step) {
+  const cards = visiblePhotoCards();
+  if (cards.length) showPhoto(cards[(cards.indexOf(activePhotoCard) + step + cards.length) % cards.length]);
+}
+photoFilters.forEach(button => button.addEventListener('click', () => {
+  const filter = button.dataset.photoFilter;
+  photoFilters.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  photoCards.forEach(card => { card.hidden = filter !== 'all' && card.dataset.photoCategory !== filter; });
+  const count = visiblePhotoCards().length;
+  document.getElementById('photo-gallery-count').textContent = `${count} ${count === 1 ? 'imagem' : 'imagens'}`;
+}));
+photoCards.forEach(card => card.querySelector('.photo-gallery-open').addEventListener('click', () => showPhoto(card)));
+document.querySelector('[data-photo-close]')?.addEventListener('click', () => photoDialog.close());
+document.querySelector('[data-photo-prev]')?.addEventListener('click', () => advancePhoto(-1));
+document.querySelector('[data-photo-next]')?.addEventListener('click', () => advancePhoto(1));
+photoDialog?.addEventListener('click', event => { if (event.target === photoDialog) photoDialog.close(); });
+photoDialog?.addEventListener('keydown', event => {
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); advancePhoto(event.key === 'ArrowRight' ? 1 : -1); }
+});
