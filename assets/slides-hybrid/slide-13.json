@@ -4,13 +4,22 @@
     "x": 99.1875,
     "y": 92.796875,
     "w": 1401.625,
-    "h": 27.671875,
+    "h": 26.265625,
+    "renderedLines": [
+      {
+        "text": "Processo em 3 etapas",
+        "x": 99.1875,
+        "y": 93.796875,
+        "w": 248.140625,
+        "h": 23
+      }
+    ],
     "fontSize": 17.5203,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
-    "lineHeight": "27.6821px",
+    "lineHeight": "26.2805px",
     "letterSpacing": "2.36524px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,28 @@
   {
     "text": "Da complexidade à clareza para decidir.",
     "x": 99.1875,
-    "y": 173.71875,
+    "y": 172.3125,
     "w": 599.265625,
-    "h": 195.703125,
+    "h": 130.46875,
+    "renderedLines": [
+      {
+        "text": "Da complexidade à",
+        "x": 99.1875,
+        "y": 162.3125,
+        "w": 544.21875,
+        "h": 84
+      },
+      {
+        "text": "clareza para decidir.",
+        "x": 99.1875,
+        "y": 227.546875,
+        "w": 572.84375,
+        "h": 84
+      }
+    ],
     "fontSize": 66.5772,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "65.2456px",
@@ -34,12 +59,28 @@
   {
     "text": "Modelo para explicar jornadas curtas, pipelines comerciais, onboarding ou etapas de implantação.",
     "x": 751.703125,
-    "y": 304.265625,
-    "w": 548.046875,
+    "y": 237.625,
+    "w": 569.890625,
     "h": 65.15625,
+    "renderedLines": [
+      {
+        "text": "Modelo para explicar jornadas curtas, pipelines comerciais,",
+        "x": 751.703125,
+        "y": 239.625,
+        "w": 567.125,
+        "h": 28
+      },
+      {
+        "text": "onboarding ou etapas de implantação.",
+        "x": 751.703125,
+        "y": 272.203125,
+        "w": 371.046875,
+        "h": 28
+      }
+    ],
     "fontSize": 21.7252,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.64)",
     "opacity": 1,
     "lineHeight": "32.5878px",
@@ -53,12 +94,21 @@
     "y": 555.921875,
     "w": 42.046875,
     "h": 42.046875,
+    "renderedLines": [
+      {
+        "text": "01",
+        "x": 139.921875,
+        "y": 566.90625,
+        "w": 18.640625,
+        "h": 19
+      }
+    ],
     "fontSize": 14.7171,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "23.253px",
+    "lineHeight": "22.0756px",
     "letterSpacing": "1.76605px",
     "textAlign": "start",
     "textTransform": "none"
@@ -66,15 +116,24 @@
   {
     "text": "Mapear",
     "x": 128.21875,
-    "y": 625.421875,
+    "y": 628.21875,
     "w": 395.59375,
-    "h": 55.359375,
+    "h": 52.5625,
+    "renderedLines": [
+      {
+        "text": "Mapear",
+        "x": 128.21875,
+        "y": 632.21875,
+        "w": 121.953125,
+        "h": 44
+      }
+    ],
     "fontSize": 35.0406,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "55.3642px",
+    "lineHeight": "52.5609px",
     "letterSpacing": "-0.350406px",
     "textAlign": "start",
     "textTransform": "none"
@@ -85,9 +144,32 @@
     "y": 698.296875,
     "w": 395.59375,
     "h": 79.875,
+    "renderedLines": [
+      {
+        "text": "Identificamos fontes, regras de negócio,",
+        "x": 128.21875,
+        "y": 699.296875,
+        "w": 326.984375,
+        "h": 24
+      },
+      {
+        "text": "usuários e pontos de decisão que",
+        "x": 128.21875,
+        "y": 725.921875,
+        "w": 266.96875,
+        "h": 24
+      },
+      {
+        "text": "exigem rastreabilidade.",
+        "x": 128.21875,
+        "y": 752.546875,
+        "w": 194.59375,
+        "h": 24
+      }
+    ],
     "fontSize": 18.5014,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.66)",
     "opacity": 1,
     "lineHeight": "26.6421px",
@@ -101,12 +183,21 @@
     "y": 555.921875,
     "w": 42.046875,
     "h": 42.046875,
+    "renderedLines": [
+      {
+        "text": "02",
+        "x": 612.515625,
+        "y": 566.90625,
+        "w": 21.375,
+        "h": 19
+      }
+    ],
     "fontSize": 14.7171,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "23.253px",
+    "lineHeight": "22.0756px",
     "letterSpacing": "1.76605px",
     "textAlign": "start",
     "textTransform": "none"
@@ -114,15 +205,24 @@
   {
     "text": "Construir",
     "x": 602.1875,
-    "y": 625.421875,
+    "y": 628.21875,
     "w": 395.609375,
-    "h": 55.359375,
+    "h": 52.5625,
+    "renderedLines": [
+      {
+        "text": "Construir",
+        "x": 602.1875,
+        "y": 632.21875,
+        "w": 143.078125,
+        "h": 44
+      }
+    ],
     "fontSize": 35.0406,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "55.3642px",
+    "lineHeight": "52.5609px",
     "letterSpacing": "-0.350406px",
     "textAlign": "start",
     "textTransform": "none"
@@ -133,9 +233,32 @@
     "y": 698.296875,
     "w": 395.609375,
     "h": 79.875,
+    "renderedLines": [
+      {
+        "text": "Combinamos modelos especializados, busca",
+        "x": 602.1875,
+        "y": 699.296875,
+        "w": 361.390625,
+        "h": 24
+      },
+      {
+        "text": "semântica e agentes para criar uma solução",
+        "x": 602.1875,
+        "y": 725.921875,
+        "w": 360.65625,
+        "h": 24
+      },
+      {
+        "text": "sob medida.",
+        "x": 602.1875,
+        "y": 752.546875,
+        "w": 100.53125,
+        "h": 24
+      }
+    ],
     "fontSize": 18.5014,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.66)",
     "opacity": 1,
     "lineHeight": "26.6421px",
@@ -149,12 +272,21 @@
     "y": 555.921875,
     "w": 42.046875,
     "h": 42.046875,
+    "renderedLines": [
+      {
+        "text": "03",
+        "x": 1086.53125,
+        "y": 566.90625,
+        "w": 21.328125,
+        "h": 19
+      }
+    ],
     "fontSize": 14.7171,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "23.253px",
+    "lineHeight": "22.0756px",
     "letterSpacing": "1.76605px",
     "textAlign": "start",
     "textTransform": "none"
@@ -162,15 +294,24 @@
   {
     "text": "Validar",
     "x": 1076.171875,
-    "y": 625.421875,
+    "y": 628.21875,
     "w": 395.59375,
-    "h": 55.359375,
+    "h": 52.5625,
+    "renderedLines": [
+      {
+        "text": "Validar",
+        "x": 1076.171875,
+        "y": 632.21875,
+        "w": 110.734375,
+        "h": 44
+      }
+    ],
     "fontSize": 35.0406,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "55.3642px",
+    "lineHeight": "52.5609px",
     "letterSpacing": "-0.350406px",
     "textAlign": "start",
     "textTransform": "none"
@@ -181,9 +322,32 @@
     "y": 698.296875,
     "w": 395.59375,
     "h": 79.875,
+    "renderedLines": [
+      {
+        "text": "Especialistas revisam saídas, monitoram",
+        "x": 1076.171875,
+        "y": 699.296875,
+        "w": 329.9375,
+        "h": 24
+      },
+      {
+        "text": "qualidade e transformam IA em",
+        "x": 1076.171875,
+        "y": 725.921875,
+        "w": 259.71875,
+        "h": 24
+      },
+      {
+        "text": "operação confiável.",
+        "x": 1076.171875,
+        "y": 752.546875,
+        "w": 162.296875,
+        "h": 24
+      }
+    ],
     "fontSize": 18.5014,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.66)",
     "opacity": 1,
     "lineHeight": "26.6421px",

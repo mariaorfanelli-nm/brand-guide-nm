@@ -2,15 +2,24 @@
   {
     "text": "Capítulo 02",
     "x": 112,
-    "y": 292.359375,
+    "y": 312.140625,
     "w": 1376,
-    "h": 27.171875,
+    "h": 25.796875,
+    "renderedLines": [
+      {
+        "text": "Capítulo 02",
+        "x": 112,
+        "y": 314.140625,
+        "w": 133.828125,
+        "h": 21
+      }
+    ],
     "fontSize": 17.2,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 0.85,
-    "lineHeight": "27.176px",
+    "lineHeight": "25.8px",
     "letterSpacing": "2.322px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,21 @@
   {
     "text": "Arquitetura de Produtos",
     "x": 112,
-    "y": 354.71875,
-    "w": 1198.9375,
+    "y": 373.125,
+    "w": 1216.578125,
     "h": 103.203125,
+    "renderedLines": [
+      {
+        "text": "Arquitetura de Produtos",
+        "x": 112,
+        "y": 359.125,
+        "w": 1047.96875,
+        "h": 130
+      }
+    ],
     "fontSize": 103.2,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "103.2px",
@@ -34,12 +52,28 @@
   {
     "text": "Diferentes produtos, uma mesma capacidade: transformar complexidade em inteligência para decisão.",
     "x": 112,
-    "y": 493.109375,
-    "w": 673.984375,
-    "h": 114.515625,
+    "y": 511.515625,
+    "w": 700.84375,
+    "h": 76.34375,
+    "renderedLines": [
+      {
+        "text": "Diferentes produtos, uma mesma capacidade: transformar",
+        "x": 112,
+        "y": 514.515625,
+        "w": 665.28125,
+        "h": 32
+      },
+      {
+        "text": "complexidade em inteligência para decisão.",
+        "x": 112,
+        "y": 552.6875,
+        "w": 491.640625,
+        "h": 32
+      }
+    ],
     "fontSize": 25.456,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.78)",
     "opacity": 1,
     "lineHeight": "38.184px",

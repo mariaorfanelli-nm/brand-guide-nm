@@ -7,14 +7,14 @@ Use este arquivo quando precisar reconstruir, conferir ou adaptar elementos visu
 - Formato: A4 vertical.
 - Saída principal: `.docx` editável.
 - Idioma padrão: português do Brasil, salvo pedido diferente.
-- Tipografia: preserve os estilos incorporados no DOCX; use Arial apenas como fallback.
+- Tipografia: Outfit nos títulos e textos, Urbanist de apoio em rótulos e indicadores. Instale as fontes do kit NeuralMind antes de editar; use Arial apenas como fallback.
 
 ## Capa
 
 - Fundo roxo integral: `#290241`.
 - Sem borda branca, moldura ou linha decorativa.
 - Margem interna lateral aproximada: 3,2 cm.
-- Logo branco centralizado horizontalmente na página.
+- Logo branco NeuralMind.ai com lettering Outfit + M Urbanist e sufixo A2, centralizado horizontalmente na página.
 - Título e subtítulo alinhados à esquerda dentro da área segura.
 - Metadados “Preparado por” e “Data versão” alinhados à mesma margem do título.
 - Não usar slogan.

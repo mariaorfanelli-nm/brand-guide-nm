@@ -1,5 +1,6 @@
-@font-face { font-family: "NeuralMind"; src: url("../../fonts/web/NeuralMindSansSquare[wght].woff2") format("woff2"); font-style: normal; font-weight: 200 900; font-display: block; }
-:root { --purple:#290241; --violet:#9381ff; --white:#fffffc; --coral:#ef476f; --ink:#0f1108; --paper:#f1edf4; font-family:"NeuralMind",sans-serif; color:var(--purple); background:var(--paper); font-synthesis:none; }
+@import url("../../fonts/brand-typography.css");
+
+:root { --purple:#290241; --violet:#9381ff; --white:#fffffc; --coral:#ef476f; --ink:#0f1108; --paper:#f1edf4; font-family:"Outfit",sans-serif; color:var(--purple); background:var(--paper); font-synthesis:none; }
 * { box-sizing:border-box; }
 [hidden] { display:none !important; }
 html { scrollbar-color:#a898b3 var(--paper); }
@@ -184,3 +185,9 @@ body.art-only { background:var(--purple); }
   .review-notes h2 br { display:none; }
   .canvas-meta { font-size:10px; }
 }
+
+/* Assinatura oficial em contornos, sem recorte da marca anterior. */
+.legacy-logo { aspect-ratio: auto; overflow: visible; }
+.legacy-logo img { position: static; display: block; width: 100%; height: auto; max-width: 100%; }
+
+.post-kicker,.post-eyebrow,.statistic-number,.post-footer,.tag,.note-title { font-family: var(--font-support); }

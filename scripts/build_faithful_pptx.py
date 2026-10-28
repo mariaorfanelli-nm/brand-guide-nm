@@ -32,13 +32,13 @@ for number, title in enumerate(TITLES, 1):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     slide.shapes.add_picture(str(image), 0, 0, width=prs.slide_width, height=prs.slide_height)
     slide.notes_slide.notes_text_frame.text = (
-        f"Template NeuralMind.AI — {title}.\n"
+        f"Template NeuralMind.ai — {title}.\n"
         "Este slide preserva com fidelidade a renderização do modelo HTML/CSS."
     )
 
-prs.core_properties.title = "Template de Slides — NeuralMind.AI — versão fiel"
+prs.core_properties.title = "Template de Slides — NeuralMind.ai — versão fiel"
 prs.core_properties.subject = "Renderização fiel dos 16 templates HTML/CSS em formato 16:9"
-prs.core_properties.author = "NeuralMind.AI"
+prs.core_properties.author = "NeuralMind.ai"
 prs.core_properties.comments = "Slides renderizados diretamente do brand guide digital."
 prs.save(OUT)
 print(OUT)

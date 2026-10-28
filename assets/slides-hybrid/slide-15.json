@@ -2,15 +2,24 @@
   {
     "text": "Encerramento",
     "x": 112,
-    "y": 181.390625,
+    "y": 197.203125,
     "w": 579.203125,
-    "h": 31.59375,
+    "h": 30,
+    "renderedLines": [
+      {
+        "text": "Encerramento",
+        "x": 112,
+        "y": 199.203125,
+        "w": 194.828125,
+        "h": 25
+      }
+    ],
     "fontSize": 20,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "31.6px",
+    "lineHeight": "30px",
     "letterSpacing": "2.7px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,21 @@
   {
     "text": "Obrigado.",
     "x": 112,
-    "y": 246.578125,
+    "y": 260.796875,
     "w": 579.203125,
     "h": 108.28125,
+    "renderedLines": [
+      {
+        "text": "Obrigado.",
+        "x": 112,
+        "y": 241.796875,
+        "w": 502.453125,
+        "h": 145
+      }
+    ],
     "fontSize": 115.2,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "108.288px",
@@ -34,15 +52,31 @@
   {
     "text": "Kleber Edurado Vicente dos Santos",
     "x": 112,
-    "y": 388.453125,
-    "w": 333.09375,
-    "h": 74.84375,
+    "y": 402.671875,
+    "w": 346.359375,
+    "h": 71.0625,
+    "renderedLines": [
+      {
+        "text": "Kleber Edurado Vicente dos",
+        "x": 112,
+        "y": 404.671875,
+        "w": 291.859375,
+        "h": 30
+      },
+      {
+        "text": "Santos",
+        "x": 112,
+        "y": 440.203125,
+        "w": 71.78125,
+        "h": 30
+      }
+    ],
     "fontSize": 23.68,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "37.4144px",
+    "lineHeight": "35.52px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
@@ -50,12 +84,28 @@
   {
     "text": "Head de Inovação, Produtos e Desenvolvimento de Negócios",
     "x": 112,
-    "y": 472.09375,
-    "w": 333.09375,
-    "h": 71.25,
+    "y": 482.53125,
+    "w": 346.359375,
+    "h": 47.5,
+    "renderedLines": [
+      {
+        "text": "Head de Inovação, Produtos e",
+        "x": 112,
+        "y": 482.53125,
+        "w": 327.109375,
+        "h": 23
+      },
+      {
+        "text": "Desenvolvimento de Negócios",
+        "x": 112,
+        "y": 506.28125,
+        "w": 331.953125,
+        "h": 23
+      }
+    ],
     "fontSize": 17.6,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.62)",
     "opacity": 1,
     "lineHeight": "23.76px",
@@ -66,15 +116,24 @@
   {
     "text": "E-mail",
     "x": 112,
-    "y": 605.125,
+    "y": 591.8125,
     "w": 278.40625,
-    "h": 20.734375,
+    "h": 19.6875,
+    "renderedLines": [
+      {
+        "text": "E-mail",
+        "x": 112,
+        "y": 592.8125,
+        "w": 58.28125,
+        "h": 16
+      }
+    ],
     "fontSize": 13.12,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "20.7296px",
+    "lineHeight": "19.68px",
     "letterSpacing": "2.0992px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -82,15 +141,24 @@
   {
     "text": "nome@empresa.com",
     "x": 112,
-    "y": 631.9375,
+    "y": 617.578125,
     "w": 278.40625,
-    "h": 29.078125,
+    "h": 27.609375,
+    "renderedLines": [
+      {
+        "text": "nome@empresa.com",
+        "x": 112,
+        "y": 619.578125,
+        "w": 171.640625,
+        "h": 23
+      }
+    ],
     "fontSize": 18.4,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "29.072px",
+    "lineHeight": "27.6px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
@@ -98,15 +166,24 @@
   {
     "text": "Telefone",
     "x": 412.796875,
-    "y": 605.125,
+    "y": 591.8125,
     "w": 278.40625,
-    "h": 20.734375,
+    "h": 19.6875,
+    "renderedLines": [
+      {
+        "text": "Telefone",
+        "x": 412.796875,
+        "y": 592.8125,
+        "w": 84.59375,
+        "h": 16
+      }
+    ],
     "fontSize": 13.12,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "20.7296px",
+    "lineHeight": "19.68px",
     "letterSpacing": "2.0992px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -114,15 +191,24 @@
   {
     "text": "+55 00 00000-0000",
     "x": 412.796875,
-    "y": 631.9375,
+    "y": 617.578125,
     "w": 278.40625,
-    "h": 29.078125,
+    "h": 27.609375,
+    "renderedLines": [
+      {
+        "text": "+55 00 00000-0000",
+        "x": 412.796875,
+        "y": 619.578125,
+        "w": 178.453125,
+        "h": 23
+      }
+    ],
     "fontSize": 18.4,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "29.072px",
+    "lineHeight": "27.6px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"

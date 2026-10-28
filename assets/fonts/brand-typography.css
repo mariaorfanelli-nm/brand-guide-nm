@@ -1,0 +1,13 @@
+@font-face { font-family: "Outfit"; src: url("lettering/Outfit-400.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("lettering/Outfit-500.ttf") format("truetype"); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("lettering/Outfit-600.ttf") format("truetype"); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("lettering/Outfit-700.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Urbanist"; src: url("lettering/Urbanist-400.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Urbanist"; src: url("lettering/Urbanist-500.ttf") format("truetype"); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: "Urbanist"; src: url("lettering/Urbanist-600.ttf") format("truetype"); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: "Urbanist"; src: url("lettering/Urbanist-700.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("lettering/Outfit-800.ttf") format("truetype"); font-style: normal; font-weight: 800; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("lettering/Outfit-900.ttf") format("truetype"); font-style: normal; font-weight: 900; font-display: swap; }
+@font-face { font-family: "Urbanist"; src: url("lettering/Urbanist-800.ttf") format("truetype"); font-style: normal; font-weight: 800; font-display: swap; }
+@font-face { font-family: "Urbanist"; src: url("lettering/Urbanist-900.ttf") format("truetype"); font-style: normal; font-weight: 900; font-display: swap; }
+:root { --font-brand: "Outfit", Arial, sans-serif; --font-support: "Urbanist", "Outfit", Arial, sans-serif; }

@@ -2,15 +2,24 @@
   {
     "text": "Quem somos",
     "x": 105.59375,
-    "y": 115.453125,
-    "w": 611.921875,
-    "h": 31.59375,
+    "y": 116.25,
+    "w": 561.65625,
+    "h": 30,
+    "renderedLines": [
+      {
+        "text": "Quem somos",
+        "x": 105.59375,
+        "y": 118.25,
+        "w": 161.8125,
+        "h": 25
+      }
+    ],
     "fontSize": 20,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
-    "lineHeight": "31.6px",
+    "lineHeight": "30px",
     "letterSpacing": "2.7px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,35 @@
   {
     "text": "Ciência aplicada.\nResponsabilidade real.",
     "x": 105.59375,
-    "y": 179.046875,
-    "w": 611.921875,
+    "y": 178.25,
+    "w": 561.65625,
     "h": 216.5625,
+    "renderedLines": [
+      {
+        "text": "Ciência aplicada.",
+        "x": 105.59375,
+        "y": 166.25,
+        "w": 546.015625,
+        "h": 95
+      },
+      {
+        "text": "Responsabilidade",
+        "x": 105.59375,
+        "y": 238.4375,
+        "w": 561.65625,
+        "h": 95
+      },
+      {
+        "text": "real.",
+        "x": 105.59375,
+        "y": 310.625,
+        "w": 144.296875,
+        "h": 95
+      }
+    ],
     "fontSize": 75.2,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "72.192px",
@@ -34,12 +66,49 @@
   {
     "text": "Fundada por Patricia Magalhães e Roberto Lotufo, a NeuralMind transforma pesquisa em inteligência confiável para apoiar organizações diante de decisões complexas e de alto impacto.",
     "x": 105.59375,
-    "y": 427.609375,
-    "w": 611.921875,
+    "y": 426.8125,
+    "w": 561.65625,
     "h": 216.953125,
+    "renderedLines": [
+      {
+        "text": "Fundada por Patricia Magalhães e Roberto",
+        "x": 105.59375,
+        "y": 430.8125,
+        "w": 533.375,
+        "h": 35
+      },
+      {
+        "text": "Lotufo, a NeuralMind transforma pesquisa",
+        "x": 105.59375,
+        "y": 474.203125,
+        "w": 523.21875,
+        "h": 35
+      },
+      {
+        "text": "em inteligência confiável para apoiar",
+        "x": 105.59375,
+        "y": 517.59375,
+        "w": 458.171875,
+        "h": 35
+      },
+      {
+        "text": "organizações diante de decisões complexas e",
+        "x": 105.59375,
+        "y": 560.984375,
+        "w": 558.28125,
+        "h": 35
+      },
+      {
+        "text": "de alto impacto.",
+        "x": 105.59375,
+        "y": 604.375,
+        "w": 200.859375,
+        "h": 35
+      }
+    ],
     "fontSize": 28,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.68)",
     "opacity": 1,
     "lineHeight": "43.4px",
@@ -50,12 +119,21 @@
   {
     "text": "Rigor científico",
     "x": 105.59375,
-    "y": 686.15625,
-    "w": 224.34375,
+    "y": 685.359375,
+    "w": 213.703125,
     "h": 43.59375,
+    "renderedLines": [
+      {
+        "text": "Rigor científico",
+        "x": 122.59375,
+        "y": 697.15625,
+        "w": 179.703125,
+        "h": 20
+      }
+    ],
     "fontSize": 16,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 1,
     "lineHeight": "16px",
@@ -65,13 +143,22 @@
   },
   {
     "text": "Decisão humana",
-    "x": 341.125,
-    "y": 686.15625,
-    "w": 218.375,
+    "x": 330.484375,
+    "y": 685.359375,
+    "w": 210.078125,
     "h": 43.59375,
+    "renderedLines": [
+      {
+        "text": "Decisão humana",
+        "x": 347.484375,
+        "y": 697.15625,
+        "w": 176.078125,
+        "h": 20
+      }
+    ],
     "fontSize": 16,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 1,
     "lineHeight": "16px",
@@ -82,12 +169,21 @@
   {
     "text": "Setores regulados",
     "x": 105.59375,
-    "y": 740.9375,
-    "w": 248.5625,
+    "y": 740.140625,
+    "w": 243.453125,
     "h": 43.59375,
+    "renderedLines": [
+      {
+        "text": "Setores regulados",
+        "x": 122.59375,
+        "y": 751.9375,
+        "w": 209.453125,
+        "h": 20
+      }
+    ],
     "fontSize": 16,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 1,
     "lineHeight": "16px",
@@ -97,64 +193,100 @@
   },
   {
     "text": "Patricia Magalhães",
-    "x": 824.09375,
-    "y": 734.171875,
-    "w": 308.078125,
-    "h": 46.75,
+    "x": 773.828125,
+    "y": 737.671875,
+    "w": 333.203125,
+    "h": 44.390625,
+    "renderedLines": [
+      {
+        "text": "Patricia Magalhães",
+        "x": 773.828125,
+        "y": 740.671875,
+        "w": 251.375,
+        "h": 38
+      }
+    ],
     "fontSize": 29.6,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "46.768px",
+    "lineHeight": "44.4px",
     "letterSpacing": "-0.148px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "Co-fundadora & CEO",
-    "x": 824.09375,
-    "y": 786.671875,
-    "w": 308.078125,
-    "h": 22.75,
+    "x": 773.828125,
+    "y": 787.8125,
+    "w": 333.203125,
+    "h": 21.609375,
+    "renderedLines": [
+      {
+        "text": "Co-fundadora & CEO",
+        "x": 773.828125,
+        "y": 788.8125,
+        "w": 209.796875,
+        "h": 18
+      }
+    ],
     "fontSize": 14.4,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "22.752px",
+    "lineHeight": "21.6px",
     "letterSpacing": "2.592px",
     "textAlign": "start",
     "textTransform": "uppercase"
   },
   {
     "text": "Roberto Lotufo",
-    "x": 1201.34375,
-    "y": 734.171875,
-    "w": 308.078125,
-    "h": 46.75,
+    "x": 1176.203125,
+    "y": 737.671875,
+    "w": 333.21875,
+    "h": 44.390625,
+    "renderedLines": [
+      {
+        "text": "Roberto Lotufo",
+        "x": 1176.203125,
+        "y": 740.671875,
+        "w": 197.1875,
+        "h": 38
+      }
+    ],
     "fontSize": 29.6,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "46.768px",
+    "lineHeight": "44.4px",
     "letterSpacing": "-0.148px",
     "textAlign": "start",
     "textTransform": "none"
   },
   {
     "text": "Co-fundador & CTO",
-    "x": 1201.34375,
-    "y": 786.671875,
-    "w": 308.078125,
-    "h": 22.75,
+    "x": 1176.203125,
+    "y": 787.8125,
+    "w": 333.21875,
+    "h": 21.609375,
+    "renderedLines": [
+      {
+        "text": "Co-fundador & CTO",
+        "x": 1176.203125,
+        "y": 788.8125,
+        "w": 197.640625,
+        "h": 18
+      }
+    ],
     "fontSize": 14.4,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "22.752px",
+    "lineHeight": "21.6px",
     "letterSpacing": "2.592px",
     "textAlign": "start",
     "textTransform": "uppercase"

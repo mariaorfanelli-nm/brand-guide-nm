@@ -11,7 +11,7 @@ sys.path.insert(0, "/tmp/nm-pptx-deps")
 
 from pptx import Presentation
 from pptx.dml.color import RGBColor
-from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+from pptx.enum.text import PP_ALIGN, MSO_ANCHOR, MSO_AUTO_SIZE
 from pptx.util import Inches, Pt
 
 ASSETS = ROOT / "assets" / "slides-hybrid"
@@ -40,7 +40,7 @@ def add_text(slide, item):
     h = max(item["h"] / PX_PER_INCH + 0.04, 0.08)
     box = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h))
     frame = box.text_frame
-    frame.clear(); frame.word_wrap = True; frame.vertical_anchor = MSO_ANCHOR.TOP
+    frame.clear(); frame.auto_size = MSO_AUTO_SIZE.NONE; frame.word_wrap = False; frame.vertical_anchor = MSO_ANCHOR.TOP
     frame.margin_left = frame.margin_right = frame.margin_top = frame.margin_bottom = 0
     lines = value.split("\n")
     for idx, line in enumerate(lines):
@@ -52,11 +52,14 @@ def add_text(slide, item):
             p.line_spacing = Pt(float(line_height[:-2]) * 0.6)
         run = p.add_run(); run.text = line
         font = run.font
-        font.name = "NeuralMind Sans Square"
+        family = "Urbanist" if "Urbanist" in item.get("fontFamily", "") else "Outfit"
+        font.name = family
         font.size = Pt(float(item["fontSize"]) * 0.6)
         try: weight = int(item["fontWeight"])
         except ValueError: weight = 700 if item["fontWeight"] == "bold" else 400
-        font.bold = weight >= 600
+        variant = {500: "Medium", 600: "SemiBold", 800: "ExtraBold", 900: "Black"}.get(weight)
+        if variant: font.name = f"{family} {variant}"
+        font.bold = weight == 700
         font.color.rgb = parse_color(item["color"])
     return box
 
@@ -71,14 +74,22 @@ for number in range(1, 17):
     metadata = json.loads((ASSETS / f"slide-{number:02d}.json").read_text(encoding="utf-8"))
     slide.shapes.add_picture(str(background), 0, 0, width=prs.slide_width, height=prs.slide_height)
     for item in metadata:
-        add_text(slide, item)
+        lines = item.get("renderedLines")
+        if lines:
+            # Use the browser's actual line breaks so Office cannot reflow titles.
+            for index, line in enumerate(lines):
+                y = item["y"] + index * (float(item["lineHeight"][:-2]) if item["lineHeight"].endswith("px") else item["fontSize"] * 1.2)
+                part = {**item, "text": line["text"], "x": line["x"], "y": y, "w": max(line["w"] * 1.4 + 24, 40), "h": max(item["fontSize"] * 1.5, line["h"]), "textAlign": "left"}
+                add_text(slide, part)
+        else:
+            add_text(slide, item)
     slide.notes_slide.notes_text_frame.text = (
-        "Template NeuralMind.AI com fundo fiel ao HTML/CSS e textos editáveis.\n"
-        "Para máxima fidelidade no PowerPoint, instale a família NeuralMind Sans Square."
+        "Template NeuralMind.ai com fundo fiel ao HTML/CSS e textos editáveis.\n"
+        "Para máxima fidelidade no PowerPoint, instale as famílias Outfit e Urbanist."
     )
 
-prs.core_properties.title = "Template de Slides — NeuralMind.AI — editável"
+prs.core_properties.title = "Template de Slides — NeuralMind.ai — editável"
 prs.core_properties.subject = "Fundos fiéis ao HTML/CSS com caixas de texto editáveis"
-prs.core_properties.author = "NeuralMind.AI"
+prs.core_properties.author = "NeuralMind.ai"
 prs.save(OUT)
 print(OUT)

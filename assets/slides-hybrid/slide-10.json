@@ -2,15 +2,24 @@
   {
     "text": "Pessoas",
     "x": 912,
-    "y": 153.21875,
-    "w": 619.265625,
-    "h": 31.59375,
+    "y": 154.015625,
+    "w": 576,
+    "h": 30,
+    "renderedLines": [
+      {
+        "text": "Pessoas",
+        "x": 912,
+        "y": 156.015625,
+        "w": 105.5625,
+        "h": 25
+      }
+    ],
     "fontSize": 20,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "31.6px",
+    "lineHeight": "30px",
     "letterSpacing": "2.7px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,42 @@
   {
     "text": "A IA é poderosa.\nAs pessoas, indispensáveis.",
     "x": 912,
-    "y": 223.203125,
-    "w": 619.265625,
+    "y": 222.40625,
+    "w": 576,
     "h": 352,
+    "renderedLines": [
+      {
+        "text": "A IA é",
+        "x": 912,
+        "y": 210.40625,
+        "w": 211.640625,
+        "h": 111
+      },
+      {
+        "text": "poderosa.",
+        "x": 912,
+        "y": 298.40625,
+        "w": 378.140625,
+        "h": 111
+      },
+      {
+        "text": "As pessoas,",
+        "x": 912,
+        "y": 386.40625,
+        "w": 430.421875,
+        "h": 111
+      },
+      {
+        "text": "indispensáveis.",
+        "x": 912,
+        "y": 474.40625,
+        "w": 556.703125,
+        "h": 111
+      }
+    ],
     "fontSize": 88,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "88px",
@@ -34,12 +73,35 @@
   {
     "text": "Construímos modelos para apoiar especialistas — não para substituí-los. A última palavra é, e segue sendo, humana.",
     "x": 912,
-    "y": 613.59375,
-    "w": 597.421875,
+    "y": 612.796875,
+    "w": 576,
     "h": 133.171875,
+    "renderedLines": [
+      {
+        "text": "Construímos modelos para apoiar",
+        "x": 912,
+        "y": 615.796875,
+        "w": 444.890625,
+        "h": 38
+      },
+      {
+        "text": "especialistas — não para substituí-los. A",
+        "x": 912,
+        "y": 660.1875,
+        "w": 520.46875,
+        "h": 38
+      },
+      {
+        "text": "última palavra é, e segue sendo, humana.",
+        "x": 912,
+        "y": 704.578125,
+        "w": 539.765625,
+        "h": 38
+      }
+    ],
     "fontSize": 29.6,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.78)",
     "opacity": 1,
     "lineHeight": "44.4px",

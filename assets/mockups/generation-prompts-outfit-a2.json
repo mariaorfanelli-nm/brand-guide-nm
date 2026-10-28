@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen (built-in)",
+  "reference": "assets/brand/lettering-a2-reference.png",
+  "treatment": "Proposta 02 + A2",
+  "prompts": {
+    "caneca": "Use case product-mockup. Preserve existing purple product, materials, lighting, background and framing. Replace serif lettering with exact white NeuralMind.ai artwork from lettering-a2-reference.png: Outfit 400 Neural, 800 Mind with Urbanist open M, .ai light full-size on same baseline. Integrate printing with surface perspective.",
+    "copo-termico": "Use case product-mockup. Preserve existing purple product, materials, lighting, background and framing. Replace serif lettering with exact white NeuralMind.ai artwork from lettering-a2-reference.png: Outfit 400 Neural, 800 Mind with Urbanist open M, .ai light full-size on same baseline. Integrate printing with surface perspective.",
+    "caderno": "Use case product-mockup. Preserve existing purple product, materials, lighting, background and framing. Replace serif lettering with exact white NeuralMind.ai artwork from lettering-a2-reference.png: Outfit 400 Neural, 800 Mind with Urbanist open M, .ai light full-size on same baseline. Integrate printing with surface perspective.",
+    "camiseta": "Use case product-mockup. Preserve existing purple product, materials, lighting, background and framing. Replace serif lettering with exact white NeuralMind.ai artwork from lettering-a2-reference.png: Outfit 400 Neural, 800 Mind with Urbanist open M, .ai light full-size on same baseline. Integrate printing with surface perspective."
+  }
+}

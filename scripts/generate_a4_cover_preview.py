@@ -34,26 +34,26 @@ def main():
     draw.text(
         (left, 555),
         "DOCUMENTO INSTITUCIONAL  /  MODELO A4",
-        font=font("NeuralMindSansSquare-SemiBold.ttf", 18),
+        font=font("Outfit-SemiBold.ttf", 18),
         fill=VIOLET,
     )
     draw.text(
         (left, 610),
         "[Título do documento]",
-        font=font("NeuralMindSansSquare-Bold.ttf", 56),
+        font=font("Outfit-Bold.ttf", 56),
         fill=WHITE,
     )
     draw.text(
         (left, 695),
         "[Uma frase curta que explica o propósito\ndesta publicação]",
-        font=font("NeuralMindSansSquare-Regular.ttf", 27),
+        font=font("Outfit-Regular.ttf", 27),
         fill=WHITE,
         spacing=10,
     )
     draw.rectangle((left, 815, 1108, 821), fill=CORAL)
 
-    label_font = font("NeuralMindSansSquare-SemiBold.ttf", 17)
-    value_font = font("NeuralMindSansSquare-Regular.ttf", 23)
+    label_font = font("Outfit-SemiBold.ttf", 17)
+    value_font = font("Outfit-Regular.ttf", 23)
     draw.text((left, 1190), "PREPARADO POR", font=label_font, fill=VIOLET)
     draw.text((left, 1228), "[Área ou responsável]", font=value_font, fill=WHITE)
     draw.text((left, 1305), "DATA  /  VERSÃO", font=label_font, fill=VIOLET)
@@ -63,7 +63,7 @@ def main():
     draw.text(
         (left, 1580),
         "Inteligência para decisão",
-        font=font("NeuralMindSansSquare-SemiBold.ttf", 20),
+        font=font("Outfit-SemiBold.ttf", 20),
         fill=WHITE,
     )
 

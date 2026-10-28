@@ -2,15 +2,24 @@
   {
     "text": "Próximo passo",
     "x": 112,
-    "y": 273.53125,
+    "y": 255.96875,
     "w": 839.6875,
-    "h": 27.171875,
+    "h": 25.796875,
+    "renderedLines": [
+      {
+        "text": "Próximo passo",
+        "x": 112,
+        "y": 257.96875,
+        "w": 167.46875,
+        "h": 21
+      }
+    ],
     "fontSize": 17.2,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "27.176px",
+    "lineHeight": "25.8px",
     "letterSpacing": "2.322px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,28 @@
   {
     "text": "Vamos construir juntos.",
     "x": 112,
-    "y": 325.46875,
+    "y": 306.53125,
     "w": 839.6875,
     "h": 220.15625,
+    "renderedLines": [
+      {
+        "text": "Vamos",
+        "x": 112,
+        "y": 291.53125,
+        "w": 320.78125,
+        "h": 139
+      },
+      {
+        "text": "construir juntos.",
+        "x": 112,
+        "y": 401.609375,
+        "w": 740.28125,
+        "h": 139
+      }
+    ],
     "fontSize": 110.08,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "110.08px",
@@ -34,15 +59,24 @@
   {
     "text": "Comercial",
     "x": 1103.71875,
-    "y": 292.375,
+    "y": 298,
     "w": 384.28125,
-    "h": 26.09375,
+    "h": 24.765625,
+    "renderedLines": [
+      {
+        "text": "Comercial",
+        "x": 1103.71875,
+        "y": 299,
+        "w": 121.796875,
+        "h": 21
+      }
+    ],
     "fontSize": 16.512,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 0.7,
-    "lineHeight": "26.089px",
+    "lineHeight": "24.768px",
     "letterSpacing": "2.97216px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -50,15 +84,24 @@
   {
     "text": "contato@neuralmind.ai",
     "x": 1103.71875,
-    "y": 326.71875,
+    "y": 331.015625,
     "w": 384.28125,
-    "h": 47.8125,
+    "h": 45.390625,
+    "renderedLines": [
+      {
+        "text": "contato@neuralmind.ai",
+        "x": 1103.71875,
+        "y": 334.015625,
+        "w": 308.984375,
+        "h": 38
+      }
+    ],
     "fontSize": 30.272,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "47.8298px",
+    "lineHeight": "45.408px",
     "letterSpacing": "-0.15136px",
     "textAlign": "start",
     "textTransform": "none"
@@ -66,15 +109,24 @@
   {
     "text": "Web",
     "x": 1103.71875,
-    "y": 408.921875,
+    "y": 410.796875,
     "w": 384.28125,
-    "h": 26.09375,
+    "h": 24.765625,
+    "renderedLines": [
+      {
+        "text": "Web",
+        "x": 1103.71875,
+        "y": 411.796875,
+        "w": 45.640625,
+        "h": 21
+      }
+    ],
     "fontSize": 16.512,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 0.7,
-    "lineHeight": "26.089px",
+    "lineHeight": "24.768px",
     "letterSpacing": "2.97216px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -82,15 +134,24 @@
   {
     "text": "neuralmind.ai",
     "x": 1103.71875,
-    "y": 443.265625,
+    "y": 443.8125,
     "w": 384.28125,
-    "h": 47.8125,
+    "h": 45.390625,
+    "renderedLines": [
+      {
+        "text": "neuralmind.ai",
+        "x": 1103.71875,
+        "y": 446.8125,
+        "w": 183.296875,
+        "h": 38
+      }
+    ],
     "fontSize": 30.272,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "47.8298px",
+    "lineHeight": "45.408px",
     "letterSpacing": "-0.15136px",
     "textAlign": "start",
     "textTransform": "none"
@@ -98,15 +159,24 @@
   {
     "text": "LinkedIn",
     "x": 1103.71875,
-    "y": 525.46875,
+    "y": 523.59375,
     "w": 384.28125,
-    "h": 26.09375,
+    "h": 24.765625,
+    "renderedLines": [
+      {
+        "text": "LinkedIn",
+        "x": 1103.71875,
+        "y": 524.59375,
+        "w": 99.5,
+        "h": 21
+      }
+    ],
     "fontSize": 16.512,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 0.7,
-    "lineHeight": "26.089px",
+    "lineHeight": "24.768px",
     "letterSpacing": "2.97216px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -114,15 +184,24 @@
   {
     "text": "@neuralmind.ai",
     "x": 1103.71875,
-    "y": 559.8125,
+    "y": 556.609375,
     "w": 384.28125,
-    "h": 47.8125,
+    "h": 45.390625,
+    "renderedLines": [
+      {
+        "text": "@neuralmind.ai",
+        "x": 1103.71875,
+        "y": 559.609375,
+        "w": 205.453125,
+        "h": 38
+      }
+    ],
     "fontSize": 30.272,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "47.8298px",
+    "lineHeight": "45.408px",
     "letterSpacing": "-0.15136px",
     "textAlign": "start",
     "textTransform": "none"

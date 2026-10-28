@@ -5,17 +5,21 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+import os
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "kleber"
 OUT.mkdir(parents=True, exist_ok=True)
-CHROME = "/usr/bin/google-chrome"
+CHROME = os.environ.get("CHROME_PATH", "/home/maria/.cache/ms-playwright/chromium-1248/chrome-linux64/chrome")
 PAGE = (ROOT / "kleber-speaker-kit.html").as_uri()
 
 
 def shot(asset, width, height, filename):
     target = OUT / filename
+    if "--skip-render" in sys.argv:
+        if not target.exists(): raise FileNotFoundError(target)
+        return
     command = [
         CHROME, "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
         "--user-data-dir=/tmp/nm-kleber-kit-chrome", "--force-device-scale-factor=1",
@@ -48,7 +52,7 @@ def text_shape(shape_id, name, value, x, y, w, h, size, color, bold=False):
             f'<a:spcAft><a:spcPts val="0"/></a:spcAft></a:pPr><a:r>'
             f'<a:rPr lang="pt-BR" sz="{int(size * 100)}" b="{1 if bold else 0}">'
             f'<a:solidFill><a:srgbClr val="{color}"/></a:solidFill>'
-            f'<a:latin typeface="NeuralMind Sans Square"/></a:rPr><a:t>{esc(line)}</a:t>'
+            f'<a:latin typeface="Outfit"/></a:rPr><a:t>{esc(line)}</a:t>'
             f'</a:r><a:endParaRPr lang="pt-BR" sz="{int(size * 100)}"/></a:p>'
         )
     emu = lambda inches: int(inches * 914400)
@@ -162,7 +166,7 @@ event_shapes = "".join([
     text_shape(3, "Tipo", "EVENTO", 6.43, .62, .95, .24, 12, "EF476F", True),
     text_shape(4, "Data e horário", "Data · horário", 5.72, 1.00, 1.7, .32, 16, "FFFFFC"),
     text_shape(5, "Chamada", "PARTICIPAÇÃO CONFIRMADA", .65, 4.85, 5.3, .3, 14, "EF476F", True),
-    text_shape(6, "Tema", "Tema da\nparticipação\nno evento.", .65, 5.38, 5.5, 1.75, 48, "FFFFFC"),
+    text_shape(6, "Tema", "Tema da\nparticipação\nno evento.", .65, 5.38, 5.5, 1.75, 40, "FFFFFC"),
     text_shape(7, "Nome", "Kleber Edurado\nVicente dos Santos", .65, 7.48, 5.9, .68, 25, "FFFFFC"),
     text_shape(8, "Cargo", "HEAD DE INOVAÇÃO, PRODUTOS E\nDESENVOLVIMENTO DE NEGÓCIOS", .65, 8.26, 5.8, .48, 12, "C8C0CD", True),
     text_shape(9, "Evento e local", "NOME DO EVENTO · LOCAL", .65, 9.12, 5.9, .28, 12, "C8C0CD", True),

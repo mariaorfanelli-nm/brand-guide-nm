@@ -2,15 +2,24 @@
   {
     "text": "Resultado · NeuralSearchX 2.0",
     "x": 112,
-    "y": 199.734375,
-    "w": 605.625,
-    "h": 30.4375,
+    "y": 200.515625,
+    "w": 629.75,
+    "h": 28.890625,
+    "renderedLines": [
+      {
+        "text": "Resultado · NeuralSearchX 2.0",
+        "x": 112,
+        "y": 202.515625,
+        "w": 417.515625,
+        "h": 24
+      }
+    ],
     "fontSize": 19.264,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 0.85,
-    "lineHeight": "30.4371px",
+    "lineHeight": "28.896px",
     "letterSpacing": "3.46752px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,21 @@
   {
     "text": "4",
     "x": 112,
-    "y": 195.796875,
-    "w": 203.515625,
-    "h": 400,
+    "y": 196.03125,
+    "w": 169.921875,
+    "h": 397,
+    "renderedLines": [
+      {
+        "text": "4",
+        "x": 112,
+        "y": 196.03125,
+        "w": 169.921875,
+        "h": 397
+      }
+    ],
     "fontSize": 330.24,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Urbanist, Outfit, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "290.611px",
@@ -33,13 +51,22 @@
   },
   {
     "text": "×",
-    "x": 329.265625,
-    "y": 360.796875,
-    "w": 115.375,
+    "x": 295.671875,
+    "y": 358.03125,
+    "w": 81.765625,
     "h": 169.515625,
+    "renderedLines": [
+      {
+        "text": "×",
+        "x": 295.671875,
+        "y": 327.03125,
+        "w": 81.765625,
+        "h": 231
+      }
+    ],
     "fontSize": 192.64,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Urbanist, Outfit, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
     "lineHeight": "169.523px",
@@ -50,12 +77,35 @@
   {
     "text": "Redução de latência da busca semântica multifonte na nova arquitetura, sem perda de citação ou rastreabilidade.",
     "x": 112,
-    "y": 582.640625,
-    "w": 605.625,
+    "y": 581.875,
+    "w": 629.75,
     "h": 117.609375,
+    "renderedLines": [
+      {
+        "text": "Redução de latência da busca semântica multifonte",
+        "x": 112,
+        "y": 584.875,
+        "w": 592.109375,
+        "h": 33
+      },
+      {
+        "text": "na nova arquitetura, sem perda de citação",
+        "x": 112,
+        "y": 624.078125,
+        "w": 489.109375,
+        "h": 33
+      },
+      {
+        "text": "ou rastreabilidade.",
+        "x": 112,
+        "y": 663.28125,
+        "w": 218.953125,
+        "h": 33
+      }
+    ],
     "fontSize": 26.144,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.78)",
     "opacity": 1,
     "lineHeight": "39.216px",

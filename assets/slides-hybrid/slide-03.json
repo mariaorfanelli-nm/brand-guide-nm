@@ -4,13 +4,22 @@
     "x": 99.1875,
     "y": 99.1875,
     "w": 1401.609375,
-    "h": 27.671875,
+    "h": 26.265625,
+    "renderedLines": [
+      {
+        "text": "Verticais de atuação",
+        "x": 99.1875,
+        "y": 100.1875,
+        "w": 247.921875,
+        "h": 23
+      }
+    ],
     "fontSize": 17.5203,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "27.6821px",
+    "lineHeight": "26.2805px",
     "letterSpacing": "2.36524px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,35 @@
   {
     "text": "Decision Intelligence onde cada decisão importa.",
     "x": 99.1875,
-    "y": 182.921875,
+    "y": 181.515625,
     "w": 656.359375,
     "h": 193.640625,
+    "renderedLines": [
+      {
+        "text": "Decision Intelligence",
+        "x": 99.1875,
+        "y": 171.515625,
+        "w": 565.734375,
+        "h": 83
+      },
+      {
+        "text": "onde cada",
+        "x": 99.1875,
+        "y": 236.0625,
+        "w": 292.875,
+        "h": 83
+      },
+      {
+        "text": "decisão importa.",
+        "x": 99.1875,
+        "y": 300.609375,
+        "w": 470.046875,
+        "h": 83
+      }
+    ],
     "fontSize": 65.8764,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "64.5588px",
@@ -34,12 +66,35 @@
   {
     "text": "Do jurídico à saúde, a NeuralMind organiza informação complexa para apoiar especialistas com contexto, fontes verificáveis e supervisão humana.",
     "x": 811.609375,
-    "y": 272.5,
-    "w": 612.296875,
+    "y": 271.09375,
+    "w": 636.703125,
     "h": 104.0625,
+    "renderedLines": [
+      {
+        "text": "Do jurídico à saúde, a NeuralMind organiza informação",
+        "x": 811.609375,
+        "y": 273.09375,
+        "w": 561.6875,
+        "h": 29
+      },
+      {
+        "text": "complexa para apoiar especialistas com contexto, fontes",
+        "x": 811.609375,
+        "y": 307.78125,
+        "w": 579.15625,
+        "h": 29
+      },
+      {
+        "text": "verificáveis e supervisão humana.",
+        "x": 811.609375,
+        "y": 342.46875,
+        "w": 342.34375,
+        "h": 29
+      }
+    ],
     "fontSize": 23.1268,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.78)",
     "opacity": 1,
     "lineHeight": "34.6902px",
@@ -50,15 +105,24 @@
   {
     "text": "01",
     "x": 129.609375,
-    "y": 471.5,
+    "y": 523.84375,
     "w": 393.28125,
-    "h": 23.25,
+    "h": 22.078125,
+    "renderedLines": [
+      {
+        "text": "01",
+        "x": 129.609375,
+        "y": 524.84375,
+        "w": 20.40625,
+        "h": 19
+      }
+    ],
     "fontSize": 14.7171,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "23.253px",
+    "lineHeight": "22.0756px",
     "letterSpacing": "2.64907px",
     "textAlign": "start",
     "textTransform": "none"
@@ -66,15 +130,24 @@
   {
     "text": "Inteligência fundamental",
     "x": 129.609375,
-    "y": 511.5625,
+    "y": 562.734375,
     "w": 393.28125,
-    "h": 48.703125,
+    "h": 46.234375,
+    "renderedLines": [
+      {
+        "text": "Inteligência fundamental",
+        "x": 129.609375,
+        "y": 565.734375,
+        "w": 334.3125,
+        "h": 39
+      }
+    ],
     "fontSize": 30.8358,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "48.7205px",
+    "lineHeight": "46.2536px",
     "letterSpacing": "-0.308358px",
     "textAlign": "start",
     "textTransform": "none"
@@ -82,12 +155,35 @@
   {
     "text": "Transforma documentos, bases internas e informação não estruturada em conhecimento verificável para decidir.",
     "x": 129.609375,
-    "y": 577.078125,
+    "y": 625.78125,
     "w": 393.28125,
     "h": 78,
+    "renderedLines": [
+      {
+        "text": "Transforma documentos, bases internas e",
+        "x": 129.609375,
+        "y": 626.78125,
+        "w": 331.5625,
+        "h": 23
+      },
+      {
+        "text": "informação não estruturada em conhecimento",
+        "x": 129.609375,
+        "y": 652.78125,
+        "w": 369.484375,
+        "h": 23
+      },
+      {
+        "text": "verificável para decidir.",
+        "x": 129.609375,
+        "y": 678.78125,
+        "w": 185.78125,
+        "h": 23
+      }
+    ],
     "fontSize": 17.9408,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.72)",
     "opacity": 1,
     "lineHeight": "26.0142px",
@@ -99,11 +195,20 @@
     "text": "NeuralSearchX",
     "x": 129.609375,
     "y": 739.8125,
-    "w": 122.25,
+    "w": 116.75,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "NeuralSearchX",
+        "x": 140.6875,
+        "y": 746.9375,
+        "w": 94.59375,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",
@@ -113,13 +218,22 @@
   },
   {
     "text": "NDocs",
-    "x": 259.5625,
+    "x": 254.0625,
     "y": 739.8125,
-    "w": 65.59375,
+    "w": 62.59375,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "NDocs",
+        "x": 265.140625,
+        "y": 746.9375,
+        "w": 40.4375,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",
@@ -129,13 +243,22 @@
   },
   {
     "text": "Tuss-Finder",
-    "x": 332.859375,
+    "x": 324.359375,
     "y": 739.8125,
-    "w": 102.25,
+    "w": 96.390625,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "Tuss-Finder",
+        "x": 335.4375,
+        "y": 746.9375,
+        "w": 74.234375,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",
@@ -146,15 +269,24 @@
   {
     "text": "02",
     "x": 603.34375,
-    "y": 471.5,
+    "y": 523.84375,
     "w": 393.296875,
-    "h": 23.25,
+    "h": 22.078125,
+    "renderedLines": [
+      {
+        "text": "02",
+        "x": 603.34375,
+        "y": 524.84375,
+        "w": 23.140625,
+        "h": 19
+      }
+    ],
     "fontSize": 14.7171,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "23.253px",
+    "lineHeight": "22.0756px",
     "letterSpacing": "2.64907px",
     "textAlign": "start",
     "textTransform": "none"
@@ -162,15 +294,24 @@
   {
     "text": "Jurídico, regulação e controle",
     "x": 603.34375,
-    "y": 511.5625,
+    "y": 562.734375,
     "w": 393.296875,
-    "h": 97.40625,
+    "h": 46.234375,
+    "renderedLines": [
+      {
+        "text": "Jurídico, regulação e controle",
+        "x": 603.34375,
+        "y": 565.734375,
+        "w": 393.125,
+        "h": 39
+      }
+    ],
     "fontSize": 30.8358,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "48.7205px",
+    "lineHeight": "46.2536px",
     "letterSpacing": "-0.308358px",
     "textAlign": "start",
     "textTransform": "none"
@@ -181,9 +322,32 @@
     "y": 625.78125,
     "w": 393.296875,
     "h": 78,
+    "renderedLines": [
+      {
+        "text": "Apoia análise, fundamentação e formação de",
+        "x": 603.34375,
+        "y": 626.78125,
+        "w": 363.578125,
+        "h": 23
+      },
+      {
+        "text": "convicção em contextos jurídicos, regulatórios e",
+        "x": 603.34375,
+        "y": 652.78125,
+        "w": 376.5625,
+        "h": 23
+      },
+      {
+        "text": "de controle.",
+        "x": 603.34375,
+        "y": 678.78125,
+        "w": 94.75,
+        "h": 23
+      }
+    ],
     "fontSize": 17.9408,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.72)",
     "opacity": 1,
     "lineHeight": "26.0142px",
@@ -195,11 +359,20 @@
     "text": "Jurema",
     "x": 603.34375,
     "y": 739.8125,
-    "w": 71.390625,
+    "w": 69.015625,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "Jurema",
+        "x": 614.421875,
+        "y": 746.9375,
+        "w": 46.859375,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",
@@ -209,13 +382,22 @@
   },
   {
     "text": "Araci",
-    "x": 682.4375,
+    "x": 680.0625,
     "y": 739.8125,
-    "w": 57.109375,
+    "w": 56.015625,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "Araci",
+        "x": 691.140625,
+        "y": 746.9375,
+        "w": 33.859375,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",
@@ -225,13 +407,22 @@
   },
   {
     "text": "AssertIA",
-    "x": 747.25,
+    "x": 743.78125,
     "y": 739.8125,
-    "w": 81.984375,
+    "w": 76.75,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "AssertIA",
+        "x": 754.859375,
+        "y": 746.9375,
+        "w": 54.59375,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",
@@ -241,13 +432,22 @@
   },
   {
     "text": "SofIA",
-    "x": 836.9375,
+    "x": 828.234375,
     "y": 739.8125,
-    "w": 60.875,
+    "w": 57.125,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "SofIA",
+        "x": 839.3125,
+        "y": 746.9375,
+        "w": 34.96875,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",
@@ -258,15 +458,24 @@
   {
     "text": "03",
     "x": 1077.09375,
-    "y": 471.5,
+    "y": 523.84375,
     "w": 393.28125,
-    "h": 23.25,
+    "h": 22.078125,
+    "renderedLines": [
+      {
+        "text": "03",
+        "x": 1077.09375,
+        "y": 524.84375,
+        "w": 23.09375,
+        "h": 19
+      }
+    ],
     "fontSize": 14.7171,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "23.253px",
+    "lineHeight": "22.0756px",
     "letterSpacing": "2.64907px",
     "textAlign": "start",
     "textTransform": "none"
@@ -274,15 +483,24 @@
   {
     "text": "Saúde",
     "x": 1077.09375,
-    "y": 511.5625,
+    "y": 562.734375,
     "w": 393.28125,
-    "h": 48.703125,
+    "h": 46.234375,
+    "renderedLines": [
+      {
+        "text": "Saúde",
+        "x": 1077.09375,
+        "y": 565.734375,
+        "w": 83.578125,
+        "h": 39
+      }
+    ],
     "fontSize": 30.8358,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "48.7205px",
+    "lineHeight": "46.2536px",
     "letterSpacing": "-0.308358px",
     "textAlign": "start",
     "textTransform": "none"
@@ -290,12 +508,35 @@
   {
     "text": "Apoia a priorização clínica para que especialistas direcionem atenção aos casos que podem precisar dela primeiro.",
     "x": 1077.09375,
-    "y": 577.078125,
+    "y": 625.78125,
     "w": 393.28125,
     "h": 78,
+    "renderedLines": [
+      {
+        "text": "Apoia a priorização clínica para que especialistas",
+        "x": 1077.09375,
+        "y": 626.78125,
+        "w": 388.734375,
+        "h": 23
+      },
+      {
+        "text": "direcionem atenção aos casos que podem",
+        "x": 1077.09375,
+        "y": 652.78125,
+        "w": 330.84375,
+        "h": 23
+      },
+      {
+        "text": "precisar dela primeiro.",
+        "x": 1077.09375,
+        "y": 678.78125,
+        "w": 179.890625,
+        "h": 23
+      }
+    ],
     "fontSize": 17.9408,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.72)",
     "opacity": 1,
     "lineHeight": "26.0142px",
@@ -307,11 +548,20 @@
     "text": "PrioScan",
     "x": 1077.09375,
     "y": 739.8125,
-    "w": 81.6875,
+    "w": 77.953125,
     "h": 30.578125,
+    "renderedLines": [
+      {
+        "text": "PrioScan",
+        "x": 1088.171875,
+        "y": 746.9375,
+        "w": 55.796875,
+        "h": 15
+      }
+    ],
     "fontSize": 12.3343,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.82)",
     "opacity": 1,
     "lineHeight": "12.3343px",

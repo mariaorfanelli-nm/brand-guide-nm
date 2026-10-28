@@ -4,13 +4,22 @@
     "x": 99.1875,
     "y": 89.59375,
     "w": 1401.609375,
-    "h": 27.671875,
+    "h": 26.265625,
+    "renderedLines": [
+      {
+        "text": "Arquitetura de Produto",
+        "x": 99.1875,
+        "y": 90.59375,
+        "w": 289.109375,
+        "h": 23
+      }
+    ],
     "fontSize": 17.5203,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "27.6821px",
+    "lineHeight": "26.2805px",
     "letterSpacing": "2.36524px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,21 @@
   {
     "text": "Araci",
     "x": 99.1875,
-    "y": 170.515625,
+    "y": 169.109375,
     "w": 619.515625,
     "h": 95.875,
+    "renderedLines": [
+      {
+        "text": "Araci",
+        "x": 99.1875,
+        "y": 149.109375,
+        "w": 243.5,
+        "h": 135
+      }
+    ],
     "fontSize": 106.523,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "95.8712px",
@@ -34,12 +52,28 @@
   {
     "text": "Decision Intelligence para o trabalho jurídico, com NeuralSearchX + Jurema.",
     "x": 771.953125,
-    "y": 191.984375,
-    "w": 596.453125,
+    "y": 190.578125,
+    "w": 620.21875,
     "h": 74.40625,
+    "renderedLines": [
+      {
+        "text": "Decision Intelligence para o trabalho jurídico,",
+        "x": 771.953125,
+        "y": 188.578125,
+        "w": 616.984375,
+        "h": 40
+      },
+      {
+        "text": "com NeuralSearchX + Jurema.",
+        "x": 771.953125,
+        "y": 225.78125,
+        "w": 418.1875,
+        "h": 40
+      }
+    ],
     "fontSize": 31.5366,
     "fontWeight": "400",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.74)",
     "opacity": 1,
     "lineHeight": "37.2131px",
@@ -49,29 +83,47 @@
   },
   {
     "text": "Produto principal",
-    "x": 712.546875,
-    "y": 369.390625,
-    "w": 174.90625,
-    "h": 19.921875,
+    "x": 716.140625,
+    "y": 373.515625,
+    "w": 167.71875,
+    "h": 18.90625,
+    "renderedLines": [
+      {
+        "text": "Produto principal",
+        "x": 716.140625,
+        "y": 374.515625,
+        "w": 167.71875,
+        "h": 16
+      }
+    ],
     "fontSize": 12.6146,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "19.9311px",
+    "lineHeight": "18.9219px",
     "letterSpacing": "2.27063px",
     "textAlign": "center",
     "textTransform": "uppercase"
   },
   {
     "text": "Araci",
-    "x": 726.0625,
-    "y": 401.21875,
-    "w": 147.859375,
+    "x": 728.90625,
+    "y": 404.328125,
+    "w": 142.1875,
     "h": 58.578125,
+    "renderedLines": [
+      {
+        "text": "Araci",
+        "x": 728.90625,
+        "y": 394.328125,
+        "w": 142.1875,
+        "h": 78
+      }
+    ],
     "fontSize": 61.6715,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "58.5879px",
@@ -81,13 +133,29 @@
   },
   {
     "text": "Análise, fundamentos e minutas com rastreabilidade para o trabalho jurídico.",
-    "x": 567.953125,
-    "y": 471.703125,
-    "w": 464.09375,
+    "x": 558.703125,
+    "y": 474.8125,
+    "w": 482.578125,
     "h": 49.03125,
+    "renderedLines": [
+      {
+        "text": "Análise, fundamentos e minutas com rastreabilidade para o",
+        "x": 569.546875,
+        "y": 474.8125,
+        "w": 460.890625,
+        "h": 23
+      },
+      {
+        "text": "trabalho jurídico.",
+        "x": 733.828125,
+        "y": 499.328125,
+        "w": 132.328125,
+        "h": 23
+      }
+    ],
     "fontSize": 17.5203,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.72)",
     "opacity": 1,
     "lineHeight": "24.5284px",
@@ -98,15 +166,24 @@
   {
     "text": "Busca proprietária",
     "x": 123.3125,
-    "y": 653.84375,
-    "w": 184.796875,
-    "h": 15,
+    "y": 657.5,
+    "w": 174.875,
+    "h": 16,
+    "renderedLines": [
+      {
+        "text": "Busca proprietária",
+        "x": 123.3125,
+        "y": 657.5,
+        "w": 174.875,
+        "h": 16
+      }
+    ],
     "fontSize": 12.6146,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 1,
-    "lineHeight": "19.9311px",
+    "lineHeight": "18.9219px",
     "letterSpacing": "2.27063px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -114,15 +191,24 @@
   {
     "text": "NeuralSearchX",
     "x": 123.3125,
-    "y": 685.015625,
+    "y": 687.3125,
     "w": 407.28125,
-    "h": 45.390625,
+    "h": 43.09375,
+    "renderedLines": [
+      {
+        "text": "NeuralSearchX",
+        "x": 123.3125,
+        "y": 690.3125,
+        "w": 191.328125,
+        "h": 36
+      }
+    ],
     "fontSize": 28.7333,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "45.3986px",
+    "lineHeight": "43.1px",
     "letterSpacing": "-0.229867px",
     "textAlign": "start",
     "textTransform": "none"
@@ -133,9 +219,25 @@
     "y": 740.90625,
     "w": 407.28125,
     "h": 45.375,
+    "renderedLines": [
+      {
+        "text": "Recupera evidências, documentos e fontes verificáveis",
+        "x": 123.3125,
+        "y": 741.90625,
+        "w": 382.09375,
+        "h": 20
+      },
+      {
+        "text": "para cada resposta.",
+        "x": 123.3125,
+        "y": 764.59375,
+        "w": 142.5,
+        "h": 20
+      }
+    ],
     "fontSize": 15.9785,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.68)",
     "opacity": 1,
     "lineHeight": "22.6895px",
@@ -146,15 +248,24 @@
   {
     "text": "Modelo especializado",
     "x": 596.359375,
-    "y": 653.84375,
-    "w": 209.359375,
-    "h": 15,
+    "y": 657.5,
+    "w": 201.421875,
+    "h": 16,
+    "renderedLines": [
+      {
+        "text": "Modelo especializado",
+        "x": 596.359375,
+        "y": 657.5,
+        "w": 201.421875,
+        "h": 16
+      }
+    ],
     "fontSize": 12.6146,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 1,
-    "lineHeight": "19.9311px",
+    "lineHeight": "18.9219px",
     "letterSpacing": "2.27063px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -162,15 +273,24 @@
   {
     "text": "Jurema",
     "x": 596.359375,
-    "y": 685.015625,
+    "y": 687.3125,
     "w": 407.28125,
-    "h": 45.390625,
+    "h": 43.09375,
+    "renderedLines": [
+      {
+        "text": "Jurema",
+        "x": 596.359375,
+        "y": 690.3125,
+        "w": 95.671875,
+        "h": 36
+      }
+    ],
     "fontSize": 28.7333,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "45.3986px",
+    "lineHeight": "43.1px",
     "letterSpacing": "-0.229867px",
     "textAlign": "start",
     "textTransform": "none"
@@ -181,9 +301,25 @@
     "y": 740.90625,
     "w": 407.28125,
     "h": 45.375,
+    "renderedLines": [
+      {
+        "text": "LLM jurídico brasileiro para linguagem, doutrina e",
+        "x": 596.359375,
+        "y": 741.90625,
+        "w": 350.296875,
+        "h": 20
+      },
+      {
+        "text": "contexto normativo local.",
+        "x": 596.359375,
+        "y": 764.59375,
+        "w": 179.59375,
+        "h": 20
+      }
+    ],
     "fontSize": 15.9785,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.68)",
     "opacity": 1,
     "lineHeight": "22.6895px",
@@ -194,15 +330,24 @@
   {
     "text": "Camada operacional",
     "x": 1069.40625,
-    "y": 653.84375,
-    "w": 195.328125,
-    "h": 15,
+    "y": 657.5,
+    "w": 189.234375,
+    "h": 16,
+    "renderedLines": [
+      {
+        "text": "Camada operacional",
+        "x": 1069.40625,
+        "y": 657.5,
+        "w": 189.234375,
+        "h": 16
+      }
+    ],
     "fontSize": 12.6146,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 1,
-    "lineHeight": "19.9311px",
+    "lineHeight": "18.9219px",
     "letterSpacing": "2.27063px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -210,15 +355,24 @@
   {
     "text": "Agentes & Workflow",
     "x": 1069.40625,
-    "y": 685.015625,
+    "y": 687.3125,
     "w": 407.28125,
-    "h": 45.390625,
+    "h": 43.09375,
+    "renderedLines": [
+      {
+        "text": "Agentes & Workflow",
+        "x": 1069.40625,
+        "y": 690.3125,
+        "w": 254.6875,
+        "h": 36
+      }
+    ],
     "fontSize": 28.7333,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
-    "lineHeight": "45.3986px",
+    "lineHeight": "43.1px",
     "letterSpacing": "-0.229867px",
     "textAlign": "start",
     "textTransform": "none"
@@ -229,9 +383,25 @@
     "y": 740.90625,
     "w": 407.28125,
     "h": 45.375,
+    "renderedLines": [
+      {
+        "text": "Orquestra tarefas, validações e próximos passos sob",
+        "x": 1069.40625,
+        "y": 741.90625,
+        "w": 371.0625,
+        "h": 20
+      },
+      {
+        "text": "supervisão humana.",
+        "x": 1069.40625,
+        "y": 764.59375,
+        "w": 142.015625,
+        "h": 20
+      }
+    ],
     "fontSize": 15.9785,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.68)",
     "opacity": 1,
     "lineHeight": "22.6895px",

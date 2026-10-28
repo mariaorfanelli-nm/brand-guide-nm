@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the editable NeuralMind.AI 16:9 PowerPoint template."""
+"""Build the editable NeuralMind.ai 16:9 PowerPoint template."""
 
 from pathlib import Path
 import sys
@@ -26,7 +26,7 @@ WHITE = "FFFFFC"
 CORAL = "F2766B"
 LAVENDER = "9381FF"
 MUTED = "6A6570"
-FONT = "NeuralMind Sans Square"
+FONT = "Outfit"
 
 
 def rgb(value):
@@ -105,7 +105,7 @@ def eyebrow(slide, value, x, y, color=PURPLE):
 
 def add_notes(slide, title):
     slide.notes_slide.notes_text_frame.text = (
-        f"Template NeuralMind.AI — {title}.\n"
+        f"Template NeuralMind.ai — {title}.\n"
         "Substitua os textos de exemplo mantendo hierarquia, margens e contraste."
     )
 
@@ -299,9 +299,9 @@ def product_stack(prs):
 def build():
     prs=Presentation(); prs.slide_width=Inches(W); prs.slide_height=Inches(H)
     for fn in [cover,section,verticals,product,statement,title_list,metric,process,closing,photo_split,founders,closing_photo,three_step,product_stack]: fn(prs)
-    prs.core_properties.title="Template de Slides — NeuralMind.AI"
+    prs.core_properties.title="Template de Slides — NeuralMind.ai"
     prs.core_properties.subject="Sistema modular 16:9 editável"
-    prs.core_properties.author="NeuralMind.AI"
+    prs.core_properties.author="NeuralMind.ai"
     prs.core_properties.comments="Gerado a partir do brand guide digital em HTML/CSS."
     prs.save(OUT)
     print(OUT)

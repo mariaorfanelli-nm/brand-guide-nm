@@ -2,15 +2,24 @@
   {
     "text": "Encerramento",
     "x": 105.59375,
-    "y": 271.859375,
+    "y": 273.65625,
     "w": 787.796875,
-    "h": 27.734375,
+    "h": 26.34375,
+    "renderedLines": [
+      {
+        "text": "Encerramento",
+        "x": 105.59375,
+        "y": 274.65625,
+        "w": 170.953125,
+        "h": 23
+      }
+    ],
     "fontSize": 17.5602,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
-    "lineHeight": "27.745px",
+    "lineHeight": "26.3402px",
     "letterSpacing": "2.37062px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,21 @@
   {
     "text": "Obrigado.",
     "x": 105.59375,
-    "y": 329.09375,
+    "y": 329.5,
     "w": 787.796875,
     "h": 94.734375,
+    "renderedLines": [
+      {
+        "text": "Obrigado.",
+        "x": 105.59375,
+        "y": 313.5,
+        "w": 430.5625,
+        "h": 126
+      }
+    ],
     "fontSize": 99.7417,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "94.7546px",
@@ -34,12 +52,28 @@
   {
     "text": "Fico à disposição para continuarmos esta conversa.",
     "x": 105.59375,
-    "y": 453.328125,
-    "w": 423.640625,
+    "y": 453.734375,
+    "w": 440.515625,
     "h": 67.1875,
+    "renderedLines": [
+      {
+        "text": "Fico à disposição para continuarmos",
+        "x": 105.59375,
+        "y": 455.734375,
+        "w": 373.265625,
+        "h": 29
+      },
+      {
+        "text": "esta conversa.",
+        "x": 105.59375,
+        "y": 489.328125,
+        "w": 148.640625,
+        "h": 29
+      }
+    ],
     "fontSize": 23.1794,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.65)",
     "opacity": 1,
     "lineHeight": "33.6101px",
@@ -50,15 +84,24 @@
   {
     "text": "E-mail",
     "x": 105.59375,
-    "y": 579.109375,
+    "y": 579.515625,
     "w": 382.65625,
-    "h": 18.1875,
+    "h": 17.265625,
+    "renderedLines": [
+      {
+        "text": "E-mail",
+        "x": 105.59375,
+        "y": 580.515625,
+        "w": 51.125,
+        "h": 15
+      }
+    ],
     "fontSize": 11.5195,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "18.2008px",
+    "lineHeight": "17.2792px",
     "letterSpacing": "1.84311px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -66,15 +109,24 @@
   {
     "text": "nome@empresa.com",
     "x": 105.59375,
-    "y": 602.625,
+    "y": 602.109375,
     "w": 382.65625,
-    "h": 25.515625,
+    "h": 24.234375,
+    "renderedLines": [
+      {
+        "text": "nome@empresa.com",
+        "x": 105.59375,
+        "y": 604.109375,
+        "w": 150.65625,
+        "h": 20
+      }
+    ],
     "fontSize": 16.1553,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "25.5254px",
+    "lineHeight": "24.233px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
@@ -82,15 +134,24 @@
   {
     "text": "Telefone",
     "x": 510.71875,
-    "y": 579.109375,
+    "y": 579.515625,
     "w": 382.671875,
-    "h": 18.1875,
+    "h": 17.265625,
+    "renderedLines": [
+      {
+        "text": "Telefone",
+        "x": 510.71875,
+        "y": 580.515625,
+        "w": 74.21875,
+        "h": 15
+      }
+    ],
     "fontSize": 11.5195,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "18.2008px",
+    "lineHeight": "17.2792px",
     "letterSpacing": "1.84311px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -98,15 +159,24 @@
   {
     "text": "+55 00 00000-0000",
     "x": 510.71875,
-    "y": 602.625,
+    "y": 602.109375,
     "w": 382.671875,
-    "h": 25.515625,
+    "h": 24.234375,
+    "renderedLines": [
+      {
+        "text": "+55 00 00000-0000",
+        "x": 510.71875,
+        "y": 604.109375,
+        "w": 156.625,
+        "h": 20
+      }
+    ],
     "fontSize": 16.1553,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
-    "lineHeight": "25.5254px",
+    "lineHeight": "24.233px",
     "letterSpacing": "normal",
     "textAlign": "start",
     "textTransform": "none"
@@ -117,9 +187,25 @@
     "y": 699.484375,
     "w": 472.828125,
     "h": 54.03125,
+    "renderedLines": [
+      {
+        "text": "Kleber Edurado",
+        "x": 1007.078125,
+        "y": 696.484375,
+        "w": 181.0625,
+        "h": 33
+      },
+      {
+        "text": "Vicente dos Santos",
+        "x": 1007.078125,
+        "y": 723.5,
+        "w": 217.859375,
+        "h": 33
+      }
+    ],
     "fontSize": 25.989,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(255, 255, 252)",
     "opacity": 1,
     "lineHeight": "27.0286px",
@@ -131,11 +217,27 @@
     "text": "Head de Inovação, Produtos e Desenvolvimento de Negócios",
     "x": 1007.078125,
     "y": 762.640625,
-    "w": 266.875,
+    "w": 263.578125,
     "h": 31.46875,
+    "renderedLines": [
+      {
+        "text": "Head de Inovação, Produtos e",
+        "x": 1007.078125,
+        "y": 762.640625,
+        "w": 225.625,
+        "h": 15
+      },
+      {
+        "text": "Desenvolvimento de Negócios",
+        "x": 1007.078125,
+        "y": 778.375,
+        "w": 228.765625,
+        "h": 15
+      }
+    ],
     "fontSize": 11.6599,
     "fontWeight": "700",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
     "lineHeight": "15.7409px",

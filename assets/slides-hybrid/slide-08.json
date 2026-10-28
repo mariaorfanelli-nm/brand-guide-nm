@@ -4,13 +4,22 @@
     "x": 112,
     "y": 96,
     "w": 1376,
-    "h": 27.171875,
+    "h": 25.796875,
+    "renderedLines": [
+      {
+        "text": "Fluxo de Trabalho",
+        "x": 112,
+        "y": 98,
+        "w": 217.125,
+        "h": 21
+      }
+    ],
     "fontSize": 17.2,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 0.7,
-    "lineHeight": "27.176px",
+    "lineHeight": "25.8px",
     "letterSpacing": "2.322px",
     "textAlign": "start",
     "textTransform": "uppercase"
@@ -18,12 +27,21 @@
   {
     "text": "Da pergunta à decisão auditável.",
     "x": 112,
-    "y": 142.421875,
-    "w": 994.640625,
+    "y": 141.046875,
+    "w": 1009.265625,
     "h": 57.796875,
+    "renderedLines": [
+      {
+        "text": "Da pergunta à decisão auditável.",
+        "x": 112,
+        "y": 135.046875,
+        "w": 764.765625,
+        "h": 69
+      }
+    ],
     "fontSize": 55.04,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "57.792px",
@@ -34,15 +52,24 @@
   {
     "text": "01",
     "x": 112,
-    "y": 620.234375,
+    "y": 652.53125,
     "w": 318.203125,
-    "h": 27.171875,
+    "h": 25.796875,
+    "renderedLines": [
+      {
+        "text": "01",
+        "x": 112,
+        "y": 654.53125,
+        "w": 23.15625,
+        "h": 21
+      }
+    ],
     "fontSize": 17.2,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "27.176px",
+    "lineHeight": "25.8px",
     "letterSpacing": "2.752px",
     "textAlign": "start",
     "textTransform": "none"
@@ -50,12 +77,21 @@
   {
     "text": "Pergunta natural",
     "x": 112,
-    "y": 661.15625,
+    "y": 692.078125,
     "w": 318.203125,
     "h": 36.328125,
+    "renderedLines": [
+      {
+        "text": "Pergunta natural",
+        "x": 112,
+        "y": 689.078125,
+        "w": 244.03125,
+        "h": 42
+      }
+    ],
     "fontSize": 33.024,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "36.3264px",
@@ -66,12 +102,28 @@
   {
     "text": "O usuário descreve a necessidade em linguagem comum.",
     "x": 112,
-    "y": 711.234375,
+    "y": 742.15625,
     "w": 318.203125,
-    "h": 92.765625,
+    "h": 61.84375,
+    "renderedLines": [
+      {
+        "text": "O usuário descreve a necessidade",
+        "x": 112,
+        "y": 743.15625,
+        "w": 317.078125,
+        "h": 27
+      },
+      {
+        "text": "em linguagem comum.",
+        "x": 112,
+        "y": 774.078125,
+        "w": 213.34375,
+        "h": 27
+      }
+    ],
     "fontSize": 21.328,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
     "lineHeight": "30.9256px",
@@ -82,15 +134,24 @@
   {
     "text": "02",
     "x": 464.59375,
-    "y": 620.234375,
+    "y": 652.53125,
     "w": 318.203125,
-    "h": 27.171875,
+    "h": 25.796875,
+    "renderedLines": [
+      {
+        "text": "02",
+        "x": 464.59375,
+        "y": 654.53125,
+        "w": 26.359375,
+        "h": 21
+      }
+    ],
     "fontSize": 17.2,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "27.176px",
+    "lineHeight": "25.8px",
     "letterSpacing": "2.752px",
     "textAlign": "start",
     "textTransform": "none"
@@ -98,12 +159,21 @@
   {
     "text": "Busca semântica",
     "x": 464.59375,
-    "y": 661.15625,
+    "y": 692.078125,
     "w": 318.203125,
     "h": 36.328125,
+    "renderedLines": [
+      {
+        "text": "Busca semântica",
+        "x": 464.59375,
+        "y": 689.078125,
+        "w": 241.84375,
+        "h": 42
+      }
+    ],
     "fontSize": 33.024,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "36.3264px",
@@ -114,12 +184,28 @@
   {
     "text": "Recuperação em múltiplas fontes com citação do trecho exato.",
     "x": 464.59375,
-    "y": 711.234375,
+    "y": 742.15625,
     "w": 318.203125,
-    "h": 92.765625,
+    "h": 61.84375,
+    "renderedLines": [
+      {
+        "text": "Recuperação em múltiplas fontes",
+        "x": 464.59375,
+        "y": 743.15625,
+        "w": 312.546875,
+        "h": 27
+      },
+      {
+        "text": "com citação do trecho exato.",
+        "x": 464.59375,
+        "y": 774.078125,
+        "w": 273.453125,
+        "h": 27
+      }
+    ],
     "fontSize": 21.328,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
     "lineHeight": "30.9256px",
@@ -130,15 +216,24 @@
   {
     "text": "03",
     "x": 817.1875,
-    "y": 620.234375,
+    "y": 652.53125,
     "w": 318.203125,
-    "h": 27.171875,
+    "h": 25.796875,
+    "renderedLines": [
+      {
+        "text": "03",
+        "x": 817.1875,
+        "y": 654.53125,
+        "w": 26.3125,
+        "h": 21
+      }
+    ],
     "fontSize": 17.2,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "27.176px",
+    "lineHeight": "25.8px",
     "letterSpacing": "2.752px",
     "textAlign": "start",
     "textTransform": "none"
@@ -146,12 +241,21 @@
   {
     "text": "Síntese contextual",
     "x": 817.1875,
-    "y": 661.15625,
+    "y": 692.078125,
     "w": 318.203125,
     "h": 36.328125,
+    "renderedLines": [
+      {
+        "text": "Síntese contextual",
+        "x": 817.1875,
+        "y": 689.078125,
+        "w": 261.421875,
+        "h": 42
+      }
+    ],
     "fontSize": 33.024,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "36.3264px",
@@ -162,12 +266,28 @@
   {
     "text": "Resposta consolidada, vinculada a cada referência.",
     "x": 817.1875,
-    "y": 711.234375,
+    "y": 742.15625,
     "w": 318.203125,
     "h": 61.84375,
+    "renderedLines": [
+      {
+        "text": "Resposta consolidada, vinculada",
+        "x": 817.1875,
+        "y": 743.15625,
+        "w": 306.515625,
+        "h": 27
+      },
+      {
+        "text": "a cada referência.",
+        "x": 817.1875,
+        "y": 774.078125,
+        "w": 172.53125,
+        "h": 27
+      }
+    ],
     "fontSize": 21.328,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
     "lineHeight": "30.9256px",
@@ -178,15 +298,24 @@
   {
     "text": "04",
     "x": 1169.78125,
-    "y": 620.234375,
+    "y": 652.53125,
     "w": 318.21875,
-    "h": 27.171875,
+    "h": 25.796875,
+    "renderedLines": [
+      {
+        "text": "04",
+        "x": 1169.78125,
+        "y": 654.53125,
+        "w": 27.234375,
+        "h": 21
+      }
+    ],
     "fontSize": 17.2,
     "fontWeight": "600",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(239, 71, 111)",
     "opacity": 1,
-    "lineHeight": "27.176px",
+    "lineHeight": "25.8px",
     "letterSpacing": "2.752px",
     "textAlign": "start",
     "textTransform": "none"
@@ -194,12 +323,21 @@
   {
     "text": "Validação humana",
     "x": 1169.78125,
-    "y": 661.15625,
+    "y": 692.078125,
     "w": 318.21875,
     "h": 36.328125,
+    "renderedLines": [
+      {
+        "text": "Validação humana",
+        "x": 1169.78125,
+        "y": 689.078125,
+        "w": 268.6875,
+        "h": 42
+      }
+    ],
     "fontSize": 33.024,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "36.3264px",
@@ -210,12 +348,28 @@
   {
     "text": "O especialista revisa, decide e assume o controle.",
     "x": 1169.78125,
-    "y": 711.234375,
+    "y": 742.15625,
     "w": 318.21875,
     "h": 61.84375,
+    "renderedLines": [
+      {
+        "text": "O especialista revisa, decide e",
+        "x": 1169.78125,
+        "y": 743.15625,
+        "w": 281.921875,
+        "h": 27
+      },
+      {
+        "text": "assume o controle.",
+        "x": 1169.78125,
+        "y": 774.078125,
+        "w": 176.5,
+        "h": 27
+      }
+    ],
     "fontSize": 21.328,
     "fontWeight": "400",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(15, 17, 8, 0.62)",
     "opacity": 1,
     "lineHeight": "30.9256px",

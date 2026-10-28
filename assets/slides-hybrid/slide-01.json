@@ -2,15 +2,24 @@
   {
     "text": "Brand Guide Digital",
     "x": 128,
-    "y": 536.765625,
-    "w": 253.78125,
-    "h": 25.46875,
+    "y": 472.78125,
+    "w": 241.328125,
+    "h": 24.1875,
+    "renderedLines": [
+      {
+        "text": "Brand Guide Digital",
+        "x": 128,
+        "y": 474.78125,
+        "w": 241.328125,
+        "h": 20
+      }
+    ],
     "fontSize": 16.128,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(147, 129, 255)",
     "opacity": 1,
-    "lineHeight": "25.4822px",
+    "lineHeight": "24.192px",
     "letterSpacing": "3.54816px",
     "textAlign": "left",
     "textTransform": "uppercase"
@@ -18,15 +27,24 @@
   {
     "text": "Inteligência para decisão.",
     "x": 128,
-    "y": 716.8125,
-    "w": 424.5625,
-    "h": 55.1875,
+    "y": 719.59375,
+    "w": 390.890625,
+    "h": 52.40625,
+    "renderedLines": [
+      {
+        "text": "Inteligência para decisão.",
+        "x": 128,
+        "y": 723.59375,
+        "w": 390.890625,
+        "h": 44
+      }
+    ],
     "fontSize": 34.944,
     "fontWeight": "400",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgba(255, 255, 252, 0.78)",
     "opacity": 1,
-    "lineHeight": "55.2115px",
+    "lineHeight": "52.416px",
     "letterSpacing": "-0.17472px",
     "textAlign": "left",
     "textTransform": "none"

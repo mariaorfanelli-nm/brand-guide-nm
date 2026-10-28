@@ -15,7 +15,7 @@ OUTPUT = ROOT / "Template_A4_NeuralMind_AI.docx"
 LOGO_PURPLE = ROOT / "assets" / "brand" / "neuralmind-ai-purple.png"
 LOGO_WHITE = ROOT / "assets" / "brand" / "neuralmind-ai-white.png"
 
-FONT = "Arial"
+FONT = "Outfit"
 PURPLE = "290241"
 VIOLET = "9381FF"
 BLACK = "0F1108"
@@ -328,7 +328,7 @@ def configure_header_footer(section):
     fp.alignment = WD_ALIGN_PARAGRAPH.LEFT
     fp.paragraph_format.space_before = Pt(8)
     fp.paragraph_format.tab_stops.add_tab_stop(Cm(16.8), WD_TAB_ALIGNMENT.RIGHT)
-    left = fp.add_run("NeuralMind.AI  |  Documento institucional")
+    left = fp.add_run("NeuralMind.ai  |  Documento institucional")
     set_run_font(left, size=8.5, color=MUTED)
     fp.add_run("\t")
     page_label = fp.add_run("PÁGINA ")
@@ -363,7 +363,7 @@ def build_cover(doc):
     logo_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     logo_p.paragraph_format.space_after = Pt(118)
     shape = logo_p.add_run().add_picture(str(LOGO_WHITE), width=Inches(2.35))
-    set_image_alt(shape, "Logotipo NeuralMind.AI")
+    set_image_alt(shape, "Logotipo NeuralMind.ai")
 
     eyebrow = cell.add_paragraph(style="NM Eyebrow")
     eyebrow.paragraph_format.space_after = Pt(10)
@@ -513,11 +513,11 @@ def add_body_template(doc, usable_width_dxa):
 
 def set_document_properties(doc):
     props = doc.core_properties
-    props.title = "Template A4 NeuralMind.AI"
+    props.title = "Template A4 NeuralMind.ai"
     props.subject = "Template institucional de documentos A4"
-    props.author = "NeuralMind.AI"
-    props.keywords = "NeuralMind.AI, template, A4, marca, documento institucional"
-    props.comments = "Template criado conforme o Brand Guide NeuralMind.AI."
+    props.author = "NeuralMind.ai"
+    props.keywords = "NeuralMind.ai, template, A4, marca, documento institucional"
+    props.comments = "Template criado conforme o Brand Guide NeuralMind.ai."
 
 
 def build():

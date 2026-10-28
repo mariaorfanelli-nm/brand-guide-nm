@@ -18,7 +18,7 @@ A fonte local e as imagens não dependem de serviços externos. `post.css` contr
 ## Referência visual
 
 Brandguide local: `../../../index.html`, seção Social; tokens em `../../../styles.css`.
-Roxo profundo #290241, violeta #9381FF, branco quente #FFFFFC, coral #EF476F. Fonte NeuralMind Sans Square. Manchete e número em peso 500.
+Roxo profundo #290241, violeta #9381FF, branco quente #FFFFFC, coral #EF476F. Fonte Outfit, com Urbanist de apoio em rótulos e indicadores. Manchete e número em peso 500.
 
 Os arquivos `logo-h-branco.png` e `logo-h.png` são cópias sem alterações dos anexos enviados pela usuária. O CSS oculta somente a margem transparente original para alinhar o logo. Os logos novos do brandguide não são utilizados.
 

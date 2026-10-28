@@ -2,12 +2,35 @@
   {
     "text": "A tecnologia organiza e sugere.\nO especialista compreende, decide e assume o controle.",
     "x": 112,
-    "y": 316.1875,
-    "w": 1193.53125,
+    "y": 316.90625,
+    "w": 1211.09375,
     "h": 199.359375,
+    "renderedLines": [
+      {
+        "text": "A tecnologia organiza e sugere.",
+        "x": 112,
+        "y": 312.90625,
+        "w": 769.9375,
+        "h": 73
+      },
+      {
+        "text": "O especialista compreende, decide e assume o",
+        "x": 112,
+        "y": 379.359375,
+        "w": 1138.40625,
+        "h": 73
+      },
+      {
+        "text": "controle.",
+        "x": 112,
+        "y": 445.8125,
+        "w": 220.328125,
+        "h": 73
+      }
+    ],
     "fontSize": 57.792,
     "fontWeight": "500",
-    "fontFamily": "NeuralMind, \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(15, 17, 8)",
     "opacity": 1,
     "lineHeight": "66.4608px",
@@ -16,17 +39,26 @@
     "textTransform": "none"
   },
   {
-    "text": "Manifesto NeuralMind.AI",
+    "text": "Manifesto NeuralMind.ai",
     "x": 112,
-    "y": 555.546875,
+    "y": 556.265625,
     "w": 1376,
-    "h": 28.265625,
+    "h": 26.828125,
+    "renderedLines": [
+      {
+        "text": "Manifesto NeuralMind.ai",
+        "x": 112,
+        "y": 557.265625,
+        "w": 317.65625,
+        "h": 23
+      }
+    ],
     "fontSize": 17.888,
     "fontWeight": "600",
-    "fontFamily": "\"NeuralMind Text 2.0\", \"Segoe UI\", Aptos, Arial, sans-serif",
+    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
     "color": "rgb(41, 2, 65)",
     "opacity": 0.65,
-    "lineHeight": "28.263px",
+    "lineHeight": "26.832px",
     "letterSpacing": "3.21984px",
     "textAlign": "start",
     "textTransform": "uppercase"

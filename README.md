@@ -1,6 +1,6 @@
-# NeuralMind.AI — Brand Guide
+# NeuralMind.ai — Brand Guide
 
-Brand guide digital da NeuralMind.AI, incluindo fundamentos visuais, identidade verbal, ativos de marca, templates para documentos, redes sociais, apresentações e reuniões.
+Brand guide digital da NeuralMind.ai, incluindo fundamentos visuais, identidade verbal, ativos de marca, templates para documentos, redes sociais, apresentações e reuniões.
 
 ## Página publicada
 
@@ -12,8 +12,16 @@ Abra `index.html` no navegador. O projeto é estático e não exige etapa de bui
 
 ## Identidade aprovada em 28/10/2026
 
-Assinatura 08D: NEURALMIND em Cormorant Garamond 700, caixa alta, tracking 0,15 em, traço 0,032 em, sem sufixo .AI. Slogan: **Inteligência para decisão.** O monograma NM segue o mesmo desenho tipográfico. A fonte de textos permanece NeuralMind Sans Square.
+Proposta 02 do HTML fornecido: Outfit 400 para Neural, Outfit 800 para ind e M aberto da Urbanist 800 em escala de 98%. Tracking −0,02 em; ajuste após M −0,015 em. Sufixo A2: .ai minúsculo, Outfit 400, tamanho integral e mesma linha, margem 0,015 em e tracking zero. Outfit é a família principal em todo o guia, títulos, textos, redes sociais, documentos e slides. Urbanist é a família de apoio para rótulos e números. O kit TTF está em `assets/fonts/neuralmind-fonts.zip`.
 
-Os estudos estão preservados em `logo-options.html`, `logo-options-selected.html` e `exports/logo-options/`. Os PNGs anteriores estão em `assets/brand/archive/pre-08d/`. A revisão anterior completa pode ser recuperada pelo Git no commit `27eddad` (ou pela tag `brand-guide-pre-08d`). Os mockups fotográficos anteriores permanecem em `assets/mockups/`; o guia usa os mockups fotorrealistas 08D gerados com ImageGen em `assets/mockups/*-08d-realista.png`. Os prompts e a referência utilizados estão em `assets/mockups/generation-prompts.json`.
+`assets/brand/neuralmind-svg-kit.zip` contém 24 SVGs em contornos: NeuralMind, NeuralMind.ai, monograma NM e marca d’água NM (opacidade 12%), em roxo, branco, lilás, preto, bicolor e inverso. Os SVGs independem de fontes instaladas. PNGs de compatibilidade também foram atualizados.
 
-Para regenerar os PNGs da assinatura, execute `node scripts/apply_logo_08d.cjs` com Playwright, Sharp e Chromium disponíveis; `CHROME_PATH` permite selecionar o navegador.
+O HTML original está em `lettering-reference.html`. As recomendações contidas no estudo são contexto histórico; a escolha aplicada é proposta 02 + A2, conforme solicitação. Os mockups antigos são preservados nos arquivos 08D.
+
+Para regenerar os SVGs, execute `scripts/apply_logo_outfit_a2.py` com fontTools disponível e o HTML original em Downloads.
+
+## Mídias e templates
+
+A revisão completa usa Outfit em textos e títulos e Urbanist nos rótulos e indicadores. Capas de LinkedIn e YouTube, fundo de reuniões, 16 slides, 27 PNGs sociais/executivos e templates DOCX/PPTX foram atualizados. As fontes locais e o ZIP de instalação ficam em `assets/fonts/`. Estudos históricos de lettering e arquivos arquivados são mantidos como referência.
+
+Regeneração: `python3 scripts/generate_media_assets.py`; `node scripts/export_brand_assets.cjs` (Playwright/Chromium); builders DOCX/PPTX em `scripts/`. Instale o kit TTF para preservar a tipografia ao editar os arquivos do Office.

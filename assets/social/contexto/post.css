@@ -1,10 +1,4 @@
-@font-face {
-  font-family: "NeuralMind";
-  src: url("../../fonts/web/NeuralMindSansSquare[wght].woff2") format("woff2");
-  font-style: normal;
-  font-weight: 200 900;
-  font-display: block;
-}
+@import url("../../fonts/brand-typography.css");
 
 :root {
   --purple: #290241;
@@ -13,7 +7,7 @@
   --coral: #ef476f;
   --paper: #f1edf4;
   --muted: #6e5b79;
-  font-family: "NeuralMind", sans-serif;
+  font-family: "Outfit", sans-serif;
   color: var(--purple);
   background: var(--paper);
   font-synthesis: none;
@@ -112,3 +106,9 @@ body.art-only { background: var(--purple); }
   .review-notes h2 br { display: none; }
   .canvas-meta { font-size: 10px; }
 }
+
+/* Assinatura oficial em contornos, sem recorte da marca anterior. */
+.legacy-logo { aspect-ratio: auto; overflow: visible; }
+.legacy-logo img { position: static; display: block; width: 100%; height: auto; max-width: 100%; }
+
+.post-kicker,.post-eyebrow,.statistic-number,.post-footer,.tag,.note-title { font-family: var(--font-support); }

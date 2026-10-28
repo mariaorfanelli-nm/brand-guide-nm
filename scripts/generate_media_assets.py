@@ -74,21 +74,21 @@ def linkedin_cover():
 
     logo = resized_asset(BRAND / "neuralmind-ai-white.png", 1540)
     content_right = 3760
-    canvas.alpha_composite(logo, (content_right - logo.width, 172))
+    canvas.alpha_composite(logo, (content_right - logo.width, 110))
 
     draw = ImageDraw.Draw(canvas)
     tagline_font = ImageFont.truetype(
-        FONTS / "NeuralMindSansSquare-Medium.ttf", 60
+        FONTS / "Outfit-Medium.ttf", 60
     )
     right_aligned_text(
         draw,
         "Inteligência para decisão.",
         content_right,
-        426,
+        500,
         font=tagline_font,
         fill=(255, 255, 252, 224),
     )
-    draw.rounded_rectangle((content_right - 1520, 546, content_right, 554), radius=4, fill=CORAL)
+    draw.rounded_rectangle((content_right - 1520, 605, content_right, 613), radius=4, fill=CORAL)
     save_jpeg(canvas, OUTPUT / "linkedin-company-cover-4200x700.jpg")
 
 
@@ -98,11 +98,11 @@ def youtube_banner():
     add_glow(canvas, (560, 100, 2000, 1340), VIOLET, 32, 330)
 
     logo = resized_asset(BRAND / "neuralmind-ai-white.png", 920)
-    paste_centered(canvas, logo, 1280, 602)
+    paste_centered(canvas, logo, 1280, 560)
 
     draw = ImageDraw.Draw(canvas)
     tagline_font = ImageFont.truetype(
-        FONTS / "NeuralMindSansSquare-Medium.ttf", 58
+        FONTS / "Outfit-Medium.ttf", 58
     )
     centered_text(
         draw,
