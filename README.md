@@ -33,3 +33,9 @@ NeuralMind é a marca mãe. As verticais são **NeuralStudio**, **SofIA** e **Pr
 A revisão crítica preserva fontes e paleta e reduz molduras, sombras e selos, controla a proporção de métricas e ajusta alinhamentos e respiro nas peças. O documento A4 tem instrução mais discreta, corpo com entrelinha maior e hierarquia mais contida. As capas institucionais usam slogan mais legível e régua reduzida.
 
 A seção `#web-system` propõe header, hero, cards de verticais, bloco de evidências, contato, campos e regras responsivas para o futuro site e suas landing pages. É uma proposta visual no guia, com links de demonstração internos; não um formulário comercial conectado.
+
+## Fotografia e proposta editorial do site
+
+A seção `#photography` apresenta três direções ainda em avaliação: A, pessoas em decisão; B, precisão e materialidade; C, arquitetura e perspectiva. As imagens em `assets/photography/` são estudos conceituais gerados com ImageGen, não fotografias da equipe ou de clientes reais. Os prompts estão em `directions.json`. A recomendação inicial é A como base, com B e C como apoio; nenhuma direção está aprovada. A seleção dos botões é local ao navegador e não representa aprovação formal.
+
+A proposta `#web-system` foi ampliada com hero fotográfico, mosaico de aplicações, dossiê de caso, percurso de trabalho, abertura de pesquisa e caderno editorial. As pautas e o case são exemplos para futura produção, sem métricas ou artigos inventados.

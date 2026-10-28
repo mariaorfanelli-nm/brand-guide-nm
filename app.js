@@ -104,3 +104,14 @@ document.querySelector("[data-slide-prev]")?.addEventListener("click", () => {
 document.querySelector("[data-slide-next]")?.addEventListener("click", () => {
   slides[Math.min(slides.length - 1, currentSlideIndex() + 1)]?.scrollIntoView({ behavior: "smooth", block: "nearest" });
 });
+
+// Escolha local de direção fotográfica; não envia aprovação a um servidor.
+const photoChoices = [...document.querySelectorAll('[data-photo-choice]')];
+const photoStatus = document.getElementById('photo-selection-status');
+function selectPhotoDirection(value, persist = true) {
+  photoChoices.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.photoChoice === value)));
+  if (photoStatus) photoStatus.textContent = value ? `Preferência registrada neste navegador: ${value}. Comente no chat para confirmar a direção final.` : 'Nenhuma direção selecionada. Os botões guardam apenas sua preferência neste navegador.';
+  if (persist) { try { localStorage.setItem('neuralmindPhotoDirection', value); } catch {} }
+}
+photoChoices.forEach(button => button.addEventListener('click', () => selectPhotoDirection(button.dataset.photoChoice)));
+try { selectPhotoDirection(localStorage.getItem('neuralmindPhotoDirection') || '', false); } catch { selectPhotoDirection('', false); }
