@@ -1,0 +1,50 @@
+{
+  "source": "https://neuralmind.ai/sofia",
+  "content": [
+    [
+      "h1",
+      "Acelerando a solução de reclamações em saúde com tecnologia de ponta"
+    ],
+    [
+      "p",
+      "O SofIA foi criado para auxiliar a Agência Nacional de Saúde Suplementar (ANS) a tratar o número crescente de queixas dos usuários de operadoras de saúde no Brasil"
+    ],
+    [
+      "h2",
+      "SofIA auxiliando a ANS"
+    ],
+    [
+      "p",
+      "O SofIA automatiza processos e oferece suporte ao analista, contribuindo para aumentar a eficiência das análises de cada caso."
+    ],
+    [
+      "h4",
+      "Processamento dos documentos da reclamação"
+    ],
+    [
+      "p",
+      "O SofIA ingere automaticamente todos os arquivos relacionados à reclamação — PDFs, imagens escaneadas e e‑mails — e aplica OCR avançado para extrair texto estruturado."
+    ],
+    [
+      "h4",
+      "Identificação e classificação da demanda"
+    ],
+    [
+      "p",
+      "A partir do conteúdo extraído, o sistema analisa semanticamente cada reclamação e a classifica segundo os critérios definidos pela ANS."
+    ],
+    [
+      "h4",
+      "Geração de parecer e relatório preliminar do caso"
+    ],
+    [
+      "p",
+      "Por fim, o SofIA compila um relatório completo contendo os principais achados e um parecer preliminar sobre a reclamação, pronto para conferência e edição pelo analista."
+    ],
+    [
+      "h2",
+      "Apoio e Financiamento do projeto"
+    ]
+  ],
+  "hero_image": "https://framerusercontent.com/images/EJH0VO447EoGJPm2OfcthQX8o.png?width=1024&height=1024"
+}
