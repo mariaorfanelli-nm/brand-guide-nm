@@ -17,7 +17,7 @@ São referências de princípios visuais e narrativos; a composição é própri
 
 ## Narrativa e proposta de valor
 
-“Inteligência para…” alterna jurídico, compras e operações, terminando em decisões. O fio da página acompanha encontrar, compreender e decidir, com aplicações das verticais inseridas em seus respectivos contextos. Não pressupõe integração de ponta a ponta entre produtos.
+“Inteligência para…” alterna jurídico, compras e operações, terminando em decisões. Após a abertura, uma seção apresenta o conceito de inteligência para decisão, seguida diretamente pelos produtos. Não pressupõe integração de ponta a ponta entre produtos.
 
 NeuralStudio reúne documentos, atendimento, chatbots e busca em bases internas; NDocs é aplicado a matrículas. SofIA cobre jurídico e regulatório, incluindo QSAMS e AssrtIA (TCU). PrioScan apoia análise de exames e prevenção, em contexto de saúde. Jurema é a família de LLMs da NeuralMind. Compras é um contexto empresarial da chamada, sem promessa de produto de procurement.
 
@@ -43,3 +43,7 @@ As versões WebP em `images/` foram exportadas dos arquivos existentes, sem modi
 ## Verificação da recriação
 
 JavaScript passou em `node --check`; links e assets locais foram conferidos. Revisão visual em desktop e celular de 390 × 844: abertura, capítulo de compreensão e pesquisa. Fotografias carregadas, ausência de transbordamento horizontal no celular e destino de contato confirmado. Rolagem nativa e mudança de fotos por capítulo verificadas. Esta revisão não substitui uma auditoria completa de acessibilidade.
+
+## Estrutura atual
+
+Abertura fotográfica com título animado e subtítulo amplo, sem chamada auxiliar ou CTA. Conceito de inteligência para decisão → produtos → pesquisa → equipe → contato. O percurso intermediário encontrar/compreender/decidir foi retirado para dar mais clareza e acesso direto ao portfólio.

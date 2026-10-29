@@ -3,3 +3,7 @@
 
 /* Espaço para áreas com nomes mais longos na chamada móvel. */
 @media(max-width:600px){.hero h1{font-size:clamp(34px,10.5vw,63px)}}
+
+/* Abertura essencial e transição direta do conceito ao portfólio. */
+.hero-description{max-width:960px;width:100%;margin-bottom:0}.hero-foot{justify-content:flex-end}.decision-concept{padding-bottom:70px;border-bottom:1px solid var(--line)}.decision-concept .perspective-grid{margin-bottom:0;align-items:start}.decision-concept .human-principle{color:var(--purple);font-size:16px;margin:27px 0 0}.solutions{padding-top:75px}
+@media(max-width:600px){.hero-description{max-width:100%;font-size:16px}.decision-concept{padding-bottom:50px}.decision-concept .perspective-grid{margin-bottom:0}.decision-concept .lead br{display:none}.decision-concept .human-principle{font-size:15px;margin-top:22px}.solutions{padding-top:50px}}

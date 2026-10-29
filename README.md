@@ -46,6 +46,6 @@ A proposta `#web-system` combina hero fotográfico, mosaico de aplicações, dos
 
 ## Prova de conceito — conexões entre áreas
 
-A experiência em [`poc-conexoes/index.html`](poc-conexoes/index.html) apresenta a direção editorial “O percurso de uma decisão”: fotografia em grande escala, chamada animada e narrativa de encontrar, compreender e decidir, fundamentada nas aplicações das verticais. A fundamentação e as hipóteses estão em [`poc-conexoes/PROPOSTA.md`](poc-conexoes/PROPOSTA.md). É uma proposta local para discussão, sem integrações ou inferência de IA em execução.
+A experiência em [`poc-conexoes/index.html`](poc-conexoes/index.html) apresenta a direção editorial “O percurso de uma decisão”: fotografia em grande escala, chamada animada e apresentação de inteligência para decisão seguida diretamente pelas três verticais. A fundamentação e as hipóteses estão em [`poc-conexoes/PROPOSTA.md`](poc-conexoes/PROPOSTA.md). É uma proposta local para discussão, sem integrações ou inferência de IA em execução.
 
 A direção institucional fotográfica é a base ativa para a evolução do site, acessível também na seção Sites & Landing Pages do Brand Guide.
