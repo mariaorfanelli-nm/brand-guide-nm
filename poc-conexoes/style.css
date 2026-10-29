@@ -17,3 +17,5 @@
 
 /* Ritmo contínuo na chamada; introdução centralizada e fotos sem legendas. */
 #hero-word{transition:opacity .18s ease,transform .18s ease}.why-intro{margin-left:auto;margin-right:auto;text-align:center}.why-intro .why-lead,.why-intro>p:last-child{margin-left:auto;margin-right:auto}.why-context figure:after,.offering-photo:after{display:none}
+/* Chamada sobre o ambiente corporativo: leitura clara em todas as telas. */
+.why-answer>.eyebrow{color:var(--paper);font-size:14px;font-weight:600;line-height:1.6;letter-spacing:.055em;max-width:100%;margin:0}@media(max-width:600px){.why-answer>.eyebrow{font-size:12px;letter-spacing:.035em}}
