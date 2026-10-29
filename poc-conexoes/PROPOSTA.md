@@ -93,3 +93,7 @@ Verificação: sete páginas com referências locais e âncoras válidas, JavaSc
 Clientes avançam a cada 2,6s; reportagens, a cada 6s. O ciclo retorna ao início. Há pausa manual e suspensão quando a seção não está visível, ao interagir com mouse/teclado e quando o visitante prefere movimento reduzido.
 
 Logo do HCPA substituído pelo arquivo de maior qualidade do [site oficial do hospital](https://www.hcpa.edu.br/images/headers/mobile_logo_HCPA.png), salvo em `logos/hcpa-official.png`. A apresentação usa tamanho próprio para tornar o nome legível, preservando o desenho e a versão branca da marca.
+
+## Sobre a NeuralMind: números, modelos e founders
+
+A seção institucional usa dois números em destaque (2017 e mais de 60%), links visuais para BERTimbau e Jurema e retratos com pequenas bios de Patricia Magalhães e Roberto Lotufo. As referências das bios estão em `content/founders-sources.json`; retratos reaproveitados do guia de marca.

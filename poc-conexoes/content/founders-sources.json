@@ -1,0 +1,20 @@
+{
+  "portraits": "Imagens existentes e aprovadas em assets/photos do guia de marca.",
+  "patricia": {
+    "name": "Patricia Magalhães",
+    "role": "Cofundadora e CEO",
+    "sources": [
+      "https://ige.unicamp.br/posdoc/patricia-tavares-magalhaes",
+      "https://ab2l-lex.com.br/lex26-palestrantes/"
+    ]
+  },
+  "roberto": {
+    "name": "Roberto Lotufo",
+    "role": "Cofundador e CTO",
+    "sources": [
+      "https://bv.fapesp.br/pt/pesquisador/2151/roberto-de-alencar-lotufo/",
+      "https://www.bibliotecadigital.unicamp.br/document/down.php?down=124384&idsf=4312"
+    ]
+  },
+  "team_statistic": "Mais de 60% com pós-graduação em IA: informação fornecida pela responsável pela marca."
+}
