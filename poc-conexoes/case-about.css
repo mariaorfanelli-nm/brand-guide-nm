@@ -1,4 +1,4 @@
-.original-about{padding:64px 7%}
+.original-about{display:block;columns:auto;padding:64px 7%;background:var(--paper)}
 .case-about-intro{max-width:850px}
 .original-about .case-about-intro h2{font-size:clamp(32px,3vw,44px);line-height:1.15;margin:0 0 20px}
 .original-about .case-about-intro p{font-size:17px;line-height:1.75;color:var(--muted);margin:0}
