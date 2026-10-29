@@ -1,0 +1,114 @@
+{
+  "source": "https://neuralmind.ai/prioscan",
+  "content": [
+    [
+      "p",
+      "IA para Saúde"
+    ],
+    [
+      "h1",
+      "PrioScan: priorizando emergências que não podem esperar"
+    ],
+    [
+      "p",
+      "O PrioScan utiliza inteligência artificial para identificar a gravidade clínica em radiografias de tórax e ajudar a priorizar os casos que precisam de atenção imediata."
+    ],
+    [
+      "p",
+      "Fale com o nosso time"
+    ],
+    [
+      "p",
+      "Desenvolvido pela NeuralMind.AI e pelo HCPA, com financiamento da FINEP."
+    ],
+    [
+      "p",
+      "O problema"
+    ],
+    [
+      "h2",
+      "Filas de laudos não enxergam a urgência clínica"
+    ],
+    [
+      "p",
+      "Em uma fila convencional, um paciente com um quadro crítico pode aguardar atrás de dezenas de exames de rotina até que a radiografia seja analisada. Quando a urgência não é identificada rapidamente, o diagnóstico e o início do tratamento também podem ser adiados."
+    ],
+    [
+      "h4",
+      "Casos críticos não são priorizados"
+    ],
+    [
+      "p",
+      "Exames alarmantes podem permanecer na mesma fila dos casos de rotina."
+    ],
+    [
+      "h4",
+      "Diagnóstico tardio atrasa o tratamento"
+    ],
+    [
+      "p",
+      "Quanto maior a espera pela avaliação, maior pode ser o tempo até o início da conduta médica."
+    ],
+    [
+      "h4",
+      "Impacto no cuidado"
+    ],
+    [
+      "p",
+      "A demora pode contribuir para complicações e aumentar o tempo de permanência hospitalar."
+    ],
+    [
+      "h2",
+      "PrioScan na priorização radiológica"
+    ],
+    [
+      "p",
+      "O PrioScan analisa os exames e indica a prioridade clínica para que casos potencialmente mais graves sejam avaliados primeiro, mantendo a decisão médica com o profissional."
+    ],
+    [
+      "h4",
+      "Gravidade clínica"
+    ],
+    [
+      "p",
+      "A solução utiliza uma escala de severidade desenvolvida com especialistas em pneumologia e cirurgia torácica para avaliar a gravidade do quadro, e não apenas a presença ou ausência de um achado."
+    ],
+    [
+      "h4",
+      "Suporte à decisão, não substituição"
+    ],
+    [
+      "p",
+      "O PrioScan sinaliza a prioridade do exame. A interpretação clínica, o diagnóstico e a decisão final continuam sob responsabilidade dos profissionais de saúde."
+    ],
+    [
+      "h4",
+      "Prioridade direto no fluxo de trabalho"
+    ],
+    [
+      "p",
+      "Casos alarmantes podem ser posicionados no topo da fila do radiologista, permitindo que recebam atenção mais rapidamente."
+    ],
+    [
+      "p",
+      "−96%"
+    ],
+    [
+      "h2",
+      "no tempo mediano de espera dos casos críticos"
+    ],
+    [
+      "p",
+      "de 19h48 para 45 minutos"
+    ],
+    [
+      "p",
+      "Resultado observado na operação do PrioScan no Hospital de Clínicas de Porto Alegre (HCPA)."
+    ],
+    [
+      "h2",
+      "Apoio e Financiamento do projeto"
+    ]
+  ],
+  "hero_image": "https://framerusercontent.com/images/q37Flqz4gWI13Mag9K7Q7PZGTMA.jpeg?width=1696&height=2528"
+}
