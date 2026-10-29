@@ -51,3 +51,9 @@ Página `opcao-2.html`, preservando a opção institucional. Um caso fictício d
 NeuralStudio aparece como apoio à consulta de bases internas e manuais. SofIA aparece como vertical jurídica, com o uso contratual específico explicitamente proposto para validação. A etapa final reúne insumos pelas pessoas, sem afirmar integração automática. PrioScan continua no portfólio, em seu contexto próprio de saúde.
 
 Fotografias acompanham quatro capítulos e sua rolagem nativa. Header e rodapé permitem comparar as duas opções. Os prazos, a demanda e a decisão são fictícios e não devem ser tratados como regras operacionais universais.
+
+## Evolução visual da opção 2
+
+Cada área agora apresenta uma sequência curta: recebe → usa a tecnologia → encaminha. Os marcos 24h, 8h, condições em revisão e negociar aparecem sobre as fotografias, sincronizados com a rolagem. O resumo final permite rever o que cada área acrescentou. A explicação completa dos limites do cenário está em uma nota expansível, sem interromper a história.
+
+Revisão desktop e celular (390 × 844), com troca das evidências e fotos, navegação entre capítulos e ausência de transbordamento horizontal. JavaScript e referências locais verificados.

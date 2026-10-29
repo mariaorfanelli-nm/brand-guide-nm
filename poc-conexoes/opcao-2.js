@@ -48,6 +48,23 @@ const chapters = [...document.querySelectorAll('[data-chapter]')];
 const photos = [...document.querySelectorAll('[data-photo]')];
 const dots = [...document.querySelectorAll('.photo-dots i')];
 const captions = ['01 / COMPRAS — REUNIR O CONTEXTO', '02 / OPERAÇÕES — CONFERIR O REQUISITO', '03 / JURÍDICO — AVALIAR AS OBRIGAÇÕES', '04 / DECISÃO — NEGOCIAR ANTES DE CONTRATAR'];
+const evidence = [
+  ['NA PROPOSTA DO FORNECEDOR', '24', 'h', 'para atender ao chamado', 'Proposta → Compras'],
+  ['NO PROCEDIMENTO DA OPERAÇÃO', '8', 'h', 'para restabelecer a atividade', 'Requisito encontrado com apoio do NeuralStudio'],
+  ['O PONTO QUE EXIGE REVISÃO', '24h ≠ 8h', '', 'Atendimento ≠ restabelecimento', 'Análise jurídica → Condições a negociar'],
+  ['A DECISÃO DAS EQUIPES', 'Negociar.', '', 'Antes de contratar.', 'Compras + Operações + Jurídico']
+];
+function renderEvidence(index) {
+  const [label, value, unit, copy, source] = evidence[index];
+  document.getElementById('evidence-label').textContent = label;
+  const number = document.getElementById('evidence-value');
+  number.textContent = value;
+  if (unit) { const suffix = document.createElement('span'); suffix.textContent = unit; number.appendChild(suffix); }
+  document.getElementById('evidence-copy').textContent = copy;
+  document.getElementById('evidence-source').textContent = source;
+  document.querySelector('.photo-evidence').dataset.state = String(index);
+}
+renderEvidence(0);
 let activeChapter = 0;
 let scrollPending = false;
 function updateJourney() {
@@ -56,6 +73,7 @@ function updateJourney() {
   chapters.forEach((chapter, index) => { if (chapter.getBoundingClientRect().top < targetLine) next = index; });
   if (next !== activeChapter) {
     activeChapter = next;
+    renderEvidence(next);
     photos.forEach((photo, index) => { photo.classList.toggle('is-active', index === next); photo.setAttribute('aria-hidden', String(index !== next)); });
     dots.forEach((dot, index) => dot.classList.toggle('is-active', index === next));
     document.getElementById('photo-caption').textContent = captions[next];
