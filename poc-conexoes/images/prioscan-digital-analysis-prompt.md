@@ -1,0 +1,7 @@
+# PrioScan — análise digital de radiografia
+
+Gerada com a ferramenta integrada ImageGen. Imagem conceitual para a home; a imagem aprovada do case PrioScan foi preservada na página do case.
+
+## Prompt
+
+Use case: photorealistic-natural. Asset type: editorial product photograph for NeuralMind corporate AI website, PrioScan product section. Primary request: a chest radiograph being digitally analyzed. Scene: refined modern hospital radiology workstation. Subject: a large physically realistic diagnostic monitor clearly showing a frontal chest X-ray with both lungs, ribs, clavicles and cardiac silhouette, subtle restrained digital analysis contours confined to the actual monitor display. A radiologist seen partially from behind at the side, out of focus, observing the screen. The radiograph is the clear main subject, occupies most of the composition and is fully within the screen; no floating holograms. Style: sophisticated professional editorial photography, natural materials, believable clinical setting, crisp grayscale radiograph, soft daylight, understated purple ambient accents matching an elegant corporate website. Composition: landscape 3:2, monitor center-right, entire chest image clearly readable, framing suitable for a nearly square website crop. Constraints: no headlines, no slogans, no watermarks, no readable text or personal patient data, no invented numerical diagnostic scores, no extra limbs, no graphic organs. This is an illustrative concept image, not a screenshot of an actual product interface.
