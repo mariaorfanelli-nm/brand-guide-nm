@@ -47,3 +47,11 @@ JavaScript passou em `node --check`; links e assets locais foram conferidos. Rev
 ## Estrutura atual
 
 Abertura fotográfica com título animado e subtítulo amplo, sem chamada auxiliar ou CTA. Conceito de inteligência para decisão → produtos → pesquisa → equipe → contato. O percurso intermediário encontrar/compreender/decidir foi retirado para dar mais clareza e acesso direto ao portfólio.
+
+## Produtos em destaque
+
+NeuralStudio, SofIA e PrioScan ganham composições fotográficas próprias, nomes ampliados e textos curtos sobre os problemas que apoiam. O layout alterna foto e texto no desktop; no celular, mantém a foto antes do conteúdo. A apresentação não simula resultados, interfaces ou endosso das pessoas retratadas.
+
+Fotografia clínica de PrioScan: [SHVETS production / Pexels](https://www.pexels.com/photo/doctor-looking-at-an-x-ray-8413323/), utilizada como contexto ilustrativo sob a [licença Pexels](https://www.pexels.com/license/). Arquivo otimizado: `images/prioscan-medical.webp`. Não retrata clientes, equipe ou uso real do produto. As fotografias de NeuralStudio e SofIA são os estudos conceituais já existentes no Brand Guide.
+
+Verificados carregamento das imagens, CTA de cada produto e layout desktop/celular 390 × 844, sem transbordamento horizontal.
