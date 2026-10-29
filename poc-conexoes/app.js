@@ -2,14 +2,14 @@ const word = document.getElementById('hero-word');
 const motion = document.getElementById('motion-toggle');
 const counter = document.getElementById('hero-counter');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-const phrases = ['o jurídico.', 'compras.', 'operações.', 'decisões.'];
+const phrases = ['o jurídico.', 'compras.', 'operações.', 'atendimento.', 'o RH.', 'compliance.', 'a pesquisa.', 'a saúde.', 'decisões.'];
 let currentWord = 0;
 let phraseTimer;
 let paused = false;
 let complete = false;
 function renderWord() {
   word.textContent = phrases[currentWord];
-  counter.textContent = `${String(currentWord + 1).padStart(2, '0')} / 04`;
+  counter.textContent = `${String(currentWord + 1).padStart(2, '0')} / ${String(phrases.length).padStart(2, '0')}`;
 }
 function finishHeadline() {
   clearTimeout(phraseTimer);
@@ -42,6 +42,7 @@ motion.addEventListener('click', () => {
   if (paused) { clearTimeout(phraseTimer); word.classList.remove('changing'); }
   else schedulePhrase();
 });
+renderWord();
 if (reducedMotion.matches) finishHeadline(); else schedulePhrase();
 reducedMotion.addEventListener('change', event => { if (event.matches) finishHeadline(); });
 const chapters = [...document.querySelectorAll('[data-chapter]')];
