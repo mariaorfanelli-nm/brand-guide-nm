@@ -19,7 +19,7 @@ São referências de princípios visuais e narrativos; a composição é própri
 
 “Inteligência para…” alterna jurídico, compras e operações, terminando em decisões. Após a abertura, uma seção apresenta o conceito de inteligência para decisão, seguida diretamente pelos produtos. Não pressupõe integração de ponta a ponta entre produtos.
 
-NeuralStudio reúne documentos, atendimento, chatbots e busca em bases internas; NDocs é aplicado a matrículas. SofIA cobre jurídico e regulatório, incluindo QSAMS e AssrtIA (TCU). PrioScan apoia análise de exames e prevenção, em contexto de saúde. Jurema é a família de LLMs da NeuralMind. Compras é um contexto empresarial da chamada, sem promessa de produto de procurement.
+NeuralStudio reúne documentos, atendimento, chatbots e busca em bases internas; NDocs é aplicado a matrículas. SofIA cobre jurídico e regulatório, incluindo AssrtIA (TCU). PrioScan apoia análise de exames e prevenção, em contexto de saúde. Jurema é a família de LLMs da NeuralMind. Compras é um contexto empresarial da chamada, sem promessa de produto de procurement.
 
 A tecnologia apoia. As pessoas decidem.
 
@@ -55,3 +55,9 @@ NeuralStudio, SofIA e PrioScan ganham composições fotográficas próprias, nom
 Fotografia clínica de PrioScan: [SHVETS production / Pexels](https://www.pexels.com/photo/doctor-looking-at-an-x-ray-8413323/), utilizada como contexto ilustrativo sob a [licença Pexels](https://www.pexels.com/license/). Arquivo otimizado: `images/prioscan-medical.webp`. Não retrata clientes, equipe ou uso real do produto. As fotografias de NeuralStudio e SofIA são os estudos conceituais já existentes no Brand Guide.
 
 Verificados carregamento das imagens, CTA de cada produto e layout desktop/celular 390 × 844, sem transbordamento horizontal.
+
+## Por que IA corporativa?
+
+O botão da abertura foi restaurado. A seção seguinte responde por que uma empresa precisa de IA pensada para seu ambiente: permissões de acesso, regras do negócio, conexão às bases, compliance e engenharia contínua de operação. A proposta NeuralMind considera essas necessidades desde a concepção, sem afirmar ausência de configuração ou garantia universal de compliance. Os produtos aparecem após essa fundamentação.
+
+A referência inexistente a QSAMS foi removida da página, do guia e das fontes textuais de marca e slides.

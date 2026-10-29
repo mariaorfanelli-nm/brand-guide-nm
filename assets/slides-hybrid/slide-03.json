@@ -328,31 +328,6 @@
     "textTransform": "none"
   },
   {
-    "text": "QSAMS",
-    "x": 572.921875,
-    "y": 775.59375,
-    "w": 50.125,
-    "h": 25.21875,
-    "renderedLines": [
-      {
-        "text": "QSAMS",
-        "x": 572.921875,
-        "y": 779.09375,
-        "w": 50.125,
-        "h": 18
-      }
-    ],
-    "fontSize": 14.0162,
-    "fontWeight": "600",
-    "fontFamily": "Outfit, \"Segoe UI\", Aptos, Arial, sans-serif",
-    "color": "rgba(255, 255, 252, 0.82)",
-    "opacity": 1,
-    "lineHeight": "18.2211px",
-    "letterSpacing": "0.280325px",
-    "textAlign": "start",
-    "textTransform": "none"
-  },
-  {
     "text": "AssrtIA",
     "x": 638.453125,
     "y": 775.59375,

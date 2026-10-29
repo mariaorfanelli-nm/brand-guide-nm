@@ -28,7 +28,7 @@ Regeneração: `python3 scripts/generate_media_assets.py`; `node scripts/export_
 
 ## Revisão enterprise e arquitetura de marcas
 
-NeuralMind é a marca mãe. As verticais são **NeuralStudio**, **SofIA** e **PrioScan**. NDocs pertence a NeuralStudio, junto a atendimento, chatbots e busca em manuais. SofIA reúne jurídico, regulatório, pré-contencioso e contencioso; inclui QSAMS e **AssrtIA (TCU)**. **Jurema** designa a família de LLMs, não uma vertical adicional. PrioScan é a vertical de saúde, prevenção e apoio à análise de exames médicos.
+NeuralMind é a marca mãe. As verticais são **NeuralStudio**, **SofIA** e **PrioScan**. NDocs pertence a NeuralStudio, junto a atendimento, chatbots e busca em manuais. SofIA reúne jurídico, regulatório, pré-contencioso e contencioso; inclui **AssrtIA (TCU)**. **Jurema** designa a família de LLMs, não uma vertical adicional. PrioScan é a vertical de saúde, prevenção e apoio à análise de exames médicos.
 
 A revisão crítica preserva fontes e paleta e reduz molduras, sombras e selos, controla a proporção de métricas e ajusta alinhamentos e respiro nas peças. O documento A4 tem instrução mais discreta, corpo com entrelinha maior e hierarquia mais contida. As capas institucionais usam slogan mais legível e régua reduzida.
 
@@ -46,6 +46,6 @@ A proposta `#web-system` combina hero fotográfico, mosaico de aplicações, dos
 
 ## Prova de conceito — conexões entre áreas
 
-A experiência em [`poc-conexoes/index.html`](poc-conexoes/index.html) apresenta a direção editorial “O percurso de uma decisão”: fotografia em grande escala, chamada animada e apresentação de inteligência para decisão seguida diretamente pelas três verticais. A fundamentação e as hipóteses estão em [`poc-conexoes/PROPOSTA.md`](poc-conexoes/PROPOSTA.md). É uma proposta local para discussão, sem integrações ou inferência de IA em execução.
+A experiência em [`poc-conexoes/index.html`](poc-conexoes/index.html) apresenta a direção editorial “O percurso de uma decisão”: fotografia em grande escala, chamada animada e seção “Por que IA corporativa?” sobre permissões, regras de negócio, integrações e governança, seguida pelas três verticais. A fundamentação e as hipóteses estão em [`poc-conexoes/PROPOSTA.md`](poc-conexoes/PROPOSTA.md). É uma proposta local para discussão, sem integrações ou inferência de IA em execução.
 
 A direção institucional fotográfica é a base ativa para a evolução do site, acessível também na seção Sites & Landing Pages do Brand Guide.
