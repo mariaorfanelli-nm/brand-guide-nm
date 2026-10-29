@@ -1,0 +1,40 @@
+.assertia-page{--assertia-gutter:clamp(24px,7vw,112px)}
+.assertia-page .inner-header{margin-inline:var(--assertia-gutter)}
+.assertia-page main>section{padding:64px var(--assertia-gutter)}
+.assertia-page .case-hero{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 48px;align-items:start}
+.assertia-hero-heading{grid-column:1/-1}
+.assertia-hero-heading .eyebrow{margin:0 0 20px}
+.assertia-page .approved-case h1{max-width:1040px;font-size:clamp(40px,5vw,64px);line-height:1.08;margin:0;letter-spacing:-.04em}
+.assertia-hero-detail{display:flex;flex-direction:column;gap:20px}
+.assertia-page .case-hero h2{font-size:clamp(27px,2.3vw,34px);line-height:1.22;margin:0;max-width:520px}
+.assertia-page .case-hero .assertia-hero-detail>p{font-size:17px;line-height:1.75;max-width:520px;margin:0}
+.assertia-page .approved-case>img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+.assertia-page .case-body:not(.partnership){display:block}
+.assertia-page .case-context h2,.assertia-page .partnership>h2{font-size:clamp(32px,3vw,44px);line-height:1.15;margin:0 0 20px}
+.assertia-page .case-context>p:last-child{max-width:760px;margin:0;line-height:1.75}
+.assertia-page .case-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin-top:40px}
+.assertia-page .case-steps article{display:block;padding:24px 0 0}
+.assertia-page .case-steps article>span{display:block;margin-bottom:16px;padding:0}
+.assertia-page .case-steps h3{font-size:25px;line-height:1.22;min-height:2.5em;margin:0 0 16px}
+.assertia-page .case-steps article p{font-size:15px;line-height:1.75}
+.assertia-page .case-outcome h2{font-size:clamp(32px,3vw,44px);margin:0 0 20px}
+.assertia-page .case-outcome>p:not(.eyebrow){font-size:17px;margin:0;line-height:1.75}
+.assertia-page .case-video{max-width:960px;margin:32px 0 0}
+.assertia-page .case-video img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain}
+.assertia-page .partnership{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 48px;align-items:start}
+.assertia-page .partnership>h2{grid-column:1/-1;margin:0}
+.assertia-page .partnership-image{display:block;width:100%;height:auto;margin:0}
+.assertia-page .partnership-copy p{margin:0 0 20px;font-size:17px;line-height:1.75}
+.assertia-page .original-about h2,.assertia-page .next-case h2{font-size:clamp(32px,3vw,44px);line-height:1.15;margin:0 0 24px}
+.assertia-page .original-about p,.assertia-page .next-case>p{max-width:850px;font-size:17px;line-height:1.75;margin:0 0 20px}
+.assertia-page .original-about h4{font-size:23px;line-height:1.25;margin:30px 0 12px}
+.assertia-page .site-footer{padding-inline:var(--assertia-gutter)}
+@media(max-width:850px){
+ .assertia-page main>section{padding-block:44px}
+ .assertia-page .case-hero,.assertia-page .partnership{grid-template-columns:minmax(0,1fr);gap:28px}
+ .assertia-page .approved-case h1{font-size:clamp(36px,6vw,48px)}
+ .assertia-page .case-hero h2{font-size:28px}
+ .assertia-page .case-steps{grid-template-columns:minmax(0,1fr);gap:28px;margin-top:30px}
+ .assertia-page .case-steps h3{min-height:0;font-size:25px}
+ .assertia-page .partnership-copy p,.assertia-page .original-about p,.assertia-page .next-case>p,.assertia-page .case-hero .assertia-hero-detail>p{font-size:16px}
+}
