@@ -61,3 +61,11 @@ Verificados carregamento das imagens, CTA de cada produto e layout desktop/celul
 O botão da abertura foi restaurado. A seção seguinte responde por que uma empresa precisa de IA pensada para seu ambiente: permissões de acesso, regras do negócio, conexão às bases, compliance e engenharia contínua de operação. A proposta NeuralMind considera essas necessidades desde a concepção, sem afirmar ausência de configuração ou garantia universal de compliance. Os produtos aparecem após essa fundamentação.
 
 A referência inexistente a QSAMS foi removida da página, do guia e das fontes textuais de marca e slides.
+
+## Ajustes de ritmo e portfólio
+
+A chamada alterna áreas a cada 850ms, com transição de 180ms. Em “decisões”, permanece 3,2s antes de reiniciar. Há controle de pausa; a animação suspende fora da abertura ou em aba oculta. Movimento reduzido mantém a chamada estática em decisões.
+
+Introdução de “Por que IA corporativa?” centralizada. Legendas retiradas das fotos dessa seção e dos produtos. NeuralStudio apresentado como suíte para conhecimento, análise e extração de dados empresariais, incluindo documentos, manuais e matrículas de imóveis. SofIA: inteligência para o jurídico e regulatório, sem lista de subprodutos.
+
+Foto de NeuralStudio corrigida com a ferramenta integrada ImageGen: `images/neuralstudio-study-v2.webp`. A tampa do notebook agora é opaca e não mostra conteúdo de tela. Imagem conceitual; não é registro da equipe.

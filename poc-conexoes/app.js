@@ -5,46 +5,44 @@ const phrases = ['o jurídico.', 'compras.', 'operações.', 'atendimento.', 'o 
 let currentWord = 0;
 let phraseTimer;
 let paused = false;
-let complete = false;
-function renderWord() {
-  word.textContent = phrases[currentWord];
-}
-function finishHeadline() {
-  clearTimeout(phraseTimer);
-  currentWord = phrases.length - 1;
-  complete = true;
-  word.classList.remove('changing');
-  renderWord();
-  motion.hidden = true;
-}
+let inView = true;
+function renderWord() { word.textContent = phrases[currentWord]; }
+function canAnimate() { return !paused && inView && !document.hidden && !reducedMotion.matches; }
 function schedulePhrase() {
+  if (!canAnimate()) return;
+  const dwell = currentWord === phrases.length - 1 ? 3200 : 850;
   phraseTimer = setTimeout(() => {
-    if (paused || complete) return;
+    if (!canAnimate()) return;
     word.classList.add('changing');
     phraseTimer = setTimeout(() => {
-      currentWord += 1;
+      if (!canAnimate()) { word.classList.remove('changing'); return; }
+      currentWord = (currentWord + 1) % phrases.length;
       renderWord();
       word.classList.remove('changing');
-      if (currentWord === phrases.length - 1) {
-        complete = true;
-        motion.hidden = true;
-      } else schedulePhrase();
-    }, 270);
-  }, 1800);
+      schedulePhrase();
+    }, 180);
+  }, dwell);
+}
+function syncAnimation() {
+  clearTimeout(phraseTimer);
+  word.classList.remove('changing');
+  motion.hidden = reducedMotion.matches;
+  if (reducedMotion.matches) { currentWord = phrases.length - 1; renderWord(); }
+  else schedulePhrase();
 }
 motion.addEventListener('click', () => {
   paused = !paused;
   motion.setAttribute('aria-pressed', String(paused));
   motion.setAttribute('aria-label', paused ? 'Retomar chamada animada' : 'Pausar chamada animada');
   motion.textContent = paused ? '▶' : 'Ⅱ';
-  if (paused) { clearTimeout(phraseTimer); word.classList.remove('changing'); }
-  else schedulePhrase();
+  syncAnimation();
+});
+reducedMotion.addEventListener('change', syncAnimation);
+document.addEventListener('visibilitychange', syncAnimation);
+const heroObserver = new IntersectionObserver(entries => {
+  inView = entries[0].isIntersecting;
+  syncAnimation();
 });
 renderWord();
-if (reducedMotion.matches) finishHeadline(); else schedulePhrase();
-reducedMotion.addEventListener('change', event => { if (event.matches) finishHeadline(); });
-// Ao sair da abertura, a chamada assume sua mensagem final.
-const heroObserver = new IntersectionObserver(entries => {
-  if (!entries[0].isIntersecting && !complete) finishHeadline();
-});
+syncAnimation();
 heroObserver.observe(document.querySelector('.hero'));
