@@ -16,9 +16,28 @@ function updateRail(rail) {
 function scheduleRail(rail) {
   const state = railStates.get(rail);
   clearTimeout(state.timer);
+  cancelAnimationFrame(state.frame);
   const blocked = state.hover || state.focus || !state.visible || document.hidden || reduced.matches;
   rail.dataset.autoplayState = blocked ? 'paused' : 'running';
   if (blocked || rail.scrollWidth <= rail.clientWidth + 2) return;
+  if (rail.id === 'clients-rail') {
+    const firstCopy = rail.querySelector('[data-logo-copy]');
+    if (!firstCopy) return;
+    const cycle = firstCopy.offsetLeft - rail.firstElementChild.offsetLeft;
+    if (cycle <= 0) return;
+    let position = rail.scrollLeft;
+    let previous;
+    function advance(now) {
+      if (previous !== undefined) position += Math.min(now - previous, 50) * .028;
+      previous = now;
+      if (position >= cycle) position %= cycle;
+      rail.scrollLeft = position;
+      updateRail(rail);
+      state.frame = requestAnimationFrame(advance);
+    }
+    state.frame = requestAnimationFrame(advance);
+    return;
+  }
   state.timer = setTimeout(() => {
     const max = rail.scrollWidth - rail.clientWidth;
     if (rail.scrollLeft >= max - 3) rail.scrollTo({left:0,behavior:'instant'});
@@ -32,6 +51,15 @@ function scheduleRail(rail) {
 }
 rails.forEach(rail => {
   const section = rail.closest('.client-band, .press-section');
+  if (rail.id === 'clients-rail') {
+    [...rail.children].forEach(item => {
+      const copy = item.cloneNode(true);
+      copy.dataset.logoCopy = '';
+      copy.setAttribute('aria-hidden', 'true');
+      copy.querySelectorAll('img').forEach(img => {img.alt='';img.loading='eager';});
+      rail.append(copy);
+    });
+  }
   railStates.set(rail, {hover:false,focus:false,visible:false,timer:undefined});
   const state = railStates.get(rail);
   section.addEventListener('mouseenter', () => {state.hover=true; scheduleRail(rail);});
