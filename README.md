@@ -43,3 +43,14 @@ O inventário ativo está em `assets/photography/gallery.json`. As imagens são 
 O manual [DIRECAO_FOTOGRAFICA_VISUAL.md](DIRECAO_FOTOGRAFICA_VISUAL.md) reúne posicionamento, presença física do roxo profundo, luz, composição, figurino, cenários, formatos e prompts-base para fotos e vídeos. O download está disponível na galeria do guia.
 
 A proposta `#web-system` combina hero fotográfico, mosaico de aplicações, dossiê de caso, percurso de trabalho, abertura de pesquisa e caderno editorial. As pautas e o case são exemplos para futura produção, sem métricas ou artigos inventados.
+
+## Prova de conceito — conexões entre áreas
+
+A experiência em [`poc-conexoes/index.html`](poc-conexoes/index.html) apresenta a direção editorial “O percurso de uma decisão”: fotografia em grande escala, chamada animada e narrativa de encontrar, compreender e decidir, fundamentada nas aplicações das verticais. A fundamentação e as hipóteses estão em [`poc-conexoes/PROPOSTA.md`](poc-conexoes/PROPOSTA.md). É uma proposta local para discussão, sem integrações ou inferência de IA em execução.
+
+### Duas opções para comparação
+
+- [Opção 1 — institucional fotográfica](poc-conexoes/index.html): proposta de valor e aplicações das verticais.
+- [Opção 2 — um caso atravessa a empresa](poc-conexoes/opcao-2.html): contratação de manutenção passa por compras, operações e jurídico até a decisão de negociar condições antes de contratar. Caso fictício, com tecnologias contextualizadas e limites explícitos.
+
+As opções também estão acessíveis na seção Sites & Landing Pages do Brand Guide.
