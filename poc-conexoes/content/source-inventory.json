@@ -32,10 +32,11 @@
       "file": "logos/cpfl.png"
     },
     {
-      "alt": "HCPA",
-      "src": "https://framerusercontent.com/images/rI3S8jjA2MY30BDTNXHIAiHh8.png?width=190&height=41",
+      "alt": "Hospital de Clínicas de Porto Alegre",
+      "src": "https://www.hcpa.edu.br/images/headers/mobile_logo_HCPA.png",
       "group": "clients",
-      "file": "logos/hcpa.png"
+      "file": "logos/hcpa-official.png",
+      "original_file": "logos/hcpa.png"
     },
     {
       "alt": "fundep",

@@ -84,6 +84,12 @@ Novas páginas estáticas: `sofia.html`, `prioscan.html`, `jurema.html`, `blog.h
 - [Carreiras](https://neuralmind.ai/trabalhe-conosco): princípios e banco de talentos. Contato existente `talentos@neuralmind.ai`.
 - [Contato](https://neuralmind.ai/contato): canal comercial e perguntas iniciais. Contato existente `contato@neuralmind.ai`.
 
-Mídia e clientes têm controles anteriores/próximos, rolagem por toque e teclado; não há movimento automático. Logos preservam o desenho do site atual, com contraste sobre roxo. Os formulários validam campos e preparam uma mensagem no aplicativo de e-mail do visitante, sem simular entrega de servidor. Não foram conectados CRM ou banco de currículos.
+Mídia e clientes avançam automaticamente, com controles anteriores/próximos e pausa, além de rolagem por toque e teclado. A rotação pausa com mouse, foco de teclado, aba oculta e movimento reduzido. Logos preservam o desenho do site atual, com contraste sobre roxo. Os formulários validam campos e preparam uma mensagem no aplicativo de e-mail do visitante, sem simular entrega de servidor. Não foram conectados CRM ou banco de currículos.
 
 Verificação: sete páginas com referências locais e âncoras válidas, JavaScript validado, revisão visual desktop e celular (390 × 844) de todas as rotas, filtro do blog e menu móvel conferidos. Links externos preservados ou conferidos em fontes oficiais; não é auditoria integral de acessibilidade ou disponibilidade de serviços externos.
+
+## Sliders automáticos e logo HCPA
+
+Clientes avançam a cada 2,6s; reportagens, a cada 6s. O ciclo retorna ao início. Há pausa manual e suspensão quando a seção não está visível, ao interagir com mouse/teclado e quando o visitante prefere movimento reduzido.
+
+Logo do HCPA substituído pelo arquivo de maior qualidade do [site oficial do hospital](https://www.hcpa.edu.br/images/headers/mobile_logo_HCPA.png), salvo em `logos/hcpa-official.png`. A apresentação usa tamanho próprio para tornar o nome legível, preservando o desenho e a versão branca da marca.

@@ -6,11 +6,65 @@ menu?.addEventListener('click', () => { const open = nav.classList.toggle('is-op
 nav?.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
 document.addEventListener('keydown', event => { if (event.key === 'Escape') { closeMenu(); document.querySelectorAll('.nav-cases[open]').forEach(el => el.open = false); } });
 const rails = [...document.querySelectorAll('.logo-rail, .press-rail')];
-function updateRail(rail) { const max = rail.scrollWidth - rail.clientWidth; document.querySelectorAll(`[data-rail="${rail.id}"]`).forEach(button => { button.disabled = Number(button.dataset.direction) < 0 ? rail.scrollLeft <= 2 : rail.scrollLeft >= max - 2; }); }
-rails.forEach(rail => { updateRail(rail); rail.addEventListener('scroll', () => updateRail(rail), {passive:true}); rail.addEventListener('keydown', event => { if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') { event.preventDefault(); rail.scrollBy({left:(event.key === 'ArrowRight'?1:-1)*rail.clientWidth*.75,behavior:reduced.matches?'instant':'smooth'}); } }); });
-document.querySelectorAll('[data-rail]').forEach(button => button.addEventListener('click', () => { const rail=document.getElementById(button.dataset.rail); rail.scrollBy({left:Number(button.dataset.direction)*rail.clientWidth*.8,behavior:reduced.matches?'instant':'smooth'}); }));
-addEventListener('resize', () => rails.forEach(updateRail));
-addEventListener('load', () => rails.forEach(updateRail));
+const railStates = new Map();
+function updateRail(rail) {
+  const max = rail.scrollWidth - rail.clientWidth;
+  document.querySelectorAll(`[data-rail="${rail.id}"]`).forEach(button => {
+    button.disabled = Number(button.dataset.direction) < 0 ? rail.scrollLeft <= 2 : rail.scrollLeft >= max - 2;
+  });
+}
+function scheduleRail(rail) {
+  const state = railStates.get(rail);
+  clearTimeout(state.timer);
+  const blocked = state.paused || state.hover || state.focus || !state.visible || document.hidden || reduced.matches;
+  rail.dataset.autoplayState = blocked ? 'paused' : 'running';
+  const toggle = document.querySelector(`[data-autoplay="${rail.id}"]`);
+  toggle.disabled = reduced.matches;
+  toggle.setAttribute('aria-pressed', String(state.paused));
+  toggle.setAttribute('aria-label', `${state.paused ? 'Retomar' : 'Pausar'} rotação automática de ${rail.id === 'clients-rail' ? 'clientes' : 'notícias'}`);
+  toggle.textContent = state.paused ? '▶' : 'Ⅱ';
+  if (blocked || rail.scrollWidth <= rail.clientWidth + 2) return;
+  state.timer = setTimeout(() => {
+    const max = rail.scrollWidth - rail.clientWidth;
+    if (rail.scrollLeft >= max - 3) rail.scrollTo({left:0,behavior:'instant'});
+    else {
+      const item = rail.firstElementChild;
+      const gap = parseFloat(getComputedStyle(rail).columnGap) || 0;
+      rail.scrollBy({left:item.getBoundingClientRect().width + gap,behavior:'smooth'});
+    }
+    scheduleRail(rail);
+  }, rail.id === 'clients-rail' ? 2600 : 6000);
+}
+rails.forEach(rail => {
+  const section = rail.closest('.client-band, .press-section');
+  railStates.set(rail, {paused:false,hover:false,focus:false,visible:false,timer:undefined});
+  const state = railStates.get(rail);
+  section.addEventListener('mouseenter', () => {state.hover=true; scheduleRail(rail);});
+  section.addEventListener('mouseleave', () => {state.hover=false; scheduleRail(rail);});
+  section.addEventListener('focusin', () => {state.focus=true; scheduleRail(rail);});
+  section.addEventListener('focusout', event => {if (!section.contains(event.relatedTarget)) {state.focus=false; scheduleRail(rail);}});
+  const observer = new IntersectionObserver(entries => {state.visible=entries[0].isIntersecting; scheduleRail(rail);}, {threshold:.15});
+  observer.observe(rail);
+  rail.addEventListener('scroll', () => updateRail(rail), {passive:true});
+  rail.addEventListener('keydown', event => {
+    if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
+      event.preventDefault();
+      rail.scrollBy({left:(event.key === 'ArrowRight'?1:-1)*rail.clientWidth*.75,behavior:reduced.matches?'instant':'smooth'});
+    }
+  });
+  document.querySelector(`[data-autoplay="${rail.id}"]`).addEventListener('click', () => {state.paused=!state.paused;scheduleRail(rail);});
+  updateRail(rail);
+});
+document.querySelectorAll('[data-rail]').forEach(button => button.addEventListener('click', () => {
+  const rail=document.getElementById(button.dataset.rail);
+  rail.scrollBy({left:Number(button.dataset.direction)*rail.clientWidth*.8,behavior:reduced.matches?'instant':'smooth'});
+  scheduleRail(rail);
+}));
+function refreshRails() {rails.forEach(rail => {updateRail(rail);scheduleRail(rail);});}
+addEventListener('resize', refreshRails);
+addEventListener('load', refreshRails);
+document.addEventListener('visibilitychange', refreshRails);
+reduced.addEventListener('change', refreshRails);
 document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => { const filter=button.dataset.filter; document.querySelectorAll('[data-filter]').forEach(el => el.setAttribute('aria-pressed',String(el === button))); document.querySelectorAll('[data-category]').forEach(article => article.hidden = filter !== 'all' && article.dataset.category !== filter); }));
 document.querySelectorAll('[data-mail-form]').forEach(form => form.addEventListener('submit', event => {
   event.preventDefault();
