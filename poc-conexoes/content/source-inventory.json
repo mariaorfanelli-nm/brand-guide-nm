@@ -1,0 +1,171 @@
+{
+  "source": "https://neuralmind.ai/",
+  "images": [
+    {
+      "alt": "Sebrae",
+      "src": "https://framerusercontent.com/images/0G82Ki6o79qwW58WAybb1Q9q7RE.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/sebrae.png"
+    },
+    {
+      "alt": "enforce",
+      "src": "https://framerusercontent.com/images/bhcyEv7CJrfDKrlE6flPqI0TpZM.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/enforce.png"
+    },
+    {
+      "alt": "TCU",
+      "src": "https://framerusercontent.com/images/SDkxRfcIMCKYe2JU5dadcDeL3Bs.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/tcu.png"
+    },
+    {
+      "alt": "ANS",
+      "src": "https://framerusercontent.com/images/s6haCcPPVkzPqlIhLGvAb42GP4A.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/ans.png"
+    },
+    {
+      "alt": "CPFL",
+      "src": "https://framerusercontent.com/images/HlAmw9MZA3icvFS7ez0EqNyNgQ.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/cpfl.png"
+    },
+    {
+      "alt": "HCPA",
+      "src": "https://framerusercontent.com/images/rI3S8jjA2MY30BDTNXHIAiHh8.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/hcpa.png"
+    },
+    {
+      "alt": "fundep",
+      "src": "https://framerusercontent.com/images/tLbo3H48FUQFoy8ss60gxTbvpZk.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/fundep.png"
+    },
+    {
+      "alt": "integrated biometrics",
+      "src": "https://framerusercontent.com/images/ina18DVVkb6eNh3BAa9CtNhUA.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/integrated-biometrics.png"
+    },
+    {
+      "alt": "futronic",
+      "src": "https://framerusercontent.com/images/ne2XZ7zaKau8Amoo15vbCTc8ww.png?width=190&height=41",
+      "group": "clients",
+      "file": "logos/futronic.png"
+    },
+    {
+      "alt": "finep",
+      "src": "https://framerusercontent.com/images/4XBlCzV09ij6aHCt6lUZIkKqhg.png?width=900&height=300",
+      "group": "support",
+      "file": "logos/finep.png"
+    },
+    {
+      "alt": "MCTI",
+      "src": "https://framerusercontent.com/images/arpkwypVDJSyqxb94KhD6xwn3U.png?width=900&height=300",
+      "group": "support",
+      "file": "logos/mcti.png"
+    },
+    {
+      "alt": "FNDTC",
+      "src": "https://framerusercontent.com/images/Qvlao3iBeWN3lHYcfTJG6R94pU.png?width=900&height=300",
+      "group": "support",
+      "file": "logos/fndtc.png"
+    },
+    {
+      "alt": "UNICAMP",
+      "src": "https://framerusercontent.com/images/zLThFgv49BsAHqiU8YsY4lkCQ.png?width=900&height=300",
+      "group": "support",
+      "file": "logos/unicamp.png"
+    },
+    {
+      "alt": "Google for Startups",
+      "src": "https://framerusercontent.com/images/NHI73ZB5a8yERHyN7G3LEAreU.png?width=900&height=300",
+      "group": "support",
+      "file": "logos/google-for-startups.png"
+    },
+    {
+      "alt": "BoostLAB",
+      "src": "https://framerusercontent.com/images/XqBiOVl7YiBjEEMr75Trb7ApA.png?width=900&height=300",
+      "group": "support",
+      "file": "logos/boostlab.png"
+    },
+    {
+      "alt": "Cubo",
+      "src": "https://framerusercontent.com/images/zCta2J719RXhwdTMgopimjomU.png?width=1584&height=1584",
+      "group": "support",
+      "file": "logos/cubo.png"
+    },
+    {
+      "alt": "nvidia inception",
+      "src": "https://framerusercontent.com/images/68SLlAkAw3u761h3l5CQ5RkIv8M.png?width=900&height=300",
+      "group": "support",
+      "file": "logos/nvidia-inception.png"
+    },
+    {
+      "alt": "empresa filha unicamp",
+      "src": "https://framerusercontent.com/images/db7O8QGOEVAxOIcbmdDEaBA2No.png?width=190&height=41",
+      "group": "support",
+      "file": "logos/empresa-filha-unicamp.png"
+    },
+    {
+      "alt": "FAPESP",
+      "src": "https://framerusercontent.com/images/fFHPMcyvw8whuVJTUkFDspusM.png?width=1634&height=360",
+      "group": "support",
+      "file": "logos/fapesp.png"
+    },
+    {
+      "alt": "exame",
+      "src": "https://framerusercontent.com/images/SbWeWtJVhnEsUJHvv9whmnVbNo.png?width=190&height=41",
+      "group": "media",
+      "file": "logos/exame.png"
+    },
+    {
+      "alt": "uol",
+      "src": "https://framerusercontent.com/images/yEacaUtxCW3e9Z1NylpdqqmaxkE.png?width=190&height=41",
+      "group": "media",
+      "file": "logos/uol.png"
+    },
+    {
+      "alt": "pequenas empresas grandes negócios",
+      "src": "https://framerusercontent.com/images/DS6NnpgKOiCNKFWUNCI6QwT5aw.png?width=190&height=41",
+      "group": "media",
+      "file": "logos/pequenas-empresas-grandes-neg-cios.png"
+    },
+    {
+      "alt": "baguete",
+      "src": "https://framerusercontent.com/images/bd85A71vMyX7TjDDRh94FO7fkJY.png?width=190&height=41",
+      "group": "media",
+      "file": "logos/baguete.png"
+    },
+    {
+      "alt": "terra",
+      "src": "https://framerusercontent.com/images/BUFYpmeS821L4v27ZCfuTSfTNvU.png?width=90&height=40",
+      "group": "media",
+      "file": "logos/terra.png"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://exame.com/revista-exame/dados-na-medida-certa/",
+      "text": ""
+    },
+    {
+      "href": "https://www.uol.com.br/tilt/noticias/redacao/2022/08/02/software-inteligencia-artificial-verba-publica-tcu.htm",
+      "text": ""
+    },
+    {
+      "href": "https://revistapegn.globo.com/startups-to-watch/noticia/2023/10/conheca-as-100-startups-to-watch-2023.ghtml",
+      "text": ""
+    },
+    {
+      "href": "https://www.baguete.com.br/noticias/governo-investe-r-10-mi-em-chatgpt-juridico",
+      "text": ""
+    },
+    {
+      "href": "https://www.terra.com.br/noticias/dino/startup-de-campinas-e-pioneira-em-disponibilizas-modelo-bert-inteligencia-artificial-do-google-em-portugues,dc2d1ec15c43907d24fbf2f31531a1fcemb4pt0q.html#google_vignette",
+      "text": ""
+    }
+  ]
+}

@@ -49,3 +49,7 @@ A proposta `#web-system` combina hero fotográfico, mosaico de aplicações, dos
 A experiência em [`poc-conexoes/index.html`](poc-conexoes/index.html) apresenta a direção editorial “O percurso de uma decisão”: fotografia em grande escala, chamada animada e seção “Por que IA corporativa?” sobre permissões, regras de negócio, integrações e governança, seguida pelas três verticais. A fundamentação e as hipóteses estão em [`poc-conexoes/PROPOSTA.md`](poc-conexoes/PROPOSTA.md). É uma proposta local para discussão, sem integrações ou inferência de IA em execução.
 
 A direção institucional fotográfica é a base ativa para a evolução do site, acessível também na seção Sites & Landing Pages do Brand Guide.
+
+### Páginas do protótipo institucional
+
+A home incorpora clientes, mídia e apoiadores do site atual. O Jurema tem bloco próprio com acesso ao modelo open source e à API. As páginas de [SofIA](poc-conexoes/sofia.html), [PrioScan](poc-conexoes/prioscan.html), [Jurema](poc-conexoes/jurema.html), [blog](poc-conexoes/blog.html), [contato](poc-conexoes/contato.html) e [carreiras](poc-conexoes/trabalhe-conosco.html) seguem a identidade fotográfica. Blog usa links para artigos publicados; formulários preparam e-mail para revisão pelo visitante. A antiga página NeuralSearchX não integra esta estrutura.

@@ -46,7 +46,7 @@ JavaScript passou em `node --check`; links e assets locais foram conferidos. Rev
 
 ## Estrutura atual
 
-Abertura fotográfica com título animado e subtítulo amplo, sem chamada auxiliar ou CTA. Conceito de inteligência para decisão → produtos → pesquisa → equipe → contato. O percurso intermediário encontrar/compreender/decidir foi retirado para dar mais clareza e acesso direto ao portfólio.
+Abertura fotográfica com título animado e subtítulo amplo, sem chamada auxiliar ou CTA. Por que IA corporativa → produtos → Jurema → blog → mídia → apoiadores → contato. O percurso intermediário encontrar/compreender/decidir foi retirado para dar mais clareza e acesso direto ao portfólio.
 
 ## Produtos em destaque
 
@@ -69,3 +69,21 @@ A chamada alterna áreas a cada 850ms, com transição de 180ms. Em “decisões
 Introdução de “Por que IA corporativa?” centralizada. Legendas retiradas das fotos dessa seção e dos produtos. NeuralStudio apresentado como suíte para conhecimento, análise e extração de dados empresariais, incluindo documentos, manuais e matrículas de imóveis. SofIA: inteligência para o jurídico e regulatório, sem lista de subprodutos.
 
 Foto de NeuralStudio corrigida com a ferramenta integrada ImageGen: `images/neuralstudio-study-v2.webp`. A tampa do notebook agora é opaca e não mostra conteúdo de tela. Imagem conceitual; não é registro da equipe.
+
+## Expansão do site e reaproveitamento do conteúdo atual
+
+A home preserva a direção fotográfica e passa a apresentar o slider de clientes logo abaixo da hero. As seções de equipe e pesquisa foram removidas; Jurema ganha um bloco próprio com dois destinos reais: modelo open source e API.
+
+Novas páginas estáticas: `sofia.html`, `prioscan.html`, `jurema.html`, `blog.html`, `contato.html` e `trabalhe-conosco.html`. A navegação e o rodapé conectam todas as páginas. NeuralSearchX não tem página nem item de navegação; a vertical de conhecimento é NeuralStudio.
+
+- [Home atual NeuralMind](https://neuralmind.ai/): nove logos de clientes, dez de apoiadores e cinco veículos de mídia com seus links. Arquivos locais em `logos/`; inventário em `content/source-inventory.json`.
+- [SofIA na ANS](https://neuralmind.ai/sofia): leitura de documentos com OCR, classificação de demandas e relatório preliminar para revisão do analista.
+- [PrioScan no HCPA](https://www.hcpa.edu.br/4648-ferramenta-de-ia-usada-no-clinicas-ganha-premio-internacional): parceria, apoio à priorização de radiografias e reconhecimento em 2026. O case não afirma certificação ou substituição do radiologista.
+- [Projeto Jurema](https://neuralmind.ai/jurema), [modelo no Hugging Face](https://huggingface.co/Jurema-br/Jurema-7B) e [plataforma da API](https://jurema.ai/pt-BR): dois caminhos de acesso e página dedicada, mantendo o modelo como base tecnológica, não quarta vertical.
+- [Blog atual](https://neuralmind.ai/blog): oito artigos com títulos, datas e links reais, organizados por tema. Não foram criados artigos fictícios; o conteúdo integral permanece no blog atual.
+- [Carreiras](https://neuralmind.ai/trabalhe-conosco): princípios e banco de talentos. Contato existente `talentos@neuralmind.ai`.
+- [Contato](https://neuralmind.ai/contato): canal comercial e perguntas iniciais. Contato existente `contato@neuralmind.ai`.
+
+Mídia e clientes têm controles anteriores/próximos, rolagem por toque e teclado; não há movimento automático. Logos preservam o desenho do site atual, com contraste sobre roxo. Os formulários validam campos e preparam uma mensagem no aplicativo de e-mail do visitante, sem simular entrega de servidor. Não foram conectados CRM ou banco de currículos.
+
+Verificação: sete páginas com referências locais e âncoras válidas, JavaScript validado, revisão visual desktop e celular (390 × 844) de todas as rotas, filtro do blog e menu móvel conferidos. Links externos preservados ou conferidos em fontes oficiais; não é auditoria integral de acessibilidade ou disponibilidade de serviços externos.
