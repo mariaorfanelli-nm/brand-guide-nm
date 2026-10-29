@@ -43,17 +43,3 @@ As versões WebP em `images/` foram exportadas dos arquivos existentes, sem modi
 ## Verificação da recriação
 
 JavaScript passou em `node --check`; links e assets locais foram conferidos. Revisão visual em desktop e celular de 390 × 844: abertura, capítulo de compreensão e pesquisa. Fotografias carregadas, ausência de transbordamento horizontal no celular e destino de contato confirmado. Rolagem nativa e mudança de fotos por capítulo verificadas. Esta revisão não substitui uma auditoria completa de acessibilidade.
-
-## Opção 2 — um caso concreto entre áreas
-
-Página `opcao-2.html`, preservando a opção institucional. Um caso fictício de contratação de manutenção revela uma diferença entre atendimento em até 24 horas e a necessidade de restabelecer a operação em até 8 horas. Compras reúne o contexto; operações interpreta o procedimento; jurídico avalia obrigações e responsabilidades; a decisão conjunta é negociar antes de contratar.
-
-NeuralStudio aparece como apoio à consulta de bases internas e manuais. SofIA aparece como vertical jurídica, com o uso contratual específico explicitamente proposto para validação. A etapa final reúne insumos pelas pessoas, sem afirmar integração automática. PrioScan continua no portfólio, em seu contexto próprio de saúde.
-
-Fotografias acompanham quatro capítulos e sua rolagem nativa. Header e rodapé permitem comparar as duas opções. Os prazos, a demanda e a decisão são fictícios e não devem ser tratados como regras operacionais universais.
-
-## Evolução visual da opção 2
-
-Cada área agora apresenta uma sequência curta: recebe → usa a tecnologia → encaminha. Os marcos 24h, 8h, condições em revisão e negociar aparecem sobre as fotografias, sincronizados com a rolagem. O resumo final permite rever o que cada área acrescentou. A explicação completa dos limites do cenário está em uma nota expansível, sem interromper a história.
-
-Revisão desktop e celular (390 × 844), com troca das evidências e fotos, navegação entre capítulos e ausência de transbordamento horizontal. JavaScript e referências locais verificados.
