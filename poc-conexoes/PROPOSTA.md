@@ -97,3 +97,5 @@ Logo do HCPA substituído pelo arquivo de maior qualidade do [site oficial do ho
 ## Sobre a NeuralMind: números, modelos e founders
 
 A seção institucional usa dois números em destaque (2017 e mais de 60%), links visuais para BERTimbau e Jurema e retratos com pequenas bios de Patricia Magalhães e Roberto Lotufo. As referências das bios estão em `content/founders-sources.json`; retratos reaproveitados do guia de marca.
+
+Jurema integrado à seção institucional da home: modelo open source, API, página do projeto e créditos de FINEP e Escavador ficam junto ao BERTimbau. Removida a seção exclusiva do Jurema na home.
