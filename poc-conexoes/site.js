@@ -16,13 +16,8 @@ function updateRail(rail) {
 function scheduleRail(rail) {
   const state = railStates.get(rail);
   clearTimeout(state.timer);
-  const blocked = state.paused || state.hover || state.focus || !state.visible || document.hidden || reduced.matches;
+  const blocked = state.hover || state.focus || !state.visible || document.hidden || reduced.matches;
   rail.dataset.autoplayState = blocked ? 'paused' : 'running';
-  const toggle = document.querySelector(`[data-autoplay="${rail.id}"]`);
-  toggle.disabled = reduced.matches;
-  toggle.setAttribute('aria-pressed', String(state.paused));
-  toggle.setAttribute('aria-label', `${state.paused ? 'Retomar' : 'Pausar'} rotação automática de ${rail.id === 'clients-rail' ? 'clientes' : 'notícias'}`);
-  toggle.textContent = state.paused ? '▶' : 'Ⅱ';
   if (blocked || rail.scrollWidth <= rail.clientWidth + 2) return;
   state.timer = setTimeout(() => {
     const max = rail.scrollWidth - rail.clientWidth;
@@ -37,7 +32,7 @@ function scheduleRail(rail) {
 }
 rails.forEach(rail => {
   const section = rail.closest('.client-band, .press-section');
-  railStates.set(rail, {paused:false,hover:false,focus:false,visible:false,timer:undefined});
+  railStates.set(rail, {hover:false,focus:false,visible:false,timer:undefined});
   const state = railStates.get(rail);
   section.addEventListener('mouseenter', () => {state.hover=true; scheduleRail(rail);});
   section.addEventListener('mouseleave', () => {state.hover=false; scheduleRail(rail);});
@@ -52,7 +47,6 @@ rails.forEach(rail => {
       rail.scrollBy({left:(event.key === 'ArrowRight'?1:-1)*rail.clientWidth*.75,behavior:reduced.matches?'instant':'smooth'});
     }
   });
-  document.querySelector(`[data-autoplay="${rail.id}"]`).addEventListener('click', () => {state.paused=!state.paused;scheduleRail(rail);});
   updateRail(rail);
 });
 document.querySelectorAll('[data-rail]').forEach(button => button.addEventListener('click', () => {
