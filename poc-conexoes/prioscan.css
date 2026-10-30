@@ -1,0 +1,68 @@
+.prioscan-page{--case-gutter:max(7vw,calc((100vw - 1200px)/2))}
+.prioscan-page .case-hero{padding:64px var(--case-gutter);grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.prioscan-page .case-hero h1{font-size:clamp(36px,4.2vw,60px);line-height:1.08;letter-spacing:-.045em;margin:20px 0 24px}
+.prioscan-page .case-hero>div>p:not(.eyebrow){max-width:540px;margin:0 0 24px;font-size:17px;line-height:1.75}
+.prioscan-page .case-hero>img{height:560px;max-height:none;object-fit:cover;object-position:50% 35%;border-radius:12px}
+.prioscan-page .case-hero .text-link{font-size:14px;margin:0}
+.prioscan-page .case-hero .prio-credit{font-size:12px!important;line-height:1.6!important;margin:24px 0 0!important;max-width:440px}
+.prioscan-page .prio-result{padding:56px var(--case-gutter);grid-template-columns:.8fr 1.2fr;gap:56px}
+.prioscan-page .prio-result>strong{font-size:clamp(110px,12vw,164px);line-height:1;letter-spacing:-.065em}
+.prioscan-page .prio-result h2{font-size:clamp(30px,3vw,40px);line-height:1.15;max-width:610px;margin:0 0 20px}
+.prioscan-page .prio-result .prio-time{font-size:30px;line-height:1.25;margin:0 0 16px}
+.prioscan-page .prio-result p:last-child{font-size:14px;line-height:1.7;max-width:560px;margin:0}
+.prioscan-page .case-body{padding:64px var(--case-gutter);display:flex;flex-direction:column;gap:40px}
+.prioscan-page .case-context h2{font-size:clamp(32px,3.2vw,44px);line-height:1.15;margin:0 0 20px;max-width:760px}
+.prioscan-page .case-context>.eyebrow{margin:0 0 20px}
+.prioscan-page .case-context>p:last-child{font-size:17px;line-height:1.75;max-width:850px;margin:0}
+.prioscan-page .prio-problem{background:var(--paper)}
+.prioscan-page .prio-problem .case-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.prioscan-page .prio-problem .case-steps article{display:block;padding:24px;border-top:1px solid var(--line)}
+.prioscan-page .prio-problem .case-steps article>span{display:none}
+.prioscan-page .prio-problem .case-steps h3{font-size:24px;line-height:1.25;min-height:60px;margin:0 0 16px}
+.prioscan-page .case-steps article p{font-size:15px;line-height:1.75}
+.prioscan-page .prio-solution{background:#f6f3f6}
+.prioscan-page .prio-solution .case-context{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.prioscan-page .prio-solution .case-context h2{margin:0}
+.prio-workflow{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.prio-workflow>img{width:100%;height:auto;display:block;border-radius:12px}
+.prioscan-page .prio-solution .case-steps article{padding:24px 16px;gap:16px}
+.prioscan-page .prio-solution .case-steps article>span{flex:0 0 20px;font-family:inherit;font-size:12px;color:var(--purple)}
+.prioscan-page .prio-solution .case-steps h3{font-size:24px;line-height:1.25;margin:0 0 12px}
+.prioscan-page .case-partners{padding:40px var(--case-gutter);display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;background:var(--purple);color:var(--paper)}
+.prioscan-page .case-partners h2{font-size:24px;line-height:1.25;margin:0}
+.prioscan-page .case-partners>div{margin:0;padding:0;gap:40px;justify-content:flex-end}
+.prioscan-page .case-partners img{width:160px;height:64px}
+.prioscan-page .case-partners img[src*="hcpa-official"]{width:220px;height:64px}
+.prioscan-page .original-about{padding:64px var(--case-gutter)}
+.prioscan-page .next-case{padding:64px var(--case-gutter);background:#eee8f2}
+.prioscan-page .next-case h2{font-size:clamp(32px,3.2vw,44px);line-height:1.15;margin:0 0 20px}
+.prioscan-page .next-case p{font-size:17px;line-height:1.75;color:var(--muted);margin:0 0 24px}
+@media(max-width:1000px){
+ .prioscan-page{--case-gutter:40px}
+ .prioscan-page .case-hero{grid-template-columns:1fr;gap:32px}
+ .prioscan-page .case-hero h1{font-size:48px;max-width:700px}
+ .prioscan-page .case-hero>div>p:not(.eyebrow){max-width:700px}
+ .prioscan-page .case-hero>img{height:480px;object-position:50% 25%}
+ .prioscan-page .prio-problem .case-steps{grid-template-columns:1fr;gap:0}
+ .prioscan-page .prio-problem .case-steps h3{min-height:0}
+ .prioscan-page .prio-solution .case-context,.prio-workflow{grid-template-columns:1fr;gap:28px}
+ .prioscan-page .case-partners{grid-template-columns:1fr;gap:24px}
+ .prioscan-page .case-partners>div{justify-content:flex-start}
+}
+@media(max-width:700px){
+ .prioscan-page{--case-gutter:24px}
+ .prioscan-page .case-hero,.prioscan-page .case-body,.prioscan-page .original-about,.prioscan-page .next-case{padding-top:44px;padding-bottom:44px}
+ .prioscan-page .case-hero h1{font-size:36px}
+ .prioscan-page .case-hero>img{height:380px}
+ .prioscan-page .case-hero>div>p:not(.eyebrow),.prioscan-page .case-context>p:last-child{font-size:16px}
+ .prioscan-page .prio-result{grid-template-columns:1fr;gap:24px;padding-top:44px;padding-bottom:44px}
+ .prioscan-page .prio-result>strong{font-size:110px}
+ .prioscan-page .prio-result h2{font-size:30px}
+ .prioscan-page .prio-result .prio-time{font-size:26px}
+ .prioscan-page .case-body{gap:28px}
+ .prioscan-page .prio-problem .case-steps article{padding:24px 16px}
+ .prioscan-page .case-partners{padding-top:32px;padding-bottom:32px}
+ .prioscan-page .case-partners>div{gap:24px}
+ .prioscan-page .case-partners img{width:120px;height:50px}
+ .prioscan-page .case-partners img[src*="hcpa-official"]{width:170px;height:50px}
+}
