@@ -39,3 +39,6 @@ button,input,textarea{font:inherit}button{cursor:pointer}.inner-header{height:10
 /* Compact site navigation */
 .site-header,.inner-header{height:76px}
 @media(max-width:600px){.site-header,.inner-header{height:68px}}
+.inner-header .nav-contact,.site-header .nav-contact{background:var(--purple);color:var(--paper);border:1px solid var(--purple);font-weight:500}
+.inner-header .nav-contact:hover,.site-header .nav-contact:hover{background:#4c1c6b;border-color:#4c1c6b}
+.inner-header .nav-contact:active,.site-header .nav-contact:active{background:#190029;border-color:#190029}
