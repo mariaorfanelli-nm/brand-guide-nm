@@ -1,0 +1,113 @@
+{
+  "title": "O conhecimento da sua empresa. Conectado e acessível por IA.",
+  "subtitle": "Transforme documentos, sistemas e bases de dados em uma experiência integrada de inteligência corporativa.",
+  "description": "O NeuralStudio permite consultar e analisar o conhecimento autorizado da organização por meio de IA generativa, priorizando as coleções relevantes para cada usuário.",
+  "objectionTitle": "Sua empresa não precisa de mais um silo de IA.",
+  "objectionDescription": "Ferramentas de IA de propósito geral apoiam tarefas individuais, mas o conhecimento da organização permanece distribuído em bases, sistemas e diferentes fluxos de trabalho. O NeuralStudio reúne acesso contextualizado a essas fontes em uma experiência de uso corporativo.",
+  "benefitsTitle": "Do conhecimento disperso ao trabalho conectado.",
+  "benefits": [
+    {
+      "label": "CONSULTA E ANÁLISE",
+      "title": "Conversar com informações corporativas.",
+      "description": "Consulte documentos, sistemas e bases da organização em linguagem natural, reunindo o contexto necessário para o trabalho.",
+      "tags": [
+        "Documentos",
+        "Sistemas",
+        "Bases de dados"
+      ]
+    },
+    {
+      "label": "FONTES E CONTEXTO",
+      "title": "Respostas com fontes e contexto.",
+      "description": "Entenda de onde vem a informação e consulte as fontes que sustentam a resposta para aprofundar a análise.",
+      "tags": [
+        "Referências",
+        "Contexto",
+        "Análise"
+      ]
+    },
+    {
+      "label": "ACESSO AUTORIZADO",
+      "title": "Coleções priorizadas e acesso autorizado.",
+      "description": "Priorize as coleções relevantes para cada usuário, respeitando permissões de acesso e as regras da organização.",
+      "tags": [
+        "Permissões",
+        "Coleções",
+        "Regras do negócio"
+      ]
+    },
+    {
+      "label": "APLICAÇÕES E FLUXOS",
+      "title": "Aplicações e fluxos especializados.",
+      "description": "Leve a inteligência documental a processos específicos, com extração e análise de informações integradas à rotina das equipes.",
+      "tags": [
+        "Extração",
+        "Análise documental",
+        "Fluxos de trabalho"
+      ]
+    }
+  ],
+  "applicationHeading": "Aplicações especializadas do NeuralStudio",
+  "applicationTitle": "Inteligência para Matrículas Imobiliárias",
+  "applicationDescription": "Interprete documentos registrais, extraia informações relevantes e apoie fluxos de diligência e análise imobiliária.",
+  "applicationCTA": "Conheça a aplicação",
+  "closingTitle": "Veja como conectar o conhecimento da sua organização.",
+  "cta": "Solicite uma demonstração",
+  "routes": {
+    "platform": "/neuralstudio",
+    "application": "/neuralstudio/matriculas",
+    "contact": "/contato?produto=neuralstudio&origem=neuralstudio#formulario"
+  },
+  "application": {
+    "title": "Análise de matrículas imobiliárias com inteligência documental.",
+    "description": "Automatize a leitura e a extração de informações relevantes de matrículas, apoiando a diligência, a avaliação de garantias e a gestão de carteiras imobiliárias.",
+    "problemTitle": "Menos leitura repetitiva. Mais contexto para analisar.",
+    "problemDescription": "Na análise manual, localizar e organizar informações de matrículas consome a atenção da equipe. A aplicação apoia essa leitura e estrutura dados relevantes para a revisão dos profissionais.",
+    "documentTitle": "Do documento registral às informações para revisão.",
+    "documentBlocks": [
+      {
+        "label": "DOCUMENTOS ANALISADOS",
+        "title": "Matrículas imobiliárias.",
+        "description": "Documentos registrais disponibilizados pela sua equipe, conforme o escopo definido para a aplicação."
+      },
+      {
+        "label": "INFORMAÇÕES ENTREGUES",
+        "title": "Dados organizados para análise.",
+        "description": "Informações relevantes extraídas dos documentos para apoiar a consulta, a conferência e a análise documental."
+      }
+    ],
+    "processTitle": "Inteligência documental dentro do seu processo.",
+    "process": [
+      {
+        "title": "Disponibilize os documentos",
+        "description": "Defina os documentos e as informações relevantes para o seu fluxo."
+      },
+      {
+        "title": "Leia e extraia com IA",
+        "description": "A aplicação apoia a leitura e organiza as informações extraídas."
+      },
+      {
+        "title": "Revise e siga com a análise",
+        "description": "Sua equipe confere os dados e conduz a avaliação e a decisão."
+      }
+    ],
+    "integration": "O formato de entrega e a integração são definidos conforme o processo da organização.",
+    "usesTitle": "Uma aplicação. Diferentes contextos de análise.",
+    "uses": [
+      {
+        "title": "Diligência imobiliária",
+        "description": "Organize as informações documentais que a equipe precisa revisar."
+      },
+      {
+        "title": "Avaliação de garantias",
+        "description": "Apoie a análise documental que integra a avaliação conduzida pelos profissionais."
+      },
+      {
+        "title": "Gestão de carteiras",
+        "description": "Estruture informações para apoiar o acompanhamento documental de imóveis."
+      }
+    ],
+    "reviewNote": "A aplicação apoia a leitura e a extração de dados. A análise jurídica e a decisão permanecem com os profissionais responsáveis.",
+    "closingTitle": "Conheça a aplicação no contexto da sua operação."
+  }
+}
