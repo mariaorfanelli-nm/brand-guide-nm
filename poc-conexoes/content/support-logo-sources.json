@@ -1,0 +1,22 @@
+{
+  "verifiedOn": "2026-11-12",
+  "logos": [
+    {
+      "name": "Sebrae",
+      "file": "logos/sebrae.png",
+      "source": "Arquivo já existente no projeto, também utilizado na faixa de clientes."
+    },
+    {
+      "name": "BH-TEC",
+      "file": "logos/bhtec-official.png",
+      "source": "https://bhtec.org.br/",
+      "asset": "https://bhtec.org.br/wp-content/uploads/2024/03/MARCA-BH-TEC.png"
+    },
+    {
+      "name": "Impulso FIEMG Lab",
+      "file": "logos/impulso-fiemg-lab-official.png",
+      "source": "https://fiemglab.com.br/impulso/",
+      "asset": "https://fiemglab.com.br/wp-content/uploads/2025/06/logo-impulso.png"
+    }
+  ]
+}
