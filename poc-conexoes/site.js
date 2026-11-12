@@ -2,9 +2,12 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const menu = document.querySelector('.menu-toggle');
 const nav = document.getElementById('site-nav');
 function closeMenu() { nav?.classList.remove('is-open'); menu?.setAttribute('aria-expanded', 'false'); }
-menu?.addEventListener('click', () => { const open = nav.classList.toggle('is-open'); menu.setAttribute('aria-expanded', String(open)); });
-nav?.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
-document.addEventListener('keydown', event => { if (event.key === 'Escape') { closeMenu(); document.querySelectorAll('.nav-cases[open]').forEach(el => el.open = false); } });
+function closeDropdowns() { nav?.querySelectorAll('details[open]').forEach(el => el.open = false); }
+menu?.addEventListener('click', () => { const open = nav.classList.toggle('is-open'); menu.setAttribute('aria-expanded', String(open)); if (!open) closeDropdowns(); });
+nav?.addEventListener('click', event => { if (event.target.closest('a')) {closeMenu(); closeDropdowns();} });
+nav?.querySelectorAll('details').forEach(detail => detail.addEventListener('toggle', () => {if (detail.open) nav.querySelectorAll('details').forEach(other => {if (other !== detail) other.open=false;});}));
+document.addEventListener('pointerdown', event => {if (!nav?.contains(event.target) && !menu?.contains(event.target)) {closeMenu();closeDropdowns();}});
+document.addEventListener('keydown', event => { if (event.key === 'Escape') {const open=nav?.classList.contains('is-open');const summary=nav?.querySelector('details[open] summary');closeMenu();closeDropdowns();if(open)menu?.focus();else summary?.focus();} });
 const rails = [...document.querySelectorAll('.logo-rail, .press-rail')];
 const railStates = new Map();
 function updateRail(rail) {
@@ -90,20 +93,22 @@ reduced.addEventListener('change', refreshRails);
 document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => { const filter=button.dataset.filter; document.querySelectorAll('[data-filter]').forEach(el => el.setAttribute('aria-pressed',String(el === button))); document.querySelectorAll('[data-category]').forEach(article => article.hidden = filter !== 'all' && article.dataset.category !== filter); }));
 // Product intent stays editable; only known URL values are accepted.
 const contactParams = new URLSearchParams(window.location.search);
-const contactProducts = {neuralstudio:'NeuralStudio',sofia:'SofIA',prioscan:'PrioScan'};
-const contactOrigins = {neuralstudio:'NeuralStudio',matriculas:'NeuralStudio / Matrículas',prioscan:'PrioScan'};
+const contactProducts = {neuralstudio:'NeuralStudio',sofia:'SofIA',prioscan:'PrioScan','parcerias-pd':'Parcerias/P&D',outro:'Outro'};
+const contactOrigins = {"menu": "Menu principal", "rodape": "Rodapé", "home-hero": "Home / abertura", "home-final": "Home / chamada final", "sofia": "SofIA", "sofia-hero": "SofIA / abertura", "sofia-final": "SofIA / chamada final", "neuralstudio": "NeuralStudio", "neuralstudio-hero": "NeuralStudio / abertura", "neuralstudio-final": "NeuralStudio / chamada final", "matriculas": "NeuralStudio / Matrículas", "matriculas-hero": "Matrículas / abertura", "matriculas-final": "Matrículas / chamada final", "prioscan": "PrioScan", "prioscan-hero": "PrioScan / abertura", "prioscan-final": "PrioScan / chamada final", "case-ans": "Case / ANS", "case-tcu": "Case / TCU", "case-hcpa": "Case / HCPA", "conteudos": "Conteúdos", "guia-prioscan": "Guia / avaliação de IA em radiologia", "teste-formulario": "Teste técnico do formulário"};
 document.querySelectorAll('[data-product-interest]').forEach(field => {
-  const product = contactProducts[contactParams.get('produto')];
+  const key = contactParams.get('produto');
+  const product = Object.hasOwn(contactProducts, key) ? contactProducts[key] : '';
   if (product) field.value = product;
 });
 document.querySelectorAll('[data-product-origin]').forEach(field => {
-  field.value = contactOrigins[contactParams.get('origem')] || 'Contato';
+  const key = contactParams.get('origem');
+  field.value = Object.hasOwn(contactOrigins, key) ? contactOrigins[key] : 'Contato';
 });
 document.querySelectorAll('[data-mail-form]').forEach(form => form.addEventListener('submit', event => {
   event.preventDefault();
   if (!form.reportValidity()) return;
   const data = new FormData(form);
-  const lines = [`Nome: ${data.get('nome')}`,`E-mail: ${data.get('email')}`,`Contexto: ${data.get('contexto')}`];
+  const lines = [`Nome: ${data.get('nome')}`,`E-mail: ${data.get('email')}`,`Empresa: ${data.get('contexto') || ''}`];
   if (data.get('produto')) lines.push(`Solução: ${data.get('produto')}`);
   if (data.get('origem')) lines.push(`Origem: ${data.get('origem')}`);
   if (data.get('curriculo')) lines.push(`Currículo: ${data.get('curriculo')}`);

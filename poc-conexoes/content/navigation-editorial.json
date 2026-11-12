@@ -1,0 +1,336 @@
+{
+  "tracks": [
+    {
+      "key": "sofia",
+      "title": "SofIA: operação jurídica e riscos",
+      "description": "Aplicações jurídicas e regulatórias, execução e critérios para avaliar uma plataforma.",
+      "image": "images/corporate-b-decisions.webp",
+      "columns": 3
+    },
+    {
+      "key": "neuralstudio",
+      "title": "NeuralStudio: conhecimento corporativo",
+      "description": "Fontes, acesso autorizado e caminhos para conectar o conhecimento da organização.",
+      "image": "images/neuralstudio-study-v2.webp",
+      "columns": 3
+    },
+    {
+      "key": "prioscan",
+      "title": "PrioScan: priorização em radiologia",
+      "description": "Fluxo de exames, papel dos profissionais e avaliação de resultados no contexto hospitalar.",
+      "image": "images/prioscan-original.jpeg",
+      "columns": 2
+    },
+    {
+      "key": "tecnologia",
+      "title": "Tecnologia e P&D: modelos e engenharia",
+      "description": "Pesquisa aplicada, modelos brasileiros e engenharia para colocar IA em operação.",
+      "image": "images/corporate-c-tech-detail.webp",
+      "columns": 3
+    }
+  ],
+  "origins": {
+    "menu": "Menu principal",
+    "rodape": "Rodapé",
+    "home-hero": "Home / abertura",
+    "home-final": "Home / chamada final",
+    "sofia": "SofIA",
+    "sofia-hero": "SofIA / abertura",
+    "sofia-final": "SofIA / chamada final",
+    "neuralstudio": "NeuralStudio",
+    "neuralstudio-hero": "NeuralStudio / abertura",
+    "neuralstudio-final": "NeuralStudio / chamada final",
+    "matriculas": "NeuralStudio / Matrículas",
+    "matriculas-hero": "Matrículas / abertura",
+    "matriculas-final": "Matrículas / chamada final",
+    "prioscan": "PrioScan",
+    "prioscan-hero": "PrioScan / abertura",
+    "prioscan-final": "PrioScan / chamada final",
+    "case-ans": "Case / ANS",
+    "case-tcu": "Case / TCU",
+    "case-hcpa": "Case / HCPA",
+    "conteudos": "Conteúdos",
+    "guia-prioscan": "Guia / avaliação de IA em radiologia",
+    "teste-formulario": "Teste técnico do formulário"
+  },
+  "newArticles": [
+    {
+      "key": "case-ans",
+      "track": "sofia",
+      "format": "Case",
+      "title": "SofIA na ANS: inteligência aplicada à análise regulatória",
+      "slug": "sofia-na-ans-analise-regulatoria",
+      "description": "Análise de reclamações, documentos e relatórios em um ambiente regulatório complexo.",
+      "image": "images/sofia-original.png",
+      "reading": "2 minutos de leitura",
+      "body": [
+        [
+          "p",
+          "A aplicação da tecnologia da NeuralMind na Agência Nacional de Saúde Suplementar demonstra como IA pode apoiar o tratamento de informações em uma operação regulatória."
+        ],
+        [
+          "h2",
+          "O trabalho apoiado pela tecnologia"
+        ],
+        [
+          "p",
+          "O projeto reúne processamento de documentos, classificação de demandas e apoio à elaboração de pareceres e relatórios. O conhecimento regulatório e as fontes relevantes fazem parte do contexto da análise."
+        ],
+        [
+          "h2",
+          "Uma aplicação específica, com escopo próprio"
+        ],
+        [
+          "p",
+          "O case comprova capacidades aplicadas a uma necessidade da ANS. Ele não significa que a instituição utiliza todas as frentes da plataforma SofIA."
+        ],
+        [
+          "p",
+          "Conheça o case completo da ANS.",
+          "/cases/ans",
+          "cases/ans/"
+        ],
+        [
+          "p",
+          "Conheça a plataforma SofIA.",
+          "/sofia",
+          "sofia.html"
+        ]
+      ]
+    },
+    {
+      "key": "case-tcu",
+      "track": "sofia",
+      "format": "Case",
+      "title": "AssertIA no TCU: IA aplicada à instrução técnica",
+      "slug": "assertia-no-tcu-instrucao-tecnica",
+      "description": "Análise de peças processuais, pesquisa de fundamentos e apoio ao trabalho dos auditores.",
+      "image": "images/assertia-original.png",
+      "reading": "2 minutos de leitura",
+      "body": [
+        [
+          "p",
+          "No Tribunal de Contas da União, o AssertIA aplica tecnologia da NeuralMind ao trabalho de análise e instrução de processos."
+        ],
+        [
+          "h2",
+          "Do conteúdo processual aos fundamentos"
+        ],
+        [
+          "p",
+          "A aplicação apoia a análise de peças processuais, a pesquisa de fundamentos e a redação de instruções técnicas. A tecnologia reúne informações para auxiliar o trabalho do auditor."
+        ],
+        [
+          "h2",
+          "Tecnologia aplicada ao contexto do projeto"
+        ],
+        [
+          "p",
+          "O projeto tem escopo próprio. O case demonstra capacidades que também ajudam a apresentar a atuação da NeuralMind em inteligência jurídica e regulatória."
+        ],
+        [
+          "p",
+          "Conheça o case completo AssertIA / TCU.",
+          "/assertia",
+          "assertia.html"
+        ],
+        [
+          "p",
+          "Conheça a plataforma SofIA.",
+          "/sofia",
+          "sofia.html"
+        ]
+      ]
+    },
+    {
+      "key": "case-hcpa",
+      "track": "prioscan",
+      "format": "Case e resultado",
+      "title": "PrioScan no HCPA: prioridade para exames que exigem atenção",
+      "slug": "prioscan-no-hcpa-priorizacao-de-exames",
+      "description": "O fluxo de priorização e o resultado informado para casos com achados alarmantes no HCPA.",
+      "image": "images/prioscan-original.jpeg",
+      "reading": "2 minutos de leitura",
+      "body": [
+        [
+          "p",
+          "O PrioScan combina radiografias de tórax e informações clínicas disponíveis para identificar achados potencialmente alarmantes e apoiar a priorização de exames, segundo critérios definidos com especialistas."
+        ],
+        [
+          "h2",
+          "Um resultado com recorte definido"
+        ],
+        [
+          "p",
+          "Na operação do HCPA, a NeuralMind informa redução de 96% no tempo mediano até o laudo de casos com achados alarmantes: de 19h48 para 45 minutos. O indicador descreve esse contexto específico de uso."
+        ],
+        [
+          "h2",
+          "A atenção dos profissionais no centro do fluxo"
+        ],
+        [
+          "p",
+          "O sistema sinaliza quais casos exigem atenção mais rápida. Ele não substitui o laudo nem a decisão médica."
+        ],
+        [
+          "p",
+          "Conheça o PrioScan e o case HCPA.",
+          "/prioscan",
+          "prioscan.html"
+        ]
+      ]
+    },
+    {
+      "key": "guia-prioscan",
+      "track": "prioscan",
+      "format": "Guia para compradores",
+      "title": "Como avaliar IA para priorização em radiologia",
+      "slug": "como-avaliar-ia-para-priorizacao-em-radiologia",
+      "description": "Um roteiro para alinhar contexto clínico, fluxo de trabalho, responsabilidades e critérios de avaliação.",
+      "image": "images/prioscan-original.jpeg",
+      "reading": "4 minutos de leitura",
+      "body": [
+        [
+          "p",
+          "A avaliação de uma solução de priorização começa pelo processo da instituição. Antes de discutir funcionalidades, reúna radiologia, equipes assistenciais, tecnologia e gestão para definir o problema que precisa ser acompanhado."
+        ],
+        [
+          "h2",
+          "Defina o fluxo e o recorte"
+        ],
+        [
+          "p",
+          "Quais exames entram na avaliação? Como a fila é organizada hoje? Em que etapa a equipe recebe uma sinalização? Descreva o ponto de partida e quem participa de cada etapa."
+        ],
+        [
+          "h2",
+          "Considere imagem e informação clínica"
+        ],
+        [
+          "p",
+          "Mapeie as informações disponíveis no pedido médico e na anamnese. Discuta com os especialistas quais critérios orientam a prioridade e como serão apresentados aos profissionais."
+        ],
+        [
+          "h2",
+          "Combine responsabilidades"
+        ],
+        [
+          "p",
+          "Defina quem revisa a sinalização e como ela participa da rotina. A proposta do PrioScan é apoiar a priorização: o laudo e a decisão médica permanecem com os profissionais responsáveis."
+        ],
+        [
+          "h2",
+          "Avalie a integração à operação"
+        ],
+        [
+          "p",
+          "Examine com as equipes de tecnologia como os exames e os dados serão disponibilizados, onde a prioridade será apresentada e como os acessos serão autorizados. Inclua as necessidades de suporte e acompanhamento da instituição."
+        ],
+        [
+          "h2",
+          "Estabeleça critérios de avaliação"
+        ],
+        [
+          "p",
+          "Acorde o período, a população de exames e os indicadores que serão observados. Ao comparar resultados, explicite o contexto e a metodologia, sem tratar um resultado de outra operação como garantia para a sua."
+        ],
+        [
+          "h2",
+          "Prepare a conversa com a equipe"
+        ],
+        [
+          "p",
+          "Leve o desenho do fluxo atual, as fontes de informação disponíveis, as responsabilidades e as perguntas da instituição. Esses elementos ajudam a direcionar a demonstração e a discussão de escopo."
+        ],
+        [
+          "p",
+          "Conheça o funcionamento do PrioScan.",
+          "/prioscan#como-funciona",
+          "prioscan.html#como-funciona"
+        ],
+        [
+          "p",
+          "Converse com nossa equipe de saúde.",
+          "/contato?produto=prioscan&origem=guia-prioscan#formulario",
+          "contato.html?produto=prioscan&origem=guia-prioscan#formulario"
+        ]
+      ]
+    }
+  ],
+  "existingAssignments": [
+    {
+      "id": "cuAtTL55J",
+      "title": "Guia de Compra: O que Avaliar ao Contratar uma Solução de IA para o Setor Jurídico",
+      "slug": "guia-de-compra-o-que-avaliar-ao-contratar-uma-solução-de-ia-para-o-setor-jurídico",
+      "date": "2026-02-10T00:00:00.000Z",
+      "reading": "4 minutos de leitura",
+      "track": "sofia",
+      "format": "Guia para compradores",
+      "description": "Critérios para avaliar uma solução de IA para a operação jurídica."
+    },
+    {
+      "id": "TNkU2Nihe",
+      "title": "IA Generativa como Arquitetura de Conhecimento: O Fim dos Dados Silados",
+      "slug": "ia-generativa-como-arquitetura-de-conhecimento-o-fim-dos-dados-silados",
+      "date": "2026-06-01T00:00:00.000Z",
+      "reading": "6 minutos de leitura",
+      "track": "neuralstudio",
+      "format": "Artigo",
+      "description": "Conhecimento corporativo, fontes e contexto em uma experiência conectada."
+    },
+    {
+      "id": "qVVKWde8o",
+      "title": "Guia de Mapeamento de Processos para Implementação de IA Generativa",
+      "slug": "guia-de-mapeamento-de-processos-para-implementação-de-ia-generativa",
+      "date": "2026-04-13T00:00:00.000Z",
+      "reading": "6 minutos de leitura",
+      "track": "neuralstudio",
+      "format": "Guia prático",
+      "description": "Um ponto de partida para mapear processos antes de implementar IA."
+    },
+    {
+      "id": "icc5SwNsx",
+      "title": "O Passo a passo para adotar IA Generativa na sua empresa",
+      "slug": "o-passo-a-passo-para-adotar-ia-generativa-na-sua-empresa",
+      "date": "2026-04-07T00:00:00.000Z",
+      "reading": "6 minutos de leitura",
+      "track": "neuralstudio",
+      "format": "Guia prático",
+      "description": "Etapas para organizar a adoção de IA na empresa."
+    },
+    {
+      "id": "KyzijVVMM",
+      "title": "A importância de desenvolver LLMs para o contexto brasileiro",
+      "slug": "a-importância-de-desenvolver-llms-para-o-contexto-brasileiro",
+      "date": "2025-10-15T00:00:00.000Z",
+      "reading": "5 minutos de leitura ",
+      "track": "tecnologia",
+      "format": "Pesquisa e modelos",
+      "description": "O papel do contexto brasileiro no desenvolvimento de modelos."
+    },
+    {
+      "id": "RJJ_E8AMq",
+      "title": "Como lidar com escalabilidade nas aplicações de IA",
+      "slug": "como-lidar-com-escalabilidade-nas-aplicações-de-ia",
+      "date": "2025-11-05T00:00:00.000Z",
+      "reading": "6 minutos de leitura",
+      "track": "tecnologia",
+      "format": "Engenharia",
+      "description": "Questões de escala que fazem parte da operação de aplicações de IA."
+    },
+    {
+      "id": "xPf5heI2t",
+      "title": "LLMs: por que não são todos iguais?",
+      "slug": "llms-por-que-não-são-todos-iguais",
+      "date": "2025-03-11T00:00:00.000Z",
+      "reading": "4 minutos de leitura ",
+      "track": "tecnologia",
+      "format": "Modelos",
+      "description": "Uma leitura sobre diferenças entre modelos de linguagem."
+    }
+  ],
+  "heroTitle": "Conteúdo para decisões complexas.",
+  "heroDescription": "Cases, resultados e guias para quem avalia e aplica IA em operações reais.",
+  "date": "2026-11-12",
+  "note": "Os artigos do acervo mantêm seu conteúdo original. Os novos resumos de cases usam o escopo aprovado pela NeuralMind; o guia é editorial e não acrescenta promessas de produto."
+}

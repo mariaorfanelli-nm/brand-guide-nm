@@ -1,0 +1,18 @@
+/* Navegação compartilhada: oferta, cases, pesquisa e conversão. */
+.site-header,.inner-header{overflow:visible}
+.site-header{height:74px;padding:12px 7%;align-items:center}
+.inner-header{height:74px}
+.site-header nav,.inner-header nav{gap:22px;font-size:13px;white-space:nowrap}
+.site-header .brand img,.inner-header .brand img{width:190px}
+.nav-dropdown{position:relative}.nav-dropdown summary{cursor:pointer;list-style:none;padding:12px 0;display:flex;align-items:center;gap:7px}
+.nav-dropdown summary::-webkit-details-marker{display:none}.nav-dropdown summary:after{content:'⌄';font-size:12px}
+.nav-dropdown[open] summary:after{transform:rotate(180deg)}
+.nav-dropdown>div{position:absolute;left:-18px;top:100%;min-width:200px;padding:12px;background:var(--paper);color:var(--purple);border:1px solid #ded7e2;border-radius:8px;box-shadow:0 14px 35px #29024112;z-index:50}
+.nav-dropdown>div>a{display:block;padding:12px;border-radius:4px;line-height:1.5}.nav-dropdown>div>a:hover,.nav-dropdown>div>a:focus-visible{background:#eee8f2}
+.site-header .nav-contact,.inner-header .nav-contact{background:var(--purple);color:var(--paper);border:1px solid var(--purple);padding:12px 20px;font-size:13px;line-height:1.65}
+.site-header .nav-contact:hover,.inner-header .nav-contact:hover{background:#4c1c6b}
+#tecnologia{scroll-margin-top:32px}
+@media(min-width:1001px){.site-header nav,.inner-header nav{display:flex!important;position:static;padding:0;border:0}.site-header nav{background:transparent}.menu-toggle{display:none!important}}
+@media(max-width:1100px) and (min-width:1001px){.site-header nav,.inner-header nav{gap:17px;font-size:12px}.site-header .brand img,.inner-header .brand img{width:175px}}
+@media(max-width:1000px){.site-header,.inner-header{height:68px;gap:20px}.site-header .brand img,.inner-header .brand img{width:175px}.menu-toggle{display:block!important;margin-left:auto;font-size:12px}.site-header nav,.inner-header nav{display:none;position:absolute;top:100%;right:0;left:0;margin:0;padding:20px;background:var(--paper);color:var(--purple);z-index:40;border:1px solid #ded7e2;border-radius:8px;white-space:normal;align-items:stretch;gap:4px}.site-header nav.is-open,.inner-header nav.is-open{display:flex;flex-direction:column}.site-header nav>a,.inner-header nav>a{padding:12px;line-height:1.6}.nav-dropdown summary{padding:12px;justify-content:space-between}.nav-dropdown>div{position:static;margin:0 12px 12px;padding:4px 8px;border:0;border-left:1px solid #ded7e2;border-radius:0;box-shadow:none;min-width:0}.nav-dropdown>div>a{padding:11px 12px}.site-header nav>.nav-contact,.inner-header nav>.nav-contact{text-align:center;margin-top:8px;padding:12px 20px}.site-header{padding-inline:7%}.site-header nav{left:7%;right:7%}}
+@media(max-width:600px){.site-header,.inner-header{height:64px}.site-header .brand img,.inner-header .brand img{width:160px}}
