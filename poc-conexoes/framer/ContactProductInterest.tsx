@@ -13,7 +13,7 @@ export default function ContactProductInterest({label="Solução de interesse",d
         const update=()=>{
             const query=new URLSearchParams(window.location.search)
             const products:Record<string,string>={neuralstudio:"NeuralStudio",sofia:"SofIA",prioscan:"PrioScan"}
-            const origins:Record<string,string>={neuralstudio:"NeuralStudio",matriculas:"NeuralStudio / Matrículas"}
+            const origins:Record<string,string>={neuralstudio:"NeuralStudio",matriculas:"NeuralStudio / Matrículas",prioscan:"PrioScan"}
             setProduct(products[query.get("produto")||""]||defaultProduct)
             setOrigin(origins[query.get("origem")||""]||"Contato")
         }

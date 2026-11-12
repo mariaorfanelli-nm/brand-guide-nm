@@ -91,7 +91,7 @@ document.querySelectorAll('[data-filter]').forEach(button => button.addEventList
 // Product intent stays editable; only known URL values are accepted.
 const contactParams = new URLSearchParams(window.location.search);
 const contactProducts = {neuralstudio:'NeuralStudio',sofia:'SofIA',prioscan:'PrioScan'};
-const contactOrigins = {neuralstudio:'NeuralStudio',matriculas:'NeuralStudio / Matrículas'};
+const contactOrigins = {neuralstudio:'NeuralStudio',matriculas:'NeuralStudio / Matrículas',prioscan:'PrioScan'};
 document.querySelectorAll('[data-product-interest]').forEach(field => {
   const product = contactProducts[contactParams.get('produto')];
   if (product) field.value = product;

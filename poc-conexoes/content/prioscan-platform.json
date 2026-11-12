@@ -1,0 +1,66 @@
+{
+  "hero": "O PrioScan combina a análise de radiografias de tórax com informações clínicas disponíveis para identificar achados potencialmente alarmantes e apoiar a priorização de exames, segundo critérios definidos com especialistas.",
+  "resultTitle": "no tempo mediano até o laudo de casos com achados alarmantes, na operação do HCPA",
+  "resultTime": "de 19h48 para 45 minutos",
+  "resultNote": "Indicador informado pela NeuralMind para a operação do HCPA, referente aos casos com achados alarmantes. O resultado descreve esse contexto específico de uso.",
+  "queueTitle": "O mesmo exame. Uma nova prioridade no fluxo.",
+  "queueIntro": "A sinalização do PrioScan apoia a ordenação da fila para direcionar a atenção dos profissionais aos casos que exigem avaliação mais rápida.",
+  "queueCaption": "Esquema ilustrativo com exames fictícios. Não representa a interface do PrioScan nem dados de pacientes.",
+  "queueBefore": "Fila convencional",
+  "queueBeforeDescription": "Sem sinalização de prioridade pelo PrioScan.",
+  "queueAfter": "Fila com priorização",
+  "queueAfterDescription": "O exame sinalizado recebe destaque no fluxo.",
+  "queueBeforeOrder": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "queueAfterOrder": [
+    "C",
+    "A",
+    "B",
+    "D"
+  ],
+  "queueSignal": "Sinalizado para atenção",
+  "flowTitle": "Da imagem e do contexto clínico à priorização.",
+  "flowIntro": "Radiografia, pedido médico e anamnese disponível são considerados em conjunto para apoiar o fluxo dos profissionais de saúde.",
+  "steps": [
+    {
+      "label": "ENTRADA",
+      "title": "Radiografia + pedido/anamnese",
+      "description": "Imagem de tórax e informações clínicas disponíveis."
+    },
+    {
+      "label": "ANÁLISE",
+      "title": "Identificação de achados",
+      "description": "Identificação de achados potencialmente alarmantes."
+    },
+    {
+      "label": "CRITÉRIOS",
+      "title": "Aplicação da escala de prioridade",
+      "description": "Critérios definidos com especialistas orientam a priorização."
+    },
+    {
+      "label": "FLUXO",
+      "title": "Sinalização e ordenação",
+      "description": "A prioridade é apresentada no fluxo de trabalho dos profissionais."
+    }
+  ],
+  "clinicalRole": "O sistema não substitui o laudo nem a decisão médica; sinaliza quais casos exigem atenção mais rápida.",
+  "ctaTitle": "Conheça como o PrioScan pode apoiar a priorização de exames na sua instituição.",
+  "cta": "Converse com nossa equipe de saúde",
+  "contact": "contato.html?produto=prioscan&origem=prioscan#formulario",
+  "evidence": {
+    "metric": "−96%",
+    "source": "Indicador fornecido e mantido por orientação da NeuralMind em 12/11/2026.",
+    "scope": "Tempo mediano até o laudo de casos com achados alarmantes na operação do HCPA.",
+    "period": null,
+    "methodology": null,
+    "availability": "Período e nota metodológica não fornecidos. Nenhum detalhe metodológico ou validação formal foi acrescentado.",
+    "visual": "Comparação conceitual autorizada pela NeuralMind em lugar de interface real, devido à confidencialidade. Exames fictícios, sem prontuários, imagens clínicas ou dados reais.",
+    "regulatory": "Nenhuma alegação regulatória adicionada.",
+    "mechanismSource": "https://www.gov.br/gestao/pt-br/assuntos/estatais/observatorio-de-inovacao-das-estatais/hcpa-inovacoes",
+    "institutionalSource": "https://www.hcpa.edu.br/4648-ferramenta-de-ia-usada-no-clinicas-ganha-premio-internacional"
+  }
+}
