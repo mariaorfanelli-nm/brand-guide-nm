@@ -1,0 +1,19 @@
+.studio-page{--studio-gutter:max(7vw,calc((100vw - 1200px)/2))}
+.studio-page .studio-hero{padding:64px var(--studio-gutter);grid-template-columns:1fr 1fr;gap:56px}
+.studio-page .studio-hero h1{font-size:52px;line-height:1.08;letter-spacing:-.04em;margin:24px 0}
+.studio-page .studio-hero>div>p:not(.eyebrow){font-size:17px;line-height:1.75;max-width:540px;margin:0 0 24px}
+.studio-page .studio-hero>img{width:100%;height:auto;border-radius:12px}
+.studio-page .solid-button{font-size:13px;line-height:1.65;padding:14px 22px;border:0}
+.studio-context{padding:64px var(--studio-gutter);background:#f6f3f6}
+.studio-context-intro{max-width:850px;margin-bottom:32px}
+.studio-context h2,.studio-contact h2{font-size:44px;line-height:1.15;margin:0 0 24px}
+.studio-context-intro>p,.studio-contact>p{font-size:17px;line-height:1.75;color:var(--muted);margin:0;max-width:850px}
+.studio-requirements{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.studio-requirements article{padding:28px;background:var(--paper);border:1px solid var(--line);border-radius:12px;display:flex;flex-direction:column;gap:16px}
+.studio-requirements article>span{font-size:11px;line-height:1.65;letter-spacing:.08em;color:var(--muted)}
+.studio-requirements h3{font-size:24px;font-weight:400;line-height:1.25;letter-spacing:-.025em;min-height:60px;margin:0}
+.studio-requirements p{font-size:16px;line-height:1.7;color:var(--muted);margin:0}
+.studio-contact{padding:64px var(--studio-gutter);background:#eee8f2}
+.studio-contact .solid-button{margin-top:24px}
+@media(max-width:1000px){.studio-page{--studio-gutter:40px}.studio-page .studio-hero{grid-template-columns:1fr;gap:32px}.studio-page .studio-hero h1{font-size:44px}.studio-requirements{grid-template-columns:1fr}.studio-requirements h3{min-height:0}}
+@media(max-width:600px){.studio-page{--studio-gutter:24px}.studio-page .studio-hero,.studio-context,.studio-contact{padding-top:44px;padding-bottom:44px}.studio-page .studio-hero h1{font-size:36px}.studio-context h2,.studio-contact h2{font-size:32px}.studio-page .studio-hero>div>p:not(.eyebrow),.studio-context-intro>p,.studio-contact>p{font-size:16px}.studio-requirements{gap:18px}.studio-requirements article{padding:24px}}
