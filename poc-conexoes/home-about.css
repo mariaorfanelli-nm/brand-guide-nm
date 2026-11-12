@@ -59,7 +59,10 @@
 .research-visual .research-founder h4{font-size:26px;line-height:1.15;margin:12px 0}
 .research-visual .research-founder>div>p:last-child{font-size:15px;line-height:1.7}
 .support-logos>div>a{display:flex;align-items:center;justify-content:center;width:100%;min-height:70px}
-.support-logos>.support-logo--impulso{padding:12px;background:var(--paper);border-radius:8px}
-.support-logos>.support-logo--impulso>a{min-height:56px}
+.support-logos>.support-logo--impulso{padding:0;background:transparent;border-radius:0}
+.support-logos>.support-logo--impulso>a{min-height:70px}
+.support-logos>.support-logo--impulso img{width:100%;max-width:165px;height:auto;filter:brightness(0) invert(1)}
 @media(max-width:1100px){.research-visual .research-founder-grid{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.research-visual .research-founder{flex-direction:column;gap:18px}.research-visual .research-founder>img{width:120px;flex:0 0 auto}.research-visual .research-founder h4{font-size:24px}.support-logos>div>a{min-height:55px}.support-logos>.support-logo--impulso>a{min-height:50px}}
+
+@media(max-width:600px){.support-logos>.support-logo--impulso img{max-width:140px}}
