@@ -1,0 +1,69 @@
+{
+  "verifiedOn": "2026-11-12",
+  "presentation": "Resumos editoriais próprios com atribuição e links às fontes públicas. Imagem ilustrativa do PrioScan já existente no projeto; sem reutilização de fotos de eventos, selos ou logos de terceiros.",
+  "awards": [
+    {
+      "status": "VENCEDORA DA CATEGORIA · 2026",
+      "title": "Deep Tech do Ano 2026",
+      "category": "PrioScan · Diagnóstico, Dispositivos e Saúde Digital",
+      "summary": "Reconhecimento à tecnologia desenvolvida pela NeuralMind em parceria com o HCPA, com financiamento da FINEP.",
+      "source": "Fundepar",
+      "date": "2026-08-18",
+      "href": "https://fundepar.com.br/investidas-fundepar-recebem-premios-no-deep-tech-summit-2026/"
+    },
+    {
+      "status": "FINALISTA REGIONAL · 2025",
+      "title": "Prêmio Finep de Inovação",
+      "summary": "SofIA, desenvolvido para a ANS, entre os finalistas da região Sudeste na categoria de transformação digital da indústria para ampliar a produtividade.",
+      "source": "Pesquisa para Inovação / FAPESP",
+      "date": "2025-09-09",
+      "href": "https://pesquisaparainovacao.fapesp.br/empresas_apoiadas_pelo_pipefapesp_sao_finalistas_do_premio_finep_de_inovacao_2025/3759"
+    },
+    {
+      "status": "SELECIONADA · 2025",
+      "title": "100 Startups to Watch",
+      "summary": "NeuralMind entre as empresas selecionadas pela PEGN, EloGroup e Innovc na edição de 2025.",
+      "source": "Unicamp Ventures / Inova Unicamp",
+      "date": "2025-11-26",
+      "href": "https://unicampventures.org.br/2025/11/26/empresas-filhas-da-unicamp-estao-na-lista-das-100-startups-to-watch-2025/"
+    }
+  ],
+  "press": [
+    {
+      "publisher": "HCPA",
+      "category": "INSTITUCIONAL",
+      "date": "2026-08-24",
+      "dateLabel": "24 ago 2026",
+      "title": "PrioScan recebe prêmio internacional",
+      "summary": "Hospital destaca o reconhecimento do PrioScan e sua parceria com a NeuralMind.",
+      "href": "https://www.hcpa.edu.br/4648-ferramenta-de-ia-usada-no-clinicas-ganha-premio-internacional"
+    },
+    {
+      "publisher": "Ministério da Gestão e da Inovação",
+      "category": "INSTITUCIONAL",
+      "date": "2026-03-11",
+      "dateLabel": "11 mar 2026",
+      "title": "PrioScan no Observatório de Inovação",
+      "summary": "Publicação federal apresenta a análise de radiografias e informações clínicas no HCPA.",
+      "href": "https://www.gov.br/gestao/pt-br/assuntos/estatais/observatorio-de-inovacao-das-estatais/hcpa-inovacoes"
+    },
+    {
+      "publisher": "GZH",
+      "category": "REPORTAGEM",
+      "date": "2026-03-06",
+      "dateLabel": "6 mar 2026",
+      "title": "NeuralMind entre as finalistas do South Summit Brazil",
+      "summary": "A seleção de 2026 inclui a NeuralMind no grupo Enterprise da competição de startups.",
+      "href": "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2026/03/south-summit-brazil-divulga-as-51-startups-finalistas-da-edicao-2026-cmmf79air00xu01iil44y107t.html"
+    },
+    {
+      "publisher": "Baguete",
+      "category": "REPORTAGEM",
+      "date": "2025-02-18",
+      "dateLabel": "18 fev 2025",
+      "title": "Investimento em IA para o Direito brasileiro",
+      "summary": "Reportagem sobre o projeto da NeuralMind e do Escavador com financiamento da Finep.",
+      "href": "https://www.baguete.com.br/noticias/governo-investe-r-10-mi-em-chatgpt-juridico"
+    }
+  ]
+}
