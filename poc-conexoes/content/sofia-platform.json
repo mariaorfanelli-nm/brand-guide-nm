@@ -1,0 +1,87 @@
+{
+  "title": "Inteligência jurídica de ponta a ponta.",
+  "description": "Do pré-contencioso à gestão estratégica de processos, a SofIA conecta documentos, normas, jurisprudência e dados corporativos para apoiar análises, automatizar tarefas jurídicas e orientar decisões.",
+  "heroCTA": "Converse sobre a SofIA",
+  "journeyTitle": "Uma plataforma. Toda a jornada jurídica.",
+  "modules": [
+    {
+      "name": "Pré-contencioso",
+      "value": "Prevenir conflitos e responder com consistência e fundamento.",
+      "uses": [
+        "Reclamações de consumidores e NIPs",
+        "Análise de documentos e normas setoriais",
+        "Apoio a respostas fundamentadas"
+      ]
+    },
+    {
+      "name": "Consultivo",
+      "value": "Responder dúvidas e produzir análises jurídicas com fontes rastreáveis.",
+      "uses": [
+        "Consultas internas e pareceres",
+        "Análise contratual",
+        "Pesquisa de legislação e jurisprudência"
+      ]
+    },
+    {
+      "name": "Contencioso",
+      "value": "Transformar dados de processos em prioridades, riscos e recomendações.",
+      "uses": [
+        "Triagem e extração estratégica de fatos e dados",
+        "Causas-raiz e oportunidades de acordo",
+        "Inteligência de carteira e previsão de passivo"
+      ]
+    }
+  ],
+  "portfolioTitle": "Cada demanda amplia a inteligência da operação jurídica.",
+  "portfolioDescription": "Os dados de reclamações, pareceres e processos podem alimentar análises sobre padrões, causas-raiz, riscos e estratégias. A inteligência acumulada apoia a priorização de novas demandas e ações preventivas.",
+  "cycle": [
+    "Reclamação",
+    "Análise jurídica",
+    "Processo",
+    "Inteligência de carteira",
+    "Prevenção e estratégia"
+  ],
+  "integrationTitle": "Conectada às fontes da sua operação.",
+  "integrationDescription": "Integrações com sistemas processuais e bases corporativas, inteligência de carteira e previsão de passivo estão operacionais. Fontes, permissões e regras de negócio são configuradas conforme cada organização.",
+  "sources": [
+    "Documentos",
+    "Normas",
+    "Jurisprudência",
+    "Dados corporativos",
+    "Sistemas processuais"
+  ],
+  "availability": "Operacional — disponibilidade confirmada pela NeuralMind em 12/11/2026.",
+  "proofTitle": "Tecnologia comprovada em ambientes complexos",
+  "proofScope": "Cada case demonstra uma aplicação específica da tecnologia da NeuralMind, com escopo próprio de projeto.",
+  "proofs": [
+    {
+      "client": "ANS",
+      "name": "SofIA / ANS",
+      "title": "Análise regulatória de reclamações.",
+      "description": "Processamento de documentos, classificação de demandas e apoio à elaboração de pareceres e relatórios.",
+      "label": "Conheça o case ANS",
+      "href": "cases/ans/",
+      "framerHref": "/cases/ans",
+      "logo": "logos/ans.png"
+    },
+    {
+      "client": "TCU",
+      "name": "AssertIA / TCU",
+      "title": "Apoio à análise e à instrução técnica.",
+      "description": "Análise de peças processuais, pesquisa de fundamentos e apoio à redação de instruções para o auditor.",
+      "label": "Conheça o case AssertIA / TCU",
+      "href": "assertia.html",
+      "framerHref": "/assertia",
+      "logo": "logos/tcu.png"
+    }
+  ],
+  "closingTitle": "Descubra como a SofIA pode transformar sua operação jurídica.",
+  "closingCTA": "Falar com um especialista",
+  "secondaryCTA": "Conhecer os cases",
+  "routes": {
+    "platform": "/sofia",
+    "ansCase": "/cases/ans",
+    "assertiaCase": "/assertia"
+  },
+  "preservedAnsMainSha256": "3ecce647b828accc8e5d318c39b87ef00d2c3f3e7a965196bafacbd8d48c2998"
+}
