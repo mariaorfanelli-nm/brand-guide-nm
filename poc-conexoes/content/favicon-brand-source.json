@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/mariaorfanelli-nm/brand-guide-nm/blob/main/assets/brand/nm-monogram-purple.svg",
+  "sourceBlob": "b8953d03359bd729c377f2ec4192090985746b24",
+  "outlines": "assets/brand/nm-monogram-white.svg",
+  "treatment": "Approved NM outlines unchanged; square viewBox, centered with optical padding, ivory on brand purple #290241. Same contrast on light and dark browser tabs.",
+  "outputs": [
+    "favicon-nm.svg",
+    "favicon-nm.png",
+    "favicon.ico",
+    "apple-touch-icon.png"
+  ]
+}
