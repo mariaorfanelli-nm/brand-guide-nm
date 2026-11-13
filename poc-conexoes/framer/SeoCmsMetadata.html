@@ -1,0 +1,97 @@
+<script>
+/* CMS metadata enhancement: uses the same CMS fields rendered on each article.
+   Native metadata remains configured; this handles the connector's CMS fallback. */
+(function () {
+  if (window.__nmCmsSeoCleanup) window.__nmCmsSeoCleanup();
+  var policies = {
+    'termos-nsx': 'Consulte os termos e condições de uso do NeuralSearchX, com as regras aplicáveis à utilização da plataforma.',
+    'politica-privacidade': 'Saiba como a NeuralMind trata dados pessoais, protege informações e disponibiliza canais para o exercício dos direitos de privacidade.',
+    'aviso-de-cookies': 'Consulte como a NeuralMind utiliza cookies e quais são as opções disponíveis para gerenciar suas preferências de navegação.'
+  };
+  var initialPath = location.pathname.replace(/\/$/, '');
+  var pending = 0;
+  var observer;
+  function visible(selector) {
+    return Array.from(document.querySelectorAll(selector)).find(function (node) { return node.getClientRects().length > 0; });
+  }
+  function meta(key, value, property) {
+    if (!value) return;
+    var attribute = property ? 'property' : 'name';
+    var node = document.querySelector('meta[' + attribute + '="' + key + '"]');
+    if (!node) { node = document.createElement('meta'); node.setAttribute(attribute, key); document.head.appendChild(node); }
+    if (node.content !== value) node.content = value;
+  }
+  function apply() {
+    pending = 0;
+    if (location.pathname.replace(/\/$/, '') !== initialPath) { cleanup(); return; }
+    var heading = visible('h1');
+    if (!heading) return;
+    var title = heading.textContent.trim().replace(/\s+/g, ' ');
+    var article = /^\/blog\/[^/]+$/.test(initialPath) && !/\/pagina-\d+$/.test(initialPath) && !/\/arquivo$/.test(initialPath);
+    var summary = article && visible('[id^="seo-article-summary"]');
+    var description = article ? (summary && summary.textContent.trim().replace(/\s+/g, ' ')) : policies[initialPath.split('/').pop()];
+    if (!description) return;
+    var pageTitle = title + ' | NeuralMind';
+    if (document.title !== pageTitle) document.title = pageTitle;
+    meta('description', description);
+    meta('og:title', pageTitle, true);
+    meta('og:description', description, true);
+    meta('twitter:title', pageTitle);
+    meta('twitter:description', description);
+    var url = 'https://neuralmind.ai' + initialPath;
+    meta('og:url', url, true);
+    var image = article && visible('[id^="seo-article-cover"] img');
+    if (image) {
+      meta('og:image', image.src, true);
+      meta('twitter:image', image.src);
+      meta('og:image:alt', image.alt, true);
+      meta('twitter:image:alt', image.alt);
+    }
+    var entity = {
+      '@type': article ? 'BlogPosting' : 'WebPage',
+      '@id': url + (article ? '#article' : '#webpage'),
+      url: url,
+      name: title,
+      description: description,
+      inLanguage: 'pt-BR',
+      publisher: { '@type': 'Organization', name: 'NeuralMind', url: 'https://neuralmind.ai/' }
+    };
+    if (article) {
+      entity.headline = title;
+      entity.mainEntityOfPage = url;
+      if (image) entity.image = image.src;
+      var dateNode = visible('[id^="seo-article-date"]');
+      var date = dateNode && dateNode.textContent.trim().match(/(\d{1,2}) de (\S+) de (\d{4})/i);
+      var months = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+      var month = date && months.indexOf(date[2].toLowerCase());
+      if (date && month >= 0) entity.datePublished = date[3] + '-' + String(month + 1).padStart(2, '0') + '-' + date[1].padStart(2, '0');
+    }
+    var data = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [entity, {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'NeuralMind', item: 'https://neuralmind.ai/' },
+          { '@type': 'ListItem', position: 2, name: article ? 'Conteúdos' : 'Políticas', item: 'https://neuralmind.ai/' + (article ? 'blog' : 'politicas') },
+          { '@type': 'ListItem', position: 3, name: title, item: url }
+        ]
+      }]
+    });
+    var schema = document.getElementById('nm-cms-seo-schema');
+    if (!schema) { schema = document.createElement('script'); schema.id = 'nm-cms-seo-schema'; schema.type = 'application/ld+json'; document.head.appendChild(schema); }
+    if (schema.textContent !== data) schema.textContent = data;
+  }
+  function queue() { if (!pending) pending = requestAnimationFrame(apply); }
+  function cleanup() {
+    if (observer) observer.disconnect();
+    if (pending) cancelAnimationFrame(pending);
+    var schema = document.getElementById('nm-cms-seo-schema');
+    if (schema) schema.remove();
+  }
+  observer = new MutationObserver(queue);
+  observer.observe(document.head, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ['content'] });
+  observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+  window.__nmCmsSeoCleanup = cleanup;
+  apply();
+})();
+</script>

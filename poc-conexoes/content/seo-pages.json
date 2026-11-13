@@ -1,0 +1,253 @@
+{
+  "productionOrigin": "https://neuralmind.ai",
+  "previewOrigin": "https://mariaorfanelli-nm.github.io/brand-guide-nm/poc-conexoes",
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "title": "NeuralMind | IA corporativa para decisões complexas",
+      "description": "Pesquisa, modelos especializados e engenharia de IA para conectar conhecimento, transformar operações jurídicas e priorizar decisões clínicas.",
+      "image": "images/corporate-a-research.webp",
+      "imageAlt": "Profissionais em uma estação de pesquisa e desenvolvimento em inteligência artificial",
+      "kind": "home"
+    },
+    {
+      "path": "/neuralstudio",
+      "file": "neuralstudio.html",
+      "title": "NeuralStudio | IA para conhecimento corporativo | NeuralMind",
+      "description": "Conecte documentos, sistemas e bases corporativas com IA. Consulte fontes autorizadas e transforme conhecimento disperso em respostas e análises.",
+      "image": "images/neuralstudio-study-v2.webp",
+      "imageAlt": "Profissional consulta informações e faz anotações durante o trabalho",
+      "kind": "service"
+    },
+    {
+      "path": "/neuralstudio/matriculas",
+      "file": "neuralstudio/matriculas/index.html",
+      "title": "NDocs Matrículas | Análise imobiliária com IA | NeuralMind",
+      "description": "Estruture informações de matrículas urbanas e rurais com IA. Apoie diligências, análise de garantias e gestão de carteiras com dados rastreáveis.",
+      "image": "images/ndocs-source-reveal-neuralstudio.webp",
+      "imageAlt": "Mão revela um trecho de documento entre páginas e marcadores em lilás",
+      "kind": "service"
+    },
+    {
+      "path": "/sofia",
+      "file": "sofia.html",
+      "title": "SofIA | Inteligência jurídica e regulatória | NeuralMind",
+      "description": "Conheça a SofIA: IA para consultivo, pareceres, contencioso e gestão de carteira, com apoio a NIPs e ouvidoria em operadoras de saúde.",
+      "image": "images/corporate-b-decisions.webp",
+      "imageAlt": "Especialistas reunidos para analisar informações e discutir decisões",
+      "kind": "service"
+    },
+    {
+      "path": "/prioscan",
+      "file": "prioscan.html",
+      "title": "PrioScan | IA para priorização de radiografias | NeuralMind",
+      "description": "IA que combina radiografias de tórax e informações clínicas para sinalizar achados alarmantes e apoiar a priorização de exames no fluxo hospitalar.",
+      "image": "images/prioscan-digital-analysis.webp",
+      "imageAlt": "Ilustração de uma radiografia de tórax analisada digitalmente em um monitor",
+      "kind": "service"
+    },
+    {
+      "path": "/assertia",
+      "file": "assertia.html",
+      "title": "AssertIA no TCU | Case de inteligência jurídica | NeuralMind",
+      "description": "Conheça o case AssertIA no TCU: análise de peças processuais, pesquisa de fundamentos e apoio à redação de instruções técnicas com IA.",
+      "image": "images/assertia-original.png",
+      "imageAlt": "Profissional analisa dados no computador em imagem ilustrativa do case AssertIA no TCU",
+      "kind": "case"
+    },
+    {
+      "path": "/cases/ans",
+      "file": "cases/ans/index.html",
+      "title": "SofIA na ANS | Case de análise regulatória com IA | NeuralMind",
+      "description": "Veja como a SofIA apoia a ANS na análise de reclamações, classificação de demandas e elaboração de pareceres e relatórios com IA.",
+      "image": "images/sofia-original.png",
+      "imageAlt": "Fachada de hospital em imagem ilustrativa do case SofIA na ANS",
+      "kind": "case"
+    },
+    {
+      "path": "/blog",
+      "file": "blog.html",
+      "title": "Conteúdos sobre IA: cases, guias e pesquisa | NeuralMind",
+      "description": "Explore cases, guias e artigos sobre IA jurídica, conhecimento corporativo, priorização clínica e pesquisa aplicada da NeuralMind.",
+      "image": "images/corporate-c-tech-detail.webp",
+      "imageAlt": "Equipamentos de computação e infraestrutura para pesquisa em inteligência artificial",
+      "kind": "collection"
+    },
+    {
+      "path": "/blog/arquivo",
+      "file": "blog/arquivo/index.html",
+      "title": "Acervo do blog: inteligência artificial aplicada | NeuralMind",
+      "description": "Consulte o acervo de artigos da NeuralMind sobre inteligência artificial, tecnologia, negócios e aplicações jurídicas e corporativas.",
+      "image": "images/corporate-c-tech-detail.webp",
+      "imageAlt": "Equipamentos de computação e infraestrutura para pesquisa em inteligência artificial",
+      "kind": "collection"
+    },
+    {
+      "path": "/trabalhe-conosco",
+      "file": "trabalhe-conosco.html",
+      "title": "Carreiras em inteligência artificial | NeuralMind",
+      "description": "Trabalhe com pesquisa e desenvolvimento de IA no Brasil. Conheça a cultura da NeuralMind, a equipe e as oportunidades para construir tecnologia aplicada.",
+      "image": "images/team-neuralmind.webp",
+      "imageAlt": "Equipe NeuralMind reunida ao ar livre",
+      "kind": "careers"
+    },
+    {
+      "path": "/contato",
+      "file": "contato.html",
+      "title": "Contato | Fale sobre soluções de IA | NeuralMind",
+      "description": "Converse com a NeuralMind sobre NeuralStudio, SofIA, PrioScan ou parcerias em pesquisa e desenvolvimento. Encontre a solução de IA para seu contexto.",
+      "image": "images/corporate-b-decisions.webp",
+      "imageAlt": "Profissionais reunidos para analisar informações e discutir decisões",
+      "kind": "contact"
+    },
+    {
+      "path": "/blog/sofia-na-ans-analise-regulatoria",
+      "file": "blog/sofia-na-ans-analise-regulatoria/index.html",
+      "title": "SofIA na ANS: análise regulatória com IA | NeuralMind",
+      "description": "Conheça a aplicação da SofIA na ANS para apoiar a análise de reclamações, documentos e relatórios em um ambiente regulatório complexo.",
+      "image": "images/sofia-original.png",
+      "imageAlt": "Fachada de hospital em imagem ilustrativa do case SofIA na ANS",
+      "kind": "article"
+    },
+    {
+      "path": "/blog/assertia-no-tcu-instrucao-tecnica",
+      "file": "blog/assertia-no-tcu-instrucao-tecnica/index.html",
+      "title": "AssertIA no TCU: apoio à instrução técnica | NeuralMind",
+      "description": "Entenda como a AssertIA apoia auditores do TCU na análise de peças processuais, pesquisa de fundamentos e redação de instruções técnicas.",
+      "image": "images/assertia-original.png",
+      "imageAlt": "Profissional analisa dados no computador em imagem ilustrativa do case AssertIA no TCU",
+      "kind": "article"
+    },
+    {
+      "path": "/blog/prioscan-no-hcpa-priorizacao-de-exames",
+      "file": "blog/prioscan-no-hcpa-priorizacao-de-exames/index.html",
+      "title": "PrioScan no HCPA: priorização de exames | NeuralMind",
+      "description": "Veja o fluxo de priorização do PrioScan e o resultado informado para o tempo até o laudo de casos com achados alarmantes na operação do HCPA.",
+      "image": "images/prioscan-original.jpeg",
+      "imageAlt": "Equipe médica reunida diante de uma radiografia de tórax no monitor",
+      "kind": "article"
+    },
+    {
+      "path": "/blog/como-avaliar-ia-para-priorizacao-em-radiologia",
+      "file": "blog/como-avaliar-ia-para-priorizacao-em-radiologia/index.html",
+      "title": "Como avaliar IA para priorização em radiologia | NeuralMind",
+      "description": "Conheça critérios para avaliar IA em radiologia: contexto clínico, integração ao fluxo, responsabilidades e evidências de desempenho na operação.",
+      "image": "images/prioscan-original.jpeg",
+      "imageAlt": "Equipe médica reunida diante de uma radiografia de tórax no monitor",
+      "kind": "article"
+    },
+    {
+      "path": "/modelo-de-artigo",
+      "file": "artigo.html",
+      "title": "IA generativa e conhecimento corporativo | NeuralMind",
+      "description": "Entenda como conectar informações dispersas com IA generativa, contexto e governança para apoiar o acesso ao conhecimento corporativo.",
+      "image": "images/neuralstudio-study-v2.webp",
+      "imageAlt": "Profissional consulta informações e faz anotações durante o trabalho",
+      "kind": "template"
+    }
+  ],
+  "framerExtraPages": [
+    {
+      "path": "/404",
+      "title": "Página não encontrada | NeuralMind",
+      "description": "A página solicitada não foi encontrada. Acesse as soluções, os cases e os conteúdos da NeuralMind.",
+      "noIndex": true
+    },
+    {
+      "path": "/politicas",
+      "title": "Políticas e privacidade | NeuralMind",
+      "description": "Consulte a política de privacidade, o aviso de cookies e os termos de uso da NeuralMind."
+    },
+    {
+      "path": "/nsx",
+      "title": "NeuralSearchX: página legada | NeuralMind",
+      "description": "Página legada do NeuralSearchX. Conheça a plataforma NeuralStudio para acesso ao conhecimento corporativo com IA.",
+      "noIndex": true
+    },
+    {
+      "path": "/neuralsearchx",
+      "title": "NeuralSearchX: apresentação legada | NeuralMind",
+      "description": "Apresentação legada do NeuralSearchX, anterior à plataforma NeuralStudio de inteligência corporativa da NeuralMind.",
+      "noIndex": true
+    },
+    {
+      "path": "/pricing",
+      "title": "Planos e preços: página legada | NeuralMind",
+      "description": "Página legada de planos. Entre em contato com a NeuralMind para conhecer as soluções atuais de inteligência artificial.",
+      "noIndex": true
+    },
+    {
+      "path": "/blog/pagina-2",
+      "title": "Blog de IA: artigos e pesquisa — página 2 | NeuralMind",
+      "description": "Explore a página 2 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-3",
+      "title": "Blog de IA: artigos e pesquisa — página 3 | NeuralMind",
+      "description": "Explore a página 3 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-4",
+      "title": "Blog de IA: artigos e pesquisa — página 4 | NeuralMind",
+      "description": "Explore a página 4 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-5",
+      "title": "Blog de IA: artigos e pesquisa — página 5 | NeuralMind",
+      "description": "Explore a página 5 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-6",
+      "title": "Blog de IA: artigos e pesquisa — página 6 | NeuralMind",
+      "description": "Explore a página 6 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-7",
+      "title": "Blog de IA: artigos e pesquisa — página 7 | NeuralMind",
+      "description": "Explore a página 7 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-8",
+      "title": "Blog de IA: artigos e pesquisa — página 8 | NeuralMind",
+      "description": "Explore a página 8 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-9",
+      "title": "Blog de IA: artigos e pesquisa — página 9 | NeuralMind",
+      "description": "Explore a página 9 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-10",
+      "title": "Blog de IA: artigos e pesquisa — página 10 | NeuralMind",
+      "description": "Explore a página 10 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-11",
+      "title": "Blog de IA: artigos e pesquisa — página 11 | NeuralMind",
+      "description": "Explore a página 11 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-12",
+      "title": "Blog de IA: artigos e pesquisa — página 12 | NeuralMind",
+      "description": "Explore a página 12 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-13",
+      "title": "Blog de IA: artigos e pesquisa — página 13 | NeuralMind",
+      "description": "Explore a página 13 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    },
+    {
+      "path": "/blog/pagina-14",
+      "title": "Blog de IA: artigos e pesquisa — página 14 | NeuralMind",
+      "description": "Explore a página 14 do blog da NeuralMind: artigos sobre inteligência artificial, pesquisa, negócios e aplicações práticas para empresas."
+    }
+  ],
+  "stagingPolicy": "Static GitHub previews use HTML noindex. Framer preview hosts receive noindex through a hostname-scoped head script; production metadata remains indexable. Native per-environment response headers are unavailable through the connector.",
+  "references": [
+    "https://developers.google.com/search/docs/appearance/title-link",
+    "https://developers.google.com/search/docs/appearance/snippet",
+    "https://developers.google.com/search/docs/appearance/google-images"
+  ],
+  "cmsPolicy": "Original CMS titles, slugs, article bodies, cover sources and meta descriptions are preserved. Native CMS metadata bindings remain configured. A CMS detail-page script reads the rendered summary, cover and date to supply metadata and JSON-LD when the Framer connector falls back to site defaults. Non-JavaScript social crawlers may still receive the default CMS social card."
+}

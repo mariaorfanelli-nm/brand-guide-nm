@@ -1,0 +1,158 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "path": "/",
+      "title": "NeuralMind | IA corporativa para decisões complexas",
+      "descriptionLength": 142,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "neuralstudio.html",
+      "path": "/neuralstudio",
+      "title": "NeuralStudio | IA para conhecimento corporativo | NeuralMind",
+      "descriptionLength": 145,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "neuralstudio/matriculas/index.html",
+      "path": "/neuralstudio/matriculas",
+      "title": "NDocs Matrículas | Análise imobiliária com IA | NeuralMind",
+      "descriptionLength": 145,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "sofia.html",
+      "path": "/sofia",
+      "title": "SofIA | Inteligência jurídica e regulatória | NeuralMind",
+      "descriptionLength": 134,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "prioscan.html",
+      "path": "/prioscan",
+      "title": "PrioScan | IA para priorização de radiografias | NeuralMind",
+      "descriptionLength": 147,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "assertia.html",
+      "path": "/assertia",
+      "title": "AssertIA no TCU | Case de inteligência jurídica | NeuralMind",
+      "descriptionLength": 134,
+      "imageAltsUpdated": 1
+    },
+    {
+      "file": "cases/ans/index.html",
+      "path": "/cases/ans",
+      "title": "SofIA na ANS | Case de análise regulatória com IA | NeuralMind",
+      "descriptionLength": 129,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "blog.html",
+      "path": "/blog",
+      "title": "Conteúdos sobre IA: cases, guias e pesquisa | NeuralMind",
+      "descriptionLength": 130,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "blog/arquivo/index.html",
+      "path": "/blog/arquivo",
+      "title": "Acervo do blog: inteligência artificial aplicada | NeuralMind",
+      "descriptionLength": 133,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "trabalhe-conosco.html",
+      "path": "/trabalhe-conosco",
+      "title": "Carreiras em inteligência artificial | NeuralMind",
+      "descriptionLength": 153,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "contato.html",
+      "path": "/contato",
+      "title": "Contato | Fale sobre soluções de IA | NeuralMind",
+      "descriptionLength": 149,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "blog/sofia-na-ans-analise-regulatoria/index.html",
+      "path": "/blog/sofia-na-ans-analise-regulatoria",
+      "title": "SofIA na ANS: análise regulatória com IA | NeuralMind",
+      "descriptionLength": 134,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "blog/assertia-no-tcu-instrucao-tecnica/index.html",
+      "path": "/blog/assertia-no-tcu-instrucao-tecnica",
+      "title": "AssertIA no TCU: apoio à instrução técnica | NeuralMind",
+      "descriptionLength": 137,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "blog/prioscan-no-hcpa-priorizacao-de-exames/index.html",
+      "path": "/blog/prioscan-no-hcpa-priorizacao-de-exames",
+      "title": "PrioScan no HCPA: priorização de exames | NeuralMind",
+      "descriptionLength": 141,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "blog/como-avaliar-ia-para-priorizacao-em-radiologia/index.html",
+      "path": "/blog/como-avaliar-ia-para-priorizacao-em-radiologia",
+      "title": "Como avaliar IA para priorização em radiologia | NeuralMind",
+      "descriptionLength": 145,
+      "imageAltsUpdated": 0
+    },
+    {
+      "file": "artigo.html",
+      "path": "/modelo-de-artigo",
+      "title": "IA generativa e conhecimento corporativo | NeuralMind",
+      "descriptionLength": 134,
+      "imageAltsUpdated": 0
+    }
+  ],
+  "previewIndexing": "noindex, follow",
+  "canonicalOrigin": "https://neuralmind.ai",
+  "structuredData": [
+    "Organization",
+    "WebSite",
+    "WebPage",
+    "BreadcrumbList",
+    "Service",
+    "BlogPosting"
+  ],
+  "validation": {
+    "uniqueTitles": 16,
+    "uniqueDescriptions": 16,
+    "imagesWithAltAttribute": 95,
+    "missingAltAttributes": 0,
+    "brokenRelativeFileLinks": 0,
+    "bodyTextPreserved": true,
+    "jsonLdParses": true
+  },
+  "framer": {
+    "stagingVersion": "182eb875a",
+    "staticPagesWithMetadata": 29,
+    "cmsArticlesWithReviewedCoverAlts": 167,
+    "policyDescriptions": 3,
+    "articleTitlesSlugsCoverSourcesAndOriginalDescriptionsPreserved": true,
+    "privacyPolicyInternalH1sChangedToH2": 10,
+    "verifiedRenderedPages": [
+      "/",
+      "/blog/sofia-na-ans-analise-regulatoria",
+      "/blog/como-aumentar-a-eficiência-jurídica-com-ia",
+      "/politicas/politica-privacidade"
+    ],
+    "legacyNoindex": [
+      "/nsx",
+      "/neuralsearchx",
+      "/pricing",
+      "/404"
+    ],
+    "cmsMetadataFallback": "SeoCmsMetadata.html supplies metadata and structured data from CMS-bound DOM after rendering; non-JavaScript social crawlers may receive the default CMS card.",
+    "previewIndexing": "GitHub previews contain HTML noindex; Framer preview hosts receive hostname-scoped JavaScript noindex. Per-environment response headers are not exposed by the connector.",
+    "productionDeployed": false
+  }
+}

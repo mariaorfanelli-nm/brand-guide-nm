@@ -1,0 +1,670 @@
+[
+  {
+    "slug": "sofia-na-ans-analise-regulatoria",
+    "alt": "Fachada de hospital em imagem ilustrativa do case SofIA na ANS"
+  },
+  {
+    "slug": "assertia-no-tcu-instrucao-tecnica",
+    "alt": "Profissional analisa dados no computador em imagem ilustrativa do case AssertIA no TCU"
+  },
+  {
+    "slug": "prioscan-no-hcpa-priorizacao-de-exames",
+    "alt": "Equipe médica reunida diante de uma radiografia de tórax no monitor"
+  },
+  {
+    "slug": "como-avaliar-ia-para-priorizacao-em-radiologia",
+    "alt": "Equipe médica reunida diante de uma radiografia de tórax no monitor"
+  },
+  {
+    "slug": "sobrecarga-de-dados-corporativos-como-filtrar-o-ruído-com-o-neuralsearchx",
+    "alt": "Profissional diante do computador com expressão de concentração e sobrecarga"
+  },
+  {
+    "slug": "ia-generativa-como-arquitetura-de-conhecimento-o-fim-dos-dados-silados",
+    "alt": "Rede de conexões digitais e documentos interligados em fundo escuro"
+  },
+  {
+    "slug": "desmistificando-o-legal-prompting-como-treinar-sua-equipe-para-extrair-o-máximo-da-ia",
+    "alt": "Notebook, martelo e estátua da Justiça sobre uma mesa"
+  },
+  {
+    "slug": "o-advento-dos-small-language-models-(slms)-na-advocacia",
+    "alt": "Pessoa toca um símbolo digital de balança da Justiça"
+  },
+  {
+    "slug": "como-adotar-ia-de-forma-ética-em-departamentos-jurídicos",
+    "alt": "Balança da Justiça e lâmpada digital sobrepostos a uma pessoa usando notebook"
+  },
+  {
+    "slug": "de-prompts-a-agentes-de-ia-construindo-workflows-jurídicos-completos",
+    "alt": "Mão robótica ao lado de uma balança da Justiça em interface digital"
+  },
+  {
+    "slug": "como-reduzir-alucinações-em-aplicações-corporativas-de-ia",
+    "alt": "Pessoa seleciona um sinal de alerta em uma interface digital de IA"
+  },
+  {
+    "slug": "guia-de-mapeamento-de-processos-para-implementação-de-ia-generativa",
+    "alt": "Mão interage com um ícone de IA sobre um notebook"
+  },
+  {
+    "slug": "o-passo-a-passo-para-adotar-ia-generativa-na-sua-empresa",
+    "alt": "Pessoa usa notebook com conexões digitais e gráfico sobrepostos"
+  },
+  {
+    "slug": "roi-de-ia-como-medir-o-sucesso-de-um-projeto-de-ia-generativa-em-sua-empresa",
+    "alt": "Gráfico de barras e seta ascendente sobre uma mão aberta"
+  },
+  {
+    "slug": "como-capacitar-equipes-para-trabalhar-e-colaborar-com-llms",
+    "alt": "Profissional apresenta informações em uma reunião de equipe"
+  },
+  {
+    "slug": "o-que-é-ia-generativa-e-como-funciona",
+    "alt": "Pessoa interage com representação digital de cérebro e conexões de IA"
+  },
+  {
+    "slug": "assertia-apoiando-os-analistas-do-tcu-com-tecnologia-rastreável-e-confiável",
+    "alt": "Pessoa consulta uma interface digital de documentos em um notebook"
+  },
+  {
+    "slug": "como-a-ia-generativa-tem-acelerado-processos-do-setor-de-saúde-o-caso-sofia",
+    "alt": "Símbolos digitais de saúde sobrepostos a um tablet"
+  },
+  {
+    "slug": "automação-de-petições-e-pareceres-como-a-ia-generativa-está-otimizando-o-trabalho-de-advogados",
+    "alt": "Profissional diante de símbolos digitais da Justiça"
+  },
+  {
+    "slug": "o-que-é-inteligência-artificial-aplicada-ao-direito",
+    "alt": "Balança da Justiça e ícones jurídicos sobre uma mão aberta"
+  },
+  {
+    "slug": "guia-de-compra-o-que-avaliar-ao-contratar-uma-solução-de-ia-para-o-setor-jurídico",
+    "alt": "Profissional consulta tablet com símbolo digital da Justiça"
+  },
+  {
+    "slug": "ia-para-departamentos-jurídicos-saiba-os-desafios-e-como-escalar",
+    "alt": "Símbolos de IA e balança da Justiça em uma interface digital"
+  },
+  {
+    "slug": "aspectos-legais-e-éticos-da-ia-generativa-no-brasil-o-que-as-empresas-precisam-saber",
+    "alt": "Blocos com as letras AI e ícones de governança sobre uma mesa"
+  },
+  {
+    "slug": "ia-generativa-nas-empresas-brasileiras-casos-de-uso-reais-e-desafios-de-implementação",
+    "alt": "Profissionais cumprimentam-se com circuitos digitais sobrepostos"
+  },
+  {
+    "slug": "ia-generativa-no-brasil-quem-está-usando-para-quê-e-quais-são-as-barreiras",
+    "alt": "Profissional com tablet aponta para uma projeção com as letras AI"
+  },
+  {
+    "slug": "como-a-ia-generativa-está-transformando-a-jornada-do-consumidor-no-brasil",
+    "alt": "Pessoa desenha uma jornada de interação com cliente e carrinho de compras"
+  },
+  {
+    "slug": "enterprise-ai-como-as-grandes-empresas-estão-adotando-ia",
+    "alt": "Profissional usa tablet sobre uma mesa com gráficos"
+  },
+  {
+    "slug": "qual-o-papel-da-ia-na-gestão-do-conhecimento-corporativo",
+    "alt": "Pessoa seleciona um documento em uma interface digital"
+  },
+  {
+    "slug": "ia-que-responde-com-fontes-por-que-isso-muda-tudo-na-hora-de-confiar-na-resposta",
+    "alt": "Equipe trabalha em computadores em um escritório compartilhado"
+  },
+  {
+    "slug": "quanto-custa-não-encontrar-o-que-você-precisa-na-hora-certa",
+    "alt": "Pessoa pesquisa em um tablet com uma barra de busca digital sobreposta"
+  },
+  {
+    "slug": "por-que-sua-empresa-perde-tempo-procurando-informações-(e-como-resolver-isso)",
+    "alt": "Profissionais trabalham com documentos e notebook em um escritório"
+  },
+  {
+    "slug": "porque-usar-ferramentas-de-ia-que-não-usam-seus-dados-para-treinamento",
+    "alt": "Pastas digitais cercadas por símbolos de proteção de dados"
+  },
+  {
+    "slug": "conheça-diretrizes-para-capacitar-equipes-sobre-o-uso-da-ia-generativa",
+    "alt": "Equipe reunida ao redor de uma mesa com notebooks"
+  },
+  {
+    "slug": "aprenda-como-organizar-sua-ferramenta-de-automação-de-marketing",
+    "alt": "Megafone sobre um celular em uma composição roxa"
+  },
+  {
+    "slug": "agentes-de-ia-transformando-a-experiência-do-cliente",
+    "alt": "Representação digital de cérebro com conexões luminosas"
+  },
+  {
+    "slug": "planejamento-estratégico-e-ia-como-se-preparar-para-2025",
+    "alt": "Equipe acompanha uma apresentação com gráficos em uma sala de reunião"
+  },
+  {
+    "slug": "5-tecnologias-para-ficar-de-olho-em-2025",
+    "alt": "Pessoa digita em notebook com símbolos de IA sobrepostos"
+  },
+  {
+    "slug": "3-dicas-para-construir-um-chatbot-personalizado",
+    "alt": "Robô ilustrativo diante de interfaces digitais"
+  },
+  {
+    "slug": "aumente-suas-vendas-com-ia",
+    "alt": "Perfil de pessoa com pontos e conexões digitais sobrepostos"
+  },
+  {
+    "slug": "como-construir-bons-tutoriais-para-seus-clientes",
+    "alt": "Profissional anota informações ao lado de um notebook"
+  },
+  {
+    "slug": "aprenda-como-integrar-seu-time-de-atendimento-ao-cliente-com-ia",
+    "alt": "Profissional de atendimento usa headset diante de um computador"
+  },
+  {
+    "slug": "como-lidar-com-escalabilidade-nas-aplicações-de-ia",
+    "alt": "Robô ilustrativo diante de uma sequência de etapas digitais"
+  },
+  {
+    "slug": "conheça-estratégias-de-upsell-e-cross-sell-baseadas-em-dados",
+    "alt": "Três profissionais consultam um tablet no escritório"
+  },
+  {
+    "slug": "como-unificar-a-experiência-do-cliente-utilizando-ia",
+    "alt": "Pessoa preenche uma avaliação com estrelas em uma interface digital"
+  },
+  {
+    "slug": "saiba-como-construir-uma-estratégia-eficiente-de-adoção-da-ia",
+    "alt": "Rede de ícones digitais conectados a um cérebro de IA"
+  },
+  {
+    "slug": "5-dicas-para-escrever-uma-boa-faq-para-o-seu-site",
+    "alt": "Nota amarela com a sigla FAQ sobre fundo azul"
+  },
+  {
+    "slug": "como-preparar-o-seu-negócio-para-a-black-friday",
+    "alt": "Pessoa usa notebook com uma oferta de Black Friday na tela"
+  },
+  {
+    "slug": "5-dicas-para-construir-a-wiki-da-sua-empresa",
+    "alt": "Dados vermelhos formam a palavra WIKI sobre páginas impressas"
+  },
+  {
+    "slug": "roi-de-chatbots-aprenda-como-medir-e-maximizar-o-retorno",
+    "alt": "Celular com balões digitais de conversa ao redor"
+  },
+  {
+    "slug": "por-que-usar-chatbots-para-o-suporte-a-inscrições-em-cursos-e-eventos",
+    "alt": "Participantes acompanham uma apresentação em um auditório"
+  },
+  {
+    "slug": "chatbots-para-vendas",
+    "alt": "Profissionais analisam gráficos em uma prancheta"
+  },
+  {
+    "slug": "o-futuro-dos-assistentes-virtuais",
+    "alt": "Robô ilustrativo com lápis e notebook sobre fundo azul"
+  },
+  {
+    "slug": "aprenda-como-implementar-customer-success-para-pequenas-empresas",
+    "alt": "Pessoa exibe um celular com um rosto sorridente na tela"
+  },
+  {
+    "slug": "saiba-como-reduzir-o-tempo-de-resolução-de-problemas-da-sua-operação",
+    "alt": "Equipe organiza papéis e dispositivos ao redor de uma mesa de trabalho"
+  },
+  {
+    "slug": "como-medir-o-sucesso-dos-chatbots-de-atendimento-ao-cliente",
+    "alt": "Símbolo amarelo de chatbot sobre fundo tecnológico roxo"
+  },
+  {
+    "slug": "guia-prático-para-aplicar-a-ia-generativa-na-sua-empresa",
+    "alt": "Letras AI cercadas por ícones de comunicação e tecnologia"
+  },
+  {
+    "slug": "redução-de-custos-e-aumento-da-eficiência-com-chatbots-de-ia",
+    "alt": "Robô ilustrativo branco com um balão de conversa"
+  },
+  {
+    "slug": "como-a-ia-generativa-está-mudando-a-experiência-do-cliente",
+    "alt": "Pessoa seleciona estrelas de avaliação em uma interface digital"
+  },
+  {
+    "slug": "5-tecnologias-que-estão-mudando-o-atendimento-ao-cliente",
+    "alt": "Profissional de atendimento usa headset durante o trabalho"
+  },
+  {
+    "slug": "o-que-são-os-chatbots-e-como-eles-funcionam-no-atendimento-ao-cliente",
+    "alt": "Notebook exibe um símbolo digital de chatbot"
+  },
+  {
+    "slug": "conheça-os-desafios-de-implementar-ia-no-atendimento-ao-cliente",
+    "alt": "Pessoa usa notebook com interface de chat de IA sobreposta"
+  },
+  {
+    "slug": "a-influência-das-redes-sociais-no-atendimento-ao-cliente",
+    "alt": "Pessoa consulta celular com ícones de redes sociais ao redor"
+  },
+  {
+    "slug": "entenda-a-importância-do-treinamento-contínuo-para-equipes-de-atendimento-ao-cliente",
+    "alt": "Profissional atende chamada com headset diante do computador"
+  },
+  {
+    "slug": "como-gerenciar-altos-volumes-de-chamadas-durante-picos-sazonais",
+    "alt": "Equipe de atendimento trabalha em computadores em um escritório"
+  },
+  {
+    "slug": "como-humanizar-a-experiência-do-seu-cliente-no-digital",
+    "alt": "Pessoa utiliza celular com ícones de serviços digitais sobrepostos"
+  },
+  {
+    "slug": "navegando-pela-omnicanalidade-além-do-atendimento-tradicional",
+    "alt": "Equipe de atendimento usa headsets em estações de trabalho"
+  },
+  {
+    "slug": "visão-futurista-cx-tecnologia-e-tendências-emergentes",
+    "alt": "Pessoa usa notebook com símbolos digitais de comunicação"
+  },
+  {
+    "slug": "potencialize-a-experiência-personalização-e-cx",
+    "alt": "Pessoa seleciona um rosto sorridente em uma interface de avaliação"
+  },
+  {
+    "slug": "o-papel-da-tecnologia-na-otimização-do-atendimento-ao-cliente",
+    "alt": "Robô ilustrativo com headset diante de um notebook"
+  },
+  {
+    "slug": "rag-para-aplicações-de-ia-generativa",
+    "alt": "Fluxos digitais luminosos em uma representação abstrata de dados"
+  },
+  {
+    "slug": "o-impacto-do-atendimento-ao-cliente-na-reputação-da-marca",
+    "alt": "Mãos seguram uma placa com cinco estrelas"
+  },
+  {
+    "slug": "a-importância-da-empatia-no-atendimento-ao-cliente",
+    "alt": "Profissional sorridente usa headset em uma estação de atendimento"
+  },
+  {
+    "slug": "o-papel-do-feedback-do-cliente-na-melhoria-contínua-do-serviço",
+    "alt": "Pessoa segura uma tela de pesquisa de satisfação com rostos e caixas de seleção"
+  },
+  {
+    "slug": "o-que-é-geração-aumentada-de-recuperação-(retrieval-augmented-generation-rag)",
+    "alt": "Cérebro formado por pontos e conexões digitais sobre fundo preto"
+  },
+  {
+    "slug": "saiba-mais-sobre-os-benefícios-de-ter-chatbots-nas-lojas-online",
+    "alt": "Pessoa prepara encomendas ao lado de um notebook"
+  },
+  {
+    "slug": "conheça-as-vantagens-de-adotar-chatbots-na-área-de-rh",
+    "alt": "Duas profissionais conversam durante uma entrevista no escritório"
+  },
+  {
+    "slug": "como-a-ia-pode-ajudar-no-setor-da-saúde",
+    "alt": "Profissional de saúde usa tablet com gráficos e símbolos médicos sobrepostos"
+  },
+  {
+    "slug": "tudo-que-você-precisa-saber-para-fidelizar-seus-clientes",
+    "alt": "Profissionais cumprimentam-se em uma reunião de trabalho"
+  },
+  {
+    "slug": "benefícios-da-utilização-da-ia-na-leitura-de-textos",
+    "alt": "Pessoa usa celular ao lado de um notebook em um ambiente de trabalho"
+  },
+  {
+    "slug": "o-que-é-processamento-de-linguagem-natural-e-como-é-usado",
+    "alt": "Blocos de letras formam a sigla NLP sobre uma mesa"
+  },
+  {
+    "slug": "quais-as-tendências-para-o-atendimento-ao-cliente-em-2024",
+    "alt": "Profissional com headset trabalha em notebook no escritório"
+  },
+  {
+    "slug": "quais-as-tendências-em-ia-generativa-para-2024",
+    "alt": "Notebook com cérebro digital colorido e conexões de dados"
+  },
+  {
+    "slug": "como-incorporar-ia-no-seu-planejamento-estratégico-de-2024",
+    "alt": "Equipe analisa informações em uma reunião de planejamento"
+  },
+  {
+    "slug": "por-que-automatizar-a-análise-de-matrículas-no-crédito-imobiliário",
+    "alt": "Mão segura um modelo de casa diante de gráficos e documentos"
+  },
+  {
+    "slug": "nps-(net-promoter-score)-o-que-é-e-como-aplicar",
+    "alt": "Pessoa usa celular com ícones de avaliação e satisfação sobrepostos"
+  },
+  {
+    "slug": "whatsapp-business-o-guia-completo-para-o-seu-negócio",
+    "alt": "Símbolo do WhatsApp em uma composição tridimensional"
+  },
+  {
+    "slug": "por-que-utilizar-a-busca-inteligente-no-seu-e-commerce",
+    "alt": "Carrinho de compras com elementos de uma loja virtual"
+  },
+  {
+    "slug": "quais-os-tipos-e-como-identificar-os-ônus-de-um-imóvel",
+    "alt": "Pessoa segura um modelo de casa e preenche um documento"
+  },
+  {
+    "slug": "como-melhorar-o-atendimento-do-meu-e-commerce",
+    "alt": "Profissional de atendimento usa headset e faz anotações ao lado do notebook"
+  },
+  {
+    "slug": "qual-a-diferença-entre-customer-success-e-customer-experience",
+    "alt": "Pessoa seleciona opções em uma interface de avaliação de satisfação"
+  },
+  {
+    "slug": "ia-generativa-e-atendimento-ao-cliente",
+    "alt": "Robô ilustrativo com headset diante de um notebook sobre fundo roxo"
+  },
+  {
+    "slug": "customer-success-o-que-é-e-principais-métricas",
+    "alt": "Pessoa seleciona rostos e estrelas em uma pesquisa de satisfação digital"
+  },
+  {
+    "slug": "csat-(customer-satisfaction-score)-o-que-é-e-para-que-serve",
+    "alt": "Pessoa seleciona uma entre cinco estrelas de avaliação"
+  },
+  {
+    "slug": "3-maneiras-de-utilizar-os-dados-de-atendimento-ao-cliente",
+    "alt": "Equipe de atendimento usa headsets e computadores"
+  },
+  {
+    "slug": "como-melhorar-a-gestão-de-relacionamento-com-o-cliente",
+    "alt": "Pessoa segura tablet com estrelas de avaliação sobrepostas"
+  },
+  {
+    "slug": "como-melhorar-o-atendimento-ao-cliente-5-dicas",
+    "alt": "Duas profissionais de atendimento trabalham com headsets"
+  },
+  {
+    "slug": "ia-para-processos-jurídicos",
+    "alt": "Martelo, balança da Justiça e livros sobre uma mesa"
+  },
+  {
+    "slug": "transforme-seus-pdfs-em-chatbots",
+    "alt": "Ilustração de chatbot cercado por balões de conversa"
+  },
+  {
+    "slug": "matrícula-de-imóvel-como-ferramenta-de-análise-de-crédito",
+    "alt": "Fachadas de edifícios residenciais alinhados em uma rua"
+  },
+  {
+    "slug": "tudo-o-que-você-precisa-saber-sobre-chatbots",
+    "alt": "Pessoa interage com um símbolo digital de chatbot"
+  },
+  {
+    "slug": "employee-experience-e-acesso-à-informação",
+    "alt": "Equipe acompanha uma apresentação em um escritório"
+  },
+  {
+    "slug": "neuralmind-é-destaque-entre-startups-de-ia-participantes-do-websummit",
+    "alt": "Mão toca uma representação digital de cérebro com conexões luminosas"
+  },
+  {
+    "slug": "busca-interna-e-decisão-estratégica-jurídica",
+    "alt": "Dois profissionais analisam documentos e um notebook em uma mesa"
+  },
+  {
+    "slug": "qualidade-da-busca-interna-e-decisão-estratégica",
+    "alt": "Equipe acompanha gráficos em uma reunião de trabalho"
+  },
+  {
+    "slug": "como-garantir-que-a-sua-f-a-q-seja-útil-para-seus-clientes",
+    "alt": "Tecla azul de computador com a sigla FAQ"
+  },
+  {
+    "slug": "saiba-como-o-governo-tem-utilizado-a-ia-para-se-modernizar",
+    "alt": "Chip com as letras AI cercado por circuitos digitais"
+  },
+  {
+    "slug": "inteligência-empresarial-o-que-é-e-como-utilizar",
+    "alt": "Perfil humano com camadas de gráficos e dados digitais sobrepostos"
+  },
+  {
+    "slug": "como-melhorar-a-jornada-do-cliente-no-seu-site",
+    "alt": "Duas pessoas consultam um celular em um ambiente urbano"
+  },
+  {
+    "slug": "como-uma-busca-melhor-pode-ajudar-a-combater-fake-news",
+    "alt": "Jornal com a expressão Fake News em destaque"
+  },
+  {
+    "slug": "produtividade-o-que-é-e-como-a-tecnologia-pode-te-ajudar",
+    "alt": "Mãos interagem com ícones digitais de processos e produtividade"
+  },
+  {
+    "slug": "como-deixar-seu-departamento-de-p-d-mais-produtivo",
+    "alt": "Profissional de laboratório usa tablet com dados digitais sobrepostos"
+  },
+  {
+    "slug": "3-benefícios-de-usar-a-busca-para-atendimento-ao-cliente",
+    "alt": "Equipe de atendimento trabalha com headsets e computadores"
+  },
+  {
+    "slug": "o-que-é-conhecimento-organizacional-e-como-aproveitá-lo-melhor",
+    "alt": "Pessoa observa um organograma digital com equipes e conexões"
+  },
+  {
+    "slug": "como-a-busca-em-linguagem-natural-vai-mudar-o-seu-trabalho",
+    "alt": "Pessoa pesquisa em um notebook ao lado de uma janela"
+  },
+  {
+    "slug": "5-dicas-para-fazer-uma-pesquisa-jurídica-melhor",
+    "alt": "Profissional consulta tablet ao lado de um martelo da Justiça"
+  },
+  {
+    "slug": "legal-design-o-que-é-e-como-implementar",
+    "alt": "Notebook, balança e martelo da Justiça em uma mesa de trabalho"
+  },
+  {
+    "slug": "5-coisas-que-o-seu-mecanismo-de-busca-corporativa-precisa-ter",
+    "alt": "Barra de pesquisa sobre uma rede de conexões digitais"
+  },
+  {
+    "slug": "como-a-ia-legal-pode-ajudar-o-seu-escritório",
+    "alt": "Martelo da Justiça sobre livros e uma lupa em uma mesa escura"
+  },
+  {
+    "slug": "eficiência-jurídica-o-que-é-e-como-melhorar",
+    "alt": "Profissionais cumprimentam-se ao lado de uma estátua da Justiça"
+  },
+  {
+    "slug": "como-melhorar-o-mecanismo-de-busca-no-seu-ged",
+    "alt": "Teclado iluminado em azul com uma tecla de pesquisa"
+  },
+  {
+    "slug": "gestão-jurídica-5-dicas-para-gerenciar-o-seu-escritório",
+    "alt": "Profissionais analisam documentos jurídicos em uma mesa"
+  },
+  {
+    "slug": "inovação-no-direito-como-inovar-no-departamento-jurídico",
+    "alt": "Pessoa toca um símbolo digital de balança da Justiça"
+  },
+  {
+    "slug": "por-que-a-internet-precisa-de-curadoria-de-conteúdo",
+    "alt": "Câmera grava uma pessoa durante uma entrevista"
+  },
+  {
+    "slug": "direito-4-0-a-tecnologia-está-transformando-a-área-jurídica",
+    "alt": "Chip com símbolo da Justiça conectado a circuitos digitais"
+  },
+  {
+    "slug": "jurisprudência-o-que-é-e-como-pode-mudar-a-sua-estratégia",
+    "alt": "Profissional escreve em documentos ao lado de uma balança da Justiça"
+  },
+  {
+    "slug": "como-fazer-uma-boa-petição-confira-5-passos",
+    "alt": "Profissionais examinam documentos com uma estátua da Justiça sobre a mesa"
+  },
+  {
+    "slug": "tcu-aposta-em-inteligência-artificial-para-extração-de-informações-processuais-confira-as-empresas-inovadoras-selecionadas",
+    "alt": "Martelo, balança da Justiça, notebook e caderno sobre uma mesa"
+  },
+  {
+    "slug": "como-melhorar-a-busca-de-produtos-no-meu-site",
+    "alt": "Pastas digitais e lupa em uma interface de pesquisa"
+  },
+  {
+    "slug": "o-futuro-da-busca-conheça-as-principais-tendências",
+    "alt": "Pessoa interage com uma lupa digital sobre um tablet"
+  },
+  {
+    "slug": "produção-de-conteúdo-como-fazer-uma-boa-pesquisa",
+    "alt": "Ilustração de pessoas e conteúdos conectados a um assistente digital"
+  },
+  {
+    "slug": "motores-de-busca-tudo-o-que-você-precisa-saber-sobre",
+    "alt": "Lupa sobre a representação de uma janela de navegador"
+  },
+  {
+    "slug": "conheça-os-principais-tipos-de-ia-e-como-funcionam",
+    "alt": "Notebook exibe um perfil digital associado à inteligência artificial"
+  },
+  {
+    "slug": "automação-de-processos-melhore-a-eficiência-da-sua-empresa",
+    "alt": "Pessoa seleciona engrenagens em uma interface de automação"
+  },
+  {
+    "slug": "busca-corporativa-e-lgpd",
+    "alt": "Lupa diante de um notebook com informações na tela"
+  },
+  {
+    "slug": "buscas-comércio-eletrônico-a-amazon-kdd-cup-22-e-o-destaque-de-startup-campineira",
+    "alt": "Carrinho de compras com ícones e conexões digitais sobrepostos"
+  },
+  {
+    "slug": "contrato-inteligente-e-o-futuro-dos-acordos-legais",
+    "alt": "Pessoa consulta documentos digitais em um notebook"
+  },
+  {
+    "slug": "o-que-é-ia-generativa-e-como-surgiu",
+    "alt": "Mão humana e mão robótica aproximam-se com conexões digitais ao fundo"
+  },
+  {
+    "slug": "como-implementar-governança-de-ia",
+    "alt": "Globo digital com as letras AI e conexões de dados"
+  },
+  {
+    "slug": "como-integrar-ia-no-seu-departamento-de-marketing",
+    "alt": "Notebook e xícara sobre uma mesa branca com espaço livre"
+  },
+  {
+    "slug": "a-abordagem-human-in-the-loop-(hitl)-garantindo-qualidade-nas-aplicações-de-ia",
+    "alt": "Pessoa trabalha ao lado de um robô em frente a um computador"
+  },
+  {
+    "slug": "como-interagir-com-as-novas-aplicações-de-ia",
+    "alt": "Pessoa escreve enquanto uma figura robótica digital aparece ao lado"
+  },
+  {
+    "slug": "saiba-como-usar-a-ia-para-escrever-textos",
+    "alt": "Pessoa digita um texto em um notebook"
+  },
+  {
+    "slug": "como-aumentar-a-eficiência-jurídica-com-ia",
+    "alt": "Profissionais revisam documentos jurídicos com livro e balança sobre a mesa"
+  },
+  {
+    "slug": "llms-por-que-não-são-todos-iguais",
+    "alt": "Cérebro digital sobre um chip de computador"
+  },
+  {
+    "slug": "o-papel-da-ia-generativa-na-transformação-digital",
+    "alt": "Globo digital e circuitos sobre fundo azul"
+  },
+  {
+    "slug": "ias-que-não-sabem-de-tudo-entenda-o-uso-de-llms-especialistas",
+    "alt": "Mão robótica toca uma interface circular luminosa"
+  },
+  {
+    "slug": "as-tendências-do-papel-da-ia-no-mundo-corporativo",
+    "alt": "Pessoa usa celular com conexões de dados e IA sobrepostas"
+  },
+  {
+    "slug": "como-usar-a-ia-de-forma-responsável-e-segura-para-o-direito",
+    "alt": "Martelo, lupa, livro e relógio sobre uma mesa"
+  },
+  {
+    "slug": "qual-a-melhor-ia-para-advogados",
+    "alt": "Profissionais de Direito consultam notebook e livros em uma mesa"
+  },
+  {
+    "slug": "ética-e-dados-desafios-atuais-na-implementação-da-ia-generativa",
+    "alt": "Aperto de mãos com letras AI e conexões digitais sobrepostos"
+  },
+  {
+    "slug": "os-grandes-desafios-no-uso-de-ia-generativa",
+    "alt": "Pessoa diante de uma parede alta, com uma cidade ao fundo"
+  },
+  {
+    "slug": "descubra-como-utilizar-ia-para-fomentar-a-inovação-nos-ambientes-corporativos",
+    "alt": "Pessoa interage com vários painéis digitais luminosos"
+  },
+  {
+    "slug": "como-construir-base-de-dados-para-ia-generativa",
+    "alt": "Corredor de servidores com luzes azuis em um data center"
+  },
+  {
+    "slug": "a-importância-de-desenvolver-llms-para-o-contexto-brasileiro",
+    "alt": "Profissional diante do contorno digital do mapa do Brasil"
+  },
+  {
+    "slug": "como-integrar-ia-e-p-d-(pesquisa-e-desenvolvimento)",
+    "alt": "Pessoa toca um símbolo de IA em uma interface digital"
+  },
+  {
+    "slug": "uso-de-ia-generativa-em-setores-regulados",
+    "alt": "Pessoa seleciona um documento verificado em uma interface de conformidade"
+  },
+  {
+    "slug": "vibe-coding-o-que-isso-diz-sobre-as-novas-tendências-em-ia",
+    "alt": "Pessoa programa em um notebook com linhas de código na tela"
+  },
+  {
+    "slug": "uso-da-ia-generativa-e-lgpd",
+    "alt": "Pessoa usa notebook com um símbolo digital de cadeado"
+  },
+  {
+    "slug": "desafios-da-transformação-digital-nas-empresas",
+    "alt": "Globo digital e dados sobrepostos a uma reunião de trabalho"
+  },
+  {
+    "slug": "é-possível-detectar-produções-feitas-por-ia",
+    "alt": "Robôs ilustrativos trabalham em computadores lado a lado"
+  },
+  {
+    "slug": "como-a-ia-tem-mudado-a-busca-leitura-e-produção-de-documentos-nas-empresas",
+    "alt": "Pessoa toca um ícone digital de engrenagens"
+  },
+  {
+    "slug": "segurança-e-privacidade-como-proteger-dados-sensíveis-em-soluções-de-ia",
+    "alt": "Cadeado sobre uma rede de dispositivos e conexões digitais"
+  },
+  {
+    "slug": "rh-inteligente-como-criar-trilhas-de-aprendizagem-customizadas-usando-ia",
+    "alt": "Pessoa seleciona perfis em uma rede digital de profissionais"
+  },
+  {
+    "slug": "mapeando-lacunas-de-conhecimento-com-análise-de-perguntas-internas",
+    "alt": "Equipe participa de uma apresentação em uma sala de reunião"
+  },
+  {
+    "slug": "agentes-verticais-de-ia-futuro-do-mercado-de-software",
+    "alt": "Robô ilustrativo participa de uma reunião com profissionais"
+  },
+  {
+    "slug": "l3m-aumenta-eficiencia-juridica",
+    "alt": "Balança da Justiça diante de uma coleção de livros jurídicos"
+  },
+  {
+    "slug": "integrar-ia-nos-processos-do-diaadia",
+    "alt": "Ambiente de escritório com mesas, computadores e janelas"
+  }
+]

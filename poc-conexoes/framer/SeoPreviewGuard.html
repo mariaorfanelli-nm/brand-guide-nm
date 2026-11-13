@@ -1,0 +1,18 @@
+<script>
+(function () {
+  // Framer re-applies head metadata during hydration and navigation.
+  // Keep noindex restricted to previews; production remains untouched.
+  if (!/\.framer\.(app|website)$/.test(window.location.hostname)) return;
+  var desired = 'noindex, follow, max-image-preview:large';
+  var apply = function () {
+    var robots = document.querySelector('meta[name="robots"]');
+    if (!robots) { robots = document.createElement('meta'); robots.name = 'robots'; document.head.appendChild(robots); }
+    if (robots.content !== desired) robots.content = desired;
+  };
+  if (window.__nmSeoPreviewObserver) window.__nmSeoPreviewObserver.disconnect();
+  apply();
+  var observer = new MutationObserver(apply);
+  observer.observe(document.head,{childList:true,subtree:true,attributes:true,attributeFilter:['content','name']});
+  window.__nmSeoPreviewObserver = observer;
+})();
+</script>
