@@ -1,54 +1,113 @@
 {
   "title": "Inteligência jurídica de ponta a ponta.",
-  "description": "Do pré-contencioso à gestão estratégica de processos, a SofIA conecta documentos, normas, jurisprudência e dados corporativos para apoiar análises, automatizar tarefas jurídicas e orientar decisões.",
+  "description": "A SofIA conecta consultivo, regulatório e contencioso para orientar o negócio, acelerar pareceres e transformar dados jurídicos em inteligência estratégica.",
   "heroCTA": "Converse sobre a SofIA",
-  "journeyTitle": "Uma plataforma. Toda a jornada jurídica.",
-  "modules": [
+  "journeyTitle": "Do problema à solução, em cada etapa do jurídico.",
+  "journeyDescription": "Quatro desafios da rotina jurídica. Funcionalidades conectadas para enfrentar cada um deles.",
+  "problemSolutions": [
     {
-      "name": "Pré-contencioso",
-      "value": "Prevenir conflitos e responder com consistência e fundamento.",
-      "uses": [
-        "Reclamações de consumidores e NIPs",
-        "Análise de documentos e normas setoriais",
-        "Apoio a respostas fundamentadas"
+      "key": "consultivo",
+      "category": "CONSULTIVO",
+      "problem": "Consultas recorrentes viram fila no jurídico.",
+      "problemDescription": "As áreas de negócio esperam por orientações enquanto o time divide a atenção com demandas complexas.",
+      "feature": "Orientação ao Negócio",
+      "solutionTitle": "Oriente o negócio. Escalone o que exige análise.",
+      "solutionDescription": "A SofIA consulta o acervo autorizado para responder dúvidas do dia a dia com contexto. Temas sensíveis seguem para o especialista com as informações já organizadas.",
+      "capabilities": [
+        "Fontes autorizadas",
+        "Triagem de consultas",
+        "Encaminhamento ao jurídico"
+      ],
+      "sourceSlides": [
+        2,
+        3,
+        6
       ]
     },
     {
-      "name": "Consultivo",
-      "value": "Responder dúvidas e produzir análises jurídicas com fontes rastreáveis.",
-      "uses": [
-        "Consultas internas e pareceres",
-        "Análise contratual",
-        "Pesquisa de legislação e jurisprudência"
+      "key": "pareceres",
+      "category": "PARECERES E REGULATÓRIO",
+      "problem": "Pareceres complexos. Prazos apertados.",
+      "problemDescription": "Pesquisar fundamentos e conciliar manifestações anteriores consome tempo e pode gerar respostas divergentes.",
+      "feature": "Pareceres",
+      "solutionTitle": "Da pesquisa à redação, no padrão da empresa.",
+      "solutionDescription": "Cruza normas, dados técnicos, jurisprudência e manifestações anteriores para estruturar pareceres e respostas regulatórias. O editor permite revisar a minuta, aplicar modelos institucionais e exportar o documento.",
+      "capabilities": [
+        "Pesquisa contextual",
+        "Modelos institucionais",
+        "Minuta editável"
+      ],
+      "sourceSlides": [
+        2,
+        3,
+        4,
+        7,
+        8
       ]
     },
     {
-      "name": "Contencioso",
-      "value": "Transformar dados de processos em prioridades, riscos e recomendações.",
-      "uses": [
-        "Triagem e extração estratégica de fatos e dados",
-        "Causas-raiz e oportunidades de acordo",
-        "Inteligência de carteira e previsão de passivo"
+      "key": "contencioso",
+      "category": "CONTENCIOSO",
+      "problem": "A análise começa com horas de leitura repetitiva.",
+      "problemDescription": "Peças extensas dispersam fatos, pedidos, valores e prazos que precisam ser conferidos antes de definir a defesa.",
+      "feature": "Agentes Extratores e Inteligência de Defesa",
+      "solutionTitle": "Organize a evidência antes de decidir a estratégia.",
+      "solutionDescription": "A leitura estruturada extrai dados de petições, contestações, acórdãos e sentenças. A SofIA reúne cronologia, riscos e lacunas e apoia a elaboração de minutas de defesa para revisão do advogado.",
+      "capabilities": [
+        "Extração estruturada",
+        "Fatos e prazos",
+        "Minutas de defesa"
+      ],
+      "sourceSlides": [
+        2,
+        3,
+        8,
+        10
+      ]
+    },
+    {
+      "key": "carteira",
+      "category": "GESTÃO E ESTRATÉGIA",
+      "problem": "A carteira cresce. A visão do negócio continua fragmentada.",
+      "problemDescription": "Relatórios estáticos dificultam enxergar exposição, causas recorrentes e prioridades para a diretoria.",
+      "feature": "Inteligência da Carteira",
+      "solutionTitle": "A diretoria pergunta. A carteira responde.",
+      "solutionDescription": "Reúne indicadores de risco, causas-raiz, passivo e impacto financeiro em uma visão executiva. A liderança consulta o painel ou faz perguntas em linguagem natural para priorizar ações, prevenção e estratégias de acordo.",
+      "capabilities": [
+        "Painel executivo",
+        "Perguntas à carteira",
+        "Priorização e acordos"
+      ],
+      "sourceSlides": [
+        2,
+        3,
+        9
       ]
     }
   ],
-  "portfolioTitle": "Cada demanda amplia a inteligência da operação jurídica.",
-  "portfolioDescription": "Os dados de reclamações, pareceres e processos podem alimentar análises sobre padrões, causas-raiz, riscos e estratégias. A inteligência acumulada apoia a priorização de novas demandas e ações preventivas.",
-  "cycle": [
-    "Reclamação",
-    "Análise jurídica",
-    "Processo",
-    "Inteligência de carteira",
-    "Prevenção e estratégia"
+  "foundationTitle": "Sua base. Seu padrão. Sua decisão.",
+  "foundationDescription": "Acervo institucional, redação contextualizada e revisão profissional sustentam o trabalho em cada etapa.",
+  "foundationItems": [
+    {
+      "title": "Acervo autorizado.",
+      "description": "Pareceres, contratos, regimentos, políticas e jurisprudência formam uma base consultável para novas demandas."
+    },
+    {
+      "title": "Padrão institucional.",
+      "description": "Modelos e perfil de escrita orientam a redação. A equipe confere referências, revisa e ajusta cada minuta."
+    },
+    {
+      "title": "Revisão humana.",
+      "description": "Fontes e documentos de origem apoiam a conferência das análises. O especialista valida as recomendações e decide."
+    }
   ],
-  "integrationTitle": "Conectada às fontes da sua operação.",
-  "integrationDescription": "Integrações com sistemas processuais e bases corporativas, inteligência de carteira e previsão de passivo estão operacionais. Fontes, permissões e regras de negócio são configuradas conforme cada organização.",
-  "sources": [
-    "Documentos",
-    "Normas",
-    "Jurisprudência",
-    "Dados corporativos",
-    "Sistemas processuais"
+  "modularTitle": "Comece pela maior dor. Amplie com contexto.",
+  "modularDescription": "Os módulos podem ser contratados individualmente e conectados conforme a necessidade da operação.",
+  "modules": [
+    "Orientação ao Negócio",
+    "Pareceres",
+    "Agentes Extratores",
+    "Inteligência da Carteira"
   ],
   "availability": "Operacional — disponibilidade confirmada pela NeuralMind em 12/11/2026.",
   "proofTitle": "Tecnologia comprovada em ambientes complexos",
@@ -75,7 +134,7 @@
       "logo": "logos/tcu.png"
     }
   ],
-  "closingTitle": "Descubra como a SofIA pode transformar sua operação jurídica.",
+  "closingTitle": "Transforme sua operação jurídica com inteligência especializada.",
   "closingCTA": "Falar com um especialista",
   "secondaryCTA": "Conhecer os cases",
   "routes": {
@@ -83,5 +142,18 @@
     "ansCase": "/cases/ans",
     "assertiaCase": "/assertia"
   },
-  "preservedAnsMainSha256": "3ecce647b828accc8e5d318c39b87ef00d2c3f3e7a965196bafacbd8d48c2998"
+  "preservedAnsMainSha256": "3ecce647b828accc8e5d318c39b87ef00d2c3f3e7a965196bafacbd8d48c2998",
+  "sources": {
+    "repository": "mariaorfanelli-nm/ARACI_BRAND",
+    "tree": "c52796b376473da9f291bad7f1f21cfb8feee418",
+    "deck": "sales/deck/ARACI_deck_comercial.pdf",
+    "deckBlob": "c7407bbd9986d01399ad66637b7eacc6b178b775",
+    "slideCount": 14,
+    "supportingFiles": [
+      "PRODUCT.md",
+      "content/sales/claims-register.md",
+      "content/brand/message-architecture.md"
+    ],
+    "adaptation": "SofIA name and NeuralMind website identity retained; commercial narrative and capabilities adapted from the current 14-slide Araci deck."
+  }
 }
