@@ -191,7 +191,7 @@
     "queue": "Prioridade, responsável, etapa e próxima ação em uma visão da fila de demandas.",
     "cta": {
       "label": "Converse sobre a SofIA para operadoras",
-      "href": "contato.html?produto=sofia&origem=sofia-operadoras#formulario"
+      "href": "contato.html?produto=sofia&origem=sofia#formulario"
     },
     "source": {
       "repository": "mariaorfanelli-nm/Sofia_Branding",
