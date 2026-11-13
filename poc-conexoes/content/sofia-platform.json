@@ -155,5 +155,63 @@
       "content/brand/message-architecture.md"
     ],
     "adaptation": "SofIA name and NeuralMind website identity retained; commercial narrative and capabilities adapted from the current 14-slide Araci deck."
+  },
+  "healthOperators": {
+    "anchor": "operadoras",
+    "label": "SOFIA PARA OPERADORAS DE SAÚDE",
+    "title": "NIPs, pré-NIPs e ouvidoria. O mesmo caso, do início à resposta.",
+    "description": "A SofIA conecta o tratamento de reclamações da primeira manifestação à resposta ao beneficiário, preservando documentos, histórico e critérios de análise.",
+    "channels": [
+      {
+        "label": "PRÉ-NIP / SAC E OUVIDORIA",
+        "problem": "O contexto se perde entre canais.",
+        "solution": "A SofIA reúne protocolos, documentos e tratativas para apoiar a análise do mérito e das providências necessárias antes da escalada para uma NIP."
+      },
+      {
+        "label": "NIP / TRATATIVA REGULATÓRIA",
+        "problem": "O prazo corre. A análise não pode recomeçar.",
+        "solution": "O dossiê e o histórico acompanham a demanda. A SofIA organiza fatos, prazos e diretrizes e prepara pareceres e minutas para revisão da equipe responsável."
+      }
+    ],
+    "flowTitle": "Do dossiê à resposta, uma trilha verificável.",
+    "steps": [
+      {
+        "title": "Evidências organizadas.",
+        "description": "Leitura de documentos com OCR, tipificação e fatos ligados às fontes. A equipe identifica lacunas e confere o que sustenta a análise."
+      },
+      {
+        "title": "Decisão em contexto.",
+        "description": "Análise regulatória e comparação de cenários de custo apoiam um parecer editável. O especialista ajusta, valida e registra a conclusão."
+      },
+      {
+        "title": "Resposta com fundamento.",
+        "description": "A minuta ao beneficiário nasce do parecer revisado, com linguagem clara e verificações para manter argumentos, documentos e providências conectados."
+      }
+    ],
+    "queue": "Prioridade, responsável, etapa e próxima ação em uma visão da fila de demandas.",
+    "cta": {
+      "label": "Converse sobre a SofIA para operadoras",
+      "href": "contato.html?produto=sofia&origem=sofia-operadoras#formulario"
+    },
+    "source": {
+      "repository": "mariaorfanelli-nm/Sofia_Branding",
+      "tree": "5f5477025fea35599b8001e077dd209fa56edfbd",
+      "files": [
+        "PRODUCT.md",
+        "app/deck-comercial/EnterpriseDeck.tsx"
+      ],
+      "deckSections": [
+        "Tese executiva",
+        "Jornada pré-NIP e NIP",
+        "Modelo operacional",
+        "Instrução do caso",
+        "Análise regulatória",
+        "Decisão econômica",
+        "Parecer especializado",
+        "Resposta ao beneficiário",
+        "Valor operacional"
+      ],
+      "adaptation": "Product arguments only; existing NeuralMind website identity retained. No source visual assets, regulatory deadlines, outcome guarantees or illustrative metrics reused."
+    }
   }
 }
