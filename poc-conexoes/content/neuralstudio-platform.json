@@ -59,55 +59,106 @@
     "contact": "/contato?produto=neuralstudio&origem=neuralstudio#formulario"
   },
   "application": {
-    "title": "Análise de matrículas imobiliárias com inteligência documental.",
-    "description": "Automatize a leitura e a extração de informações relevantes de matrículas, apoiando a diligência, a avaliação de garantias e a gestão de carteiras imobiliárias.",
-    "problemTitle": "Menos leitura repetitiva. Mais contexto para analisar.",
-    "problemDescription": "Na análise manual, localizar e organizar informações de matrículas consome a atenção da equipe. A aplicação apoia essa leitura e estrutura dados relevantes para a revisão dos profissionais.",
-    "documentTitle": "Do documento registral às informações para revisão.",
+    "title": "Da matrícula à decisão.",
+    "description": "Transforme matrículas urbanas e rurais em informação estruturada e rastreável, de um imóvel a uma carteira inteira.",
+    "heroDetail": "O NDocs Matrículas organiza titularidade, ônus, atos, áreas e perímetro para apoiar a análise de ativos imobiliários.",
+    "problemTitle": "Décadas de registros. Uma visão organizada.",
+    "problemDescription": "PDFs nativos ou digitalizados, layouts variados e atos encadeados tornam a leitura difícil de escalar. O NDocs trata, interpreta e normaliza a informação registral para a análise da sua equipe.",
+    "documentTitle": "Informações conectadas para entender o imóvel.",
+    "documentIntro": "Tratamento documental, interpretação e normalização em um fluxo especializado em matrículas.",
     "documentBlocks": [
       {
-        "label": "DOCUMENTOS ANALISADOS",
-        "title": "Matrículas imobiliárias.",
-        "description": "Documentos registrais disponibilizados pela sua equipe, conforme o escopo definido para a aplicação."
+        "label": "IMÓVEL E TITULARES",
+        "title": "Identificação e titularidade.",
+        "description": "Organize a identificação do imóvel e os proprietários descritos no documento, com contexto para a análise."
       },
       {
-        "label": "INFORMAÇÕES ENTREGUES",
-        "title": "Dados organizados para análise.",
-        "description": "Informações relevantes extraídas dos documentos para apoiar a consulta, a conferência e a análise documental."
+        "label": "ÔNUS E GRAVAMES",
+        "title": "Detalhes que importam.",
+        "description": "Consulte tipo, natureza, situação, valores, datas, instrumentos e garantias, conforme as informações presentes no registro."
+      },
+      {
+        "label": "HISTÓRICO E ATOS",
+        "title": "A evolução do imóvel.",
+        "description": "Relacione registros, averbações e cadeia dominial para acompanhar a sequência de eventos e alterações."
+      },
+      {
+        "label": "ÁREAS E PERÍMETRO",
+        "title": "Do registro ao território.",
+        "description": "Estruture áreas e informações de georreferenciamento a partir das coordenadas descritas na matrícula."
+      },
+      {
+        "label": "RELAÇÕES ENTRE MATRÍCULAS",
+        "title": "Um contexto mais amplo.",
+        "description": "Conecte informações e relações entre matrículas para compreender o histórico e a evolução dos ativos."
+      },
+      {
+        "label": "INFORMAÇÃO RASTREÁVEL",
+        "title": "Da estrutura à origem.",
+        "description": "Consulte os dados organizados com suas referências no documento para apoiar a conferência e a revisão."
       }
     ],
-    "processTitle": "Inteligência documental dentro do seu processo.",
+    "processTitle": "Uma matrícula ou uma carteira inteira.",
     "process": [
       {
         "title": "Disponibilize os documentos",
-        "description": "Defina os documentos e as informações relevantes para o seu fluxo."
+        "description": "Reúna matrículas urbanas e rurais, em PDFs nativos ou digitalizados, para análise individual ou em volume."
       },
       {
-        "title": "Leia e extraia com IA",
-        "description": "A aplicação apoia a leitura e organiza as informações extraídas."
+        "title": "Estruture e relacione os dados",
+        "description": "A IA interpreta e normaliza entidades, atos, eventos e relações em uma base organizada para análise."
       },
       {
-        "title": "Revise e siga com a análise",
-        "description": "Sua equipe confere os dados e conduz a avaliação e a decisão."
+        "title": "Analise e leve à operação",
+        "description": "Sua equipe consulta, confere e utiliza as informações nos fluxos de análise e nos sistemas da organização."
       }
     ],
-    "integration": "O formato de entrega e a integração são definidos conforme o processo da organização.",
-    "usesTitle": "Uma aplicação. Diferentes contextos de análise.",
+    "integrationTitle": "Da consulta à integração.",
+    "integration": "Explore as informações na interface web, compartilhe relatórios em PDF, exporte dados em CSV ou conecte seus sistemas por API e JSON.",
+    "formats": [
+      "Interface web",
+      "Relatório PDF",
+      "CSV",
+      "API / JSON"
+    ],
+    "usesTitle": "Inteligência documental para diferentes operações.",
     "uses": [
       {
-        "title": "Diligência imobiliária",
-        "description": "Organize as informações documentais que a equipe precisa revisar."
+        "title": "Crédito e garantias",
+        "description": "Organize a informação registral que apoia a análise de imóveis oferecidos em garantia."
       },
       {
-        "title": "Avaliação de garantias",
-        "description": "Apoie a análise documental que integra a avaliação conduzida pelos profissionais."
+        "title": "Carteiras e recuperação",
+        "description": "Processe matrículas em volume e forme uma base padronizada para acompanhar e comparar ativos."
       },
       {
-        "title": "Gestão de carteiras",
-        "description": "Estruture informações para apoiar o acompanhamento documental de imóveis."
+        "title": "Crédito rural",
+        "description": "Estruture registros de imóveis rurais para apoiar operações de crédito para a safra."
+      },
+      {
+        "title": "Diligência e patrimônio",
+        "description": "Reúna titularidade, atos, ônus e áreas para a análise documental de aquisições e do patrimônio imobiliário."
       }
     ],
-    "reviewNote": "A aplicação apoia a leitura e a extração de dados. A análise jurídica e a decisão permanecem com os profissionais responsáveis.",
-    "closingTitle": "Conheça a aplicação no contexto da sua operação."
+    "reviewNote": "As informações refletem os dados presentes nas matrículas analisadas. A avaliação jurídica e a decisão permanecem com os profissionais responsáveis.",
+    "closingTitle": "Transforme suas matrículas em decisões.",
+    "closingDescription": "Vamos começar por uma amostra real?",
+    "cta": "Solicite uma demonstração",
+    "image": {
+      "path": "images/ndocs-source-reveal-neuralstudio.webp",
+      "alt": "Mão revela um trecho de um documento entre páginas e marcadores em lilás",
+      "sourceRepository": "mariaorfanelli-nm/neuralstudio-brand",
+      "sourcePath": "brand/photography/source-reveal-portrait.png",
+      "sourceBlob": "212fc3475d4d198179ca6e361d483c41df93c328"
+    },
+    "sources": {
+      "repository": "mariaorfanelli-nm/ndocs_brand",
+      "commit": "537d45a332b40a741e2a3d7854a42ff36b6c0a34",
+      "paths": [
+        "PRODUCT.md",
+        "docs/plataforma-de-marca-etapa-1.md",
+        "docs/revisao-marca-2026-10-21.md"
+      ]
+    }
   }
 }
