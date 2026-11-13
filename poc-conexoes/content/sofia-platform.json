@@ -1,9 +1,9 @@
 {
   "title": "Inteligência jurídica de ponta a ponta.",
-  "description": "A SofIA conecta consultivo, regulatório e contencioso para orientar o negócio, acelerar pareceres e transformar dados jurídicos em inteligência estratégica.",
+  "description": "Consultivo, regulatório e contencioso conectados. Da informação dispersa à decisão fundamentada.",
   "heroCTA": "Converse sobre a SofIA",
-  "journeyTitle": "Do problema à solução, em cada etapa do jurídico.",
-  "journeyDescription": "Quatro desafios da rotina jurídica. Funcionalidades conectadas para enfrentar cada um deles.",
+  "journeyTitle": "Menos trabalho repetitivo. Mais inteligência jurídica.",
+  "journeyDescription": "Da primeira consulta à visão estratégica da carteira.",
   "problemSolutions": [
     {
       "key": "consultivo",
@@ -159,8 +159,8 @@
   "healthOperators": {
     "anchor": "operadoras",
     "label": "SOFIA PARA OPERADORAS DE SAÚDE",
-    "title": "NIPs, pré-NIPs e ouvidoria. O mesmo caso, do início à resposta.",
-    "description": "A SofIA conecta o tratamento de reclamações da primeira manifestação à resposta ao beneficiário, preservando documentos, histórico e critérios de análise.",
+    "title": "Da ouvidoria à NIP. Sem perder o fio do caso.",
+    "description": "Documentos, análise e resposta em uma jornada conectada.",
     "channels": [
       {
         "label": "PRÉ-NIP / SAC E OUVIDORIA",
@@ -213,5 +213,71 @@
       ],
       "adaptation": "Product arguments only; existing NeuralMind website identity retained. No source visual assets, regulatory deadlines, outcome guarantees or illustrative metrics reused."
     }
+  },
+  "visualExperience": {
+    "implementation": "sofia-visual.mjs",
+    "styles": "sofia-visual.css",
+    "modules": [
+      {
+        "key": "consultivo",
+        "label": "Consultivo",
+        "icon": "chat",
+        "pain": "Consultas recorrentes viram fila.",
+        "title": "O negócio avança. O jurídico foca.",
+        "detail": "Orientações no acervo autorizado. Temas sensíveis chegam organizados ao especialista.",
+        "tags": [
+          "Fontes rastreáveis",
+          "Encaminhamento ao jurídico"
+        ],
+        "feature": "Orientação ao Negócio"
+      },
+      {
+        "key": "pareceres",
+        "label": "Pareceres",
+        "icon": "file",
+        "pain": "Pesquisa dispersa. Prazos apertados.",
+        "title": "Da fonte à minuta, no seu padrão.",
+        "detail": "Pesquisa contextual, modelos institucionais e um editor para revisar cada parecer.",
+        "tags": [
+          "Pesquisa com contexto",
+          "Minuta editável"
+        ],
+        "feature": "Pareceres"
+      },
+      {
+        "key": "contencioso",
+        "label": "Contencioso",
+        "icon": "extract",
+        "pain": "Horas de leitura antes da análise.",
+        "title": "A evidência organizada para decidir.",
+        "detail": "Fatos, pedidos, valores e prazos extraídos das peças para apoiar a estratégia de defesa.",
+        "tags": [
+          "Extração estruturada",
+          "Revisão do advogado"
+        ],
+        "feature": "Agentes Extratores e Inteligência de Defesa"
+      },
+      {
+        "key": "carteira",
+        "label": "Carteira",
+        "icon": "chart",
+        "pain": "Muitos processos. Pouca visão do todo.",
+        "title": "A carteira vira inteligência estratégica.",
+        "detail": "Explore riscos, causas-raiz e exposição pelo painel ou em linguagem natural.",
+        "tags": [
+          "Visão executiva",
+          "Priorização e acordos"
+        ],
+        "feature": "Inteligência da Carteira"
+      }
+    ],
+    "operatorStages": [
+      "Reunir",
+      "Analisar",
+      "Revisar",
+      "Responder"
+    ],
+    "mockups": "Conceptual product interface; fictitious content and chart proportions; no client data or performance claims.",
+    "motion": "User-controlled tabs, keyboard navigation, scroll reveals and subtle source connections; prefers-reduced-motion supported."
   }
 }
