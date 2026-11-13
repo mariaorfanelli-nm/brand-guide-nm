@@ -1,0 +1,29 @@
+{
+  "eyebrow": "EXPERIÊNCIA EM AMBIENTES COMPLEXOS",
+  "title": "Resultados da NeuralMind em operações reais.",
+  "items": [
+    {
+      "organization": "TCU",
+      "solution": "AssertIA",
+      "metric": "+80%",
+      "label": "de aumento na produtividade",
+      "description": "Apoio à instrução de processos e à análise do auditor.",
+      "href": "assertia.html",
+      "framerHref": "/assertia"
+    },
+    {
+      "organization": "ANS",
+      "solution": "SofIA",
+      "metric": "Até 3×",
+      "label": "de produtividade relatada",
+      "description": "Apoio à análise de reclamações e à elaboração de pareceres.",
+      "href": "cases/ans/",
+      "framerHref": "/cases/ans"
+    }
+  ],
+  "note": "Indicadores informados pela NeuralMind para os projetos AssertIA/TCU e SofIA/ANS, nos respectivos contextos de aplicação.",
+  "provenance": {
+    "tcu": "Indicador de +80% fornecido pela responsável da marca na orientação H9.",
+    "ans": "Indicador de até 3× confirmado pela responsável da marca para publicação em 13/11/2026."
+  }
+}
