@@ -4,7 +4,7 @@ interface NavItem { label:string; href:string; group:string; cta?:boolean }
 interface Props { items?:NavItem[]; textColor?:string; compact?:boolean; solutionsLabel?:string; casesLabel?:string; style?:React.CSSProperties }
 const defaults:NavItem[]=[
  {label:"NeuralStudio",href:"/neuralstudio",group:"solucoes"},{label:"SofIA",href:"/sofia",group:"solucoes"},{label:"PrioScan",href:"/prioscan",group:"solucoes"},
- {label:"ANS",href:"/cases/ans",group:"cases"},{label:"TCU",href:"/assertia",group:"cases"},{label:"HCPA",href:"/prioscan",group:"cases"},
+ {label:"ANS/SofIA",href:"/cases/ans",group:"cases"},{label:"TCU - AssertIA/ Tecnologia SofIA",href:"/assertia",group:"cases"},{label:"HCPA/PrioScan",href:"/prioscan",group:"cases"},
  {label:"Tecnologia e P&D",href:"/#tecnologia",group:"main"},{label:"Sobre",href:"/#sobre",group:"main"},{label:"Conteúdos",href:"/blog",group:"main"},{label:"Trabalhe conosco",href:"/trabalhe-conosco",group:"main"},{label:"Contato",href:"/contato?origem=menu#formulario",group:"main",cta:true}
 ]
 /**
